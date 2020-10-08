@@ -24,6 +24,7 @@
     "english": "Greek",
     "reference": "1.39, 12.94 pl incolae",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -35,6 +36,7 @@
     "english": "Latin",
     "reference": "1.69, 18.100",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -46,6 +48,7 @@
     "english": "Roman",
     "reference": "1.41, 2.1, 6.15, 10.37 pl cīvēs",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -186,6 +189,7 @@
     "english": "sick, ill",
     "reference": "11.24, 11.29, 45.265",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -215,6 +219,7 @@
     "english": "white",
     "reference": "9.3",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -226,6 +231,7 @@
     "english": "another, other",
     "reference": "8.5, 8.33, 10.33 aliī... aliī, 42.350 alius aliā viā",
     "genitiveIus": "true",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -237,6 +243,7 @@
     "english": "high, tall, deep",
     "reference": "12.100, 12.141, 16.44, 44.282 altē, 52.133",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -340,6 +347,7 @@
     "english": "old, ancient, former",
     "reference": "2.81, 13.19",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -452,6 +460,7 @@
     "english": "armed",
     "reference": "12.35",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -588,6 +597,7 @@
     "english": "foreign, barbarian",
     "reference": "12.61, 14.76 m.",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -629,6 +639,7 @@
     "english": "good",
     "reference": "4.68, 11.14",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -653,6 +664,7 @@
     "english": "short",
     "reference": "12.50, 13.28",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1019,6 +1031,7 @@
     "english": "thick, fat",
     "reference": "10.101, 10.102",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1095,6 +1108,7 @@
     "english": "the other(s), the rest",
     "reference": "2.59, 13.51 sg",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1250,6 +1264,7 @@
     "english": "two",
     "reference": "2.23",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -1607,6 +1622,7 @@
     "english": "wild",
     "reference": "10.2",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1618,6 +1634,7 @@
     "english": "tired, weary",
     "reference": "6.61",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -1664,6 +1681,7 @@
     "english": "ugly, hideous",
     "reference": "5.18, 37.171",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -1688,6 +1706,7 @@
     "english": "strong, brave",
     "reference": "12.119",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1760,6 +1779,7 @@
     "english": "feminine",
     "reference": "2.96",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1810,6 +1830,7 @@
     "english": "beautiful",
     "reference": "7.10",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -1843,6 +1864,7 @@
     "english": "set with a precious stone",
     "reference": "8.58",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -1906,6 +1928,7 @@
     "english": "heavy, severe, grave",
     "reference": "12.52, 24.38, 56.147",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2017,6 +2040,7 @@
     "english": "human",
     "reference": "11.1",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2131,6 +2155,7 @@
     "english": "bad, wicked",
     "reference": "3.33",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -2283,6 +2308,7 @@
     "english": "glad, happy",
     "reference": "3.3",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -2320,6 +2346,7 @@
     "english": "light, slight",
     "reference": "12.56, 33.138",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2396,6 +2423,7 @@
     "english": "long",
     "reference": "6.10, 13.9, 13.25, 17.29, 32.198 nāvis longa",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2429,6 +2457,7 @@
     "english": "broad, wide",
     "reference": "12.104",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2497,6 +2526,7 @@
     "english": "big, large, great",
     "reference": "1.22, 1.29, 1.65",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -2516,6 +2546,7 @@
     "english": "evil, bad, wicked",
     "reference": "6.39, 11.14",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2579,6 +2610,7 @@
     "english": "masculine",
     "reference": "2.95",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -2603,6 +2635,7 @@
     "english": "mid, middle",
     "reference": "8.120, 13.41, 16.42, 30.70 n.",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -2662,6 +2695,7 @@
     "english": "my, mine",
     "reference": "2.66, 19.94 mī",
     "genitiveIus": "",
+    "overrides": "{\"m\": {\"vocSg\": \"mī\"}}",
     "chapter": 2
   },
   {
@@ -2694,6 +2728,7 @@
     "english": "dead",
     "reference": "10.49",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2714,6 +2749,7 @@
     "english": "many, a great many",
     "reference": "1.44",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -2877,6 +2913,7 @@
     "english": "black",
     "reference": "9.2",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -2896,6 +2933,7 @@
     "english": "our, ours",
     "reference": "11.131, 34.152, 34.163",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2916,6 +2954,7 @@
     "english": "new",
     "reference": "2.81, 2.90, 13.52, 13.59, 29.98, 52.61 homō novus",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -3070,6 +3109,7 @@
     "english": "no",
     "reference": "4.45, 4.64",
     "genitiveIus": "true",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -3209,6 +3249,7 @@
     "english": "little, small",
     "reference": "1.23, 1.64, 2.6",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3233,6 +3274,7 @@
     "english": "passive",
     "reference": "6.128",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -3270,6 +3312,7 @@
     "english": "few, a few",
     "reference": "1.47",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3307,6 +3350,7 @@
     "english": "wealthy",
     "reference": "8.20",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -3366,6 +3410,7 @@
     "english": "terrified",
     "reference": "10.105",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3438,6 +3483,7 @@
     "english": "full",
     "reference": "7.38, 7.43, 13.55",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -3550,6 +3596,7 @@
     "english": "good, honest, proper",
     "reference": "3.32, 8.106",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -3578,6 +3625,7 @@
     "english": "first",
     "reference": "1.67, 38.3, 52.429 in -is",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3663,6 +3711,7 @@
     "english": "beautiful, fine",
     "reference": "5.15, 5.17",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -3844,6 +3893,7 @@
     "english": "how large, (as large) as",
     "reference": "8.72, 8.75, 19.121",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -3912,6 +3962,7 @@
     "english": "fourth",
     "reference": "8.124, 13.3, 13.34 quarta pars",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -3989,6 +4040,7 @@
     "english": "red",
     "reference": "11.12, 11.20",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4147,6 +4199,7 @@
     "english": "second, favourable",
     "reference": "1.67, 16.37, 32.100",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -4237,6 +4290,7 @@
     "english": "singular",
     "reference": "1.88",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -4292,6 +4346,7 @@
     "english": "stupid, foolish",
     "reference": "11.10",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4361,6 +4416,7 @@
     "english": "healthy, well",
     "reference": "11.24, 11.77",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4415,6 +4471,7 @@
     "english": "alone, lonely",
     "reference": "5.23",
     "genitiveIus": "true",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -4495,6 +4552,7 @@
     "english": "so big, so great",
     "reference": "8.64",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -4506,6 +4564,7 @@
     "english": "thin",
     "reference": "10.101, 37.277",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -4548,6 +4607,7 @@
     "english": "third",
     "reference": "1.68",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -4603,6 +4663,7 @@
     "english": "sad",
     "reference": "12.20",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4614,6 +4675,7 @@
     "english": "your, yours",
     "reference": "2.67, 2.82",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -4684,6 +4746,7 @@
     "english": "empty",
     "reference": "4.66, 50.226",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -4792,6 +4855,7 @@
     "english": "your, yours",
     "reference": "12.25",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4974,6 +5038,7 @@
     "english": "living, alive",
     "reference": "10.49, 37.240",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -4998,6 +5063,7 @@
     "english": "active",
     "reference": "6.127, 35.69",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -5114,6 +5180,7 @@
     "english": "angry",
     "reference": "3.6",
     "genitiveIus": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -5234,6 +5301,7 @@
     "english": "one, only",
     "reference": "1.76, 18.58, 19.5, 28.67, 42.287 ad ūnum omnēs",
     "genitiveIus": "true",
+    "overrides": "",
     "chapter": 1
   }
 ]

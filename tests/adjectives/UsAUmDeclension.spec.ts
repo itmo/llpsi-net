@@ -84,4 +84,16 @@ describe('Us-A-Um-declension', () => {
       vocative:   ['cēterī',       'cēterae',     'cētera'],
     });
   });
+
+  it('meus exception should decline correctly in singular', () => {
+    const word = findAdjective('meus');
+    checkAdjDecl(word, Numerus.Singular, {
+      nominative: ['meus',  'mea',  'meum'],
+      accusative: ['meum',  'meam', 'meum'],
+      genitive:   ['meī',   'meae', 'meī'],
+      dative:     ['meō',   'meae', 'meō'],
+      ablative:   ['meō',   'meā',  'meō'],
+      vocative:   ['mī',    'mea',  'meum'],
+    });
+  });
 });

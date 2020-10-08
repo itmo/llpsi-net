@@ -1,4 +1,3 @@
-import { macronSort, stripMacrons } from "./common";
 /*
  *   LLPSI.net - Learning platform for Lingua Latina per se illustrata
  *   Copyright (C) 2020 Folke Will <folko@solhost.org>
@@ -17,6 +16,7 @@ import { macronSort, stripMacrons } from "./common";
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { macronSort } from "./common";
 import { WordType } from "./types/WordType";
 import { WordData } from "./WordData";
 import { Adjective } from "./words/Adjective";

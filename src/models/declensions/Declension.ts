@@ -29,6 +29,7 @@ export interface DeclensionInput {
     pluralAbus?: boolean;
     genitiveIus?: boolean;
     ablativeI?: boolean;
+    overrides?: Overrides;
 }
 
 export interface DeclensionRule {
@@ -37,6 +38,22 @@ export interface DeclensionRule {
         when: string;
         changeTo: string;
     }[];
+}
+
+export interface Overrides {
+    nomSg: string | null;
+    accSg: string | null;
+    genSg: string | null;
+    datSg: string | null;
+    ablSg: string | null;
+    vocSg: string | null;
+
+    nomPl: string | null;
+    accPl: string | null;
+    genPl: string | null;
+    datPl: string | null;
+    ablPl: string | null;
+    vocPl: string | null;
 }
 
 export abstract class Declension {
@@ -58,5 +75,33 @@ export abstract class Declension {
         }
 
         throw Error(`Couldn't find rule to get stem for ${nominative}, ${construction}`);
+    }
+
+    protected getOverride(overrides: Overrides | undefined, casus: Casus, numerus: Numerus): string | null {
+        const idx: string = this.casusToOverride(casus, numerus);
+        if (overrides && idx in overrides && overrides[idx as keyof Overrides]) {
+            return overrides[idx as keyof Overrides];
+        } else {
+            return null;
+        }
+    }
+
+    private casusToOverride(casus: Casus, numerus: Numerus): string {
+        let idx = '';
+        switch (casus) {
+            case Casus.Nominative:  idx += 'nom'; break;
+            case Casus.Accusative:  idx += 'acc'; break;
+            case Casus.Genitive:    idx += 'gen'; break;
+            case Casus.Dative:      idx += 'dat'; break;
+            case Casus.Ablative:    idx += 'abl'; break;
+            case Casus.Vocative:    idx += 'voc'; break;
+        }
+
+        switch (numerus) {
+            case Numerus.Singular:  idx += 'Sg'; break;
+            case Numerus.Plural:    idx += 'Pl'; break;
+        }
+
+        return idx;
     }
 }

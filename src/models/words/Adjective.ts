@@ -18,7 +18,7 @@
 
 import { changeSuffix } from "../common";
 import { ADeclension } from "../declensions/ADeclension";
-import { Declension, DeclensionInput, DeclensionRule } from "../declensions/Declension";
+import { Declension, DeclensionInput, DeclensionRule, Overrides } from "../declensions/Declension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
 import { IrregularDeclension } from "../declensions/IrregularDeclension";
 import { ODeclension } from "../declensions/ODeclension";
@@ -55,7 +55,7 @@ export class Adjective extends Word {
         let male, female, neuter: Declension | undefined;
 
         if (data.latinNeuter == '-ud' || data.latinNeuter == '-o') {
-            const input = this.nounToDeclension(data, Genus.Neuter, '', '', '');
+            const input = this.adjToDeclensionRewrite(data, Genus.Neuter, '', '', '');
             male = new IrregularDeclension(input);
             female = male;
             neuter = male;
@@ -71,27 +71,27 @@ export class Adjective extends Word {
             const neuterInput = this.adjToDeclension(data, stem + 'um', '-ī', Genus.Neuter);
             neuter = new ODeclension(neuterInput);
         } else if (data.latinMale.endsWith('ī')) {
-            const maleInput = this.nounToDeclension(data, Genus.Masculine, '-ōrum', 'ī', 'ī');
+            const maleInput = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ōrum', 'ī', 'ī');
             maleInput.pluraleTantum = true;
             male = new ODeclension(maleInput);
             if (data.latinFemale == '-ae') {
-                const femaleInput = this.nounToDeclension(data, Genus.Femininum, '-ārum', 'ī', 'ae');
+                const femaleInput = this.adjToDeclensionRewrite(data, Genus.Femininum, '-ārum', 'ī', 'ae');
                 femaleInput.pluraleTantum = true;
                 female = new ADeclension(femaleInput);
             }
 
             if (data.latinNeuter == '-a') {
-                const neuterInput = this.nounToDeclension(data, Genus.Neuter, '-ōrum', 'ī', 'a');
+                const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ōrum', 'ī', 'a');
                 neuterInput.pluraleTantum = true;
                 neuter = new ODeclension(neuterInput);
             }
         } else if (data.latinMale.endsWith('is')) {
-            const input = this.nounToDeclension(data, Genus.Masculine, '-is', 'is', 'is');
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-is', 'is', 'is');
             input.ablativeI = true;
             male = new IPureDeclension(input);
             female = male;
             if (data.latinNeuter == '-e') {
-                const neuterInput = this.nounToDeclension(data, Genus.Neuter, '-is', 'is', 'e');
+                const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-is', 'is', 'e');
                 neuter = new IPureDeclension(neuterInput);
             }
         }
@@ -103,7 +103,7 @@ export class Adjective extends Word {
         return [male, female, neuter];
     }
 
-    private nounToDeclension(data: AdjectiveData, genus: Genus, genitive: string, sufFrom: string, sufTo: string): DeclensionInput {
+    private adjToDeclensionRewrite(data: AdjectiveData, genus: Genus, genitive: string, sufFrom: string, sufTo: string): DeclensionInput {
         const genitiveIus = data.genitiveIus ? true : false;
 
         return {
@@ -111,6 +111,7 @@ export class Adjective extends Word {
             genitiveConstruction: genitive,
             genus: genus,
             genitiveIus: genitiveIus,
+            overrides: this.getOverridesFor(data, genus),
         };
     }
 
@@ -122,7 +123,24 @@ export class Adjective extends Word {
             genitiveConstruction: cons,
             genus: genus,
             genitiveIus: genitiveIus,
+            overrides: this.getOverridesFor(data, genus),
         };
+    }
+
+    private getOverridesFor(data: AdjectiveData, genus: Genus): Overrides | undefined {
+        if (!data.overrides) {
+            return undefined;
+        }
+
+        const overrides = JSON.parse(data.overrides);
+        if (overrides) {
+            switch (genus) {
+                case Genus.Masculine:   return overrides.m;
+                case Genus.Femininum:   return overrides.f;
+                case Genus.Neuter:      return overrides.n;
+            }
+        }
+        return undefined;
     }
 }
 

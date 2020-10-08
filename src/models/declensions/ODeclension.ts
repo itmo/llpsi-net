@@ -61,6 +61,11 @@ export class ODeclension extends Declension {
     }
 
     public decline(casus: Casus, numerus: Numerus): string | null {
+        const ovr = this.getOverride(this.data.overrides, casus, numerus);
+        if (ovr) {
+            return ovr;
+        }
+
         switch (numerus) {
             case Numerus.Singular:
                 return this.declineSingular(casus);

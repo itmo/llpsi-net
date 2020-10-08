@@ -35,6 +35,7 @@ export interface AdjectiveData extends BaseWord {
     latinFemale: string;
     latinNeuter: string;
     genitiveIus: string;
+    overrides: string;
 }
 
 export interface AdverbData extends BaseWord  {
