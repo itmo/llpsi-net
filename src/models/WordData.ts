@@ -18,6 +18,22 @@
 
 import { WordType } from "./types/WordType";
 
+export interface DeclensionOverrides {
+    nomSg: string | null;
+    accSg: string | null;
+    genSg: string | null;
+    datSg: string | null;
+    ablSg: string | null;
+    vocSg: string | null;
+
+    nomPl: string | null;
+    accPl: string | null;
+    genPl: string | null;
+    datPl: string | null;
+    ablPl: string | null;
+    vocPl: string | null;
+}
+
 export type WordData =  AdjectiveData | AdverbData | ConjunctionData |
                         InterjectionData | InterrogativeData | NounData |
                         NumeralData | PrepositionData | PronounData | VerbData;
@@ -64,9 +80,9 @@ export interface NounData extends BaseWord  {
     latinNominative: string;
     latinGenitive: string;
     pluraleTantum: string;
-    pluralAbus: string;
     genus: string;
     iStemType: '' | 'mixed' | 'pure';
+    overrides: string;
 }
 
 export interface NumeralData extends BaseWord  {

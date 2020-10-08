@@ -27,7 +27,7 @@ export class ConsDeclension extends Declension {
     private stem_: string;
 
     public constructor(data: DeclensionInput) {
-        super();
+        super(data.overrides);
         this.data = data;
         this.stem_ = this.determineStem();
     }
@@ -62,7 +62,7 @@ export class ConsDeclension extends Declension {
         throw Error(`Couldn't determine Cons-stem for ${this.data.nominative}, ${gen}`);
     }
 
-    public decline(casus: Casus, numerus: Numerus): string | null {
+    protected buildDeclension(casus: Casus, numerus: Numerus): string | null {
         switch (numerus) {
             case Numerus.Singular:
                 if (this.data.genus == Genus.Neuter) {

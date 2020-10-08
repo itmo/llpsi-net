@@ -78,8 +78,8 @@
     "english": "ablative",
     "reference": "5.126",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -127,8 +127,8 @@
     "english": "accusative",
     "reference": "3.88",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -158,8 +158,8 @@
     "english": "adjective",
     "reference": "12.158",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -273,8 +273,8 @@
     "english": "girlfriend",
     "reference": "6.78",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -286,8 +286,8 @@
     "english": "friend",
     "reference": "6.43, 6.44",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -299,8 +299,8 @@
     "english": "female slave, servant",
     "reference": "2.31",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -312,8 +312,8 @@
     "english": "breath, life, soul, ghost",
     "reference": "10.52, 28.89",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -325,8 +325,8 @@
     "english": "animal, living being",
     "reference": "10.54",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "pure",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -386,8 +386,8 @@
     "english": "water",
     "reference": "5.28, 36.251",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -399,8 +399,8 @@
     "english": "eagle",
     "reference": "10.9, 33.9",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -412,8 +412,8 @@
     "english": "tree",
     "reference": "9.21",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -434,8 +434,8 @@
     "english": "bow",
     "reference": "12.91, 36.142",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -447,8 +447,8 @@
     "english": "arms",
     "reference": "12.34",
     "pluraleTantum": "true",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -481,8 +481,8 @@
     "english": "ass, donkey",
     "reference": "10.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -529,8 +529,8 @@
     "english": "ear",
     "reference": "11.6",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -558,8 +558,8 @@
     "english": "bird",
     "reference": "10.9",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -571,8 +571,8 @@
     "english": "(maternal) uncle",
     "reference": "12.19",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -584,8 +584,8 @@
     "english": "stick",
     "reference": "4.62",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -609,8 +609,8 @@
     "english": "war",
     "reference": "12.76",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -651,8 +651,8 @@
     "english": "arm",
     "reference": "11.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -685,8 +685,8 @@
     "english": "beast, animal",
     "reference": "10.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -707,8 +707,8 @@
     "english": "sky, heaven",
     "reference": "9.25, 28.171 plural",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -720,8 +720,8 @@
     "english": "plain",
     "reference": "9.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -742,8 +742,8 @@
     "english": "dog",
     "reference": "9.2, 10.77",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -773,8 +773,8 @@
     "english": "hair",
     "reference": "11.6",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -786,8 +786,8 @@
     "english": "chapter",
     "reference": "1.73",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -799,8 +799,8 @@
     "english": "head, chief, capital",
     "reference": "11.5, 12.65, 30.101, 45.81, 46.76, 31.118 capite pūnīre, 46.190 capitis damnāre, 52.523 capite cēnsus",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -821,8 +821,8 @@
     "english": "camp",
     "reference": "12.93, 50.312",
     "pluraleTantum": "true",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -834,8 +834,8 @@
     "english": "tail",
     "reference": "10.15",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -856,8 +856,8 @@
     "english": "brain",
     "reference": "11.9",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -869,8 +869,8 @@
     "english": "food",
     "reference": "9.6, 30.9",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -900,8 +900,8 @@
     "english": "shout, shouting",
     "reference": "9.79",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -922,8 +922,8 @@
     "english": "surname",
     "reference": "12.12",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -935,8 +935,8 @@
     "english": "hill",
     "reference": "9.20",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -948,8 +948,8 @@
     "english": "neck",
     "reference": "8.22",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -961,8 +961,8 @@
     "english": "color",
     "reference": "11.20",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -974,8 +974,8 @@
     "english": "comparative",
     "reference": "12.202",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1005,8 +1005,8 @@
     "english": "heart",
     "reference": "11.19, 11.136, 19.19, 44.240 cordī esse",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1018,8 +1018,8 @@
     "english": "body",
     "reference": "11.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1043,8 +1043,8 @@
     "english": "leg",
     "reference": "11.2",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1056,8 +1056,8 @@
     "english": "bedroom",
     "reference": "5.35",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -1069,8 +1069,8 @@
     "english": "knife",
     "reference": "11.95",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1155,8 +1155,8 @@
     "english": "dative",
     "reference": "7.110",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -1177,8 +1177,8 @@
     "english": "god",
     "reference": "10.28, 26.30, 29.53",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1190,8 +1190,8 @@
     "english": "finger",
     "reference": "8.21",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -1221,8 +1221,8 @@
     "english": "mistress",
     "reference": "2.31",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1234,8 +1234,8 @@
     "english": "master",
     "reference": "2.26, 9.5, 16.110, 16.130, 30.95, 20.109 pl",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1285,8 +1285,8 @@
     "english": "leader, chief, general",
     "reference": "12.81, 16.44",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1316,8 +1316,8 @@
     "english": "declension",
     "reference": "9.88",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -1347,8 +1347,8 @@
     "english": "tooth",
     "reference": "9.73, 11.10",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -1422,8 +1422,8 @@
     "english": "horseman",
     "reference": "12.43, 44.167",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1435,8 +1435,8 @@
     "english": "cavalry",
     "reference": "12.113",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1448,8 +1448,8 @@
     "english": "horse",
     "reference": "6.56",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -1512,8 +1512,8 @@
     "english": "example, model",
     "reference": "1.90, 26.64, 31.129",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -1525,8 +1525,8 @@
     "english": "army",
     "reference": "12.77, 12.80",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1574,8 +1574,8 @@
     "english": "family, domestic staff",
     "reference": "2.9, 2.73, 46.68, 52.581, 54.149",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1587,8 +1587,8 @@
     "english": "window",
     "reference": "5.26",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -1600,8 +1600,8 @@
     "english": "wild animal",
     "reference": "10.7",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1655,8 +1655,8 @@
     "english": "river",
     "reference": "1.18",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -1668,8 +1668,8 @@
     "english": "river",
     "reference": "10.40",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1693,8 +1693,8 @@
     "english": "leaf",
     "reference": "10.70",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -1718,8 +1718,8 @@
     "english": "ditch, trench",
     "reference": "12.100",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1731,8 +1731,8 @@
     "english": "brother",
     "reference": "12.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1744,8 +1744,8 @@
     "english": "forehead",
     "reference": "11.8, 36.136, 48.473",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1766,8 +1766,8 @@
     "english": "woman",
     "reference": "2.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1791,8 +1791,8 @@
     "english": "daughter",
     "reference": "2.14, 36.112 pl",
     "pluraleTantum": "",
-    "pluralAbus": "true",
     "iStemType": "",
+    "overrides": "{\"datPl\": \"fīliābus\", \"ablPl\": \"fīliābus\"}",
     "chapter": 2
   },
   {
@@ -1804,8 +1804,8 @@
     "english": "son",
     "reference": "2.12",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1817,8 +1817,8 @@
     "english": "boundary, limit, end",
     "reference": "12.69, 13.38, 42.300, 39.223 plural, 48.110",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1851,8 +1851,8 @@
     "english": "precious stone, jewel",
     "reference": "8.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -1876,8 +1876,8 @@
     "english": "cheek",
     "reference": "11.8",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -1889,8 +1889,8 @@
     "english": "genitive",
     "reference": "2.109",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -1902,8 +1902,8 @@
     "english": "sword",
     "reference": "12.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1915,8 +1915,8 @@
     "english": "grammar",
     "reference": "1.84",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -1958,8 +1958,8 @@
     "english": "lance",
     "reference": "12.40",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -1971,8 +1971,8 @@
     "english": "grass, herb",
     "reference": "9.8, 18.164",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -1984,8 +1984,8 @@
     "english": "human being, person",
     "reference": "10.5",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2006,8 +2006,8 @@
     "english": "garden",
     "reference": "5.1, 55.12 plural",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -2019,8 +2019,8 @@
     "english": "enemy",
     "reference": "12.76",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2078,8 +2078,8 @@
     "english": "liver",
     "reference": "11.21",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2107,8 +2107,8 @@
     "english": "command, order, empire",
     "reference": "1.55, 10.29, 36.324, 48.727",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -2129,8 +2129,8 @@
     "english": "attack, charge",
     "reference": "12.114, 54.356",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2142,8 +2142,8 @@
     "english": "water basin",
     "reference": "5.27",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -2194,8 +2194,8 @@
     "english": "indicative",
     "reference": "4.111, 27.188",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -2216,8 +2216,8 @@
     "english": "(personal) enemy",
     "reference": "6.44, 6.45",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2273,8 +2273,8 @@
     "english": "lip",
     "reference": "11.10",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2286,8 +2286,8 @@
     "english": "tear",
     "reference": "7.7",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -2320,8 +2320,8 @@
     "english": "bed, couch",
     "reference": "10.125, 30.69",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2333,8 +2333,8 @@
     "english": "litter, sedan",
     "reference": "6.21",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2358,8 +2358,8 @@
     "english": "lion",
     "reference": "10.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2371,8 +2371,8 @@
     "english": "book",
     "reference": "2.81",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -2384,8 +2384,8 @@
     "english": "tongue, language",
     "reference": "11.10, 18.4",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2397,8 +2397,8 @@
     "english": "letter",
     "reference": "1.66, 23.15 plural, 33.29",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -2410,8 +2410,8 @@
     "english": "locative",
     "reference": "6.120",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2435,8 +2435,8 @@
     "english": "wolf",
     "reference": "9.22",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -2469,8 +2469,8 @@
     "english": "children",
     "reference": "2.21",
     "pluraleTantum": "true",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -2482,8 +2482,8 @@
     "english": "lily",
     "reference": "5.13",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -2495,8 +2495,8 @@
     "english": "string, line",
     "reference": "8.8, 18.53",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -2558,8 +2558,8 @@
     "english": "mummy",
     "reference": "3.19, 20.29",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -2571,8 +2571,8 @@
     "english": "hand",
     "reference": "11.3, 37.12, 45.154, 52.15",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2584,8 +2584,8 @@
     "english": "sea",
     "reference": "10.35",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "pure",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2597,8 +2597,8 @@
     "english": "pearl",
     "reference": "8.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -2622,8 +2622,8 @@
     "english": "physician, doctor",
     "reference": "11.26",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2647,8 +2647,8 @@
     "english": "limb",
     "reference": "11.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -2660,8 +2660,8 @@
     "english": "merchant",
     "reference": "10.28",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -2682,8 +2682,8 @@
     "english": "fear",
     "reference": "12.120, 43.117",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2715,8 +2715,8 @@
     "english": "manner, way",
     "reference": "9.90, 14.37, 29.120, 35.61, 46.160, 51.229, 51.305, 21.56 nūllō modō, 52.5 huius/eius modī, 55.40",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -2761,8 +2761,8 @@
     "english": "apple",
     "reference": "7.41",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -2774,8 +2774,8 @@
     "english": "mother",
     "reference": "2.10, 2.11, 12.2, 19.17 māter familiās",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -2787,8 +2787,8 @@
     "english": "table",
     "reference": "4.60, 8.89, 29.169, 30.102 mēnsa secunda",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -2800,8 +2800,8 @@
     "english": "soldier",
     "reference": "12.31",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -2831,8 +2831,8 @@
     "english": "mountain",
     "reference": "9.19",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -2853,8 +2853,8 @@
     "english": "wall",
     "reference": "6.14, 25.30",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -2900,8 +2900,8 @@
     "english": "neuter",
     "reference": "2.97",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -2974,8 +2974,8 @@
     "english": "number",
     "reference": "1.63, 2.43, 35.19, 36.125",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -2996,8 +2996,8 @@
     "english": "coin, sesterce",
     "reference": "4.6, 8.59",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -3009,8 +3009,8 @@
     "english": "nose",
     "reference": "5.18",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -3032,8 +3032,8 @@
     "english": "nest",
     "reference": "10.69",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3045,8 +3045,8 @@
     "english": "name",
     "reference": "12.3, 13.2, 35.8, 42.62, 44.212, 45.320 nōmen dare",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3058,8 +3058,8 @@
     "english": "nominative",
     "reference": "3.88",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -3096,8 +3096,8 @@
     "english": "cloud",
     "reference": "9.25",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -3121,8 +3121,8 @@
     "english": "messenger, message",
     "reference": "10.30, 32.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3161,8 +3161,8 @@
     "english": "eye",
     "reference": "7.6",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -3174,8 +3174,8 @@
     "english": "town",
     "reference": "1.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3205,8 +3205,8 @@
     "english": "sheep",
     "reference": "9.3",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -3236,8 +3236,8 @@
     "english": "part, direction",
     "reference": "12.64, 16.45, 16.92, 48.144, 48.466 magnā ex parte",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3261,8 +3261,8 @@
     "english": "pace (1.48 m)",
     "reference": "12.93",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3286,8 +3286,8 @@
     "english": "father",
     "reference": "2.9, 2.10, 12.2, 19.38 pater familiās, 42.17 pl, 42.225 pl",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -3299,8 +3299,8 @@
     "english": "native country / town",
     "reference": "12.70",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3324,8 +3324,8 @@
     "english": "breast",
     "reference": "11.18, 20.9, 40.4",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -3337,8 +3337,8 @@
     "english": "money",
     "reference": "4.3",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -3362,8 +3362,8 @@
     "english": "foot-soldier",
     "reference": "12.42",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3384,8 +3384,8 @@
     "english": "peristyle",
     "reference": "5.30",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -3397,8 +3397,8 @@
     "english": "person",
     "reference": "3.2, 15.134",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -3422,8 +3422,8 @@
     "english": "hat",
     "reference": "10.27",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3444,8 +3444,8 @@
     "english": "ball",
     "reference": "10.74",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3457,8 +3457,8 @@
     "english": "pear",
     "reference": "7.52",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -3470,8 +3470,8 @@
     "english": "fish",
     "reference": "10.9",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3504,8 +3504,8 @@
     "english": "plural",
     "reference": "1.88, 5.143",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3517,8 +3517,8 @@
     "english": "gate",
     "reference": "6.15, 12.103",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -3557,8 +3557,8 @@
     "english": "first name",
     "reference": "12.11",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3570,8 +3570,8 @@
     "english": "preposition",
     "reference": "6.106",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -3583,8 +3583,8 @@
     "english": "price, value",
     "reference": "8.61, 22.16, 32.9, 45.366",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -3637,8 +3637,8 @@
     "english": "pronoun",
     "reference": "8.135, 35.39",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -3650,8 +3650,8 @@
     "english": "province",
     "reference": "1.57, 48.63",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3663,8 +3663,8 @@
     "english": "girl",
     "reference": "2.3, 34.195",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -3676,8 +3676,8 @@
     "english": "boy",
     "reference": "2.2, 12.98, 30.86",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -3689,8 +3689,8 @@
     "english": "fist",
     "reference": "12.39",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3723,8 +3723,8 @@
     "english": "young (of an animal)",
     "reference": "10.72, 51.170",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3736,8 +3736,8 @@
     "english": "lung",
     "reference": "10.52",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3767,8 +3767,8 @@
     "english": "page",
     "reference": "2.85",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -3780,8 +3780,8 @@
     "english": "bread, loaf",
     "reference": "9.11",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -3802,8 +3802,8 @@
     "english": "shepherd",
     "reference": "9.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -3815,8 +3815,8 @@
     "english": "task",
     "reference": "1.107",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -3828,8 +3828,8 @@
     "english": "foot",
     "reference": "10.12, 12.47, 34.248",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -3841,8 +3841,8 @@
     "english": "spear, javelin",
     "reference": "12.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -3854,8 +3854,8 @@
     "english": "cup",
     "reference": "11.36",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4027,8 +4027,8 @@
     "english": "rose",
     "reference": "5.13",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -4052,8 +4052,8 @@
     "english": "branch, bough",
     "reference": "10.69",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -4074,8 +4074,8 @@
     "english": "brook",
     "reference": "9.8, 36.255",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4095,8 +4095,8 @@
     "english": "purse",
     "reference": "4.3",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -4108,8 +4108,8 @@
     "english": "sack",
     "reference": "6.25",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -4121,8 +4121,8 @@
     "english": "arrow",
     "reference": "12.91",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4152,8 +4152,8 @@
     "english": "blood",
     "reference": "11.19, 39.6, 44.375, 45.349",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4173,8 +4173,8 @@
     "english": "scene, stage",
     "reference": "3.1, 36.268",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -4186,8 +4186,8 @@
     "english": "shield",
     "reference": "12.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4246,8 +4246,8 @@
     "english": "slave, servant",
     "reference": "2.26",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -4268,8 +4268,8 @@
     "english": "wood, forest",
     "reference": "9.10, 9.21",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4302,8 +4302,8 @@
     "english": "sister",
     "reference": "12.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4324,8 +4324,8 @@
     "english": "mirror",
     "reference": "7.8",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -4403,8 +4403,8 @@
     "english": "syllable",
     "reference": "1.74",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -4437,8 +4437,8 @@
     "english": "sesterce (coin)",
     "reference": "8.61, 17.99, 51.165 sēstertius nummus",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -4450,8 +4450,8 @@
     "english": "sun",
     "reference": "9.25, 9.30",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4492,8 +4492,8 @@
     "english": "shop, stall",
     "reference": "8.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -4505,8 +4505,8 @@
     "english": "shopkeeper",
     "reference": "8.3",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -4594,8 +4594,8 @@
     "english": "earth, ground, country",
     "reference": "9.26, 12.62, 13.49, 31.39",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4619,8 +4619,8 @@
     "english": "fear",
     "reference": "9.57",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4641,8 +4641,8 @@
     "english": "title",
     "reference": "2.82",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -4704,8 +4704,8 @@
     "english": "shade, shadow",
     "reference": "9.30, 28.89",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4717,8 +4717,8 @@
     "english": "shoulder",
     "reference": "6.26",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -4758,8 +4758,8 @@
     "english": "valley",
     "reference": "9.19",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4789,8 +4789,8 @@
     "english": "belly, stomach",
     "reference": "11.21, 44.102",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "mixed",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4820,8 +4820,8 @@
     "english": "word, verb",
     "reference": "3.100, 4.45, 36.88 verba facere, 49.90 verba dare",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 3
   },
   {
@@ -4833,8 +4833,8 @@
     "english": "line, verse",
     "reference": "12.145, 32.102",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4867,8 +4867,8 @@
     "english": "footprint, trace",
     "reference": "9.54, 9.82, 36.275, 45.259, 48.488 in vestīgiō",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 9
   },
   {
@@ -4880,8 +4880,8 @@
     "english": "road, way, street",
     "reference": "6.1, 8.11, 41.165, 42.350, 43.62, 50.171",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 6
   },
   {
@@ -4902,8 +4902,8 @@
     "english": "man, husband",
     "reference": "2.1, 5.20",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 2
   },
   {
@@ -4915,8 +4915,8 @@
     "english": "internal organs, entrails",
     "reference": "11.22",
     "pluraleTantum": "true",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -4928,8 +4928,8 @@
     "english": "word",
     "reference": "1.71",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -4950,8 +4950,8 @@
     "english": "vocative",
     "reference": "4.102",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 4
   },
   {
@@ -4972,8 +4972,8 @@
     "english": "rampart",
     "reference": "12.100",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 12
   },
   {
@@ -4985,8 +4985,8 @@
     "english": "vein",
     "reference": "11.20",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -5016,8 +5016,8 @@
     "english": "country house, villa",
     "reference": "5.1",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -5050,8 +5050,8 @@
     "english": "voice",
     "reference": "10.81",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -5075,8 +5075,8 @@
     "english": "wing",
     "reference": "10.12, 48.476",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -5088,8 +5088,8 @@
     "english": "ring",
     "reference": "8.7",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -5101,8 +5101,8 @@
     "english": "hall",
     "reference": "5.27, 36.116",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -5114,8 +5114,8 @@
     "english": "air",
     "reference": "10.10, 10.53",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -5145,8 +5145,8 @@
     "english": "infinitive",
     "reference": "10.137",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {
@@ -5158,8 +5158,8 @@
     "english": "island",
     "reference": "1.27",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -5192,8 +5192,8 @@
     "english": "ocean",
     "reference": "1.53",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 1
   },
   {
@@ -5205,8 +5205,8 @@
     "english": "ornament, jewel",
     "reference": "8.7, 51.133, 53.312, 54.28",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 8
   },
   {
@@ -5227,8 +5227,8 @@
     "english": "mouth",
     "reference": "11.6, 16.14, 39.120, 17.37 ūnō ōre, 32.23",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 11
   },
   {
@@ -5240,8 +5240,8 @@
     "english": "kiss",
     "reference": "7.62",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -5253,8 +5253,8 @@
     "english": "door, entrance",
     "reference": "5.25, 16.13",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 5
   },
   {
@@ -5266,8 +5266,8 @@
     "english": "door-keeper, porter",
     "reference": "7.33",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 7
   },
   {
@@ -5279,8 +5279,8 @@
     "english": "egg",
     "reference": "10.71",
     "pluraleTantum": "",
-    "pluralAbus": "",
     "iStemType": "",
+    "overrides": "",
     "chapter": 10
   },
   {

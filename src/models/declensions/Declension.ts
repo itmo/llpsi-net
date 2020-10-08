@@ -20,16 +20,16 @@ import { changeSuffix } from "../common";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
+import { DeclensionOverrides } from "../WordData";
 
 export interface DeclensionInput {
     genus: Genus;
     nominative: string;
     genitiveConstruction: string;
     pluraleTantum?: boolean;
-    pluralAbus?: boolean;
     genitiveIus?: boolean;
     ablativeI?: boolean;
-    overrides?: Overrides;
+    overrides?: DeclensionOverrides;
 }
 
 export interface DeclensionRule {
@@ -40,25 +40,24 @@ export interface DeclensionRule {
     }[];
 }
 
-export interface Overrides {
-    nomSg: string | null;
-    accSg: string | null;
-    genSg: string | null;
-    datSg: string | null;
-    ablSg: string | null;
-    vocSg: string | null;
-
-    nomPl: string | null;
-    accPl: string | null;
-    genPl: string | null;
-    datPl: string | null;
-    ablPl: string | null;
-    vocPl: string | null;
-}
-
 export abstract class Declension {
-    public abstract decline(casus: Casus, numerus: Numerus): string | null;
+    private overrides?: DeclensionOverrides;
+
+    public constructor(overrides?: DeclensionOverrides) {
+        this.overrides = overrides;
+    }
+
+    public decline(casus: Casus, numerus: Numerus) {
+        const override = this.getOverride(casus, numerus);
+        if (override) {
+            return override;
+        } else {
+            return this.buildDeclension(casus, numerus);
+        }
+    }
+
     public abstract get stem(): string;
+    protected abstract buildDeclension(casus: Casus, numerus: Numerus): string | null;
 
     public static applyStemRule(nominative: string, construction: string, rules: DeclensionRule[]): string {
         for (const rule of rules) {
@@ -77,13 +76,15 @@ export abstract class Declension {
         throw Error(`Couldn't find rule to get stem for ${nominative}, ${construction}`);
     }
 
-    protected getOverride(overrides: Overrides | undefined, casus: Casus, numerus: Numerus): string | null {
+    private getOverride(casus: Casus, numerus: Numerus): string | null {
         const idx: string = this.casusToOverride(casus, numerus);
-        if (overrides && idx in overrides && overrides[idx as keyof Overrides]) {
-            return overrides[idx as keyof Overrides];
-        } else {
-            return null;
+        if (this.overrides && idx in this.overrides) {
+            const ovr = this.overrides[idx as keyof DeclensionOverrides];
+            if (ovr) {
+                return ovr;
+            }
         }
+        return null;
     }
 
     private casusToOverride(casus: Casus, numerus: Numerus): string {

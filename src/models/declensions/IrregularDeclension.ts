@@ -24,7 +24,7 @@ export class IrregularDeclension extends Declension {
     private data: DeclensionInput;
 
     public constructor(data: DeclensionInput) {
-        super();
+        super(data.overrides);
         this.data = data;
     }
 
@@ -32,7 +32,7 @@ export class IrregularDeclension extends Declension {
         return 'irregular';
     }
 
-    public decline(casus: Casus, numerus: Numerus): string | null {
+    protected buildDeclension(casus: Casus, numerus: Numerus): string | null {
         return 'irregular';
     }
 }

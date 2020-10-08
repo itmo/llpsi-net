@@ -26,7 +26,7 @@ import { UDeclension } from "../declensions/UDeclension";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
-import { NounData } from "../WordData";
+import { DeclensionOverrides, NounData } from "../WordData";
 import { Word } from "./Word";
 
 export class Noun extends Word {
@@ -88,15 +88,22 @@ export class Noun extends Word {
         }
 
         const pluraleTantum = data.pluraleTantum ? true : false;
-        const pluralAbus = data.pluralAbus ? true : false;
 
         return {
             nominative: data.latinNominative,
             genitiveConstruction: data.latinGenitive,
             genus: genus,
             pluraleTantum: pluraleTantum,
-            pluralAbus: pluralAbus,
+            overrides: this.getOverridesFor(data),
         };
+    }
+
+    private getOverridesFor(data: NounData): DeclensionOverrides | undefined {
+        if (!data.overrides) {
+            return undefined;
+        }
+
+        return JSON.parse(data.overrides);
     }
 
     private determineConsDeclension(data: NounData, input: DeclensionInput) {

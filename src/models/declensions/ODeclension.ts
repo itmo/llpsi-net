@@ -27,7 +27,7 @@ export class ODeclension extends Declension {
     private stem_: string;
 
     public constructor(data: DeclensionInput) {
-        super();
+        super(data.overrides);
         this.data = data;
         this.stem_ = this.determineStem();
     }
@@ -60,12 +60,7 @@ export class ODeclension extends Declension {
         throw Error(`Couldn't determine O-stem for ${this.data.nominative}, ${gen}`);
     }
 
-    public decline(casus: Casus, numerus: Numerus): string | null {
-        const ovr = this.getOverride(this.data.overrides, casus, numerus);
-        if (ovr) {
-            return ovr;
-        }
-
+    protected buildDeclension(casus: Casus, numerus: Numerus): string | null {
         switch (numerus) {
             case Numerus.Singular:
                 return this.declineSingular(casus);

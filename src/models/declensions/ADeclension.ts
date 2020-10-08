@@ -26,7 +26,7 @@ export class ADeclension extends Declension {
     private stem_: string;
 
     public constructor(data: DeclensionInput) {
-        super();
+        super(data.overrides);
         this.data = data;
         this.stem_ = this.determineStem();
     }
@@ -58,7 +58,7 @@ export class ADeclension extends Declension {
         throw Error(`Couldn't determine A-stem for ${nom}, ${gen}`);
     }
 
-    public decline(casus: Casus, numerus: Numerus): string | null {
+    protected buildDeclension(casus: Casus, numerus: Numerus): string | null {
         switch (numerus) {
             case Numerus.Singular:  return this.declineSingular(casus);
             case Numerus.Plural:    return this.declinePlural(casus);
@@ -97,19 +97,12 @@ export class ADeclension extends Declension {
             nominative = this.stem + 'ae';
         }
 
-        let datAbl: string;
-        if (this.data.pluralAbus) {
-            datAbl = this.stem + 'ābus';
-        } else {
-            datAbl = this.stem + 'īs';
-        }
-
         switch (casus) {
             case Casus.Nominative:  return nominative;
             case Casus.Accusative:  return this.stem + 'ās';
             case Casus.Genitive:    return this.stem + 'ārum';
-            case Casus.Dative:      return datAbl;
-            case Casus.Ablative:    return datAbl;
+            case Casus.Dative:      return this.stem + 'īs';
+            case Casus.Ablative:    return this.stem + 'īs';
             case Casus.Vocative:    return nominative;
         }
     }    

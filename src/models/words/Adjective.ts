@@ -18,14 +18,14 @@
 
 import { changeSuffix } from "../common";
 import { ADeclension } from "../declensions/ADeclension";
-import { Declension, DeclensionInput, DeclensionRule, Overrides } from "../declensions/Declension";
+import { Declension, DeclensionInput, DeclensionRule } from "../declensions/Declension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
 import { IrregularDeclension } from "../declensions/IrregularDeclension";
 import { ODeclension } from "../declensions/ODeclension";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
-import { AdjectiveData } from "../WordData";
+import { AdjectiveData, DeclensionOverrides } from "../WordData";
 import { Word } from "./Word";
 
 export class Adjective extends Word {
@@ -127,7 +127,7 @@ export class Adjective extends Word {
         };
     }
 
-    private getOverridesFor(data: AdjectiveData, genus: Genus): Overrides | undefined {
+    private getOverridesFor(data: AdjectiveData, genus: Genus): DeclensionOverrides | undefined {
         if (!data.overrides) {
             return undefined;
         }

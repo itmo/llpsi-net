@@ -27,7 +27,7 @@ export class IMixedDeclension extends Declension {
     private stem_: string;
 
     public constructor(data: DeclensionInput) {
-        super();
+        super(data.overrides);
         this.data = data;
         this.stem_ = this.determineStem();
     }
@@ -58,7 +58,7 @@ export class IMixedDeclension extends Declension {
         throw Error(`Couldn't determine I-mixed-stem for ${this.data.nominative}, ${gen}`);
     }
 
-    public decline(casus: Casus, numerus: Numerus): string | null {
+    protected buildDeclension(casus: Casus, numerus: Numerus): string | null {
         switch (numerus) {
             case Numerus.Singular:
                 return this.declineSingularMF(casus);
