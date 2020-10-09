@@ -28,6 +28,10 @@ export abstract class Word {
         this.lemma_ = lemma;
     }
 
+    public get type(): WordType {
+        return this.data.wordType;
+    }
+
     public get chapter(): number {
         return this.data.chapter;
     }

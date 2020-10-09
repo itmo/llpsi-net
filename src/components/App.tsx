@@ -23,6 +23,7 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
+import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -36,8 +37,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Box from '@material-ui/core/Box';
 import { WordDB } from '../models/WordDB';
 import { About } from './About';
-import { NounList } from './nouns/NounList';
-import { AdjectiveList } from './nouns/AdjectiveList';
+import { NounList } from './words/nouns/NounList';
+import { AdjectiveList } from './words/adjectives/AdjectiveList';
+import { ParticleList } from './words/particles/ParticleList';
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => createStyles({
@@ -97,6 +99,10 @@ export const App: React.FunctionComponent<AppProps> = props => {
                                 <ListItemIcon><FitnessCenterIcon /></ListItemIcon>
                                 <ListItemText primary='Adjectives' />
                             </ListItem>
+                            <ListItem button component={RouterLink} to='/words/particles'>
+                                <ListItemIcon><PlaylistAddCheckIcon /></ListItemIcon>
+                                <ListItemText primary='Particles' />
+                            </ListItem>
                             <ListItem button component={RouterLink} to='/about'>
                                 <ListItemIcon><InfoIcon /></ListItemIcon>
                                 <ListItemText primary='About' />
@@ -118,6 +124,10 @@ export const App: React.FunctionComponent<AppProps> = props => {
 
                             <Route path="/words/adjectives">
                                 <AdjectiveList db={props.db} />
+                            </Route>
+
+                            <Route path="/words/particles">
+                                <ParticleList db={props.db} />
                             </Route>
 
                             <Route path="/about">

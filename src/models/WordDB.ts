@@ -20,43 +20,96 @@ import { macronSort } from "./common";
 import { WordType } from "./types/WordType";
 import { WordData } from "./WordData";
 import { Adjective } from "./words/Adjective";
+import { Adverb } from "./words/Adverb";
+import { Conjunction } from "./words/Conjunction";
+import { Interjection } from "./words/Interjection";
+import { Interrogative } from "./words/Interrogative";
 import { Noun } from "./words/Noun";
+import { Numeral } from "./words/Numeral";
+import { Preposition } from "./words/Preposition";
+import { Pronoun } from "./words/Pronoun";
+import { Verb } from "./words/Verb";
 import { Word } from "./words/Word";
 
 export class WordDB {
-    private allWords: Word[] = [];
-    private nouns_: Noun[] = [];
-    private adjectives_: Adjective[] = [];
+    // Declined
+    public nouns: Noun[] = [];
+    public numerals: Numeral[] = [];
+    public adjectives: Adjective[] = [];
+    public pronouns: Pronoun[] = [];
+
+    // Conjugated
+    public verbs: Verb[] = [];
+
+    // Particles
+    public adverbs: Adverb[] = [];
+    public conjunctions: Conjunction[] = [];
+    public interjections: Interjection[] = [];
+    public interrogatives: Interrogative[] = [];
+    public prepositions: Preposition[] = [];
 
     public constructor(data: WordData[]) {
         this.loadWords(data);
     }
 
-    public get nouns(): Noun[] {
-        return this.nouns_;
-    }
-
-    public get adjectives(): Adjective[] {
-        return this.adjectives_;
-    }
-
     private loadWords(data: WordData[]): void {
-        for (const entry of data) {
-            switch (entry.wordType) {
-                case WordType.Noun:
-                    const noun = new Noun(entry);
-                    this.allWords.push();
-                    this.nouns_.push(noun)
-                    break;
-                case WordType.Adjective:
-                    const adj = new Adjective(entry);
-                    this.allWords.push(adj);
-                    this.adjectives_.push(adj);
-                    break;
-            }
-        }
+        data.forEach(entry => this.addWord(entry));
+        this.sortLists([
+            this.adverbs, this.adjectives, this.conjunctions, this.interjections,
+            this.interrogatives, this.nouns, this.numerals, this.prepositions,
+            this.pronouns, this.verbs
+        ])
+    }
 
-        this.nouns_.sort((a, b) => macronSort(a.lemma.toLowerCase(), b.lemma.toLowerCase()));
-        this.adjectives_.sort((a, b) => macronSort(a.lemma.toLowerCase(), b.lemma.toLowerCase()));
+    private sortLists(lists: Word[][]) {
+        const lemmaSort = (a: Word, b: Word) => macronSort(a.lemma.toLowerCase(), b.lemma.toLowerCase());
+        for (const list of lists) {
+            list.sort(lemmaSort);
+        }
+    }
+
+    private addWord(data: WordData) {
+        switch (data.wordType) {
+            case WordType.Adjective:
+                const adj = new Adjective(data);
+                this.adjectives.push(adj);
+                break;
+            case WordType.Adverb:
+                const adverb = new Adverb(data);
+                this.adverbs.push(adverb);
+                break;
+            case WordType.Conjunction:
+                const conj = new Conjunction(data);
+                this.conjunctions.push(conj)
+                break;
+            case WordType.Interjection:
+                const inj = new Interjection(data);
+                this.interjections.push(inj);
+                break;
+            case WordType.Interrogative:
+                const intr = new Interrogative(data);
+                this.interrogatives.push(intr);
+                break;
+            case WordType.Noun:
+                const noun = new Noun(data);
+                this.nouns.push(noun)
+                break;
+            case WordType.Numeral:
+                const numr = new Numeral(data);
+                this.numerals.push(numr);
+                break;
+            case WordType.Preposition:
+                const prp = new Preposition(data);
+                this.prepositions.push(prp);
+                break;
+            case WordType.Pronoun:
+                const prn = new Pronoun(data);
+                this.pronouns.push(prn);
+                break;
+            case WordType.Verb:
+                const verb = new Verb(data);
+                this.verbs.push(verb);
+                break;
+        }
     }
 }
