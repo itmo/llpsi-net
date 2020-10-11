@@ -159,7 +159,6 @@ const ORulesSingular: DeclensionRule[] = [
         nominativeEndings: [
             {when: 'us', changeTo: ''},
             {when: 'um', changeTo: ''},
-            {when: '', changeTo: ''},
         ],
     },
     {

@@ -19,7 +19,9 @@
 import { ADeclension } from "../declensions/ADeclension";
 import { ConsDeclension } from "../declensions/ConsDeclension";
 import { Declension, DeclensionInput } from "../declensions/Declension";
+import { EDeclension } from "../declensions/EDeclension";
 import { IMixedDeclension } from "../declensions/IMixedDeclension";
+import { IndeclinableDeclension } from "../declensions/IndeclinableDeclension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
 import { ODeclension } from "../declensions/ODeclension";
 import { UDeclension } from "../declensions/UDeclension";
@@ -68,14 +70,18 @@ export class Noun extends Word {
                 return this.determineConsDeclension(data, input);
             }
         } else {
-            if (gen.endsWith('ae')) {
+            if (gen.length == 0) {
+                return new IndeclinableDeclension(input);
+            } else if (gen.endsWith('ae')) {
                 return new ADeclension(input);
-            } else if (gen.endsWith('ī')) {
-                return new ODeclension(input);
+            } else if (gen.endsWith('ēī')) {
+                return new EDeclension(input);
             } else if (gen.endsWith('is')) {
                 return this.determineConsDeclension(data, input);
             } else if (gen.endsWith('ūs')) {
                 return new UDeclension(input);
+            } else if (gen.endsWith('ī')) {
+                return new ODeclension(input);
             }
         }
 

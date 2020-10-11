@@ -129,4 +129,10 @@ export const IMixedRulesSingular: DeclensionRule[] = [
             {when: 'ter', changeTo: 'tr'}
         ]
     },
+    {
+        construction: '-bis',
+        nominativeEndings: [
+            {when: 'bs', changeTo: 'b'}
+        ]
+    },
 ];

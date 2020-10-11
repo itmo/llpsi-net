@@ -27,7 +27,7 @@ export const About: React.FunctionComponent = () =>
             This will become a training platform for the book <Typography component='em'>Lingua Latina per se Illustra</Typography>.
         </p>
         <p>
-          As of now, the words up to chapter 12 are included. More will be added as I progress with LLPSI.
+          As of now, the words up to chapter 13 are included. More will be added as I progress with LLPSI.
         </p>
     </Typography>
   </section>

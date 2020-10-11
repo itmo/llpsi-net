@@ -40,7 +40,11 @@ export class UDeclension extends Declension {
         const nom = this.data.nominative;
         const gen = this.data.genitiveConstruction;
 
-        if (!this.data.pluraleTantum) {
+        if (this.data.pluraleTantum) {
+            if (nom.endsWith('ūs') && gen == '-uum') {
+                return dropSuffix(nom, 'ūs');
+            }
+        } else {
             if (nom.endsWith('us') && gen == '-ūs') {
                 return dropSuffix(nom, 'us');
             }

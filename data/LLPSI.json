@@ -205,6 +205,44 @@
     "chapter": 11
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "aequinoctium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Tag- und Nachtgleiche",
+    "english": "equinox",
+    "reference": "13.77",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "aequus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "gleich, ruhig",
+    "english": "equal, calm",
+    "reference": "13.43, 13.77, 29.180, 42.117, 46.248, 55.196, 54.495 aequum est",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "aestās",
+    "latinGenitive": "-ātis",
+    "genus": "f",
+    "german": "Sommer",
+    "english": "summer",
+    "reference": "13.80, 13.81",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Verb",
     "latin": "agere",
     "other": "ēgisse, āctum",
@@ -331,6 +369,19 @@
     "iStemType": "pure",
     "overrides": "",
     "chapter": 10
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "annus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Jahr",
+    "english": "year",
+    "reference": "13.1",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Preposition",
@@ -558,6 +609,19 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "autumnus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Herbst",
+    "english": "autumn",
+    "reference": "13.81, 13.85",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "avis",
     "latinGenitive": "-is",
     "genus": "f",
@@ -717,6 +781,18 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 9
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "calidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "warm, hot",
+    "english": "warm, heiß",
+    "reference": "13.87, 30.114 f",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -920,6 +996,18 @@
     "english": "shout",
     "reference": "8.36",
     "chapter": 8
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "clārus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "hell, klar",
+    "english": "bright, clear",
+    "reference": "13.48, 29.93, 36.31",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -1180,6 +1268,18 @@
     "chapter": 4
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "decimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der zehnte",
+    "english": "tenth",
+    "reference": "13.5",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "deus",
     "latinGenitive": "-ī",
@@ -1213,6 +1313,19 @@
     "english": "go away, depart",
     "reference": "4.73",
     "chapter": 4
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "diēs",
+    "latinGenitive": "-ēī",
+    "genus": "m/f",
+    "german": "Tag, Datum",
+    "english": "day, date",
+    "reference": "m: 13.8, 13.35, 18.178, 18.190, 32.147 f, 45.28, 44.382 in diēs",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Verb",
@@ -1259,6 +1372,18 @@
     "chapter": 3
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "ducentī",
+    "latinFemale": "-ae",
+    "latinNeuter": "-a",
+    "german": "zweihundert",
+    "english": "two hundred",
+    "reference": "13.10",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Conjunction",
     "latin": "dum",
     "abbreviated": "",
@@ -1287,6 +1412,18 @@
     "number": "12",
     "reference": "6.15",
     "chapter": 6
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "duodecimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der zwölfte",
+    "english": "twelfth",
+    "reference": "13.6",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -1381,6 +1518,18 @@
     "english": "say, call, speak",
     "reference": "11.60, 11.61, 13.58, 20.144, 26.162",
     "chapter": 11
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "dīmidius",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "halb",
+    "english": "half",
+    "reference": "13.33, 13.53",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Verb",
@@ -1546,6 +1695,18 @@
     "chapter": 12
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "exiguus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "klein, gering",
+    "english": "small, scanty",
+    "reference": "13.51, 17.148",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Verb",
     "latin": "expugnāre",
     "other": "",
@@ -1580,6 +1741,19 @@
     "english": "make, do",
     "reference": "10.17, 10.65, 10.69, 10.111, 11.27, 11.66, 52.491, 27.145 facere ut, 27.175",
     "chapter": 10
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "faciēs",
+    "latinGenitive": "-ēī",
+    "genus": "f",
+    "german": "Gesicht",
+    "english": "face",
+    "reference": "13.15, 36.153, 39.271, 42.366",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -1752,6 +1926,18 @@
     "chapter": 12
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "frīgidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "kalt",
+    "english": "cold",
+    "reference": "13.88",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "frōns",
     "latinGenitive": "-ontis",
@@ -1838,6 +2024,19 @@
     "chapter": 12
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "fōrma",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Form, Gestalt",
+    "english": "form, shape, figure",
+    "reference": "13.54, 16.157, 19.137, 34.48, 45.227",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "fōrmōsus",
     "latinFemale": "-a",
@@ -1908,6 +2107,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "glaciēs",
+    "latinGenitive": "-ēī",
+    "genus": "f",
+    "german": "Eis",
+    "english": "ice",
+    "reference": "13.96",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -1993,6 +2205,19 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "hiems",
+    "latinGenitive": "-mis",
+    "genus": "f",
+    "german": "Winter",
+    "english": "winter",
+    "reference": "13.80, 13.82",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "homō",
     "latinGenitive": "-inis",
     "genus": "m",
@@ -2048,6 +2273,19 @@
     "chapter": 3
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "hōra",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Stunde",
+    "english": "hour",
+    "reference": "13.40, 22.50",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "hūmānus",
     "latinFemale": "-a",
@@ -2099,12 +2337,43 @@
     "chapter": 11
   },
   {
+    "wordType": "Conjunction",
+    "latin": "igitur",
+    "abbreviated": "",
+    "german": "also",
+    "english": "therefore, then, so",
+    "reference": "13.23",
+    "chapter": 13
+  },
+  {
     "wordType": "Adverb",
     "latin": "illīc",
     "german": "dort",
     "english": "there",
     "reference": "7.3, 7.6",
     "chapter": 7
+  },
+  {
+    "wordType": "Verb",
+    "latin": "illūstrāre",
+    "other": "",
+    "german": "erleuchten, erklären",
+    "english": "illuminate, make clear",
+    "reference": "13.49, 36.312",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "imber",
+    "latinGenitive": "-bris",
+    "genus": "m",
+    "german": "Regen",
+    "english": "rain, shower",
+    "reference": "13.89, 13.90",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Adverb",
@@ -2195,6 +2464,15 @@
   },
   {
     "wordType": "Verb",
+    "latin": "incipere",
+    "other": "-iō, coepisse, coeptum",
+    "german": "anfangen",
+    "english": "begin",
+    "reference": "13.86, 13.93, 25.62",
+    "chapter": 13
+  },
+  {
+    "wordType": "Verb",
     "latin": "incolere",
     "other": "",
     "german": "bewohnen",
@@ -2214,6 +2492,18 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 4
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "indēclīnābilis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "german": "undeklinierbar",
+    "english": "indeclinable",
+    "reference": "13.166",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Verb",
@@ -2236,6 +2526,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 6
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "initium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Anfang",
+    "english": "beginning",
+    "reference": "13.38, 19.79 initiō",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Preposition",
@@ -2274,6 +2577,14 @@
     "chapter": 6
   },
   {
+    "wordType": "Adverb",
+    "latin": "item",
+    "german": "ebenso, auch",
+    "english": "likewise, also",
+    "reference": "13.31, 13.77, 26.37",
+    "chapter": 13
+  },
+  {
     "wordType": "Verb",
     "latin": "iubēre",
     "other": "iussisse, iussum",
@@ -2281,6 +2592,19 @@
     "english": "order, tell",
     "reference": "11.45",
     "chapter": 11
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "kalendae",
+    "latinGenitive": "-ārum",
+    "genus": "f",
+    "german": "der erste (im Monat)",
+    "english": "the 1st (of the month)",
+    "reference": "13.57",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -2316,6 +2640,19 @@
     "english": "shed tears, weep",
     "reference": "7.6",
     "chapter": 7
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lacus",
+    "latinGenitive": "-ūs",
+    "genus": "m",
+    "german": "See",
+    "english": "lake",
+    "reference": "13.96",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Adjective",
@@ -2536,6 +2873,32 @@
     "chapter": 10
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "lūna",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Mond",
+    "english": "moon",
+    "reference": "13.46",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lūx",
+    "latinGenitive": "lūcis",
+    "genus": "f",
+    "german": "Licht, Tageslicht",
+    "english": "light, daylight",
+    "reference": "13.47, 33.114, 34.116, 37.212",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "magnus",
     "latinFemale": "-a",
@@ -2683,6 +3046,19 @@
     "chapter": 10
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "merīdiēs",
+    "latinGenitive": "-ēī",
+    "genus": "m",
+    "german": "Mittag, Süden",
+    "english": "midday, noon, south",
+    "reference": "13.42, 16.48",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Verb",
     "latin": "metuere",
     "other": "-uisse",
@@ -2785,6 +3161,27 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "māne",
+    "latinGenitive": "",
+    "genus": "n",
+    "german": "Morgen",
+    "english": "morning",
+    "reference": "13.36",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "māne",
+    "german": "am Morgen",
+    "english": "in the morning",
+    "reference": "14.55, 55.17",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "māter",
     "latinGenitive": "-tris",
     "genus": "f",
@@ -2808,6 +3205,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 4
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "mēnsis",
+    "latinGenitive": "-is",
+    "genus": "m",
+    "german": "Monat",
+    "english": "month",
+    "reference": "13.1",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -2944,6 +3354,19 @@
     "chapter": 8
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "nix",
+    "latinGenitive": "nivis",
+    "genus": "f",
+    "german": "Schnee",
+    "english": "snow",
+    "reference": "13.89, 13.91",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "noster",
     "latinFemale": "-tra",
@@ -2975,6 +3398,19 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 2
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "nox",
+    "latinGenitive": "noctis",
+    "genus": "f",
+    "german": "Nacht",
+    "english": "night",
+    "reference": "13.37",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Adverb",
@@ -3018,6 +3454,14 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 4
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "nunc",
+    "german": "jetzt, nun",
+    "english": "now",
+    "reference": "13.22",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -3069,6 +3513,15 @@
     "chapter": 12
   },
   {
+    "wordType": "Verb",
+    "latin": "nōmināre",
+    "other": "",
+    "german": "nennen",
+    "english": "name, call",
+    "reference": "13.17",
+    "chapter": 13
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "nōminātīvus",
     "latinGenitive": "-ī",
@@ -3090,12 +3543,37 @@
     "chapter": 1
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "nōnae",
+    "latinGenitive": "-ārum",
+    "genus": "f",
+    "german": "der 5. / 7. (im Monat)",
+    "english": "the 5th or 7th (of the month)",
+    "reference": "13.69",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adverb",
     "latin": "nōnne",
     "german": "nicht?",
     "english": "not?",
     "reference": "7.26",
     "chapter": 7
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "nōnus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der neunte",
+    "english": "ninth",
+    "reference": "13.5",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Numeral",
@@ -3145,6 +3623,18 @@
     "chapter": 10
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "obscūrus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "dunkel",
+    "english": "dark",
+    "reference": "13.51, 47.200, 50.514",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Verb",
     "latin": "occultāre",
     "other": "",
@@ -3152,6 +3642,18 @@
     "english": "hide",
     "reference": "10.89, 19.66",
     "chapter": 10
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "octāvus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der achte",
+    "english": "eighth",
+    "reference": "13.4",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Numeral",
@@ -3183,6 +3685,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 7
+  },
+  {
+    "wordType": "Verb",
+    "latin": "operīre",
+    "other": "-uisse, -rtum",
+    "german": "bedecken",
+    "english": "cover",
+    "reference": "13.91",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -3569,6 +4080,18 @@
     "chapter": 6
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "postrēmus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der letzte",
+    "english": "last",
+    "reference": "13.6",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "praenōmen",
     "latinGenitive": "-inis",
@@ -3906,6 +4429,14 @@
     "chapter": 6
   },
   {
+    "wordType": "Adverb",
+    "latin": "quandō",
+    "german": "wann, als, da",
+    "english": "when, seeing that",
+    "reference": "13.107, 35.171, 35.203, 48.387, 44.80 nē quandō",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "quantus",
     "latinFemale": "-a",
@@ -3997,6 +4528,18 @@
     "number": "5",
     "reference": "4.10",
     "chapter": 4
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "quīntus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der fünfte",
+    "english": "fifth",
+    "reference": "13.3",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Interrogative",
@@ -4138,6 +4681,19 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "saeculum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Jahrhundert",
+    "english": "century",
+    "reference": "13.8, 56.225",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "sagitta",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -4263,6 +4819,18 @@
     "chapter": 4
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "septimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der siebente",
+    "english": "seventh",
+    "reference": "13.4",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "servus",
     "latinGenitive": "-ī",
@@ -4283,6 +4851,27 @@
     "number": "6",
     "reference": "1.74",
     "chapter": 1
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "sextus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der sechste",
+    "english": "sixth",
+    "reference": "13.4",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
+    "wordType": "Numeral",
+    "latin": "sexāgintā",
+    "nominativePlural": "",
+    "genitivePlural": "",
+    "number": "60",
+    "reference": "13.7",
+    "chapter": 13
   },
   {
     "wordType": "Noun",
@@ -4385,6 +4974,19 @@
     "chapter": 11
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "stēlla",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Stern",
+    "english": "star",
+    "reference": "13.46",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Preposition",
     "latin": "sub",
     "abbreviated": "",
@@ -4403,6 +5005,19 @@
     "english": "on (top of), above;on, about",
     "reference": "prp+acc: 11.6;prp+abl: 31.147;adv: 40.181",
     "chapter": 11
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "superlātīvus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Superlativ",
+    "english": "superlative",
+    "reference": "13.175",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Preposition",
@@ -4473,7 +5088,7 @@
   {
     "wordType": "Noun",
     "latinNominative": "sōl",
-    "latinGenitive": "-is",
+    "latinGenitive": "sōlis",
     "genus": "m",
     "german": "Sonne",
     "english": "sun",
@@ -4585,6 +5200,19 @@
     "chapter": 8
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "tempus",
+    "latinGenitive": "-oris",
+    "genus": "n",
+    "german": "Zeit",
+    "english": "time",
+    "reference": "13.9, 13.19, 13.80, 19.155, 45.182, 13.148 tempus est",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "tenuis",
     "latinFemale": "",
@@ -4675,6 +5303,18 @@
     "chapter": 2
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "trecentī",
+    "latinFemale": "-ae",
+    "latinNeuter": "-a",
+    "german": "dreihundert",
+    "english": "three hundred",
+    "reference": "13.7",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Numeral",
     "latin": "trēs",
     "nominativePlural": "tria",
@@ -4682,6 +5322,15 @@
     "number": "3",
     "reference": "1.67, 2.54",
     "chapter": 1
+  },
+  {
+    "wordType": "Numeral",
+    "latin": "trīgintā",
+    "nominativePlural": "",
+    "genitivePlural": "",
+    "number": "30",
+    "reference": "13.25",
+    "chapter": 13
   },
   {
     "wordType": "Adjective",
@@ -4696,6 +5345,14 @@
     "chapter": 12
   },
   {
+    "wordType": "Adverb",
+    "latin": "tunc",
+    "german": "damals, dann",
+    "english": "then",
+    "reference": "13.19",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "tuus",
     "latinFemale": "-a",
@@ -4706,6 +5363,18 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 2
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "tōtus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "ganz",
+    "english": "the whole of, all",
+    "reference": "13.50",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Interrogative",
@@ -4759,6 +5428,19 @@
     "chapter": 6
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "urbs",
+    "latinGenitive": "-bis",
+    "genus": "f",
+    "german": "Stadt",
+    "english": "city",
+    "reference": "13.100",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Conjunction",
     "latin": "ut",
     "abbreviated": "",
@@ -4800,6 +5482,15 @@
     "english": "carry, convery;passive: ride, sail",
     "reference": "6.30, 6.69, 16.25",
     "chapter": 6
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "vel",
+    "abbreviated": "",
+    "german": "oder, oder auch",
+    "english": "or",
+    "reference": "13.7, 13.9, 48.195, 56.275, 55.36 +sup",
+    "chapter": 13
   },
   {
     "wordType": "Verb",
@@ -4877,6 +5568,19 @@
     "chapter": 7
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "vesper",
+    "latinGenitive": "-erī",
+    "genus": "m",
+    "german": "Abend",
+    "english": "evening",
+    "reference": "13.36",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "vester",
     "latinFemale": "-tra",
@@ -4926,7 +5630,7 @@
   {
     "wordType": "Noun",
     "latinNominative": "vir",
-    "latinGenitive": "-ī",
+    "latinGenitive": "virī",
     "genus": "m",
     "german": "Mann",
     "english": "man, husband",
@@ -5027,6 +5731,19 @@
     "english": "sell",
     "reference": "8.5",
     "chapter": 8
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "vēr",
+    "latinGenitive": "vēris",
+    "genus": "n",
+    "german": "Frühling",
+    "english": "spring",
+    "reference": "13.80, 13.82",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Numeral",
@@ -5156,6 +5873,19 @@
     "english": "eat",
     "reference": "9.9, 9.11, 10.59",
     "chapter": 9
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "īdūs",
+    "latinGenitive": "-uum",
+    "genus": "f",
+    "german": "der 13. oder 15. (im Monat)",
+    "english": "the 13th or 15th (day)",
+    "reference": "13.62",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Preposition",
@@ -5313,6 +6043,27 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 10
+  },
+  {
+    "wordType": "Numeral",
+    "latin": "ūndecim",
+    "nominativePlural": "",
+    "genitivePlural": "",
+    "number": "11",
+    "reference": "13.30",
+    "chapter": 13
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "ūndecimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "der elfte",
+    "english": "eleventh",
+    "reference": "13.5",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 13
   },
   {
     "wordType": "Numeral",

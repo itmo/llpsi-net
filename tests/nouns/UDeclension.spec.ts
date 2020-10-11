@@ -48,4 +48,16 @@ describe('U-declension', () => {
       vocative:   'manūs',
     });
   });
+
+  it('Plurale tantum rule should decline correctly in plural', () => {
+    const word = findNoun('īdūs');
+    checkNounDecl(word, Numerus.Plural, {
+      nominative: 'īdūs',
+      accusative: 'īdūs',
+      genitive:   'īduum',
+      dative:     'īdibus',
+      ablative:   'īdibus',
+      vocative:   'īdūs',
+    });
+  });
 });
