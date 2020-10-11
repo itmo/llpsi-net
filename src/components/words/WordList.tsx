@@ -17,7 +17,7 @@
  */
 
 import React from 'react';
-import { Box, Collapse, IconButton, Paper, Tab, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs } from '@material-ui/core';
+import { Box, Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Word } from '../../models/words/Word';
@@ -25,22 +25,20 @@ import { WordCard } from './WordCard';
 
 export function WordList(props: {words: Word[]}) {
     return (
-        <React.Fragment>
-            <TableContainer component={Paper}>
-                <Table>
-                    <TableHead>
-                        <TableRow>
-                            <TableCell />
-                            <TableCell>Word</TableCell>
-                            <TableCell>Introduced in</TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {props.words.map(p => <WordRow particle={p} />)}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-        </React.Fragment>
+        <TableContainer component={Paper}>
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell />
+                        <TableCell>Word</TableCell>
+                        <TableCell>Introduced in</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {props.words.map(p => <WordRow particle={p} />)}
+                </TableBody>
+            </Table>
+        </TableContainer>
     );
 }
 
@@ -51,7 +49,7 @@ function WordRow(props: {particle: Word}) {
         <React.Fragment>
             <TableRow>
                 <TableCell>
-                    <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
+                    <IconButton size="small" onClick={() => setOpen(!open)}>
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>

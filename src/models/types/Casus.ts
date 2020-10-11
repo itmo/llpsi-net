@@ -24,3 +24,12 @@ export enum Casus {
     Ablative    = 'Ablātīvus',
     Vocative    = 'Vocātīvus'
 }
+
+export const AllCases: Casus[] = [
+    Casus.Nominative,
+    Casus.Accusative,
+    Casus.Genitive,
+    Casus.Dative,
+    Casus.Ablative,
+    Casus.Vocative
+];

@@ -37,8 +37,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Box from '@material-ui/core/Box';
 import { WordDB } from '../models/WordDB';
 import { About } from './About';
-import { NounList } from './words/nouns/NounList';
-import { AdjectiveList } from './words/adjectives/AdjectiveList';
 import { ParticleList } from './words/ParticleList';
 import { WordList } from './words/WordList';
 

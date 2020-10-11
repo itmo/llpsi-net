@@ -19,7 +19,7 @@
 import { Card, CardContent, Table, TableBody, TableCell, TableContainer, TableHead, Typography, withStyles } from "@material-ui/core";
 import TableRow from "@material-ui/core/TableRow/TableRow";
 import React from "react";
-import { Casus } from "../../models/types/Casus";
+import { AllCases, Casus } from "../../models/types/Casus";
 import { Genus } from "../../models/types/Genus";
 import { Numerus } from "../../models/types/Numerus";
 import { WordType } from "../../models/types/WordType";
@@ -97,12 +97,7 @@ function AdjectiveEntry(props: {adj: Adjective}) {
                         <TableCell style={{textAlign: 'center'}}>f</TableCell>
                         <TableCell style={{textAlign: 'center'}}>n</TableCell>
                     </StyledTableRow>
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Nominative} />
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Accusative} />
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Genitive} />
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Dative} />
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Ablative} />
-                    <AdjectiveDeclension adj={props.adj} casus={Casus.Vocative} />
+                    { AllCases.map(casus => <AdjectiveDeclension adj={props.adj} casus={casus} />)};
                 </TableBody>
             </Table>
         </TableContainer>
@@ -112,6 +107,7 @@ function AdjectiveEntry(props: {adj: Adjective}) {
 const AdjectiveDeclension: React.FunctionComponent<{adj: Adjective, casus: Casus}> = (props) =>
     <StyledTableRow>
         <TableCell>{props.casus}</TableCell>
+
         <TableCell>{props.adj.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
         <TableCell>{props.adj.decline(Genus.Femininum, props.casus, Numerus.Singular)}</TableCell>
         <TableCell>{props.adj.decline(Genus.Neuter, props.casus, Numerus.Singular)}</TableCell>
@@ -152,12 +148,7 @@ function NounEntry(props: {noun: Noun}) {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    <NounDeclension noun={props.noun} casus={Casus.Nominative} />
-                    <NounDeclension noun={props.noun} casus={Casus.Accusative} />
-                    <NounDeclension noun={props.noun} casus={Casus.Genitive} />
-                    <NounDeclension noun={props.noun} casus={Casus.Dative} />
-                    <NounDeclension noun={props.noun} casus={Casus.Ablative} />
-                    <NounDeclension noun={props.noun} casus={Casus.Vocative} />
+                    { AllCases.map(casus => <NounDeclension noun={props.noun} casus={casus} />)};
                 </TableBody>
             </Table>
         </TableContainer>
