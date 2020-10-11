@@ -31,20 +31,26 @@ import { Word } from "./Word";
 
 export class Noun extends Word {
     private declension: Declension;
-    private genus_: string;
+    private genus_: Genus;
+    private pluraleTantum_: boolean;
 
     public constructor(data: NounData) {
         super(data, `${data.latinNominative}`);
-        this.genus_ = data.genus;
+        this.genus_ = this.dataToGenus(data.genus);
+        this.pluraleTantum_ = data.pluraleTantum ? true : false;
         this.declension = this.determineDeclension(data);
+    }
+
+    public get genus(): Genus {
+        return this.genus_;
+    }
+
+    public get pluraleTantum(): boolean {
+        return this.pluraleTantum_;
     }
 
     public decline(casus: Casus, numerus: Numerus): string | null {
         return this.declension.decline(casus, numerus);
-    }
-
-    public get genus(): string {
-        return this.genus_;
     }
 
     private determineDeclension(data: NounData): Declension {
@@ -77,25 +83,24 @@ export class Noun extends Word {
     }
 
     private nounToDeclension(data: NounData): DeclensionInput {
-        let genus: Genus;
-        switch (data.genus) {
-            case 'm':   genus = Genus.Masculine; break;
-            case 'f':   genus = Genus.Femininum; break;
-            case 'n':   genus = Genus.Neuter; break;
-            case 'm/f': genus = Genus.Masculine; break; // doesn't matter for the declension
-            default:
-                throw Error(`Unknown genus ${data.genus} on ${data.latinNominative}`);
-        }
-
-        const pluraleTantum = data.pluraleTantum ? true : false;
-
         return {
             nominative: data.latinNominative,
             genitiveConstruction: data.latinGenitive,
-            genus: genus,
-            pluraleTantum: pluraleTantum,
+            genus: this.genus,
+            pluraleTantum: this.pluraleTantum,
             overrides: this.getOverridesFor(data),
         };
+    }
+
+    private dataToGenus(str: string): Genus {
+        switch (str) {
+            case 'm':   return Genus.Masculine;
+            case 'f':   return Genus.Femininum;
+            case 'n':   return Genus.Neuter;
+            case 'm/f': return Genus.Masculine; // TODO
+            default:
+                throw Error(`Unknown genus ${str}`);
+        }
     }
 
     private getOverridesFor(data: NounData): DeclensionOverrides | undefined {

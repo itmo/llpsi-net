@@ -32,6 +32,7 @@ export class Adjective extends Word {
     private maleDeclension: Declension;
     private femaleDeclension: Declension;
     private neuterDeclension: Declension;
+    private pluraleTantum_: boolean = false;
 
     public constructor(data: AdjectiveData) {
         super(data, `${data.latinMale}`);
@@ -41,6 +42,10 @@ export class Adjective extends Word {
         this.maleDeclension = m;
         this.femaleDeclension = f;
         this.neuterDeclension = n;
+    }
+    
+    public get pluraleTantum(): boolean {
+        return this.pluraleTantum_;
     }
 
     public decline(genus: Genus, casus: Casus, numerus: Numerus): string | null {
@@ -71,6 +76,7 @@ export class Adjective extends Word {
             const neuterInput = this.adjToDeclension(data, stem + 'um', '-ī', Genus.Neuter);
             neuter = new ODeclension(neuterInput);
         } else if (data.latinMale.endsWith('ī')) {
+            this.pluraleTantum_ = true;
             const maleInput = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ōrum', 'ī', 'ī');
             maleInput.pluraleTantum = true;
             male = new ODeclension(maleInput);

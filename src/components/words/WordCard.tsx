@@ -56,7 +56,7 @@ export function WordCard(props: {word: Word}) {
                     German: {props.word.german}
                 </Typography>
                 <Typography variant='body2' component='p'>
-                                Notables uses: {props.word.references}
+                    Notables uses: {props.word.references}
                 </Typography>
             </CardContent>
         </Card>
@@ -97,7 +97,7 @@ function AdjectiveEntry(props: {adj: Adjective}) {
                         <TableCell style={{textAlign: 'center'}}>f</TableCell>
                         <TableCell style={{textAlign: 'center'}}>n</TableCell>
                     </StyledTableRow>
-                    { AllCases.map(casus => <AdjectiveDeclension adj={props.adj} casus={casus} />)};
+                    { AllCases.map(casus => <AdjectiveDeclension adj={props.adj} casus={casus} />)}
                 </TableBody>
             </Table>
         </TableContainer>
@@ -148,7 +148,7 @@ function NounEntry(props: {noun: Noun}) {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    { AllCases.map(casus => <NounDeclension noun={props.noun} casus={casus} />)};
+                    { AllCases.map(casus => <NounDeclension noun={props.noun} casus={casus} />)}
                 </TableBody>
             </Table>
         </TableContainer>
