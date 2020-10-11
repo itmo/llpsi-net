@@ -17,34 +17,34 @@
  */
 
 import React from 'react';
-import Typography from "@material-ui/core/Typography";
-import { WordDB } from '../../../models/WordDB';
-import { Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, withStyles } from '@material-ui/core';
+import { Box, Collapse, IconButton, Paper, Tab, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import { Adjective } from '../../../models/words/Adjective';
-import { AdjectiveBox } from './AdjectiveBox';
+import { Word } from '../../models/words/Word';
+import { WordCard } from './WordCard';
 
-export const AdjectiveList: React.FunctionComponent<{db: WordDB}> = (props) =>
-  <section>
-    <Typography component='h1' variant='h4'>Adjectives</Typography>
-    <TableContainer component={Paper}>
-        <Table>
-            <TableHead>
-                <TableRow>
-                    <TableCell />
-                    <TableCell>Adjective</TableCell>
-                    <TableCell>Introduced in</TableCell>
-                </TableRow>
-            </TableHead>
-            <TableBody>
-                { props.db.adjectives.map(adj => <AdjectiveRow adj={adj} />) }
-            </TableBody>
-        </Table>
-    </TableContainer>
-  </section>
+export function WordList(props: {words: Word[]}) {
+    return (
+        <React.Fragment>
+            <TableContainer component={Paper}>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell />
+                            <TableCell>Word</TableCell>
+                            <TableCell>Introduced in</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {props.words.map(p => <WordRow particle={p} />)}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </React.Fragment>
+    );
+}
 
-const AdjectiveRow: React.FunctionComponent<{adj: Adjective}> = (props) => {
+function WordRow(props: {particle: Word}) {
     const [open, setOpen] = React.useState(false);
 
     return (
@@ -55,15 +55,18 @@ const AdjectiveRow: React.FunctionComponent<{adj: Adjective}> = (props) => {
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell>{props.adj.lemma}</TableCell>
-                <TableCell>{props.adj.chapter}</TableCell>
+                <TableCell>{props.particle.lemma}</TableCell>
+                <TableCell>{props.particle.chapter}</TableCell>
             </TableRow>
             <TableRow>
-                <TableCell style={{paddingBottom: 0, paddingTop: 0}} colSpan={3}>
+                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
                     <Collapse in={open} unmountOnExit>
-                        <AdjectiveBox adj={props.adj} />
+                        <Box margin={1}>
+                            <WordCard word={props.particle} />
+                        </Box>
                     </Collapse>
                 </TableCell>
             </TableRow>
         </React.Fragment>
-)};
+    );
+}

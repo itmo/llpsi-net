@@ -46,6 +46,7 @@ export interface AdverbData extends BaseWord  {
 export interface ConjunctionData extends BaseWord  {
     wordType: WordType.Conjunction;
     latin: string;
+    abbreviated: string;
 }
 
 export interface InterjectionData extends BaseWord  {
@@ -80,6 +81,7 @@ export interface NumeralData extends BaseWord  {
 export interface PrepositionData extends BaseWord  {
     wordType: WordType.Preposition;
     latin: string;
+    abbreviated: string;
     case: string;
 }
 

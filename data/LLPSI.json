@@ -10,6 +10,7 @@
   {
     "wordType": "Conjunction",
     "latin": "-que",
+    "abbreviated": "",
     "german": "und",
     "english": "and",
     "reference": "2.9, 3.53",
@@ -53,7 +54,8 @@
   },
   {
     "wordType": "Preposition",
-    "latin": "ab / ā",
+    "latin": "ab",
+    "abbreviated": "ā",
     "case": "abl",
     "german": "von, von ... her, seit",
     "english": "from, of, since, bye",
@@ -134,6 +136,7 @@
   {
     "wordType": "Preposition",
     "latin": "ad",
+    "abbreviated": "",
     "case": "acc",
     "german": "zu, nach, bei, bis (zu)",
     "english": "to, towards, by, at, till",
@@ -332,6 +335,7 @@
   {
     "wordType": "Preposition",
     "latin": "ante",
+    "abbreviated": "",
     "case": "acc",
     "german": "vor, vorher",
     "english": "in front of, before",
@@ -371,6 +375,7 @@
   {
     "wordType": "Preposition",
     "latin": "apud",
+    "abbreviated": "",
     "case": "acc",
     "german": "bei",
     "english": "beside, near, by",
@@ -496,7 +501,8 @@
   },
   {
     "wordType": "Conjunction",
-    "latin": "atque / ac",
+    "latin": "atque",
+    "abbreviated": "ac",
     "german": "und, wie, als",
     "english": "and, as, than",
     "reference": "11.41, 12.59, 13.79, 18.143, 20.142, 32.211",
@@ -536,6 +542,7 @@
   {
     "wordType": "Conjunction",
     "latin": "aut",
+    "abbreviated": "",
     "german": "oder",
     "english": "or",
     "reference": "8.14, 8.108, 18.7 aut ... aut",
@@ -876,6 +883,7 @@
   {
     "wordType": "Preposition",
     "latin": "circum",
+    "abbreviated": "",
     "case": "acc",
     "german": "um ... herum",
     "english": "around",
@@ -981,6 +989,7 @@
   {
     "wordType": "Preposition",
     "latin": "contrā",
+    "abbreviated": "",
     "case": "acc",
     "german": "gegen",
     "english": "against",
@@ -1076,6 +1085,7 @@
   {
     "wordType": "Preposition",
     "latin": "cum",
+    "abbreviated": "",
     "case": "abl",
     "german": "mit",
     "english": "with",
@@ -1084,7 +1094,8 @@
   },
   {
     "wordType": "Conjunction",
-    "latin": "cum (conj.)",
+    "latin": "cum",
+    "abbreviated": "",
     "german": "wenn, da, als",
     "english": "when, as",
     "reference": "+indicative: 10.15, 18.128, 19.74, 25.53;+conjunction: 29.76, 29.78, 32.175, 33.109, 21.28 cum prīmum, 42.6 cum ... tum",
@@ -1250,6 +1261,7 @@
   {
     "wordType": "Conjunction",
     "latin": "dum",
+    "abbreviated": "",
     "german": "während, solange, bis",
     "english": "while, as long as, till",
     "reference": "9.39, 9.69, 10.48, 22.8, 51.41 + conjunction",
@@ -1292,6 +1304,7 @@
   {
     "wordType": "Preposition",
     "latin": "dē",
+    "abbreviated": "",
     "case": "abl",
     "german": "von (herab), aus, über",
     "english": "(down) from, of, about",
@@ -1408,6 +1421,7 @@
   {
     "wordType": "Conjunction",
     "latin": "enim",
+    "abbreviated": "",
     "german": "nämlich, denn",
     "english": "for",
     "reference": "10.30",
@@ -1481,6 +1495,7 @@
   {
     "wordType": "Conjunction",
     "latin": "et",
+    "abbreviated": "",
     "german": "und, auch",
     "english": "and, also",
     "reference": "1.2, 25.95, 7.50 et ... et",
@@ -1496,7 +1511,8 @@
   },
   {
     "wordType": "Preposition",
-    "latin": "ex / ē",
+    "latin": "ex",
+    "abbreviated": "ē",
     "case": "abl",
     "german": "aus, von (...her), seit",
     "english": "out of, from, of, since",
@@ -2170,6 +2186,7 @@
   {
     "wordType": "Preposition",
     "latin": "in",
+    "abbreviated": "",
     "case": "abl;acc",
     "german": "in, an, auf;in, auf, nach, zu, gegen",
     "english": "in, on, at;into, to, against",
@@ -2223,6 +2240,7 @@
   {
     "wordType": "Preposition",
     "latin": "inter",
+    "abbreviated": "",
     "case": "acc",
     "german": "zwischen, unter, während",
     "english": "between, among, during",
@@ -2886,6 +2904,7 @@
   {
     "wordType": "Conjunction",
     "latin": "neque",
+    "abbreviated": "nec",
     "german": "und/aber nicht, auch nicht",
     "english": "and not, but not, nor",
     "reference": "3.42, 5.41, 11.54, 7.57 neque ... neque, 10.110 neque enim, 16.138 neque vērō",
@@ -3369,6 +3388,7 @@
   {
     "wordType": "Preposition",
     "latin": "per",
+    "abbreviated": "",
     "case": "acc",
     "german": "durch, bei",
     "english": "through, by",
@@ -3542,6 +3562,7 @@
   {
     "wordType": "Preposition",
     "latin": "post",
+    "abbreviated": "",
     "case": "acc",
     "german": "hinter, nach, nachher",
     "english": "behind, after, later",
@@ -3610,6 +3631,7 @@
   {
     "wordType": "Preposition",
     "latin": "prope",
+    "abbreviated": "",
     "case": "acc",
     "german": "nahe, in der Nähe, beinahe",
     "english": "near, nearly",
@@ -3908,6 +3930,7 @@
   {
     "wordType": "Conjunction",
     "latin": "quia",
+    "abbreviated": "",
     "german": "weil",
     "english": "because",
     "reference": "3.27",
@@ -3932,6 +3955,7 @@
   {
     "wordType": "Conjunction",
     "latin": "quod",
+    "abbreviated": "",
     "german": "weil",
     "english": "because",
     "reference": "10.24, 47.196, 43.236 est quod, 45.108, 49.7",
@@ -3940,6 +3964,7 @@
   {
     "wordType": "Conjunction",
     "latin": "quoque",
+    "abbreviated": "",
     "german": "auch",
     "english": "also, too",
     "reference": "1.3",
@@ -4205,6 +4230,7 @@
   {
     "wordType": "Conjunction",
     "latin": "sed",
+    "abbreviated": "",
     "german": "aber, sondern",
     "english": "but",
     "reference": "1.7, 3.57",
@@ -4275,6 +4301,7 @@
   {
     "wordType": "Preposition",
     "latin": "sine",
+    "abbreviated": "",
     "case": "abl",
     "german": "ohne",
     "english": "without",
@@ -4361,6 +4388,7 @@
   {
     "wordType": "Preposition",
     "latin": "sub",
+    "abbreviated": "",
     "case": "abl;acc",
     "german": "unter, unten an, nahe bei",
     "english": "under, near",
@@ -4370,6 +4398,7 @@
   {
     "wordType": "Preposition",
     "latin": "super",
+    "abbreviated": "",
     "case": "acc;abl",
     "german": "auf, über;über, von",
     "english": "on (top of), above;on, about",
@@ -4379,6 +4408,7 @@
   {
     "wordType": "Preposition",
     "latin": "suprā",
+    "abbreviated": "",
     "case": "acc",
     "german": "oberhalb, über, oben",
     "english": "above",
@@ -4732,6 +4762,7 @@
   {
     "wordType": "Conjunction",
     "latin": "ut",
+    "abbreviated": "",
     "german": "wie, als",
     "english": "like, as",
     "reference": "9.72, 11.104, 12.63, 12.64, 14.120, 18.122, 27.78 +conjunction, 28.87, 28.90, 28.103, 32.42, 37.7, 39.311, 37.150 ut (prīmum), 38.83",
@@ -5130,6 +5161,7 @@
   {
     "wordType": "Preposition",
     "latin": "īnfrā",
+    "abbreviated": "",
     "case": "acc",
     "german": "unterhalb, unter",
     "english": "below",

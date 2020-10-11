@@ -20,16 +20,20 @@ import { Word } from "./Word";
 import { NumeralData } from "../WordData";
 
 export class Numeral extends Word {
-    private word_: string;
-    private number: number;
+    private latin_: string;
+    private number_: number;
 
     public constructor(data: NumeralData) {
         super(data, `${data.latin}`);
-        this.word_ = data.latin;
-        this.number = Number.parseInt(data.number);
+        this.latin_ = data.latin;
+        this.number_ = Number.parseInt(data.number);
     }
 
-    public get word(): string {
-        return this.word_;
+    public get latin(): string {
+        return this.latin_;
+    }
+
+    public get number(): number {
+        return this.number_;
     }
 }

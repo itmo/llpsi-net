@@ -20,14 +20,14 @@ import { Word } from "./Word";
 import { VerbData } from "../WordData";
 
 export class Verb extends Word {
-    private word_: string;
+    private infinitive_: string;
 
     public constructor(data: VerbData) {
         super(data, `${data.latin}`);
-        this.word_ = data.latin;
+        this.infinitive_ = data.latin;
     }
 
-    public get word(): string {
-        return this.word_;
+    public get infinitive(): string {
+        return this.infinitive_;
     }
 }

@@ -39,7 +39,8 @@ import { WordDB } from '../models/WordDB';
 import { About } from './About';
 import { NounList } from './words/nouns/NounList';
 import { AdjectiveList } from './words/adjectives/AdjectiveList';
-import { ParticleList } from './words/particles/ParticleList';
+import { ParticleList } from './words/ParticleList';
+import { WordList } from './words/WordList';
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => createStyles({
@@ -119,11 +120,11 @@ export const App: React.FunctionComponent<AppProps> = props => {
                             </Route>
 
                             <Route path="/words/nouns">
-                                <NounList db={props.db} />
+                                <WordList words={props.db.nouns} />
                             </Route>
 
                             <Route path="/words/adjectives">
-                                <AdjectiveList db={props.db} />
+                            <WordList words={props.db.adjectives} />
                             </Route>
 
                             <Route path="/words/particles">

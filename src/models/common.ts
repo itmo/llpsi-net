@@ -45,3 +45,11 @@ export function stripMacrons(str: string): string {
 export function macronSort(a: string, b: string) {
     return stripMacrons(a) > stripMacrons(b) ? 1 : -1;
 }
+
+export function splitNoEmpty(str: string, sep: string): string[] {
+    if (str == '') {
+        return [];
+    } else {
+        return str.split(sep);
+    }
+}

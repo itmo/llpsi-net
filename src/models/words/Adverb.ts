@@ -20,14 +20,14 @@ import { Word } from "./Word";
 import { AdverbData } from "../WordData";
 
 export class Adverb extends Word {
-    private word_: string;
+    private latin_: string;
 
     public constructor(data: AdverbData) {
         super(data, `${data.latin}`);
-        this.word_ = data.latin;
+        this.latin_ = data.latin;
     }
 
-    public get word(): string {
-        return this.word_;
+    public get latin(): string {
+        return this.latin_;
     }
 }
