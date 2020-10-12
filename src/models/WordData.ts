@@ -87,7 +87,9 @@ export interface PrepositionData extends BaseWord  {
 
 export interface PronounData extends BaseWord  {
     wordType: WordType.Pronoun;
-    nominativeSingular: string;
+    latinMale: string;
+    latinFemale: string;
+    latinNeuter: string;
     genitiveSingular: string;
     genus: string;
 }

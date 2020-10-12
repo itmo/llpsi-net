@@ -27,6 +27,7 @@ import { Adjective } from "../../models/words/Adjective";
 import { Conjunction } from "../../models/words/Conjunction";
 import { Noun } from "../../models/words/Noun";
 import { Preposition } from "../../models/words/Preposition";
+import { Pronoun } from "../../models/words/Pronoun";
 import { Word } from "../../models/words/Word";
 
 const StyledTableRow = withStyles((theme) => ({
@@ -36,7 +37,6 @@ const StyledTableRow = withStyles((theme) => ({
       },
     },
   }))(TableRow);
-
 
 export function WordCard(props: {word: Word}) {
     return (
@@ -65,16 +65,17 @@ export function WordCard(props: {word: Word}) {
 
 function getWordData(word: Word): JSX.Element {
     switch (word.type) {
-        case WordType.Adjective:    return <AdjectiveEntry adj={word as Adjective} />;
+        case WordType.Adjective:    return <AdjectiveEntry word={word as Adjective} />;
         case WordType.Conjunction:  return <ConjunctionEntry conj={word as Conjunction} />;
         case WordType.Preposition:  return <PrepositionEntry prp={word as Preposition} />;
         case WordType.Noun:         return <NounEntry noun={word as Noun} />;
+        case WordType.Pronoun:      return <AdjectiveEntry word={word as Pronoun} />;
         default:
             return <React.Fragment />;
     }
 }
 
-function AdjectiveEntry(props: {adj: Adjective}) {
+function AdjectiveEntry(props: {word: Adjective | Pronoun}) {
     return (
     <React.Fragment>
         <Typography variant='h6' component='h6'>Declension</Typography>
@@ -97,24 +98,24 @@ function AdjectiveEntry(props: {adj: Adjective}) {
                         <TableCell style={{textAlign: 'center'}}>f</TableCell>
                         <TableCell style={{textAlign: 'center'}}>n</TableCell>
                     </StyledTableRow>
-                    { AllCases.map(casus => <AdjectiveDeclension adj={props.adj} casus={casus} />)}
+                    { AllCases.map(casus => <AdjectiveDeclension word={props.word} casus={casus} />)}
                 </TableBody>
             </Table>
         </TableContainer>
     </React.Fragment>
 )};
 
-const AdjectiveDeclension: React.FunctionComponent<{adj: Adjective, casus: Casus}> = (props) =>
+const AdjectiveDeclension: React.FunctionComponent<{word: Adjective | Pronoun, casus: Casus}> = (props) =>
     <StyledTableRow>
         <TableCell>{props.casus}</TableCell>
 
-        <TableCell>{props.adj.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
-        <TableCell>{props.adj.decline(Genus.Femininum, props.casus, Numerus.Singular)}</TableCell>
-        <TableCell>{props.adj.decline(Genus.Neuter, props.casus, Numerus.Singular)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Singular)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Singular)}</TableCell>
 
-        <TableCell>{props.adj.decline(Genus.Masculine, props.casus, Numerus.Plural)}</TableCell>
-        <TableCell>{props.adj.decline(Genus.Femininum, props.casus, Numerus.Plural)}</TableCell>
-        <TableCell>{props.adj.decline(Genus.Neuter, props.casus, Numerus.Plural)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Plural)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Plural)}</TableCell>
+        <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Plural)}</TableCell>
     </StyledTableRow>                    
 
 const ConjunctionEntry: React.FunctionComponent<{conj: Conjunction}> = (props) =>

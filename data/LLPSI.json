@@ -2204,6 +2204,18 @@
     "chapter": 9
   },
   {
+    "wordType": "Pronoun",
+    "latinMale": "hic",
+    "latinFemale": "haec",
+    "latinNeuter": "hoc",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "dieser",
+    "english": "this",
+    "reference": "7.43, 7.85, 7.90",
+    "chapter": 7
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "hiems",
     "latinGenitive": "-mis",
@@ -2344,6 +2356,18 @@
     "english": "therefore, then, so",
     "reference": "13.23",
     "chapter": 13
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "ille",
+    "latinFemale": "-a",
+    "latinNeuter": "-ud",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "jener",
+    "english": "that, the one, he",
+    "reference": "8.41, 8.70, 8.79",
+    "chapter": 8
   },
   {
     "wordType": "Adverb",
@@ -2567,6 +2591,18 @@
     "english": "enter",
     "reference": "6.76, 6.88, 10.52, 11.57",
     "chapter": 6
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "is",
+    "latinFemale": "ea",
+    "latinNeuter": "id",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "er, sie, es, der(jenige)",
+    "english": "he, she it, that",
+    "reference": "4.77, 5.7, 5.33, 8.138",
+    "chapter": 4
   },
   {
     "wordType": "Adverb",
@@ -3478,7 +3514,9 @@
   },
   {
     "wordType": "Pronoun",
-    "nominativeSingular": "nēmō",
+    "latinMale": "nēmō",
+    "latinFemale": "",
+    "latinNeuter": "",
     "genitiveSingular": "nēminis",
     "genus": "m/f",
     "german": "niemand, keiner",
@@ -4467,19 +4505,15 @@
     "chapter": 3
   },
   {
-    "wordType": "Interrogative",
-    "latin": "quid",
-    "german": "was, etwas",
-    "english": "what, anything",
-    "reference": "1.50, 2.76",
-    "chapter": 1
-  },
-  {
-    "wordType": "Interrogative",
-    "latin": "quis",
+    "wordType": "Pronoun",
+    "latinMale": "quis",
+    "latinFemale": "quae",
+    "latinNeuter": "quid",
+    "genitiveSingular": "",
+    "genus": "",
     "german": "wer, was",
     "english": "who, what",
-    "reference": "1.55, 2.15, 2.16, 39.175",
+    "reference": "1.50, 1.55, 2.15, 2.16, 2.76, 39.175",
     "chapter": 1
   },
   {

@@ -28,6 +28,10 @@ import { Numerus } from "../types/Numerus";
 import { AdjectiveData, DeclensionOverrides } from "../WordData";
 import { Word } from "./Word";
 
+export enum AdjectiveDeclension {
+    AO, Cons, Irregular
+}
+
 export class Adjective extends Word {
     private maleDeclension: Declension;
     private femaleDeclension: Declension;
@@ -46,6 +50,16 @@ export class Adjective extends Word {
     
     public get pluraleTantum(): boolean {
         return this.pluraleTantum_;
+    }
+
+    public get declensionType(): AdjectiveDeclension {
+        if (this.maleDeclension instanceof ODeclension) {
+            return AdjectiveDeclension.AO;
+        } else if (this.maleDeclension instanceof IPureDeclension) {
+            return AdjectiveDeclension.Cons;
+        } else {
+            return AdjectiveDeclension.Irregular;
+        }
     }
 
     public decline(genus: Genus, casus: Casus, numerus: Numerus): string | null {

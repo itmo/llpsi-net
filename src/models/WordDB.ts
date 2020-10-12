@@ -48,8 +48,46 @@ export class WordDB {
     public interrogatives: Interrogative[] = [];
     public prepositions: Preposition[] = [];
 
+    private maxChapter_: number = 0;
+
     public constructor(data: WordData[]) {
         this.loadWords(data);
+    }
+
+    public get maxChapter() {
+        return this.maxChapter_;
+    }
+
+    public getVerb(lemma: string): Verb {
+        const verb = this.verbs.find(v => v.lemma == lemma);
+        if (!verb) {
+            throw Error(`Verb ${lemma} not found`);
+        }
+        return verb;
+    }
+
+    public getPreposition(lemma: string): Word {
+        const prp = this.prepositions.find(p => p.lemma == lemma);
+        if (!prp) {
+            throw Error(`Preposition ${lemma} not found`);
+        }
+        return prp;
+    }
+
+    public getNoun(lemma: string): Noun {
+        const noun = this.nouns.find(n => n.lemma == lemma);
+        if (!noun) {
+            throw Error(`Noun ${lemma} not found`);
+        }
+        return noun;
+    }
+
+    public getPronoun(lemma: string): Pronoun {
+        const pronoun = this.pronouns.find(p => p.lemma == lemma);
+        if (!pronoun) {
+            throw Error(`Pronoun ${lemma} not found`);
+        }
+        return pronoun;
     }
 
     private loadWords(data: WordData[]): void {
@@ -58,7 +96,13 @@ export class WordDB {
             this.adverbs, this.adjectives, this.conjunctions, this.interjections,
             this.interrogatives, this.nouns, this.numerals, this.prepositions,
             this.pronouns, this.verbs
-        ])
+        ]);
+
+        for (const word of this.nouns) {
+            if (word.chapter > this.maxChapter_) {
+                this.maxChapter_ = word.chapter;
+            }
+        }
     }
 
     private sortLists(lists: Word[][]) {

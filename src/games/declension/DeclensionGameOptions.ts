@@ -16,16 +16,9 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { Casus } from "../../models/types/Casus";
-import { Genus } from "../../models/types/Genus";
-import { Numerus } from "../../models/types/Numerus";
-import { Word } from "../../models/words/Word";
+import { GrammarKnowledge } from "../../models/GrammarKnowledge";
 
-export interface DeclensionChallenge {
-    number: Numerus;
-    casus: Casus;
-    genus: Genus;
-
-    indicator: Word;
-    words: Word[];
+export interface DeclensionGameOptions {
+    knowledge: GrammarKnowledge;
+    vocabChapter: number;
 }

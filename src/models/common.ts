@@ -25,19 +25,19 @@ export function changeSuffix(str: string, suffix: string, to: string): string {
 }
 
 export function stripMacrons(str: string): string {
-    str = str.replace('ā', 'a');
-    str = str.replace('ē', 'e');
-    str = str.replace('ī', 'i');
-    str = str.replace('ō', 'o');
-    str = str.replace('ū', 'u');
-    str = str.replace('ȳ', 'y');
+    str = str.replace(/ā/g, 'a');
+    str = str.replace(/ē/g, 'e');
+    str = str.replace(/ī/g, 'i');
+    str = str.replace(/ō/g, 'o');
+    str = str.replace(/ū/g, 'u');
+    str = str.replace(/ȳ/g, 'y');
 
-    str = str.replace('Ā', 'A');
-    str = str.replace('Ē', 'E');
-    str = str.replace('Ī', 'I');
-    str = str.replace('Ō', 'O');
-    str = str.replace('Ū', 'U');
-    str = str.replace('Ȳ', 'Y');
+    str = str.replace(/Ā/g, 'A');
+    str = str.replace(/Ē/g, 'E');
+    str = str.replace(/Ī/g, 'I');
+    str = str.replace(/Ō/g, 'O');
+    str = str.replace(/Ū/g, 'U');
+    str = str.replace(/Ȳ/g, 'Y');
 
     return str;
 }
@@ -52,4 +52,19 @@ export function splitNoEmpty(str: string, sep: string): string[] {
     } else {
         return str.split(sep);
     }
+}
+
+export function randomElement<T>(elems: T[], pred?: ((x: T) => boolean)): T | undefined {
+    let filtered: T[];
+    if (pred) {
+        filtered = elems.filter(pred);
+    } else {
+        filtered = elems;
+    }
+
+    if (filtered.length == 0) {
+        return undefined;
+    }
+
+    return filtered[Math.floor(Math.random() * filtered.length)];
 }

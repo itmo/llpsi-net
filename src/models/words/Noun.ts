@@ -23,6 +23,7 @@ import { EDeclension } from "../declensions/EDeclension";
 import { IMixedDeclension } from "../declensions/IMixedDeclension";
 import { IndeclinableDeclension } from "../declensions/IndeclinableDeclension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
+import { IrregularDeclension } from "../declensions/IrregularDeclension";
 import { ODeclension } from "../declensions/ODeclension";
 import { UDeclension } from "../declensions/UDeclension";
 import { Casus } from "../types/Casus";
@@ -30,6 +31,10 @@ import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
 import { DeclensionOverrides, NounData } from "../WordData";
 import { Word } from "./Word";
+
+export enum NounDeclension {
+    A, O, Cons, I, U, E, Indeclinable
+}
 
 export class Noun extends Word {
     private declension: Declension;
@@ -49,6 +54,24 @@ export class Noun extends Word {
 
     public get pluraleTantum(): boolean {
         return this.pluraleTantum_;
+    }
+
+    public get declensionType(): NounDeclension {
+        if (this.declension instanceof ADeclension) {
+            return NounDeclension.A;
+        } else if (this.declension instanceof ODeclension) {
+            return NounDeclension.O;
+        } else if (this.declension instanceof UDeclension) {
+            return NounDeclension.U;
+        } else if (this.declension instanceof ConsDeclension) {
+            return NounDeclension.Cons;
+        } else if (this.declension instanceof IMixedDeclension || this.declension instanceof IPureDeclension) {
+            return NounDeclension.I;
+        } else if (this.declension instanceof EDeclension) {
+            return NounDeclension.E;
+        } else {
+            return NounDeclension.Indeclinable;
+        }
     }
 
     public decline(casus: Casus, numerus: Numerus): string | null {

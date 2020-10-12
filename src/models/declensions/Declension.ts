@@ -49,7 +49,7 @@ export abstract class Declension {
 
     public decline(casus: Casus, numerus: Numerus) {
         const override = this.getOverride(casus, numerus);
-        if (override) {
+        if (typeof(override) ==  'string') {
             return override;
         } else {
             return this.buildDeclension(casus, numerus);
@@ -80,7 +80,7 @@ export abstract class Declension {
         const idx: string = this.casusToOverride(casus, numerus);
         if (this.overrides && idx in this.overrides) {
             const ovr = this.overrides[idx as keyof DeclensionOverrides];
-            if (ovr) {
+            if (typeof(ovr) == 'string') {
                 return ovr;
             }
         }

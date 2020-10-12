@@ -18,8 +18,9 @@
 
 import React from 'react';
 import Typography from "@material-ui/core/Typography";
+import { WordDB } from '../models/WordDB';
 
-export const About: React.FunctionComponent = () =>
+export const About: React.FunctionComponent<{db: WordDB}> = (props) =>
   <section>
     <Typography component='h1' variant='h4'>About LLPSI.net</Typography>
     <Typography variant='body1'>
@@ -27,7 +28,7 @@ export const About: React.FunctionComponent = () =>
             This will become a training platform for the book <Typography component='em'>Lingua Latina per se Illustra</Typography>.
         </p>
         <p>
-          As of now, the words up to chapter 13 are included. More will be added as I progress with LLPSI.
+          As of now, the words up to chapter {props.db.maxChapter} are included. More will be added as I progress with LLPSI.
         </p>
     </Typography>
   </section>

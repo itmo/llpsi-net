@@ -22,6 +22,9 @@ import { HashRouter as Router, Route, Link as RouterLink, Switch, Redirect } fro
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
+import SportsEsports from '@material-ui/icons/SportsEsports';
+import People from '@material-ui/icons/People';
+import DirectionsRun from '@material-ui/icons/DirectionsRun';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
 import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -39,6 +42,7 @@ import { WordDB } from '../models/WordDB';
 import { About } from './About';
 import { ParticleList } from './words/ParticleList';
 import { WordList } from './words/WordList';
+import { DeclensionGameView } from './games/DeclensionGameView';
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => createStyles({
@@ -98,9 +102,21 @@ export const App: React.FunctionComponent<AppProps> = props => {
                                 <ListItemIcon><FitnessCenterIcon /></ListItemIcon>
                                 <ListItemText primary='Adjectives' />
                             </ListItem>
+                            <ListItem button component={RouterLink} to='/words/pronouns'>
+                                <ListItemIcon><People /></ListItemIcon>
+                                <ListItemText primary='Pronouns' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/words/verbs'>
+                                <ListItemIcon><DirectionsRun /></ListItemIcon>
+                                <ListItemText primary='Verbs' />
+                            </ListItem>
                             <ListItem button component={RouterLink} to='/words/particles'>
                                 <ListItemIcon><PlaylistAddCheckIcon /></ListItemIcon>
                                 <ListItemText primary='Particles' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/games/declension'>
+                                <ListItemIcon><SportsEsports /></ListItemIcon>
+                                <ListItemText primary='Games' />
                             </ListItem>
                             <ListItem button component={RouterLink} to='/about'>
                                 <ListItemIcon><InfoIcon /></ListItemIcon>
@@ -114,7 +130,7 @@ export const App: React.FunctionComponent<AppProps> = props => {
                     <Container className={classes.container}>
                         <Switch>
                             <Route exact path="/">
-                                <Redirect to="/words/nouns" />
+                                <Redirect to="/games/declension" />
                             </Route>
 
                             <Route path="/words/nouns">
@@ -122,15 +138,27 @@ export const App: React.FunctionComponent<AppProps> = props => {
                             </Route>
 
                             <Route path="/words/adjectives">
-                            <WordList words={props.db.adjectives} />
+                                <WordList words={props.db.adjectives} />
+                            </Route>
+
+                            <Route path="/words/pronouns">
+                                <WordList words={props.db.pronouns} />
+                            </Route>
+
+                            <Route path="/words/verbs">
+                            <WordList words={props.db.verbs} />
                             </Route>
 
                             <Route path="/words/particles">
                                 <ParticleList db={props.db} />
                             </Route>
 
+                            <Route path="/games/declension">
+                                <DeclensionGameView db={props.db} />
+                            </Route>
+
                             <Route path="/about">
-                                <About />
+                                <About db={props.db} />
                             </Route>
                         </Switch>
                     </Container>

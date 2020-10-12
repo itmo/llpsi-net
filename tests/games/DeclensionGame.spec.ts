@@ -24,6 +24,12 @@ import { DeclensionChallenge } from '../../src/games/declension/DeclensionChalle
 import { Numerus } from '../../src/models/types/Numerus';
 import { expect } from 'chai';
 import { Word } from '../../src/models/words/Word';
+import { getGrammarKnowledge } from '../../src/models/GrammarKnowledge';
+import { Pronoun } from '../../src/models/words/Pronoun';
+import { Casus } from '../../src/models/types/Casus';
+import { Genus } from '../../src/models/types/Genus';
+import { Adjective } from '../../src/models/words/Adjective';
+import { Noun } from '../../src/models/words/Noun';
 
 let game: DeclensionGame;
 let db: WordDB
@@ -42,16 +48,24 @@ before(() => {
 });
 
 describe('Declension game', () => {
-    it('accepts solutions without macrons', () => {
+    it('accepts solutions macrons', () => {
         const challenge: DeclensionChallenge = {
-            preposition: findWord(db.prepositions, 'dē'),
-            noun: findWord(db.nouns, 'fīlius'),
-            adjective: findWord(db.adjectives, 'parvus'),
-            number: Numerus.Singular
-        }
+            indicator: findWord<Pronoun>(db.pronouns, 'quis'),
+            casus: Casus.Genitive,
+            number: Numerus.Plural,
+            genus: Genus.Femininum,
+            words: [findWord<Noun>(db.nouns, 'puella'), findWord<Adjective>(db.adjectives, 'parvus')],
+        };
 
-        expect(game.check(challenge, 'de filio parvo', false)).to.be.true
-        expect(game.check(challenge, 'de parvo filio', false)).to.be.true
-        expect(game.check(challenge, 'de filium parvo', false)).to.be.false
+        expect(game.check(challenge, 'puellārum parvārum')).to.be.true;
+        expect(game.check(challenge, 'parvārum puellārum')).to.be.true;
+        
+        expect(game.check(challenge, 'parvarum puellarum')).to.be.true;
+        expect(game.check(challenge, 'puellarum parvarum')).to.be.true;
+
+        expect(game.check(challenge, 'Parvarum puellarum')).to.be.true;
+        expect(game.check(challenge, 'Puellarum parvarum')).to.be.true;
+
+        expect(game.check(challenge, 'puellārum parvarum')).to.be.false;
     });
 });
