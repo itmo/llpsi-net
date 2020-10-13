@@ -156,7 +156,7 @@ export class DeclensionGame {
     public check(challenge: DeclensionChallenge, response: string): boolean {
         const checkMacrons = (response != stripMacrons(response));
         const isAnswer = response.split(' ').map(w => w.toLowerCase());
-        const shouldAnswer = this.getAnswer(challenge);
+        const shouldAnswer = this.getAnswer(challenge).map(w => w.toLowerCase());
 
         if (isAnswer.length != shouldAnswer.length) {
             return false;

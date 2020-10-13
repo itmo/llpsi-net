@@ -20,7 +20,7 @@ import React, { useRef, useState } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { WordDB } from '../../models/WordDB';
 import { DeclensionGame } from '../../games/declension/DeclensionGame';
-import { Box, Button, Collapse, FormControl, FormGroup, FormLabel, IconButton, Paper, Slider, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, FormLabel, IconButton, Paper, Slider, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
 import { DeclensionGameOptions } from '../../games/declension/DeclensionGameOptions';
 import { DeclensionChallenge } from '../../games/declension/DeclensionChallenge';
 import { getGrammarKnowledge } from '../../models/GrammarKnowledge';
@@ -45,75 +45,80 @@ enum GameState {
 
 export function DeclensionGameView(props: GameViewProps) {
     const [state, setState] = useState<GameState>(GameState.Options);
-    const [options, setOptions] = useState<DeclensionGameOptions>();
+    const [options, setOptions] = useState<DeclensionGameOptions>({
+        knowledge: getGrammarKnowledge(props.db.maxChapter),
+        vocabChapter: props.db.maxChapter,
+    });
     const [game, setGame] = useState<DeclensionGame>(new DeclensionGame(props.db));
     const [challenge, setChallenge] = useState<DeclensionChallenge>();
 
     function onOptionsSet(opts: DeclensionGameOptions) {
-        setOptions(opts);
+        setOptions(old => Object.assign(old, opts));
         setChallenge(game.createChallenge(opts));
         setState(GameState.Game);
     }
 
     function onNextGame() {
-        if (options) {
-            setChallenge(game.createChallenge(options));
-        }
+        setChallenge(game.createChallenge(options));
     }
 
     return (
-        <section>
+        <React.Fragment>
             <Typography component='h1' variant='h4'>Declension Game</Typography>
             { state == GameState.Options &&
                 <GameOptions
                     db={props.db}
+                    initial={options}
                     onDone={opts => onOptionsSet(opts)}
                 />
             }
             { state == GameState.Game && challenge &&
-                <Game game={game} challenge={challenge} onNext={() => onNextGame()} />
+                <Game game={game} challenge={challenge}
+                    onNext={() => onNextGame()}
+                    onCancel={() => setState(GameState.Options)}
+                />
             }
-        </section>
+        </React.Fragment>
     );
 }
 
 interface OptionsProps {
     db: WordDB;
+    initial: DeclensionGameOptions;
     onDone(options: DeclensionGameOptions): void;
 }
 
 function GameOptions(props: OptionsProps) {
-    const [options, setOptions] = useState<DeclensionGameOptions>({
-        knowledge: getGrammarKnowledge(props.db.maxChapter),
-        vocabChapter: props.db.maxChapter,
-    });
+    const [options, setOptions] = useState<DeclensionGameOptions>(props.initial);
 
     return (
-        <form onSubmit={() =>props.onDone(options)}>
-            <FormGroup>
-                <FormControl>
-                    <FormLabel>Vocabulary up to chapter</FormLabel>
-                    <Slider
-                        defaultValue={props.db.maxChapter}
-                        valueLabelDisplay='auto'
-                        getAriaValueText={value => value.toString()}
-                        step={1} min={1} max={props.db.maxChapter} marks
-                        onChangeCommitted={(_, value) => setOptions(old => ({...old, vocabChapter: value as number}))}
-                    />
-                </FormControl>
-                <FormControl>
-                    <FormLabel>Grammar up to chapter</FormLabel>
-                    <Slider
-                        defaultValue={props.db.maxChapter}
-                        valueLabelDisplay='auto'
-                        getAriaValueText={value => value.toString()}
-                        step={1} min={1} max={props.db.maxChapter} marks
-                        onChangeCommitted={(_, value) => setOptions(old => ({...old, knowledge: getGrammarKnowledge(value as number)}))}
-                    />
-                </FormControl>
-            </FormGroup>
-            <Button type='submit' variant='contained' color='primary'>Start</Button>
-        </form>
+        <Box p={1}>
+            <form onSubmit={() =>props.onDone(options)}>
+                <FormGroup>
+                    <FormControl margin='normal'>
+                        <FormLabel>Vocabulary up to chapter</FormLabel>
+                        <Slider
+                            defaultValue={props.db.maxChapter}
+                            valueLabelDisplay='on'
+                            getAriaValueText={value => value.toString()}
+                            step={1} min={1} max={props.db.maxChapter} marks
+                            onChangeCommitted={(_, value) => setOptions(old => ({...old, vocabChapter: value as number}))}
+                        />
+                    </FormControl>
+                    <FormControl margin='normal'>
+                        <FormLabel>Grammar up to chapter</FormLabel>
+                        <Slider
+                            defaultValue={props.db.maxChapter}
+                            valueLabelDisplay='on'
+                            getAriaValueText={value => value.toString()}
+                            step={1} min={1} max={props.db.maxChapter} marks
+                            onChangeCommitted={(_, value) => setOptions(old => ({...old, knowledge: getGrammarKnowledge(value as number)}))}
+                        />
+                    </FormControl>
+                </FormGroup>
+                <Button type='submit' variant='contained' color='primary'>Start</Button>
+            </form>
+        </Box>
     );
 }
 
@@ -121,6 +126,7 @@ interface GameProps {
     game: DeclensionGame;
     challenge: DeclensionChallenge;
     onNext(): void;
+    onCancel(): void;
 }
 
 function Game(props: GameProps): JSX.Element {
@@ -140,35 +146,41 @@ function Game(props: GameProps): JSX.Element {
         props.onNext();
     }
 
+    function reset() {
+        props.onCancel();
+    }
+
     return (
         <React.Fragment>
-            <TableContainer component={Paper}>
-                <Typography component='p'>
-                    { challenge.indicator instanceof Pronoun && challenge.casus != Casus.Vocative &&
-                        'Type the answer to the interrogative pronoun.'
-                    }
-                    { challenge.casus == Casus.Vocative &&
-                        'Exclaim the answer (vocative).'
-                    }
-                    { challenge.indicator instanceof Preposition &&
-                        'Decline including the preposition.'
-                    }
-                </Typography>
-                <Table size='small'>
-                    <TableBody>
-                        <TableRow>
-                            <TableCell>Numerus</TableCell>
-                            <TableCell>{challenge.number}</TableCell>
-                        </TableRow>
-                        { getIndicatorRow(challenge) }
-                        { challenge.words.map(w => <WordRow word={w} />) }
-                    </TableBody>
-                </Table>
-            </TableContainer>
-            <Paper>
+            <Typography variant='body1'>
+                { challenge.indicator instanceof Pronoun && challenge.casus != Casus.Vocative &&
+                    'Type the answer to the interrogative pronoun.'
+                }
+                { challenge.casus == Casus.Vocative &&
+                    'Exclaim the answer (vocative).'
+                }
+                { challenge.indicator instanceof Preposition &&
+                    'Decline including the preposition.'
+                }
+            </Typography>
+            <Box mt={1} mb={1}>
+                <TableContainer component={Paper}>
+                    <Table size='small'>
+                        <TableBody>
+                            <TableRow>
+                                <TableCell>Numerus</TableCell>
+                                <TableCell>{challenge.number}</TableCell>
+                            </TableRow>
+                            { getIndicatorRow(challenge) }
+                            { challenge.words.map(w => <WordRow word={w} />) }
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            </Box>
+            <Box mt={1}>
                 <form noValidate autoCorrect='off' autoComplete='off' autoCapitalize='off' spellCheck='false'>
                     <FormGroup>
-                        <FormControl>
+                        <FormControl margin='normal'>
                             <TextField label='Entere answer here' variant='outlined'
                                 autoComplete='off'
                                 autoFocus={true}
@@ -178,14 +190,12 @@ function Game(props: GameProps): JSX.Element {
                             />
                         </FormControl>
                     </FormGroup>
-                    <Button type='submit' variant='contained' color='primary'
-                        onClick={() => next()}
-                        disabled={!right}
-                    >
-                        Next
-                    </Button>
+                    <ButtonGroup color='primary' variant='contained'>
+                        <Button type='submit' onClick={() => next()} disabled={!right}>Next</Button>
+                        <Button onClick={() => reset()}>Cancel</Button>
+                    </ButtonGroup>
                 </form>
-            </Paper>
+            </Box>
         </React.Fragment>
     );
 }

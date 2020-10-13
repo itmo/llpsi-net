@@ -18,7 +18,7 @@
 
 import React from 'react';
 import { HashRouter as Router, Route, Link as RouterLink, Switch, Redirect } from 'react-router-dom';
-
+import clsx from 'clsx';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
@@ -43,32 +43,88 @@ import { About } from './About';
 import { ParticleList } from './words/ParticleList';
 import { WordList } from './words/WordList';
 import { DeclensionGameView } from './games/DeclensionGameView';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import { Divider, Grid, Paper } from '@material-ui/core';
 
 const drawerWidth = 240;
-const useStyles = makeStyles(theme => createStyles({
+const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
     },
+    toolbar: {
+        paddingRight: 24, // keep right padding when drawer closed
+    },
+    toolbarIcon: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        padding: '0 8px',
+        ...theme.mixins.toolbar,
+    },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
+        transition: theme.transitions.create(['width', 'margin'], {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.leavingScreen,
+        }),
     },
-    drawer: {
-        width: drawerWidth,
-        flexShrink: 0,
+    appBarShift: {
+        marginLeft: drawerWidth,
+        width: `calc(100% - ${drawerWidth}px)`,
+        transition: theme.transitions.create(['width', 'margin'], {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.enteringScreen,
+        }),
+    },
+    menuButton: {
+        marginRight: 36,
+    },
+    menuButtonHidden: {
+        display: 'none',
+    },
+    title: {
+        flexGrow: 1,
     },
     drawerPaper: {
+        position: 'relative',
+        whiteSpace: 'nowrap',
         width: drawerWidth,
+        transition: theme.transitions.create('width', {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.enteringScreen,
+        }),
     },
-    drawerContainer: {
-        overFlow: 'auto',
+    drawerPaperClose: {
+        overflowX: 'hidden',
+        transition: theme.transitions.create('width', {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.leavingScreen,
+        }),
+        width: theme.spacing(7),
+        [theme.breakpoints.up('sm')]: {
+            width: theme.spacing(9),
+        },
     },
+    appBarSpacer: theme.mixins.toolbar,
     content: {
         flexGrow: 1,
-        padding: theme.spacing(3),
+        height: '100vh',
+        overflow: 'auto',
     },
     container: {
         paddingTop: theme.spacing(4),
         paddingBottom: theme.spacing(4),
+    },
+    paper: {
+        padding: theme.spacing(2),
+        display: 'flex',
+        overflow: 'auto',
+        flexDirection: 'column',
+    },
+    fixedHeight: {
+        height: 240,
     },
 }));
 
@@ -78,91 +134,110 @@ export interface AppProps {
 
 export const App: React.FunctionComponent<AppProps> = props => {
     const classes = useStyles();
-
+    
+    const [open, setOpen] = React.useState(true);
+    
+    const handleDrawerOpen = () => {
+        setOpen(true);
+    };
+    
+    const handleDrawerClose = () => {
+        setOpen(false);
+    };
+    
     return (
         <div className={classes.root}>
             <CssBaseline />
-            <AppBar position='fixed' className={classes.appBar}>
-                <Toolbar>
+            <AppBar position='absolute' className={clsx(classes.appBar, open && classes.appBarShift)}>
+                <Toolbar className={classes.toolbar}>
+                    <IconButton edge='start' color='inherit' onClick={handleDrawerOpen} className={clsx(classes.menuButton, open && classes.menuButtonHidden)}>
+                        <MenuIcon />
+                    </IconButton>
                     <Typography component='h1' variant='h6' color='inherit' noWrap>
                         LLPSI.net
                     </Typography>
                 </Toolbar>
             </AppBar>
             <Router>
-                <Drawer variant='permanent' className={classes.drawer} classes={{paper: classes.drawerPaper}}>
-                    <Toolbar />
-                    <div className={classes.drawerContainer}>
-                        <List>
-                            <ListItem button component={RouterLink} to='/words/nouns'>
-                                <ListItemIcon><LocalFloristIcon /></ListItemIcon>
-                                <ListItemText primary='Nouns' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/words/adjectives'>
-                                <ListItemIcon><FitnessCenterIcon /></ListItemIcon>
-                                <ListItemText primary='Adjectives' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/words/pronouns'>
-                                <ListItemIcon><People /></ListItemIcon>
-                                <ListItemText primary='Pronouns' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/words/verbs'>
-                                <ListItemIcon><DirectionsRun /></ListItemIcon>
-                                <ListItemText primary='Verbs' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/words/particles'>
-                                <ListItemIcon><PlaylistAddCheckIcon /></ListItemIcon>
-                                <ListItemText primary='Particles' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/games/declension'>
-                                <ListItemIcon><SportsEsports /></ListItemIcon>
-                                <ListItemText primary='Games' />
-                            </ListItem>
-                            <ListItem button component={RouterLink} to='/about'>
-                                <ListItemIcon><InfoIcon /></ListItemIcon>
-                                <ListItemText primary='About' />
-                            </ListItem>
-                        </List>
+                <Drawer variant='permanent' open={open}
+                    classes={{paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose)}}>
+                    <div className={classes.toolbarIcon}>
+                        <IconButton onClick={handleDrawerClose}>
+                            <ChevronLeftIcon />
+                        </IconButton>
                     </div>
+                    <Divider />
+                    <List>
+                        <ListItem button component={RouterLink} to='/words/nouns'>
+                            <ListItemIcon><LocalFloristIcon /></ListItemIcon>
+                            <ListItemText primary='Nouns' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/words/adjectives'>
+                            <ListItemIcon><FitnessCenterIcon /></ListItemIcon>
+                            <ListItemText primary='Adjectives' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/words/pronouns'>
+                            <ListItemIcon><People /></ListItemIcon>
+                            <ListItemText primary='Pronouns' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/words/verbs'>
+                            <ListItemIcon><DirectionsRun /></ListItemIcon>
+                            <ListItemText primary='Verbs' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/words/particles'>
+                            <ListItemIcon><PlaylistAddCheckIcon /></ListItemIcon>
+                            <ListItemText primary='Particles' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/games/declension'>
+                            <ListItemIcon><SportsEsports /></ListItemIcon>
+                            <ListItemText primary='Games' />
+                        </ListItem>
+                        <ListItem button component={RouterLink} to='/about'>
+                            <ListItemIcon><InfoIcon /></ListItemIcon>
+                            <ListItemText primary='About' />
+                        </ListItem>
+                    </List>
                 </Drawer>
                 <main className={classes.content}>
-                    <Toolbar />
-                    <Container className={classes.container}>
-                        <Switch>
-                            <Route exact path="/">
-                                <Redirect to="/games/declension" />
-                            </Route>
+                    <div className={classes.appBarSpacer} />
+                    <Container maxWidth='lg' className={classes.container}>
+                        <Paper className={classes.paper}>
+                            <Switch>
+                                <Route exact path="/">
+                                    <Redirect to="/games/declension" />
+                                </Route>
 
-                            <Route path="/words/nouns">
-                                <WordList words={props.db.nouns} />
-                            </Route>
+                                <Route path="/words/nouns">
+                                    <WordList words={props.db.nouns} />
+                                </Route>
 
-                            <Route path="/words/adjectives">
-                                <WordList words={props.db.adjectives} />
-                            </Route>
+                                <Route path="/words/adjectives">
+                                    <WordList words={props.db.adjectives} />
+                                </Route>
 
-                            <Route path="/words/pronouns">
-                                <WordList words={props.db.pronouns} />
-                            </Route>
+                                <Route path="/words/pronouns">
+                                    <WordList words={props.db.pronouns} />
+                                </Route>
 
-                            <Route path="/words/verbs">
-                            <WordList words={props.db.verbs} />
-                            </Route>
+                                <Route path="/words/verbs">
+                                    <WordList words={props.db.verbs} />
+                                </Route>
 
-                            <Route path="/words/particles">
-                                <ParticleList db={props.db} />
-                            </Route>
+                                <Route path="/words/particles">
+                                    <ParticleList db={props.db} />
+                                </Route>
 
-                            <Route path="/games/declension">
-                                <DeclensionGameView db={props.db} />
-                            </Route>
+                                <Route path="/games/declension">
+                                    <DeclensionGameView db={props.db} />
+                                </Route>
 
-                            <Route path="/about">
-                                <About db={props.db} />
-                            </Route>
-                        </Switch>
+                                <Route path="/about">
+                                    <About db={props.db} />
+                                </Route>
+                            </Switch>
+                        </Paper>
+                        <Copyright />
                     </Container>
-                    <Copyright />
                 </main>
             </Router>
         </div>
