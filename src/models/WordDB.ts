@@ -59,35 +59,27 @@ export class WordDB {
     }
 
     public getVerb(lemma: string): Verb {
-        const verb = this.verbs.find(v => v.lemma == lemma);
-        if (!verb) {
-            throw Error(`Verb ${lemma} not found`);
-        }
-        return verb;
+        return this.getWord<Verb>(this.verbs, lemma);
     }
 
     public getPreposition(lemma: string): Word {
-        const prp = this.prepositions.find(p => p.lemma == lemma);
-        if (!prp) {
-            throw Error(`Preposition ${lemma} not found`);
-        }
-        return prp;
+        return this.getWord<Preposition>(this.prepositions, lemma);
     }
 
     public getNoun(lemma: string): Noun {
-        const noun = this.nouns.find(n => n.lemma == lemma);
-        if (!noun) {
-            throw Error(`Noun ${lemma} not found`);
-        }
-        return noun;
+        return this.getWord<Noun>(this.nouns, lemma);
     }
 
     public getPronoun(lemma: string): Pronoun {
-        const pronoun = this.pronouns.find(p => p.lemma == lemma);
-        if (!pronoun) {
-            throw Error(`Pronoun ${lemma} not found`);
+        return this.getWord<Pronoun>(this.pronouns, lemma);
+    }
+
+    private getWord<T extends Word>(coll: T[], lemma: string): T {
+        const word = coll.find(p => p.lemma == lemma);
+        if (!word) {
+            throw Error(`Word ${lemma} not found`);
         }
-        return pronoun;
+        return word;
     }
 
     private loadWords(data: WordData[]): void {

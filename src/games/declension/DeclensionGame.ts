@@ -184,6 +184,10 @@ export class DeclensionGame {
                 return false;
             }
 
+            if (noun.isGrammaticalTerm) {
+                return false;
+            }
+
             const decl = opts.knowledge.declensions;
             if (!decl.nounDeclensions.has(noun.declensionType)) {
                 return false;
@@ -212,6 +216,10 @@ export class DeclensionGame {
     private randomAdjective(opts: DeclensionGameOptions, casus: Casus): Adjective | undefined {
         const filter = (adj: Adjective): boolean => {
             if (adj.chapter > opts.vocabChapter) {
+                return false;
+            }
+
+            if (adj.isGrammaticalTerm) {
                 return false;
             }
 

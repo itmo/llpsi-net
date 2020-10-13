@@ -24,6 +24,7 @@ export type WordData =  AdjectiveData | AdverbData | ConjunctionData |
 
 export interface BaseWord {
     chapter: number;
+    grammaticalTerm: boolean;
     reference: string;
     english: string;
     german: string;

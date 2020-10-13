@@ -5,7 +5,8 @@
     "german": "...? ob",
     "english": "...? if",
     "reference": "1.11",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -14,7 +15,8 @@
     "german": "und",
     "english": "and",
     "reference": "2.9, 3.53",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -26,7 +28,8 @@
     "reference": "1.39, 12.94 pl incolae",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -38,7 +41,8 @@
     "reference": "1.69, 18.100",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -50,7 +54,8 @@
     "reference": "1.41, 2.1, 6.15, 10.37 pl cīvēs",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -60,7 +65,8 @@
     "german": "von, von ... her, seit",
     "english": "from, of, since, bye",
     "reference": "5.48, 6.34, 6.62, 12.125, 13.13, 13.36, 13.40, 16.51, 33.23",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -69,7 +75,8 @@
     "german": "abwesend/entfernt sein",
     "english": "be absent/away",
     "reference": "4.20, 48.123",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -82,7 +89,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Verb",
@@ -91,7 +99,8 @@
     "german": "weggehen",
     "english": "go away",
     "reference": "8.18, 44.12",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -100,7 +109,8 @@
     "german": "empfangen",
     "english": "receive",
     "reference": "8.19, 19.80, 47.27",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -109,7 +119,8 @@
     "german": "herbeilaufen",
     "english": "come running",
     "reference": "9.75",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -118,7 +129,8 @@
     "german": "anklagen",
     "english": "accuse",
     "reference": "4.48, 29.137 +genitive",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -131,7 +143,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Preposition",
@@ -141,7 +154,8 @@
     "german": "zu, nach, bei, bis (zu)",
     "english": "to, towards, by, at, till",
     "reference": "6.19, 8.81, 13.36, 14.43, 16.7, 33.132, 41.8, 47.77, 52.29 ad hoc",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -150,7 +164,8 @@
     "german": "anwesend sein, beistehen",
     "english": "be present, stand by",
     "reference": "4.20, 32.117 +dative",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -163,7 +178,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Verb",
@@ -172,7 +188,8 @@
     "german": "ankommen",
     "english": "arrive",
     "reference": "7.30, 52.688",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -181,7 +198,8 @@
     "german": "herangehen",
     "english": "go to, approach",
     "reference": "7.62, 16.28, 29.5",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -193,7 +211,8 @@
     "reference": "11.24, 11.29, 45.265",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -202,7 +221,8 @@
     "german": "krank sein",
     "english": "be ill",
     "reference": "11.48",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -215,7 +235,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -227,7 +248,8 @@
     "reference": "13.43, 13.77, 29.180, 42.117, 46.248, 55.196, 54.495 aequum est",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -240,7 +262,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -249,7 +272,8 @@
     "german": "treiben, betreiben, tun",
     "english": "drive, do, perform",
     "reference": "5.82, 24.19, 27.14, 37.90, 46.136, 51.132, 48.147 causam agere, 53.291, 53.246 sē agere, 42.324 agere cum, 45.30, 54.23 agitur rēs/dē rē, 54.126, 44.413 āctum est dē",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -261,7 +285,8 @@
     "reference": "9.3",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -273,7 +298,8 @@
     "reference": "8.5, 8.33, 10.33 aliī... aliī, 42.350 alius aliā viā",
     "genitiveIus": "true",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -285,7 +311,8 @@
     "reference": "12.100, 12.141, 16.44, 44.282 altē, 52.133",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -294,7 +321,8 @@
     "german": "gehen, wandern",
     "english": "walk",
     "reference": "6.24",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -303,7 +331,8 @@
     "german": "lieben",
     "english": "love",
     "reference": "5.21, 5.23",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -316,7 +345,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -329,7 +359,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -342,7 +373,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -355,7 +387,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -368,7 +401,8 @@
     "pluraleTantum": "",
     "iStemType": "pure",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -381,7 +415,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -391,7 +426,8 @@
     "german": "vor, vorher",
     "english": "in front of, before",
     "reference": "prp: 6.32, 13.44, 19.38, 25.113;adverb: 16.148, 43.224",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -403,7 +439,8 @@
     "reference": "2.81, 13.19",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -412,7 +449,8 @@
     "german": "öffnen",
     "english": "open",
     "reference": "7.14, 41.122, 50.204",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -421,7 +459,8 @@
     "german": "setzen (auf)",
     "english": "place (on), serve",
     "reference": "11.89, 30.100",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -431,7 +470,8 @@
     "german": "bei",
     "english": "beside, near, by",
     "reference": "6.37, 11.32, 46.260",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -444,7 +484,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -457,7 +498,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -470,7 +512,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -479,7 +522,8 @@
     "german": "senden nach, holen",
     "english": "send for, fetch",
     "reference": "11.43",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -492,7 +536,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -505,7 +550,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -517,7 +563,8 @@
     "reference": "12.35",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -526,7 +573,8 @@
     "german": "(hinauf) steigen, besteigen",
     "english": "climb, go up, mount",
     "reference": "10.94, 11.46",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -539,7 +587,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -548,7 +597,8 @@
     "german": "ansehen",
     "english": "look at",
     "reference": "8.15, 8.39",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -557,7 +607,8 @@
     "german": "und, wie, als",
     "english": "and, as, than",
     "reference": "11.41, 12.59, 13.79, 18.143, 20.142, 32.211",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -566,7 +617,8 @@
     "german": "wagen",
     "english": "dare, venture",
     "reference": "10.88, 31.169",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -575,7 +627,8 @@
     "german": "hören",
     "english": "hear, listen",
     "reference": "3.42, 4.50, 6.83, 10.50, 44.285 dictō audiens esse",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -588,7 +641,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -597,7 +651,8 @@
     "german": "oder",
     "english": "or",
     "reference": "8.14, 8.108, 18.7 aut ... aut",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -605,7 +660,8 @@
     "german": "hingegen, aber",
     "english": "however, but",
     "reference": "6.42",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -618,7 +674,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -631,7 +688,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -644,7 +702,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -657,7 +716,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -669,7 +729,8 @@
     "reference": "12.61, 14.76 m.",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -682,7 +743,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -690,7 +752,8 @@
     "german": "gut, wohl",
     "english": "well",
     "reference": "11.14, 31.29 vene velle",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -699,7 +762,8 @@
     "german": "trinken",
     "english": "drink",
     "reference": "9.9",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -711,7 +775,8 @@
     "reference": "4.68, 11.14",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -724,7 +789,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -736,7 +802,8 @@
     "reference": "12.50, 13.28",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -745,7 +812,8 @@
     "german": "blöken",
     "english": "bleat",
     "reference": "9.70",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -758,7 +826,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -767,7 +836,8 @@
     "german": "fallen",
     "english": "fall",
     "reference": "10.103, 16.102, 42.95",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -780,7 +850,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -792,7 +863,8 @@
     "reference": "13.87, 30.114 f",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -805,7 +877,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -814,7 +887,8 @@
     "german": "singen, krähen, spielen",
     "english": "sing, crow, play",
     "reference": "10.80, 14.19, 29.66, 34.70, 41.189, 52.621",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -827,7 +901,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -836,7 +911,8 @@
     "german": "singen",
     "english": "sing",
     "reference": "3.3, 34.163, 56.311",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -845,7 +921,8 @@
     "german": "fassen, fangen, greifen, einnehmen",
     "english": "take, catch, capture",
     "reference": "10.2, 10.78, 26.6, 29.90, 29.148, 32.13, 36.191, 37.98, 37.196 fugam capere, 48.535 capere animō",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -858,7 +935,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -871,7 +949,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -884,7 +963,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -893,7 +973,8 @@
     "german": "pflücken, abfressen",
     "english": "gather, pick, crop",
     "reference": "5.57, 27.168",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -906,7 +987,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -919,7 +1001,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -928,7 +1011,8 @@
     "genitivePlural": "",
     "number": "100",
     "reference": "2.39",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -941,7 +1025,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -954,7 +1039,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -964,7 +1050,8 @@
     "german": "um ... herum",
     "english": "around",
     "reference": "prp: 6.14, 39.12;adv: 37.262",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -973,7 +1060,8 @@
     "german": "schließen",
     "english": "shut, close",
     "reference": "7.15, 48.289, 48.402, 48.464",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -986,7 +1074,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -995,7 +1084,8 @@
     "german": "rufen",
     "english": "shout",
     "reference": "8.36",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1007,7 +1097,8 @@
     "reference": "13.48, 29.93, 36.31",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1020,7 +1111,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1033,7 +1125,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1046,7 +1139,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1059,7 +1153,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1072,7 +1167,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Preposition",
@@ -1082,7 +1178,8 @@
     "german": "gegen",
     "english": "against",
     "reference": "prp: 12.72, 29.121, 39.2, 46.414;adv: 43.50, 43.228",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1091,7 +1188,8 @@
     "german": "zusammenkommen",
     "english": "come together",
     "reference": "8.82, 15.64, 19.49, 41.66, 41.145, 45.255, 54.124 cōnvenit",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1104,7 +1202,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1117,7 +1216,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1129,7 +1229,8 @@
     "reference": "10.101, 10.102",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1142,7 +1243,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1155,7 +1257,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1168,7 +1271,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -1178,7 +1282,8 @@
     "german": "mit",
     "english": "with",
     "reference": "5.9, 5.13, 5.58, 21.15, 25.111, 25.143",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -1187,7 +1292,8 @@
     "german": "wenn, da, als",
     "english": "when, as",
     "reference": "+indicative: 10.15, 18.128, 19.74, 25.53;+conjunction: 29.76, 29.78, 32.175, 33.109, 21.28 cum prīmum, 42.6 cum ... tum",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1196,7 +1302,8 @@
     "german": "rennen, laufen",
     "english": "run",
     "reference": "7.66",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1208,7 +1315,8 @@
     "reference": "2.59, 13.51 sg",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1217,7 +1325,8 @@
     "german": "stehenbleiben, haltmachen",
     "english": "stop, halt",
     "reference": "8.12, 40.41",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1226,7 +1335,8 @@
     "german": "feststehen, kosten",
     "english": "be fixed, cost",
     "reference": "8.56, 22.1, 42.365, 48.470, 41.2 cōnstat",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interrogative",
@@ -1234,7 +1344,8 @@
     "german": "warum?",
     "english": "why?",
     "reference": "3.26",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1243,7 +1354,8 @@
     "german": "geben",
     "english": "give",
     "reference": "7.46, 7.63, 7.118, 37.84 sē dare, 56.238, 29.190 vēla dare, 38.4, 39.14",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1256,7 +1368,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Numeral",
@@ -1265,7 +1378,8 @@
     "genitivePlural": "",
     "number": "10",
     "reference": "4.10",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1277,7 +1391,8 @@
     "reference": "13.5",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1290,7 +1405,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1303,7 +1419,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1312,7 +1429,8 @@
     "german": "weggehen",
     "english": "go away, depart",
     "reference": "4.73",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1325,7 +1443,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1334,7 +1453,8 @@
     "german": "weh tun, traurig sein",
     "english": "hurt, feel pain, grieve",
     "reference": "11.80, 34.135",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1347,7 +1467,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1360,7 +1481,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1369,7 +1491,8 @@
     "german": "schlafen",
     "english": "sleep",
     "reference": "3.37",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1381,7 +1504,8 @@
     "reference": "13.10",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -1390,7 +1514,8 @@
     "german": "während, solange, bis",
     "english": "while, as long as, till",
     "reference": "9.39, 9.69, 10.48, 22.8, 51.41 + conjunction",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1402,7 +1527,8 @@
     "reference": "2.23",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -1411,7 +1537,8 @@
     "genitivePlural": "",
     "number": "12",
     "reference": "6.15",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1423,7 +1550,8 @@
     "reference": "13.6",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1436,7 +1564,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -1446,7 +1575,8 @@
     "german": "von (herab), aus, über",
     "english": "(down) from, of, about",
     "reference": "11.53, 13.86, 19.105, 20.48, 21.95, 36.183, 38.71",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1455,7 +1585,8 @@
     "german": "beugen, deklinieren",
     "english": "decline, inflect",
     "reference": "9.90",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -1468,7 +1599,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Verb",
@@ -1477,7 +1609,8 @@
     "german": "verteidigen",
     "english": "defend",
     "reference": "12.107, 48.235",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1486,7 +1619,8 @@
     "german": "entzücken, erfreuen",
     "english": "delight, please",
     "reference": "5.60",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1499,7 +1633,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1508,7 +1643,8 @@
     "german": "abwischen",
     "english": "wipe off",
     "reference": "11.119",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1517,7 +1653,8 @@
     "german": "sagen, nennen, reden",
     "english": "say, call, speak",
     "reference": "11.60, 11.61, 13.58, 20.144, 26.162",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1529,7 +1666,8 @@
     "reference": "13.33, 13.53",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1538,7 +1676,8 @@
     "german": "trennen, teilen",
     "english": "separate, divide",
     "reference": "12.68, 12.105, 13.1, 39.75, 41.110",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1547,7 +1686,8 @@
     "german": "führen, leiten, ziehen",
     "english": "guide, lead, draw",
     "reference": "9.34, 10.54, 12.104, 18.53, 39.162, 43.44, 49.270, 34.125 (uxōrem) dūcere, 34.191",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interjection",
@@ -1556,7 +1696,8 @@
     "german": "siehe, sieh da",
     "english": "see, look, here is",
     "reference": "2.81, 4.59",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1565,7 +1706,8 @@
     "german": "kaufen",
     "english": "buy",
     "reference": "8.14",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -1574,7 +1716,8 @@
     "german": "nämlich, denn",
     "english": "for",
     "reference": "10.30",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1587,7 +1730,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1600,7 +1744,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1613,7 +1758,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -1621,7 +1767,8 @@
     "german": "daher, also",
     "english": "therefore, so",
     "reference": "10.121",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1630,7 +1777,8 @@
     "german": "irren, sich verirren",
     "english": "wander, stray",
     "reference": "9.50",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1639,7 +1787,8 @@
     "german": "sein",
     "english": "be",
     "reference": "1.1, 1.18, 1.53, 4.32",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -1648,7 +1797,8 @@
     "german": "und, auch",
     "english": "and, also",
     "reference": "1.2, 25.95, 7.50 et ... et",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -1656,7 +1806,8 @@
     "german": "auch, sogar, noch",
     "english": "also, even, yet",
     "reference": "5.30, 5.70, 26.104, 33.118 etiam atque etiam",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -1666,7 +1817,8 @@
     "german": "aus, von (...her), seit",
     "english": "out of, from, of, since",
     "reference": "5.58, 14.11, 18.113, 22.1, 22.13, 33.43, 33.158, 38.103, 41.24, 42.166, 43.53",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1679,7 +1831,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1692,7 +1845,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1704,7 +1858,8 @@
     "reference": "13.51, 17.148",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1713,7 +1868,8 @@
     "german": "erobern",
     "english": "conquer",
     "reference": "12.112",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1722,7 +1878,8 @@
     "german": "warten (auf), erwarten",
     "english": "wait (for), expect",
     "reference": "7.2",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1731,7 +1888,8 @@
     "german": "herausgehen",
     "english": "go out",
     "reference": "7.83, 10.53",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1740,7 +1898,8 @@
     "german": "machen, tun",
     "english": "make, do",
     "reference": "10.17, 10.65, 10.69, 10.111, 11.27, 11.66, 52.491, 27.145 facere ut, 27.175",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1753,7 +1912,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1766,7 +1926,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1779,7 +1940,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1792,7 +1954,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1801,7 +1964,8 @@
     "german": "tragen, bringen, ertragen",
     "english": "carry, bring, bear",
     "reference": "12.34, 12.55, 21.17, 24.37, 27.29, 44.227, 44.351, 44.447 51.218 lēgem ferre",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1813,7 +1977,8 @@
     "reference": "10.2",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1825,7 +1990,8 @@
     "reference": "6.61",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1834,7 +2000,8 @@
     "german": "fließen, strömen",
     "english": "flow",
     "reference": "11.20, 46.141",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1847,7 +2014,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1860,7 +2028,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1872,7 +2041,8 @@
     "reference": "5.18, 37.171",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1885,7 +2055,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1897,7 +2068,8 @@
     "reference": "12.119",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1910,7 +2082,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1923,7 +2096,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1935,7 +2109,8 @@
     "reference": "13.88",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1948,7 +2123,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -1957,7 +2133,8 @@
     "german": "fliehen",
     "english": "run away, flee",
     "reference": "12.116, 39.114, 54.307, 55.258",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -1970,7 +2147,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -1982,7 +2160,8 @@
     "reference": "2.96",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -1995,7 +2174,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "{\"datPl\": \"fīliābus\", \"ablPl\": \"fīliābus\"}",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2008,7 +2188,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2021,7 +2202,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2034,7 +2216,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2046,7 +2229,8 @@
     "reference": "7.10",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2055,7 +2239,8 @@
     "german": "sich freuen",
     "english": "be glad, be pleased",
     "reference": "11.114",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2068,7 +2253,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2080,7 +2266,8 @@
     "reference": "8.58",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2093,7 +2280,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2106,7 +2294,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -2119,7 +2308,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2132,7 +2322,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2145,7 +2336,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adjective",
@@ -2157,7 +2349,8 @@
     "reference": "12.52, 24.38, 56.147",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2166,7 +2359,8 @@
     "german": "wohnen",
     "english": "dwell, live",
     "reference": "5.1, 43.151",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2175,7 +2369,8 @@
     "german": "haben, halten (für)",
     "english": "have, hold, consider",
     "reference": "4.4, 5.3, 5.6, 11.1, 11.14, 13.8, 19.33, 56.33, 14.26 sē habēre, 28.80 habērī, 44.251 habēre prō",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2188,7 +2383,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2201,7 +2397,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Pronoun",
@@ -2213,7 +2410,8 @@
     "german": "dieser",
     "english": "this",
     "reference": "7.43, 7.85, 7.90",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2226,7 +2424,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2239,7 +2438,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2248,7 +2448,8 @@
     "german": "schaudern (vor), sich sträuben",
     "english": "bristle, stand on end, shudder (at)",
     "reference": "11.98, 11.101, 11.129",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2261,7 +2462,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2274,7 +2476,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2282,7 +2485,8 @@
     "german": "hier",
     "english": "here",
     "reference": "3.40, 5.85",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2295,7 +2499,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2307,7 +2512,8 @@
     "reference": "11.1",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2316,7 +2522,8 @@
     "german": "werfen",
     "english": "throw",
     "reference": "12.108, 41.194, 52.128",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2325,7 +2532,8 @@
     "german": "liegen",
     "english": "lie (down)",
     "reference": "9.35, 11.33",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2333,7 +2541,8 @@
     "german": "jetzt, schon",
     "english": "now, already",
     "reference": "3.9, 15.31, 32.158",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2346,7 +2555,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -2355,7 +2565,8 @@
     "german": "also",
     "english": "therefore, then, so",
     "reference": "13.23",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Pronoun",
@@ -2367,7 +2578,8 @@
     "german": "jener",
     "english": "that, the one, he",
     "reference": "8.41, 8.70, 8.79",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2375,7 +2587,8 @@
     "german": "dort",
     "english": "there",
     "reference": "7.3, 7.6",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2384,7 +2597,8 @@
     "german": "erleuchten, erklären",
     "english": "illuminate, make clear",
     "reference": "13.49, 36.312",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2397,7 +2611,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2405,7 +2620,8 @@
     "german": "nein, im Gegenteil",
     "english": "no, on the contrary",
     "reference": "7.21, 7.27, 39.299",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2418,7 +2634,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2427,7 +2644,22 @@
     "german": "befehlen, herrschen",
     "english": "command, order, rule",
     "reference": "4.110, 12.82, 26.40, 36.259, 51.38",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "imperātīvus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Imperativ",
+    "english": "imperative",
+    "reference": "4.111",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 4,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -2440,7 +2672,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2453,7 +2686,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2465,7 +2699,8 @@
     "reference": "3.33",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2474,7 +2709,8 @@
     "german": "setzen / legen (auf)",
     "english": "place (in / on)",
     "reference": "9.84, 53.217",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -2484,7 +2720,8 @@
     "german": "in, an, auf;in, auf, nach, zu, gegen",
     "english": "in, on, at;into, to, against",
     "reference": "1.1, 1.72, 2.23, 4.3, 4.60, 4.62, 12.106, 27.43, 34.168;7.14, 7.17, 12.104, 12.108, 12.113, 29.120, 34.158, 50.37, 50.46",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2493,7 +2730,8 @@
     "german": "anfangen",
     "english": "begin",
     "reference": "13.86, 13.93, 25.62",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2502,7 +2740,8 @@
     "german": "bewohnen",
     "english": "inhabitat",
     "reference": "12.62",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2515,7 +2754,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adjective",
@@ -2527,7 +2767,8 @@
     "reference": "13.166",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Verb",
@@ -2536,7 +2777,8 @@
     "german": "(drin) sein",
     "english": "be (in)",
     "reference": "7.39, 7.41",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2549,7 +2791,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2562,7 +2805,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -2572,7 +2816,8 @@
     "german": "zwischen, unter, während",
     "english": "between, among, during",
     "reference": "6.3, 9.54, 16.55, 21.112, 22.14 inter sē, 30.152",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2581,7 +2826,8 @@
     "german": "fragen",
     "english": "ask, question",
     "reference": "3.24, 3.26",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2590,7 +2836,8 @@
     "german": "eintreten",
     "english": "enter",
     "reference": "6.76, 6.88, 10.52, 11.57",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Pronoun",
@@ -2602,7 +2849,8 @@
     "german": "er, sie, es, der(jenige)",
     "english": "he, she it, that",
     "reference": "4.77, 5.7, 5.33, 8.138",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2610,7 +2858,8 @@
     "german": "deshalb, darum, daher",
     "english": "therefore",
     "reference": "6.41",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2618,7 +2867,8 @@
     "german": "ebenso, auch",
     "english": "likewise, also",
     "reference": "13.31, 13.77, 26.37",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2627,7 +2877,8 @@
     "german": "befehlen, anweisen",
     "english": "order, tell",
     "reference": "11.45",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2640,7 +2891,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2653,7 +2905,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2666,7 +2919,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2675,7 +2929,8 @@
     "german": "weinen",
     "english": "shed tears, weep",
     "reference": "7.6",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2688,7 +2943,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2700,7 +2956,8 @@
     "reference": "3.3",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2713,7 +2970,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2726,7 +2984,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2738,7 +2997,8 @@
     "reference": "12.56, 33.138",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2751,7 +3011,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2764,7 +3025,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2777,7 +3039,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2790,7 +3053,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2803,7 +3067,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adjective",
@@ -2815,7 +3080,8 @@
     "reference": "6.10, 13.9, 13.25, 17.29, 32.198 nāvis longa",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2828,7 +3094,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2837,7 +3104,8 @@
     "german": "bellen",
     "english": "bark",
     "reference": "9.42",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2849,7 +3117,8 @@
     "reference": "12.104",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2862,7 +3131,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2875,7 +3145,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2888,7 +3159,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2897,7 +3169,8 @@
     "german": "leuchten",
     "english": "shine",
     "reference": "9.29",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -2906,7 +3179,8 @@
     "german": "spielen",
     "english": "play",
     "reference": "10.75, 33.26",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2919,7 +3193,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2932,7 +3207,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2944,7 +3220,8 @@
     "reference": "1.22, 1.29, 1.65",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -2952,7 +3229,8 @@
     "german": "schlecht",
     "english": "badly, ill",
     "reference": "11.15, 34.100, 34.103",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -2964,7 +3242,8 @@
     "reference": "6.39, 11.14",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2977,7 +3256,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2990,7 +3270,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3003,7 +3284,8 @@
     "pluraleTantum": "",
     "iStemType": "pure",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3016,7 +3298,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3028,7 +3311,8 @@
     "reference": "2.95",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -3041,7 +3325,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3053,7 +3338,8 @@
     "reference": "8.120, 13.41, 16.42, 30.70 n.",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3066,7 +3352,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3079,7 +3366,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3092,7 +3380,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3101,7 +3390,8 @@
     "german": "fürchten",
     "english": "fear",
     "reference": "12.83",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3114,7 +3404,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3126,7 +3417,8 @@
     "reference": "2.66, 19.94 mī",
     "genitiveIus": "",
     "overrides": "{\"m\": {\"vocSg\": \"mī\"}}",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3134,7 +3426,8 @@
     "german": "nur, eben",
     "english": "just, only",
     "reference": "11.37, 11.55, 27.172, 34.38 modo ... modo",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3147,7 +3440,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3159,7 +3453,8 @@
     "reference": "10.49",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3168,7 +3463,8 @@
     "german": "bewegen, rühren",
     "english": "move, stir",
     "reference": "10.14, 27.109, 34.155, 42.357, 47.133, 48.596, 45.93 bellum / arma movēre, 48.65",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3180,7 +3476,8 @@
     "reference": "1.44",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3193,7 +3490,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3206,7 +3504,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3214,7 +3513,8 @@
     "german": "am Morgen",
     "english": "in the morning",
     "reference": "14.55, 55.17",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3227,7 +3527,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3240,7 +3541,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3253,7 +3555,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3266,7 +3569,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3275,7 +3579,8 @@
     "german": "als Soldat dienen",
     "english": "serve as a soldier",
     "reference": "12.90",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -3284,7 +3589,8 @@
     "genitivePlural": "-ium",
     "number": "1000",
     "reference": "1.73, 12.97 pl, 50.547",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3297,7 +3603,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3306,7 +3613,8 @@
     "german": "zeigen",
     "english": "point out, show",
     "reference": "8.43",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3319,7 +3627,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3327,7 +3636,8 @@
     "german": "denn",
     "english": "for",
     "reference": "6.38",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3336,7 +3646,8 @@
     "german": "schwimmen",
     "english": "swim",
     "reference": "10.11",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3345,7 +3656,8 @@
     "german": "es ist notwendig, man muss",
     "english": "it is neccessary",
     "reference": "10.58",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -3354,7 +3666,8 @@
     "german": "und/aber nicht, auch nicht",
     "english": "and not, but not, nor",
     "reference": "3.42, 5.41, 11.54, 7.57 neque ... neque, 10.110 neque enim, 16.138 neque vērō",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3367,7 +3680,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adjective",
@@ -3379,7 +3693,8 @@
     "reference": "9.2",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3387,7 +3702,8 @@
     "german": "zu, allzu, zu sehr",
     "english": "too, too much",
     "reference": "8.98",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3400,7 +3716,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3412,7 +3729,8 @@
     "reference": "11.131, 34.152, 34.163",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -3421,7 +3739,8 @@
     "genitivePlural": "",
     "number": "9",
     "reference": "4.10",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3433,7 +3752,8 @@
     "reference": "2.81, 2.90, 13.52, 13.59, 29.98, 52.61 homō novus",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3446,7 +3766,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3454,7 +3775,8 @@
     "german": "...? ob",
     "english": "...? if, whether",
     "reference": "1.49, 29.106",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3467,7 +3789,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3476,7 +3799,8 @@
     "german": "zählen",
     "english": "count",
     "reference": "4.9, 32.104",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3489,7 +3813,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3497,7 +3822,8 @@
     "german": "jetzt, nun",
     "english": "now",
     "reference": "13.22",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3510,7 +3836,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Pronoun",
@@ -3522,7 +3849,8 @@
     "german": "niemand, keiner",
     "english": "no one, nobody",
     "reference": "10.44, 20.60, 23.28, 28.126",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3535,7 +3863,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3548,7 +3877,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3557,7 +3887,8 @@
     "german": "nennen",
     "english": "name, call",
     "reference": "13.17",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3570,7 +3901,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adverb",
@@ -3578,7 +3910,8 @@
     "german": "nicht",
     "english": "not",
     "reference": "1.5",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3591,7 +3924,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -3599,7 +3933,8 @@
     "german": "nicht?",
     "english": "not?",
     "reference": "7.26",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3611,7 +3946,8 @@
     "reference": "13.5",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -3620,7 +3956,8 @@
     "genitivePlural": "",
     "number": "90",
     "reference": "8.93",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3633,7 +3970,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3645,7 +3983,8 @@
     "reference": "4.45, 4.64",
     "genitiveIus": "true",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3658,7 +3997,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3670,7 +4010,8 @@
     "reference": "13.51, 47.200, 50.514",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3679,7 +4020,8 @@
     "german": "verbergen, verstecken",
     "english": "hide",
     "reference": "10.89, 19.66",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3691,7 +4033,8 @@
     "reference": "13.4",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -3700,7 +4043,8 @@
     "genitivePlural": "",
     "number": "8",
     "reference": "4.10",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -3709,7 +4053,8 @@
     "genitivePlural": "",
     "number": "80",
     "reference": "8.65",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3722,7 +4067,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3731,7 +4077,8 @@
     "german": "bedecken",
     "english": "cover",
     "reference": "13.91",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3744,7 +4091,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3753,7 +4101,8 @@
     "german": "angreifen",
     "english": "attack",
     "reference": "12.78, 12.107",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3762,7 +4111,8 @@
     "german": "zeigen, erklären",
     "english": "show",
     "reference": "8.47, 41.135",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3775,7 +4125,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3784,7 +4135,8 @@
     "german": "klopfen, zucken",
     "english": "beat, throb",
     "reference": "11.98",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -3793,7 +4145,8 @@
     "german": "gebären, legen",
     "english": "give birth, lay",
     "reference": "10.77, 42.311, 43.172",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3806,7 +4159,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3818,7 +4172,8 @@
     "reference": "1.23, 1.64, 2.6",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3831,7 +4186,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3843,7 +4199,8 @@
     "reference": "6.128",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -3856,7 +4213,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3869,7 +4227,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3881,7 +4240,8 @@
     "reference": "1.47",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3894,7 +4254,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3907,7 +4268,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3919,7 +4281,8 @@
     "reference": "8.20",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3932,7 +4295,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -3942,7 +4306,8 @@
     "german": "durch, bei",
     "english": "through, by",
     "reference": "6.76, 7.69, 9.59, 21.6, 24.18, 27.108, 31.10, 33.59, 33.159, 18.23 per sē, 25.71",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3955,7 +4320,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3968,7 +4334,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -3980,7 +4347,8 @@
     "reference": "10.105",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -3993,7 +4361,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4002,7 +4371,8 @@
     "german": "aufsuchen, suchen, angreifen, erbitten",
     "english": "make for, aim at, attack, seek, ask for",
     "reference": "9.32, 9.74, 9.79, 32.74, 34.130",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4015,7 +4385,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4028,7 +4399,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4041,7 +4413,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4053,7 +4426,8 @@
     "reference": "7.38, 7.43, 13.55",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4062,7 +4436,8 @@
     "german": "laut weinen, heulen",
     "english": "cry",
     "reference": "3.9",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4074,7 +4449,8 @@
     "reference": "1.88, 5.143",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -4087,7 +4463,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4096,7 +4473,8 @@
     "german": "tragen",
     "english": "carry",
     "reference": "6.22, 10.30",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4105,7 +4483,8 @@
     "german": "können",
     "english": "be able",
     "reference": "10.21, 11.135, 46.328",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -4115,7 +4494,8 @@
     "german": "hinter, nach, nachher",
     "english": "behind, after, later",
     "reference": "prp: 6.32, 13.44;adv: 16.91, 52.395",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4127,7 +4507,8 @@
     "reference": "13.6",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4140,7 +4521,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4153,7 +4535,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -4166,7 +4549,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4178,7 +4562,8 @@
     "reference": "3.32, 8.106",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -4186,7 +4571,8 @@
     "german": "fern, weit",
     "english": "far, far away",
     "reference": "6.10, 9.55, 9.86, 47.180, 50.80",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -4196,7 +4582,8 @@
     "german": "nahe, in der Nähe, beinahe",
     "english": "near, nearly",
     "reference": "prp: 6.8;adv: 9.78, 12.102, 22.67 comp. propius",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4208,7 +4595,8 @@
     "reference": "1.67, 38.3, 52.429 in -is",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4221,7 +4609,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -4234,7 +4623,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4247,7 +4637,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4260,7 +4651,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4273,7 +4665,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4282,7 +4675,8 @@
     "german": "kämpfen",
     "english": "fight",
     "reference": "12.37",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4294,7 +4688,8 @@
     "reference": "5.15, 5.17",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4307,7 +4702,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4320,7 +4716,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4329,7 +4726,8 @@
     "german": "schlagen, klopfen",
     "english": "strike, hit, knock",
     "reference": "3.8, 6.86",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4338,7 +4736,8 @@
     "german": "meinen, glauben",
     "english": "think, suppose",
     "reference": "11.108, 11.134, 11.139, 41.221 putārēs",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4351,7 +4750,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4364,7 +4764,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4373,7 +4774,8 @@
     "german": "gehorchen",
     "english": "obey",
     "reference": "4.110, 12.76 +dative",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4386,7 +4788,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4399,7 +4802,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4412,7 +4816,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4425,7 +4830,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4438,7 +4844,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4447,7 +4854,8 @@
     "german": "setzen, stellen, legen",
     "english": "place, put, lay down",
     "reference": "4.60, 21.61, 33.20, 33.146, 45.100, 45.377",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4456,7 +4864,8 @@
     "german": "suchen, fragen",
     "english": "look for, ask (for)",
     "reference": "9.60, 31.16, 33.37, 34.211",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -4464,7 +4873,8 @@
     "german": "wie, als",
     "english": "how, as, than",
     "reference": "6.11, 7.94, 27.177 +sup, 43.45, 49.194, 52.164, 52.336, 44.143 quam prīmum",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -4472,7 +4882,8 @@
     "german": "wann, als, da",
     "english": "when, seeing that",
     "reference": "13.107, 35.171, 35.203, 48.387, 44.80 nē quandō",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4484,7 +4895,8 @@
     "reference": "8.72, 8.75, 19.121",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -4493,7 +4905,8 @@
     "genitivePlural": "",
     "number": "4",
     "reference": "4.9",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -4502,7 +4915,8 @@
     "german": "weil",
     "english": "because",
     "reference": "3.27",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Pronoun",
@@ -4514,7 +4928,8 @@
     "german": "wer, was",
     "english": "who, what",
     "reference": "1.50, 1.55, 2.15, 2.16, 2.76, 39.175",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -4523,7 +4938,8 @@
     "german": "weil",
     "english": "because",
     "reference": "10.24, 47.196, 43.236 est quod, 45.108, 49.7",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -4532,7 +4948,8 @@
     "german": "auch",
     "english": "also, too",
     "reference": "1.3",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interrogative",
@@ -4540,7 +4957,8 @@
     "german": "wieviele, (soviele) als",
     "english": "how many, (as many) as",
     "reference": "2.37, 26.91, 31.69 tot ... quot",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4552,7 +4970,8 @@
     "reference": "8.124, 13.3, 13.34 quarta pars",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -4561,7 +4980,8 @@
     "genitivePlural": "",
     "number": "5",
     "reference": "4.10",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4573,7 +4993,8 @@
     "reference": "13.3",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interrogative",
@@ -4581,7 +5002,8 @@
     "german": "wohin",
     "english": "where (to)",
     "reference": "6.35, 16.47",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4590,7 +5012,8 @@
     "german": "verlassen, hinterlassen",
     "english": "leave",
     "reference": "9.40, 9.48, 23.125",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4599,7 +5022,8 @@
     "german": "finden, entdecken",
     "english": "find",
     "reference": "9.63, 18.11, 55.354",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4608,7 +5032,8 @@
     "german": "antworten",
     "english": "answer",
     "reference": "3.25",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4617,7 +5042,8 @@
     "german": "zurückkommen",
     "english": "come back",
     "reference": "11.47",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4630,7 +5056,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4642,7 +5069,8 @@
     "reference": "11.12, 11.20",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4655,7 +5083,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4664,7 +5093,8 @@
     "german": "lachen, auslachen",
     "english": "laugh, make fun of",
     "reference": "3.10, 5.70",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4677,7 +5107,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -4685,7 +5116,8 @@
     "german": "wieder, nochmals",
     "english": "again",
     "reference": "4.12",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4698,7 +5130,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4711,7 +5144,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4724,7 +5158,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4737,7 +5172,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interjection",
@@ -4746,7 +5182,8 @@
     "german": "guten Tag",
     "english": "hello, good morning",
     "reference": "4.34, 7.31",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4755,7 +5192,8 @@
     "german": "grüßen",
     "english": "greet",
     "reference": "4.33",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4768,7 +5206,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -4776,7 +5215,8 @@
     "german": "genug, recht",
     "english": "enough, rather",
     "reference": "8.95, 8.126, 13.110",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4789,7 +5229,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4802,7 +5243,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4814,7 +5256,8 @@
     "reference": "1.67, 16.37, 32.100",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -4823,7 +5266,8 @@
     "german": "aber, sondern",
     "english": "but",
     "reference": "1.7, 3.57",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4832,7 +5276,8 @@
     "german": "sitzen",
     "english": "sit",
     "reference": "11.31",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4841,7 +5286,8 @@
     "german": "fühlen, merken, meinen",
     "english": "feel, sense, think",
     "reference": "11.90, 30.129",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -4850,7 +5296,8 @@
     "genitivePlural": "",
     "number": "7",
     "reference": "4.10",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4862,7 +5309,8 @@
     "reference": "13.4",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4875,7 +5323,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -4884,7 +5333,8 @@
     "genitivePlural": "",
     "number": "6",
     "reference": "1.74",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4896,7 +5346,8 @@
     "reference": "13.4",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -4905,7 +5356,8 @@
     "genitivePlural": "",
     "number": "60",
     "reference": "13.7",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4918,7 +5370,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -4928,7 +5381,8 @@
     "german": "ohne",
     "english": "without",
     "reference": "5.45",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4940,7 +5394,8 @@
     "reference": "1.88",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -4953,7 +5408,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4962,7 +5418,8 @@
     "german": "anschauen, zusehen",
     "english": "watch, look at",
     "reference": "11.76, 11.109, 36.22, 42.31, 45.193",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4975,7 +5432,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4984,7 +5442,8 @@
     "german": "atmen",
     "english": "breathe",
     "reference": "10.47, 38.142",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -4996,7 +5455,8 @@
     "reference": "11.10",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5005,7 +5465,8 @@
     "german": "stehen",
     "english": "stand",
     "reference": "11.32, 45.373, 50.527",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5018,7 +5479,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -5028,7 +5490,8 @@
     "german": "unter, unten an, nahe bei",
     "english": "under, near",
     "reference": "abl: 9.30, 10.47, 27.57, 37.4;acc: 22.91, 48.212, 48.250",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -5038,7 +5501,8 @@
     "german": "auf, über;über, von",
     "english": "on (top of), above;on, about",
     "reference": "prp+acc: 11.6;prp+abl: 31.147;adv: 40.181",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5051,7 +5515,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Preposition",
@@ -5061,7 +5526,8 @@
     "german": "oberhalb, über, oben",
     "english": "above",
     "reference": "prp: 9.25, 16.2, 48.621, 49.266;adv: 33.22, 52.5",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5070,7 +5536,8 @@
     "german": "stützen, tragen, ertragen",
     "english": "support, withstand",
     "reference": "10.100, 10.124, 12.115, 42.121, 46.93, 55.423",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5083,7 +5550,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5095,7 +5563,8 @@
     "reference": "11.24, 11.77",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5104,7 +5573,8 @@
     "german": "heilen, gesund machen",
     "english": "heal, cure",
     "reference": "11.27",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5117,7 +5587,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5130,7 +5601,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -5138,7 +5610,8 @@
     "german": "nur, allein",
     "english": "only",
     "reference": "7.56",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5150,7 +5623,8 @@
     "reference": "5.23",
     "genitiveIus": "true",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5159,7 +5633,8 @@
     "german": "nehmen",
     "english": "take",
     "reference": "4.73, 11.23, 44.304 bellum sūmere",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5172,7 +5647,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5185,7 +5661,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5194,7 +5671,8 @@
     "german": "schweigen",
     "english": "be silent",
     "reference": "4.37, 45.191",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -5202,7 +5680,8 @@
     "german": "so, so sehr",
     "english": "so, as",
     "reference": "6.11, 8.81, 14.59, 34.20",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5211,7 +5690,8 @@
     "german": "berühren",
     "english": "touch",
     "reference": "11.40, 11.89, 39.178, 40.226",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -5219,7 +5699,8 @@
     "german": "nur, so sehr",
     "english": "only, so much",
     "reference": "4.11, 41.62",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5231,7 +5712,8 @@
     "reference": "8.64",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5244,7 +5726,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5256,7 +5739,8 @@
     "reference": "10.101, 37.277",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5265,7 +5749,8 @@
     "german": "halten, zurückhalten",
     "english": "hold, keep (back)",
     "reference": "7.6, 16.77, 25.32, 41.5, 44.192, 50.635",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5274,7 +5759,8 @@
     "german": "abwischen, abtrocknen",
     "english": "wipe",
     "reference": "7.23, 7.92",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5287,7 +5773,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5299,7 +5786,8 @@
     "reference": "1.68",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5312,7 +5800,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5321,7 +5810,8 @@
     "german": "fürchten",
     "english": "fear, be afraid (of)",
     "reference": "6.39, 6.42",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5334,7 +5824,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5346,7 +5837,8 @@
     "reference": "13.7",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -5355,7 +5847,8 @@
     "genitivePlural": "-ium",
     "number": "3",
     "reference": "1.67, 2.54",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -5364,7 +5857,8 @@
     "genitivePlural": "",
     "number": "30",
     "reference": "13.25",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5376,7 +5870,8 @@
     "reference": "12.20",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adverb",
@@ -5384,7 +5879,8 @@
     "german": "damals, dann",
     "english": "then",
     "reference": "13.19",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5396,7 +5892,8 @@
     "reference": "2.67, 2.82",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5408,7 +5905,8 @@
     "reference": "13.50",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interrogative",
@@ -5416,7 +5914,8 @@
     "german": "wo",
     "english": "where",
     "reference": "1.12, 6.58, 32.175 ubi prīmum, 37.193",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5425,7 +5924,8 @@
     "german": "heulen (Tier)",
     "english": "howl",
     "reference": "9.68",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5438,7 +5938,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5451,7 +5952,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Interrogative",
@@ -5459,7 +5961,8 @@
     "german": "von wo, woher",
     "english": "from where",
     "reference": "6.34, 16.20, 16.45, 44.25",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5472,7 +5975,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -5481,7 +5985,8 @@
     "german": "wie, als",
     "english": "like, as",
     "reference": "9.72, 11.104, 12.63, 12.64, 14.120, 18.122, 27.78 +conjunction, 28.87, 28.90, 28.103, 32.42, 37.7, 39.311, 37.150 ut (prīmum), 38.83",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5493,7 +5998,8 @@
     "reference": "4.66, 50.226",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5506,7 +6012,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5515,7 +6022,8 @@
     "german": "tragen, befördern;passiv: fahren, reiten, segeln",
     "english": "carry, convery;passive: ride, sail",
     "reference": "6.30, 6.69, 16.25",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Conjunction",
@@ -5524,7 +6032,8 @@
     "german": "oder, oder auch",
     "english": "or",
     "reference": "13.7, 13.9, 48.195, 56.275, 55.36 +sup",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5533,7 +6042,8 @@
     "german": "wollen, wünschen",
     "english": "want, be willing",
     "reference": "10.67, 10.75, 13.140",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5546,7 +6056,8 @@
     "pluraleTantum": "",
     "iStemType": "mixed",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5555,7 +6066,8 @@
     "german": "kommen",
     "english": "come",
     "reference": "3.21, 13.47, 40.50 ventum est",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5564,7 +6076,8 @@
     "german": "schlagen, prügeln",
     "english": "beat, flog",
     "reference": "3.46",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5577,7 +6090,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5590,7 +6104,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5599,7 +6114,8 @@
     "german": "drehen, wenden",
     "english": "turn",
     "reference": "7.16, 7.45, 13.50, 22.3, 40.169, 56.223",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5612,7 +6128,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5624,7 +6141,8 @@
     "reference": "12.25",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5637,7 +6155,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5650,7 +6169,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5659,7 +6179,8 @@
     "german": "sehen, pass. scheinen",
     "english": "see, pass. seem",
     "reference": "3.11, 4.5, 4.64, 10.50, 56.241, 26.94 vidērī, 26.95, 33.63, 42.276",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5672,7 +6193,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 2
+    "chapter": 2,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5685,7 +6207,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5698,7 +6221,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5707,7 +6231,8 @@
     "german": "rufen, nennen, einladen",
     "english": "call, invite",
     "reference": "3.16, 19.30, 30.9, 45.150, 54.95",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5720,7 +6245,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 4
+    "chapter": 4,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Verb",
@@ -5729,7 +6255,8 @@
     "german": "fliegen",
     "english": "fly",
     "reference": "10.11",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5742,7 +6269,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 12
+    "chapter": 12,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5755,7 +6283,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5764,7 +6293,8 @@
     "german": "verkaufen",
     "english": "sell",
     "reference": "8.5",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5777,7 +6307,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -5786,7 +6317,8 @@
     "genitivePlural": "",
     "number": "20",
     "reference": "8.48",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5799,7 +6331,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5808,7 +6341,8 @@
     "german": "leben, am Leben sein",
     "english": "live, be alive",
     "reference": "10.46, 20.11, 25.52",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5820,7 +6354,8 @@
     "reference": "10.49, 37.240",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5833,7 +6368,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5845,7 +6381,8 @@
     "reference": "6.127, 35.69",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -5858,7 +6395,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5871,7 +6409,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5884,7 +6423,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5897,7 +6437,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5906,7 +6447,8 @@
     "german": "essen, fressen",
     "english": "eat",
     "reference": "9.9, 9.11, 10.59",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5919,7 +6461,8 @@
     "pluraleTantum": "true",
     "iStemType": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -5929,7 +6472,8 @@
     "german": "unterhalb, unter",
     "english": "below",
     "reference": "prp: 11.8, 16.3;adv: 56.134",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5942,7 +6486,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -5955,7 +6500,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -5964,7 +6510,8 @@
     "german": "gehen, reisen, fahren",
     "english": "go",
     "reference": "6.20, 16.72, 22.50, 44.50 in sententiam īre",
-    "chapter": 6
+    "chapter": 6,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -5976,7 +6523,8 @@
     "reference": "3.6",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 3
+    "chapter": 3,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5989,7 +6537,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6002,7 +6551,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -6011,7 +6561,8 @@
     "german": "schmücken, ausrüsten",
     "english": "adorn, equip",
     "reference": "8.23, 25.57, 40.100, 54.189",
-    "chapter": 8
+    "chapter": 8,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6024,7 +6575,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 11
+    "chapter": 11,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6037,7 +6589,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6050,7 +6603,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 5
+    "chapter": 5,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6063,7 +6617,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 7
+    "chapter": 7,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -6076,7 +6631,8 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
-    "chapter": 10
+    "chapter": 10,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -6085,7 +6641,8 @@
     "genitivePlural": "",
     "number": "11",
     "reference": "13.30",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -6097,7 +6654,8 @@
     "reference": "13.5",
     "genitiveIus": "",
     "overrides": "",
-    "chapter": 13
+    "chapter": 13,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Numeral",
@@ -6106,7 +6664,8 @@
     "genitivePlural": "",
     "number": "99",
     "reference": "9.3",
-    "chapter": 9
+    "chapter": 9,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -6118,6 +6677,7 @@
     "reference": "1.76, 18.58, 19.5, 28.67, 42.287 ad ūnum omnēs",
     "genitiveIus": "true",
     "overrides": "",
-    "chapter": 1
+    "chapter": 1,
+    "grammaticalTerm": false
   }
 ]

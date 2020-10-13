@@ -32,6 +32,10 @@ export abstract class Word {
         return this.data.wordType;
     }
 
+    public get isGrammaticalTerm(): boolean {
+        return this.data.grammaticalTerm;
+    }
+
     public get chapter(): number {
         return this.data.chapter;
     }
