@@ -105,5 +105,5 @@ export class ADeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'īs';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 }

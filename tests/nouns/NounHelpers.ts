@@ -31,7 +31,7 @@ export interface DeclTable {
     ablative: string | null;
     vocative: string | null;
 }
-  
+
 export function checkNounDecl(noun: Noun, numerus: Numerus, data: DeclTable) {
     expect(noun.decline(Casus.Nominative, numerus)).equals(data.nominative);
     expect(noun.decline(Casus.Accusative, numerus)).equals(data.accusative);
@@ -40,7 +40,7 @@ export function checkNounDecl(noun: Noun, numerus: Numerus, data: DeclTable) {
     expect(noun.decline(Casus.Ablative, numerus)).equals(data.ablative);
     expect(noun.decline(Casus.Vocative, numerus)).equals(data.vocative);
 }
-  
+
 const nouns: Noun[] = [];
 
 export function loadNouns() {
@@ -56,10 +56,10 @@ export function loadNouns() {
 }
 
 export function findNoun(lemma: string): Noun {
-  for (const noun of nouns) {
-    if (noun.lemma == lemma) {
-      return noun;
+    for (const noun of nouns) {
+        if (noun.lemma == lemma) {
+            return noun;
+        }
     }
-  }
-  throw Error(`Noun ${lemma} not found`);
+    throw Error(`Noun ${lemma} not found`);
 }

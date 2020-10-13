@@ -21,31 +21,31 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('E-declension', () => {
-  it('basic rule should decline correctly in singular', () => {
-    const word = findNoun('diēs');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'diēs',
-      accusative: 'diem',
-      genitive:   'diēī',
-      dative:     'diēī',
-      ablative:   'diē',
-      vocative:   'diēs',
+    it('basic rule should decline correctly in singular', () => {
+        const word = findNoun('diēs');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'diēs',
+            accusative: 'diem',
+            genitive:   'diēī',
+            dative:     'diēī',
+            ablative:   'diē',
+            vocative:   'diēs',
+        });
     });
-  });
 
-  it('basic rule should decline correctly in plural', () => {
-    const word = findNoun('diēs');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'diēs',
-      accusative: 'diēs',
-      genitive:   'diērum',
-      dative:     'diēbus',
-      ablative:   'diēbus',
-      vocative:   'diēs',
+    it('basic rule should decline correctly in plural', () => {
+        const word = findNoun('diēs');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'diēs',
+            accusative: 'diēs',
+            genitive:   'diērum',
+            dative:     'diēbus',
+            ablative:   'diēbus',
+            vocative:   'diēs',
+        });
     });
-  });
 });

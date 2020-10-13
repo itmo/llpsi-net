@@ -25,7 +25,7 @@ export class Preposition extends Word {
     private latin_: string;
     private cases_: Casus[] = [];
     private abbreviations_: string[] = [];
-    
+
     public constructor(data: PrepositionData) {
         super(data, `${data.latin}`);
         this.latin_ = data.latin;
@@ -38,11 +38,11 @@ export class Preposition extends Word {
             }
         });
     }
-    
+
     public get latin(): string {
         return this.latin_;
     }
-    
+
     public get abbreviations(): string[] {
         return this.abbreviations_;
     }

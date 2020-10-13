@@ -19,6 +19,7 @@
 import { Card, CardContent, Table, TableBody, TableCell, TableContainer, TableHead, Typography, withStyles } from "@material-ui/core";
 import TableRow from "@material-ui/core/TableRow/TableRow";
 import React from "react";
+import { AdjectiveDeclinable } from "../../models/types/AdjectiveDeclinable";
 import { AllCases, Casus } from "../../models/types/Casus";
 import { Genus } from "../../models/types/Genus";
 import { Numerus } from "../../models/types/Numerus";
@@ -65,100 +66,112 @@ export function WordCard(props: {word: Word}) {
 
 function getWordData(word: Word): JSX.Element {
     switch (word.type) {
-        case WordType.Adjective:    return <AdjectiveEntry word={word as Adjective} />;
+        case WordType.Adjective:    return <AdjectivalEntry word={word as Adjective} />;
         case WordType.Conjunction:  return <ConjunctionEntry conj={word as Conjunction} />;
         case WordType.Preposition:  return <PrepositionEntry prp={word as Preposition} />;
         case WordType.Noun:         return <NounEntry noun={word as Noun} />;
-        case WordType.Pronoun:      return <AdjectiveEntry word={word as Pronoun} />;
+        case WordType.Pronoun:      return <AdjectivalEntry word={word as Pronoun} />;
         default:
             return <React.Fragment />;
     }
 }
 
-function AdjectiveEntry(props: {word: Adjective | Pronoun}) {
+function AdjectivalEntry(props: {word: AdjectiveDeclinable}) {
     return (
-    <React.Fragment>
-        <Typography variant='h6' component='h6'>Declension</Typography>
-        <TableContainer>
-            <Table size='small'>
-                <TableHead>
-                    <TableRow>
-                        <TableCell></TableCell>
-                        <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Singular}</TableCell>
-                        <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Plural}</TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    <StyledTableRow>
-                        <TableCell />
-                        <TableCell style={{textAlign: 'center'}}>m</TableCell>
-                        <TableCell style={{textAlign: 'center'}}>f</TableCell>
-                        <TableCell style={{textAlign: 'center'}}>n</TableCell>
-                        <TableCell style={{textAlign: 'center'}}>m</TableCell>
-                        <TableCell style={{textAlign: 'center'}}>f</TableCell>
-                        <TableCell style={{textAlign: 'center'}}>n</TableCell>
-                    </StyledTableRow>
-                    { AllCases.map(casus => <AdjectiveDeclension word={props.word} casus={casus} />)}
-                </TableBody>
-            </Table>
-        </TableContainer>
-    </React.Fragment>
+        <React.Fragment>
+            <Typography variant='h6' component='h6'>Declension</Typography>
+            <TableContainer>
+                <Table size='small'>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell></TableCell>
+                            <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Singular}</TableCell>
+                            <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Plural}</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        <StyledTableRow>
+                            <TableCell />
+                            <TableCell style={{textAlign: 'center'}}>m</TableCell>
+                            <TableCell style={{textAlign: 'center'}}>f</TableCell>
+                            <TableCell style={{textAlign: 'center'}}>n</TableCell>
+                            <TableCell style={{textAlign: 'center'}}>m</TableCell>
+                            <TableCell style={{textAlign: 'center'}}>f</TableCell>
+                            <TableCell style={{textAlign: 'center'}}>n</TableCell>
+                        </StyledTableRow>
+                        { AllCases.map(casus => <AdjectivalDeclension word={props.word} casus={casus} />)}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </React.Fragment>
 )};
 
-const AdjectiveDeclension: React.FunctionComponent<{word: Adjective | Pronoun, casus: Casus}> = (props) =>
-    <StyledTableRow>
-        <TableCell>{props.casus}</TableCell>
+function AdjectivalDeclension(props: {word: AdjectiveDeclinable, casus: Casus}) {
+    return (
+        <StyledTableRow>
+            <TableCell>{props.casus}</TableCell>
 
-        <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
-        <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Singular)}</TableCell>
-        <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Singular)}</TableCell>
+            <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
+            <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Singular)}</TableCell>
+            <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Singular)}</TableCell>
 
-        <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Plural)}</TableCell>
-        <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Plural)}</TableCell>
-        <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Plural)}</TableCell>
-    </StyledTableRow>                    
+            <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Plural)}</TableCell>
+            <TableCell>{props.word.decline(Genus.Femininum, props.casus, Numerus.Plural)}</TableCell>
+            <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Plural)}</TableCell>
+        </StyledTableRow>
+    );
+}                    
 
-const ConjunctionEntry: React.FunctionComponent<{conj: Conjunction}> = (props) =>
-    <React.Fragment>
-        { props.conj.abbreviations.length == 0 ? null : 
-            <Typography variant='body2' component='p'>
-                Abbreviations: { props.conj.abbreviations.join(', ') }
-            </Typography>
-        }
-    </React.Fragment>
+function ConjunctionEntry(props: {conj: Conjunction}) {
+    return (
+        <React.Fragment>
+            {props.conj.abbreviations.length == 0 ? null :
+                <Typography variant='body2' component='p'>
+                    Abbreviations: {props.conj.abbreviations.join(', ')}
+                </Typography>}
+        </React.Fragment>
+    );
+}
 
-const PrepositionEntry: React.FunctionComponent<{prp: Preposition}> = (props) =>
-    <React.Fragment>
-        Cases: {props.prp.cases.join(', ') }
-    </React.Fragment>
+function PrepositionEntry(props: {prp: Preposition}) {
+    return (
+        <React.Fragment>
+            Cases: {props.prp.cases.join(', ')}
+        </React.Fragment>
+    );
+};
 
 function NounEntry(props: {noun: Noun}) {
     return (
-    <React.Fragment>
-        <Typography variant='h6' component='h6'>Declension</Typography>
-        <Typography variant='body2' component='p'>
-            Gender: {props.noun.genus}
-        </Typography>
-        <TableContainer>
-            <Table size='small'>
-                <TableHead>
-                    <TableRow>
-                        <TableCell></TableCell>
-                        <TableCell>{Numerus.Singular}</TableCell>
-                        <TableCell>{Numerus.Plural}</TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    { AllCases.map(casus => <NounDeclension noun={props.noun} casus={casus} />)}
-                </TableBody>
-            </Table>
-        </TableContainer>
-    </React.Fragment>
-)};
+        <React.Fragment>
+            <Typography variant='h6' component='h6'>Declension</Typography>
+            <Typography variant='body2' component='p'>
+                Gender: {props.noun.genus}
+            </Typography>
+            <TableContainer>
+                <Table size='small'>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell></TableCell>
+                            <TableCell>{Numerus.Singular}</TableCell>
+                            <TableCell>{Numerus.Plural}</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        { AllCases.map(casus => <NounDeclension noun={props.noun} casus={casus} />)}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </React.Fragment>
+    );
+};
 
-const NounDeclension: React.FunctionComponent<{noun: Noun, casus: Casus}> = (props) =>
-    <StyledTableRow>
-        <TableCell>{props.casus}</TableCell>
-        <TableCell>{props.noun.decline(props.casus, Numerus.Singular)}</TableCell>
-        <TableCell>{props.noun.decline(props.casus, Numerus.Plural)}</TableCell>
-    </StyledTableRow>                    
+function NounDeclension(props: {noun: Noun, casus: Casus}) {
+    return (
+        <StyledTableRow>
+            <TableCell>{props.casus}</TableCell>
+            <TableCell>{props.noun.decline(props.casus, Numerus.Singular)}</TableCell>
+            <TableCell>{props.noun.decline(props.casus, Numerus.Plural)}</TableCell>
+        </StyledTableRow>
+    );
+}

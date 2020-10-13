@@ -21,31 +21,31 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkAdjDecl, findAdjective, loadAdjectives } from './AdjectiveHelpers';
 
 before(() => {
-  loadAdjectives();
+    loadAdjectives();
 });
 
 describe('Is-E-declension', () => {
-  it('basic rule should decline correctly in singular', () => {
-    const word = findAdjective('brevis');
-    checkAdjDecl(word, Numerus.Singular, {
-      nominative: ['brevis',    'brevis',   'breve'],
-      accusative: ['brevem',    'brevem',   'breve'],
-      genitive:   ['brevis',    'brevis',   'brevis'],
-      dative:     ['brevī',     'brevī',    'brevī'],
-      ablative:   ['brevī',     'brevī',    'brevī'],
-      vocative:   ['brevis',    'brevis',   'breve'],
+    it('basic rule should decline correctly in singular', () => {
+        const word = findAdjective('brevis');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['brevis', 'brevis', 'breve'],
+            accusative: ['brevem', 'brevem', 'breve'],
+            genitive:   ['brevis', 'brevis', 'brevis'],
+            dative:     ['brevī',  'brevī',  'brevī'],
+            ablative:   ['brevī',  'brevī',  'brevī'],
+            vocative:   ['brevis', 'brevis', 'breve'],
+        });
     });
-  });
 
-  it('basic rule should decline correctly in plural', () => {
-    const word = findAdjective('brevis');
-    checkAdjDecl(word, Numerus.Plural, {
-      nominative: ['brevēs',    'brevēs',   'brevia'],
-      accusative: ['brevēs',    'brevēs',   'brevia'],
-      genitive:   ['brevium',   'brevium',  'brevium'],
-      dative:     ['brevibus',  'brevibus', 'brevibus'],
-      ablative:   ['brevibus',  'brevibus', 'brevibus'],
-      vocative:   ['brevēs',    'brevēs',   'brevia'],
+    it('basic rule should decline correctly in plural', () => {
+        const word = findAdjective('brevis');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['brevēs',   'brevēs',   'brevia'],
+            accusative: ['brevēs',   'brevēs',   'brevia'],
+            genitive:   ['brevium',  'brevium',  'brevium'],
+            dative:     ['brevibus', 'brevibus', 'brevibus'],
+            ablative:   ['brevibus', 'brevibus', 'brevibus'],
+            vocative:   ['brevēs',   'brevēs',   'brevia'],
+        });
     });
-  });
 });

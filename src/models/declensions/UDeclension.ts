@@ -101,7 +101,7 @@ export class UDeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ibus';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 
     private declineSingularN(casus: Casus): string | null {
         if (this.data.pluraleTantum) {
@@ -134,5 +134,5 @@ export class UDeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ibus';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 }

@@ -21,79 +21,79 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkAdjDecl, findAdjective, loadAdjectives } from './AdjectiveHelpers';
 
 before(() => {
-  loadAdjectives();
+    loadAdjectives();
 });
 
 describe('Us-A-Um-declension', () => {
-  it('basic rule should decline correctly in singular', () => {
-    const word = findAdjective('longus');
-    checkAdjDecl(word, Numerus.Singular, {
-      nominative: ['longus',    'longa',    'longum'],
-      accusative: ['longum',    'longam',   'longum'],
-      genitive:   ['longī',     'longae',   'longī'],
-      dative:     ['longō',     'longae',   'longō'],
-      ablative:   ['longō',     'longā',    'longō'],
-      vocative:   ['longe',     'longa',    'longum'],
+    it('basic rule should decline correctly in singular', () => {
+        const word = findAdjective('longus');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['longus', 'longa',  'longum'],
+            accusative: ['longum', 'longam', 'longum'],
+            genitive:   ['longī',  'longae', 'longī'],
+            dative:     ['longō',  'longae', 'longō'],
+            ablative:   ['longō',  'longā',  'longō'],
+            vocative:   ['longe',  'longa',  'longum'],
+        });
     });
-  });
 
-  it('basic rule should decline correctly in plural', () => {
-    const word = findAdjective('longus');
-    checkAdjDecl(word, Numerus.Plural, {
-      nominative: ['longī',     'longae',   'longa'],
-      accusative: ['longōs',    'longās',   'longa'],
-      genitive:   ['longōrum',  'longārum', 'longōrum'],
-      dative:     ['longīs',    'longīs',   'longīs'],
-      ablative:   ['longīs',    'longīs',   'longīs'],
-      vocative:   ['longī',     'longae',   'longa'],
+    it('basic rule should decline correctly in plural', () => {
+        const word = findAdjective('longus');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['longī',    'longae',   'longa'],
+            accusative: ['longōs',   'longās',   'longa'],
+            genitive:   ['longōrum', 'longārum', 'longōrum'],
+            dative:     ['longīs',   'longīs',   'longīs'],
+            ablative:   ['longīs',   'longīs',   'longīs'],
+            vocative:   ['longī',    'longae',   'longa'],
+        });
     });
-  });
 
-  it('-cher rule should decline correctly in singular', () => {
-    const word = findAdjective('pulcher');
-    checkAdjDecl(word, Numerus.Singular, {
-      nominative: ['pulcher',   'pulchra',  'pulchrum'],
-      accusative: ['pulchrum',  'pulchram', 'pulchrum'],
-      genitive:   ['pulchrī',   'pulchrae', 'pulchrī'],
-      dative:     ['pulchrō',   'pulchrae', 'pulchrō'],
-      ablative:   ['pulchrō',   'pulchrā',  'pulchrō'],
-      vocative:   ['pulcher',   'pulchra',  'pulchrum'],
+    it('-cher rule should decline correctly in singular', () => {
+        const word = findAdjective('pulcher');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['pulcher',  'pulchra',  'pulchrum'],
+            accusative: ['pulchrum', 'pulchram', 'pulchrum'],
+            genitive:   ['pulchrī',  'pulchrae', 'pulchrī'],
+            dative:     ['pulchrō',  'pulchrae', 'pulchrō'],
+            ablative:   ['pulchrō',  'pulchrā',  'pulchrō'],
+            vocative:   ['pulcher',  'pulchra',  'pulchrum'],
+        });
     });
-  });
 
-  it('-cher rule should decline correctly in plural', () => {
-    const word = findAdjective('pulcher');
-    checkAdjDecl(word, Numerus.Plural, {
-      nominative: ['pulchrī',       'pulchrae',     'pulchra'],
-      accusative: ['pulchrōs',      'pulchrās',     'pulchra'],
-      genitive:   ['pulchrōrum',    'pulchrārum',   'pulchrōrum'],
-      dative:     ['pulchrīs',      'pulchrīs',     'pulchrīs'],
-      ablative:   ['pulchrīs',      'pulchrīs',     'pulchrīs'],
-      vocative:   ['pulchrī',       'pulchrae',     'pulchra'],
+    it('-cher rule should decline correctly in plural', () => {
+        const word = findAdjective('pulcher');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['pulchrī',    'pulchrae',   'pulchra'],
+            accusative: ['pulchrōs',   'pulchrās',   'pulchra'],
+            genitive:   ['pulchrōrum', 'pulchrārum', 'pulchrōrum'],
+            dative:     ['pulchrīs',   'pulchrīs',   'pulchrīs'],
+            ablative:   ['pulchrīs',   'pulchrīs',   'pulchrīs'],
+            vocative:   ['pulchrī',    'pulchrae',   'pulchra'],
+        });
     });
-  });
 
-  it('plurale tantum should decline correctly in plural', () => {
-    const word = findAdjective('cēterī');
-    checkAdjDecl(word, Numerus.Plural, {
-      nominative: ['cēterī',       'cēterae',     'cētera'],
-      accusative: ['cēterōs',      'cēterās',     'cētera'],
-      genitive:   ['cēterōrum',    'cēterārum',   'cēterōrum'],
-      dative:     ['cēterīs',      'cēterīs',     'cēterīs'],
-      ablative:   ['cēterīs',      'cēterīs',     'cēterīs'],
-      vocative:   ['cēterī',       'cēterae',     'cētera'],
+    it('plurale tantum should decline correctly in plural', () => {
+        const word = findAdjective('cēterī');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['cēterī',    'cēterae',   'cētera'],
+            accusative: ['cēterōs',   'cēterās',   'cētera'],
+            genitive:   ['cēterōrum', 'cēterārum', 'cēterōrum'],
+            dative:     ['cēterīs',   'cēterīs',   'cēterīs'],
+            ablative:   ['cēterīs',   'cēterīs',   'cēterīs'],
+            vocative:   ['cēterī',    'cēterae',   'cētera'],
+        });
     });
-  });
 
-  it('meus exception should decline correctly in singular', () => {
-    const word = findAdjective('meus');
-    checkAdjDecl(word, Numerus.Singular, {
-      nominative: ['meus',  'mea',  'meum'],
-      accusative: ['meum',  'meam', 'meum'],
-      genitive:   ['meī',   'meae', 'meī'],
-      dative:     ['meō',   'meae', 'meō'],
-      ablative:   ['meō',   'meā',  'meō'],
-      vocative:   ['mī',    'mea',  'meum'],
+    it('meus exception should decline correctly in singular', () => {
+        const word = findAdjective('meus');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['meus', 'mea',  'meum'],
+            accusative: ['meum', 'meam', 'meum'],
+            genitive:   ['meī',  'meae', 'meī'],
+            dative:     ['meō',  'meae', 'meō'],
+            ablative:   ['meō',  'meā',  'meō'],
+            vocative:   ['mī',   'mea',  'meum'],
+        });
     });
-  });
 });

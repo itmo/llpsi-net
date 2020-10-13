@@ -38,10 +38,10 @@ export interface DeclensionKnowledge {
 
 export interface GrammarKnowledge {
     declensions: DeclensionKnowledge;
-    
+
     ablPrepostions: boolean;
     accPrepositions: boolean;
-    
+
     pronounHic: boolean;
     pronounIlle: boolean;
     pronounIs: boolean;
@@ -144,13 +144,13 @@ export function getGrammarKnowledge(chapter: number) {
 
     if (chapter >= 9) {
         k.declensions.nounDeclensions.add(NounDeclension.Cons);
-    }    
+    }
 
     if (chapter >= 11) {
         k.declensions.nounDeclensions.add(NounDeclension.I);
         k.declensions.neuterCons = true;
     }
-    
+
     if (chapter >= 12) {
         k.declensions.nounDeclensions.add(NounDeclension.U);
         k.declensions.adjectiveDeclensions.add(AdjectiveDeclension.Cons);

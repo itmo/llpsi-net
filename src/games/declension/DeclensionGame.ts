@@ -130,7 +130,7 @@ export class DeclensionGame {
 
     public getAnswer(challenge: DeclensionChallenge): string[] {
         const solution: string[] = [];
-        
+
         if (challenge.indicator instanceof Preposition) {
             solution.push(challenge.indicator.latin);
         }

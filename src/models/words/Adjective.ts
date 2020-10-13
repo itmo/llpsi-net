@@ -22,6 +22,7 @@ import { Declension, DeclensionInput, DeclensionRule } from "../declensions/Decl
 import { IPureDeclension } from "../declensions/IPureDeclension";
 import { IrregularDeclension } from "../declensions/IrregularDeclension";
 import { ODeclension } from "../declensions/ODeclension";
+import { AdjectiveDeclinable } from "../types/AdjectiveDeclinable";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
@@ -32,7 +33,7 @@ export enum AdjectiveDeclension {
     AO, Cons, Irregular
 }
 
-export class Adjective extends Word {
+export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
     private femaleDeclension: Declension;
     private neuterDeclension: Declension;
@@ -47,7 +48,7 @@ export class Adjective extends Word {
         this.femaleDeclension = f;
         this.neuterDeclension = n;
     }
-    
+
     public get pluraleTantum(): boolean {
         return this.pluraleTantum_;
     }

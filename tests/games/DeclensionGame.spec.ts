@@ -24,7 +24,6 @@ import { DeclensionChallenge } from '../../src/games/declension/DeclensionChalle
 import { Numerus } from '../../src/models/types/Numerus';
 import { expect } from 'chai';
 import { Word } from '../../src/models/words/Word';
-import { getGrammarKnowledge } from '../../src/models/GrammarKnowledge';
 import { Pronoun } from '../../src/models/words/Pronoun';
 import { Casus } from '../../src/models/types/Casus';
 import { Genus } from '../../src/models/types/Genus';
@@ -59,7 +58,7 @@ describe('Declension game', () => {
 
         expect(game.check(challenge, 'puellārum parvārum')).to.be.true;
         expect(game.check(challenge, 'parvārum puellārum')).to.be.true;
-        
+
         expect(game.check(challenge, 'parvarum puellarum')).to.be.true;
         expect(game.check(challenge, 'puellarum parvarum')).to.be.true;
 

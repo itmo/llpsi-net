@@ -129,7 +129,7 @@ export class ConsDeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ibus';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 
     private declinePluralN(casus: Casus): string | null {
         let nominative: string;
@@ -147,7 +147,7 @@ export class ConsDeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ibus';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 }
 
 export const ConsRulesPlural: DeclensionRule[] = [

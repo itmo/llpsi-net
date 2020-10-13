@@ -23,11 +23,11 @@ import { EDeclension } from "../declensions/EDeclension";
 import { IMixedDeclension } from "../declensions/IMixedDeclension";
 import { IndeclinableDeclension } from "../declensions/IndeclinableDeclension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
-import { IrregularDeclension } from "../declensions/IrregularDeclension";
 import { ODeclension } from "../declensions/ODeclension";
 import { UDeclension } from "../declensions/UDeclension";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
+import { NounDeclinable } from "../types/NounDeclinable";
 import { Numerus } from "../types/Numerus";
 import { DeclensionOverrides, NounData } from "../WordData";
 import { Word } from "./Word";
@@ -36,7 +36,7 @@ export enum NounDeclension {
     A, O, Cons, I, U, E, Indeclinable
 }
 
-export class Noun extends Word {
+export class Noun extends Word implements NounDeclinable {
     private declension: Declension;
     private genus_: Genus;
     private pluraleTantum_: boolean;

@@ -21,31 +21,31 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('I-mixed-declension', () => {
-  it('-is female rule should decline correctly in singular', () => {
-    const word = findNoun('ovis');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'ovis',
-      accusative: 'ovem',
-      genitive:   'ovis',
-      dative:     'ovī',
-      ablative:   'ove',
-      vocative:   'ovis',
+    it('-is female rule should decline correctly in singular', () => {
+        const word = findNoun('ovis');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'ovis',
+            accusative: 'ovem',
+            genitive:   'ovis',
+            dative:     'ovī',
+            ablative:   'ove',
+            vocative:   'ovis',
+        });
     });
-  });
 
-  it('basic -is female rule should decline correctly in plural', () => {
-    const word = findNoun('ovis');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'ovēs',
-      accusative: 'ovēs',
-      genitive:   'ovium',
-      dative:     'ovibus',
-      ablative:   'ovibus',
-      vocative:   'ovēs',
+    it('basic -is female rule should decline correctly in plural', () => {
+        const word = findNoun('ovis');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'ovēs',
+            accusative: 'ovēs',
+            genitive:   'ovium',
+            dative:     'ovibus',
+            ablative:   'ovibus',
+            vocative:   'ovēs',
+        });
     });
-  });
 });

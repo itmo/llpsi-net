@@ -27,45 +27,45 @@ import { Adjective } from '../../src/models/words/Adjective';
 type AdjEntry = (string | null);
 
 export interface AdjTable {
-  nominative: AdjEntry[];
-  accusative: AdjEntry[];
-  genitive: AdjEntry[];
-  dative: AdjEntry[];
-  ablative: AdjEntry[];
-  vocative: AdjEntry[];
+    nominative: AdjEntry[];
+    accusative: AdjEntry[];
+    genitive: AdjEntry[];
+    dative: AdjEntry[];
+    ablative: AdjEntry[];
+    vocative: AdjEntry[];
 }
 
 export function checkAdjDecl(adj: Adjective, numerus: Numerus, data: AdjTable) {
-  const genus = [Genus.Masculine, Genus.Femininum, Genus.Neuter];
-  for (let i = 0; i < 3; i++) {
-    expect(adj.decline(genus[i], Casus.Nominative, numerus)).equals(data.nominative[i], 'nominative');
-    expect(adj.decline(genus[i], Casus.Accusative, numerus)).equals(data.accusative[i], 'accusative');
-    expect(adj.decline(genus[i], Casus.Genitive, numerus)).equals(data.genitive[i], 'genitive');
-    expect(adj.decline(genus[i], Casus.Dative, numerus)).equals(data.dative[i], 'dative');
-    expect(adj.decline(genus[i], Casus.Ablative, numerus)).equals(data.ablative[i], 'ablative');
-    expect(adj.decline(genus[i], Casus.Vocative, numerus)).equals(data.vocative[i], 'vocative');
-  }
+    const genus = [Genus.Masculine, Genus.Femininum, Genus.Neuter];
+    for (let i = 0; i < 3; i++) {
+        expect(adj.decline(genus[i], Casus.Nominative, numerus)).equals(data.nominative[i], 'nominative');
+        expect(adj.decline(genus[i], Casus.Accusative, numerus)).equals(data.accusative[i], 'accusative');
+        expect(adj.decline(genus[i], Casus.Genitive, numerus)).equals(data.genitive[i], 'genitive');
+        expect(adj.decline(genus[i], Casus.Dative, numerus)).equals(data.dative[i], 'dative');
+        expect(adj.decline(genus[i], Casus.Ablative, numerus)).equals(data.ablative[i], 'ablative');
+        expect(adj.decline(genus[i], Casus.Vocative, numerus)).equals(data.vocative[i], 'vocative');
+    }
 }
 
 const adjs: Adjective[] = [];
 
 export function loadAdjectives() {
-  const data = require('../../data/LLPSI.json');
-  for (const entry of data) {
-    switch (entry.wordType) {
-      case WordType.Adjective:
-        const noun = new Adjective(entry);
-        adjs.push(noun);
-        break;
+    const data = require('../../data/LLPSI.json');
+    for (const entry of data) {
+        switch (entry.wordType) {
+            case WordType.Adjective:
+                const noun = new Adjective(entry);
+                adjs.push(noun);
+                break;
+        }
     }
-  }
 }
 
 export function findAdjective(lemma: string): Adjective {
-  for (const adj of adjs) {
-    if (adj.lemma == lemma) {
-      return adj;
+    for (const adj of adjs) {
+        if (adj.lemma == lemma) {
+            return adj;
+        }
     }
-  }
-  throw Error(`Adjective ${lemma} not found`);
+    throw Error(`Adjective ${lemma} not found`);
 }

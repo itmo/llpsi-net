@@ -21,55 +21,55 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('A-declension', () => {
-  it('basic female rule should decline correctly in singular', () => {
-    const word = findNoun('ancilla');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'ancilla',
-      accusative: 'ancillam',
-      genitive:   'ancillae',
-      dative:     'ancillae',
-      ablative:   'ancillā',
-      vocative:   'ancilla',
+    it('basic female rule should decline correctly in singular', () => {
+        const word = findNoun('ancilla');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'ancilla',
+            accusative: 'ancillam',
+            genitive:   'ancillae',
+            dative:     'ancillae',
+            ablative:   'ancillā',
+            vocative:   'ancilla',
+        });
     });
-  });
 
-  it('basic female rule should decline correctly in plural', () => {
-    const word = findNoun('ancilla');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'ancillae',
-      accusative: 'ancillās',
-      genitive:   'ancillārum',
-      dative:     'ancillīs',
-      ablative:   'ancillīs',
-      vocative:   'ancillae',
+    it('basic female rule should decline correctly in plural', () => {
+        const word = findNoun('ancilla');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'ancillae',
+            accusative: 'ancillās',
+            genitive:   'ancillārum',
+            dative:     'ancillīs',
+            ablative:   'ancillīs',
+            vocative:   'ancillae',
+        });
     });
-  });
 
-  it('-abus rule should decline correctly in singular', () => {
-    const word = findNoun('fīlia');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'fīlia',
-      accusative: 'fīliam',
-      genitive:   'fīliae',
-      dative:     'fīliae',
-      ablative:   'fīliā',
-      vocative:   'fīlia',
+    it('-abus rule should decline correctly in singular', () => {
+        const word = findNoun('fīlia');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'fīlia',
+            accusative: 'fīliam',
+            genitive:   'fīliae',
+            dative:     'fīliae',
+            ablative:   'fīliā',
+            vocative:   'fīlia',
+        });
     });
-  });
 
-  it('-abus rule should decline correctly in plural', () => {
-    const word = findNoun('fīlia');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'fīliae',
-      accusative: 'fīliās',
-      genitive:   'fīliārum',
-      dative:     'fīliābus',
-      ablative:   'fīliābus',
-      vocative:   'fīliae',
+    it('-abus rule should decline correctly in plural', () => {
+        const word = findNoun('fīlia');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'fīliae',
+            accusative: 'fīliās',
+            genitive:   'fīliārum',
+            dative:     'fīliābus',
+            ablative:   'fīliābus',
+            vocative:   'fīliae',
+        });
     });
-  });
 });

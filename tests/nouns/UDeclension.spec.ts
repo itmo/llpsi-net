@@ -21,43 +21,43 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('U-declension', () => {
-  it('-us rule should decline correctly in singular', () => {
-    const word = findNoun('manus');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'manus',
-      accusative: 'manum',
-      genitive:   'manūs',
-      dative:     'manuī',
-      ablative:   'manū',
-      vocative:   'manus',
+    it('-us rule should decline correctly in singular', () => {
+        const word = findNoun('manus');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'manus',
+            accusative: 'manum',
+            genitive:   'manūs',
+            dative:     'manuī',
+            ablative:   'manū',
+            vocative:   'manus',
+        });
     });
-  });
 
-  it('-is neuter rule should decline correctly in plural', () => {
-    const word = findNoun('manus');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'manūs',
-      accusative: 'manūs',
-      genitive:   'manuum',
-      dative:     'manibus',
-      ablative:   'manibus',
-      vocative:   'manūs',
+    it('-is neuter rule should decline correctly in plural', () => {
+        const word = findNoun('manus');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'manūs',
+            accusative: 'manūs',
+            genitive:   'manuum',
+            dative:     'manibus',
+            ablative:   'manibus',
+            vocative:   'manūs',
+        });
     });
-  });
 
-  it('Plurale tantum rule should decline correctly in plural', () => {
-    const word = findNoun('īdūs');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'īdūs',
-      accusative: 'īdūs',
-      genitive:   'īduum',
-      dative:     'īdibus',
-      ablative:   'īdibus',
-      vocative:   'īdūs',
+    it('Plurale tantum rule should decline correctly in plural', () => {
+        const word = findNoun('īdūs');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'īdūs',
+            accusative: 'īdūs',
+            genitive:   'īduum',
+            dative:     'īdibus',
+            ablative:   'īdibus',
+            vocative:   'īdūs',
+        });
     });
-  });
 });

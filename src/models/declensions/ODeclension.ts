@@ -122,7 +122,7 @@ export class ODeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'īs';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 
     private declinePluralN(casus: Casus): string | null {
         let nominative: string;
@@ -140,7 +140,7 @@ export class ODeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'īs';
             case Casus.Vocative:    return nominative;
         }
-    }    
+    }
 }
 
 const ORulesPlural: DeclensionRule[] = [
@@ -192,4 +192,4 @@ const ORulesSingular: DeclensionRule[] = [
         ],
     },
 ];
-    
+

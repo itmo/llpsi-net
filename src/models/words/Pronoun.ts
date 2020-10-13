@@ -23,8 +23,9 @@ import { Casus } from "../types/Casus";
 import { Numerus } from "../types/Numerus";
 import { Declension } from "../declensions/Declension";
 import { IrregularDeclension } from "../declensions/IrregularDeclension";
+import { AdjectiveDeclinable } from "../types/AdjectiveDeclinable";
 
-export class Pronoun extends Word {
+export class Pronoun extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
     private femaleDeclension: Declension;
     private neuterDeclension: Declension;

@@ -79,5 +79,5 @@ export class EDeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ēbus';
             case Casus.Vocative:    return this.data.nominative;
         }
-    }    
+    }
 }

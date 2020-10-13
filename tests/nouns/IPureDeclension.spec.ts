@@ -21,31 +21,31 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('I-pure-declension', () => {
-  it('-is neuter rule should decline correctly in singular', () => {
-    const word = findNoun('animal');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'animal',
-      accusative: 'animal',
-      genitive:   'animālis',
-      dative:     'animālī',
-      ablative:   'animālī',
-      vocative:   'animal',
+    it('-is neuter rule should decline correctly in singular', () => {
+        const word = findNoun('animal');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'animal',
+            accusative: 'animal',
+            genitive:   'animālis',
+            dative:     'animālī',
+            ablative:   'animālī',
+            vocative:   'animal',
+        });
     });
-  });
 
-  it('-is neuter rule should decline correctly in plural', () => {
-    const word = findNoun('animal');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'animālia',
-      accusative: 'animālia',
-      genitive:   'animālium',
-      dative:     'animālibus',
-      ablative:   'animālibus',
-      vocative:   'animālia',
+    it('-is neuter rule should decline correctly in plural', () => {
+        const word = findNoun('animal');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'animālia',
+            accusative: 'animālia',
+            genitive:   'animālium',
+            dative:     'animālibus',
+            ablative:   'animālibus',
+            vocative:   'animālia',
+        });
     });
-  });
 });

@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
     },
     toolbar: {
-        paddingRight: 24, // keep right padding when drawer closed
+        paddingRight: 24,
     },
     toolbarIcon: {
         display: 'flex',
@@ -128,23 +128,19 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export interface AppProps {
-    db: WordDB;
-}
-
-export const App: React.FunctionComponent<AppProps> = props => {
+export function App(props: {db: WordDB}) {
     const classes = useStyles();
-    
+
     const [open, setOpen] = React.useState(false);
-    
+
     const handleDrawerOpen = () => {
         setOpen(true);
     };
-    
+
     const handleDrawerClose = () => {
         setOpen(false);
     };
-    
+
     return (
         <div className={classes.root}>
             <CssBaseline />
@@ -160,7 +156,7 @@ export const App: React.FunctionComponent<AppProps> = props => {
             </AppBar>
             <Router>
                 <Drawer variant='permanent' open={open}
-                    classes={{paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose)}}>
+                    classes={{ paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose) }}>
                     <div className={classes.toolbarIcon}>
                         <IconButton onClick={handleDrawerClose}>
                             <ChevronLeftIcon />
@@ -241,12 +237,15 @@ export const App: React.FunctionComponent<AppProps> = props => {
                 </main>
             </Router>
         </div>
-    )
-};
+    );
+}
 
-const Copyright: React.FunctionComponent = () =>
-    <Box pt={4}>
-        <Typography variant='body2' color='textSecondary' align='center'>
-            Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2020
-        </Typography>
-    </Box>
+function Copyright() {
+    return (
+        <Box pt={4}>
+            <Typography variant='body2' color='textSecondary' align='center'>
+                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2020
+            </Typography>
+        </Box>
+    );
+}

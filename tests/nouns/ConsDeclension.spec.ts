@@ -21,55 +21,55 @@ import { Numerus } from '../../src/models/types/Numerus';
 import { checkNounDecl, findNoun, loadNouns } from './NounHelpers';
 
 before(() => {
-  loadNouns();
+    loadNouns();
 });
 
 describe('Cons-declension', () => {
-  it('basic -is male rule should decline correctly in singular', () => {
-    const word = findNoun('canis');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'canis',
-      accusative: 'canem',
-      genitive:   'canis',
-      dative:     'canī',
-      ablative:   'cane',
-      vocative:   'canis',
+    it('basic -is male rule should decline correctly in singular', () => {
+        const word = findNoun('canis');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'canis',
+            accusative: 'canem',
+            genitive:   'canis',
+            dative:     'canī',
+            ablative:   'cane',
+            vocative:   'canis',
+        });
     });
-  });
 
-  it('basic -is male rule should decline correctly in plural', () => {
-    const word = findNoun('canis');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'canēs',
-      accusative: 'canēs',
-      genitive:   'canum',
-      dative:     'canibus',
-      ablative:   'canibus',
-      vocative:   'canēs',
+    it('basic -is male rule should decline correctly in plural', () => {
+        const word = findNoun('canis');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'canēs',
+            accusative: 'canēs',
+            genitive:   'canum',
+            dative:     'canibus',
+            ablative:   'canibus',
+            vocative:   'canēs',
+        });
     });
-  });
 
-  it('basic -is neuter rule should decline correctly in singular', () => {
-    const word = findNoun('cor');
-    checkNounDecl(word, Numerus.Singular, {
-      nominative: 'cor',
-      accusative: 'cor',
-      genitive:   'cordis',
-      dative:     'cordī',
-      ablative:   'corde',
-      vocative:   'cor',
+    it('basic -is neuter rule should decline correctly in singular', () => {
+        const word = findNoun('cor');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'cor',
+            accusative: 'cor',
+            genitive:   'cordis',
+            dative:     'cordī',
+            ablative:   'corde',
+            vocative:   'cor',
+        });
     });
-  });
 
-  it('basic -is neuter rule should decline correctly in plural', () => {
-    const word = findNoun('cor');
-    checkNounDecl(word, Numerus.Plural, {
-      nominative: 'corda',
-      accusative: 'corda',
-      genitive:   'cordum',
-      dative:     'cordibus',
-      ablative:   'cordibus',
-      vocative:   'corda',
+    it('basic -is neuter rule should decline correctly in plural', () => {
+        const word = findNoun('cor');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'corda',
+            accusative: 'corda',
+            genitive:   'cordum',
+            dative:     'cordibus',
+            ablative:   'cordibus',
+            vocative:   'corda',
+        });
     });
-  });
 });
