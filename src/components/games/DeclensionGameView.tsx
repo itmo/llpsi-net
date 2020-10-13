@@ -62,6 +62,14 @@ export function DeclensionGameView(props: GameViewProps) {
         setChallenge(game.createChallenge(options));
     }
 
+    function onCancel() {
+        setOptions({
+            knowledge: getGrammarKnowledge(props.db.maxChapter),
+            vocabChapter: props.db.maxChapter,
+        });
+        setState(GameState.Options);
+    }
+
     return (
         <React.Fragment>
             <Typography component='h1' variant='h4'>Declension Game</Typography>
@@ -75,7 +83,7 @@ export function DeclensionGameView(props: GameViewProps) {
             { state == GameState.Game && challenge &&
                 <Game game={game} challenge={challenge}
                     onNext={() => onNextGame()}
-                    onCancel={() => setState(GameState.Options)}
+                    onCancel={() => onCancel()}
                 />
             }
         </React.Fragment>
@@ -93,7 +101,7 @@ function GameOptions(props: OptionsProps) {
 
     return (
         <Box p={1}>
-            <form onSubmit={() =>props.onDone(options)}>
+            <form onSubmit={() => props.onDone(options)}>
                 <FormGroup>
                     <FormControl margin='normal'>
                         <FormLabel>Vocabulary up to chapter</FormLabel>
@@ -198,6 +206,7 @@ function Game(props: GameProps): JSX.Element {
             </Box>
             <ul>
                 <li>Word order doesn't matter</li>
+                <li>For m/f nouns, only m is accepted for now</li>
                 <li>If any macron is used, all macrons are checked</li> 
                 <li>If no macron is used, macrons are not checked</li>
                 <li>Expand the words for hints</li>
