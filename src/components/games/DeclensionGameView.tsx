@@ -196,6 +196,12 @@ function Game(props: GameProps): JSX.Element {
                     </ButtonGroup>
                 </form>
             </Box>
+            <ul>
+                <li>Word order doesn't matter</li>
+                <li>If any macron is used, all macrons are checked</li> 
+                <li>If no macron is used, macrons are not checked</li>
+                <li>Expand the words for hints</li>
+            </ul>
         </React.Fragment>
     );
 }
