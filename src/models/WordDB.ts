@@ -74,6 +74,10 @@ export class WordDB {
         return this.getWord<Pronoun>(this.pronouns, lemma);
     }
 
+    public getInterjection(lemma: string): Interjection {
+        return this.getWord<Interjection>(this.interjections, lemma);
+    }
+
     private getWord<T extends Word>(coll: T[], lemma: string): T {
         const word = coll.find(p => p.lemma == lemma);
         if (!word) {

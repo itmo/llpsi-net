@@ -16,11 +16,11 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { WordDB } from '../../models/WordDB';
 import { DeclensionGame } from '../../games/declension/DeclensionGame';
-import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, FormLabel, IconButton, Paper, Slider, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, FormLabel, IconButton, Paper, Slider, Table, TableBody, TableCell, TableContainer, TableRow, TextField, withStyles } from '@material-ui/core';
 import { DeclensionGameOptions } from '../../games/declension/DeclensionGameOptions';
 import { DeclensionChallenge } from '../../games/declension/DeclensionChallenge';
 import { getGrammarKnowledge } from '../../models/GrammarKnowledge';
@@ -33,6 +33,8 @@ import { Word } from '../../models/words/Word';
 import { WordCard } from '../words/WordCard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import { DeclensionKnowledgeView } from './DeclensionKnowledgeView';
+import { Interjection } from '../../models/words/Interjection';
 
 export interface GameViewProps {
     db: WordDB;
@@ -52,9 +54,12 @@ export function DeclensionGameView(props: GameViewProps) {
     const [game, setGame] = useState<DeclensionGame>(new DeclensionGame(props.db));
     const [challenge, setChallenge] = useState<DeclensionChallenge>();
 
-    function onOptionsSet(opts: DeclensionGameOptions) {
-        setOptions(old => Object.assign(old, opts));
-        setChallenge(game.createChallenge(opts));
+    function changeOptions(opts: DeclensionGameOptions) {
+        setOptions(opts);
+    }
+
+    function onStart() {
+        setChallenge(game.createChallenge(options));
         setState(GameState.Game);
     }
 
@@ -77,7 +82,8 @@ export function DeclensionGameView(props: GameViewProps) {
                 <GameOptions
                     db={props.db}
                     initial={options}
-                    onDone={opts => onOptionsSet(opts)}
+                    onChange={opts => changeOptions(opts)}
+                    onDone={() => onStart()}
                 />
             }
             { state == GameState.Game && challenge &&
@@ -93,15 +99,27 @@ export function DeclensionGameView(props: GameViewProps) {
 interface OptionsProps {
     db: WordDB;
     initial: DeclensionGameOptions;
-    onDone(options: DeclensionGameOptions): void;
+    onChange(options: DeclensionGameOptions): void;
+    onDone(): void;
 }
 
 function GameOptions(props: OptionsProps) {
     const [options, setOptions] = useState<DeclensionGameOptions>(props.initial);
+    useEffect(() => {
+        props.onChange(options);
+    }, [options]);
+
+    function changeGrammar(chapter: number) {
+        setOptions(old => ({...old, knowledge: getGrammarKnowledge(chapter)}))
+    }
+
+    function changeVocab(chapter: number) {
+        setOptions(old => ({...old, vocabChapter: chapter}))
+    }
 
     return (
         <Box p={1}>
-            <form onSubmit={() => props.onDone(options)}>
+            <form onSubmit={() => props.onDone()}>
                 <FormGroup>
                     <FormControl margin='normal'>
                         <FormLabel>Vocabulary up to chapter</FormLabel>
@@ -110,7 +128,7 @@ function GameOptions(props: OptionsProps) {
                             valueLabelDisplay='on'
                             getAriaValueText={value => value.toString()}
                             step={1} min={1} max={props.db.maxChapter} marks
-                            onChangeCommitted={(_, value) => setOptions(old => ({...old, vocabChapter: value as number}))}
+                            onChange={(_, value) => changeVocab(value as number)}
                         />
                     </FormControl>
                     <FormControl margin='normal'>
@@ -120,12 +138,13 @@ function GameOptions(props: OptionsProps) {
                             valueLabelDisplay='on'
                             getAriaValueText={value => value.toString()}
                             step={1} min={1} max={props.db.maxChapter} marks
-                            onChangeCommitted={(_, value) => setOptions(old => ({...old, knowledge: getGrammarKnowledge(value as number)}))}
+                            onChange={(_, value) => changeGrammar(value as number)}
                         />
                     </FormControl>
                 </FormGroup>
                 <Button type='submit' variant='contained' color='primary'>Start</Button>
             </form>
+            <DeclensionKnowledgeView knowledge={options.knowledge.declensions} />
         </Box>
     );
 }
@@ -141,7 +160,7 @@ function Game(props: GameProps): JSX.Element {
     const [right, setRight] = useState<boolean>(false);
     const inputRef = useRef<HTMLInputElement>();
     const challenge = props.challenge;
-    
+
     function setResponse(answer: string) {
         setRight(props.game.check(challenge, answer));
     }
@@ -165,7 +184,7 @@ function Game(props: GameProps): JSX.Element {
                     'Type the answer to the interrogative pronoun.'
                 }
                 { challenge.casus == Casus.Vocative &&
-                    'Exclaim the answer (vocative).'
+                    'Decline the exclamation (vocative).'
                 }
                 { challenge.indicator instanceof Preposition &&
                     'Decline including the preposition.'
@@ -207,7 +226,7 @@ function Game(props: GameProps): JSX.Element {
             <ul>
                 <li>Word order doesn't matter</li>
                 <li>For m/f nouns, only m is accepted for now</li>
-                <li>If any macron is used, all macrons are checked</li> 
+                <li>If any macron is used, all macrons are checked</li>
                 <li>If no macron is used, macrons are not checked</li>
                 <li>Expand the words for hints</li>
             </ul>
@@ -218,7 +237,7 @@ function Game(props: GameProps): JSX.Element {
 function getIndicatorRow(challenge: DeclensionChallenge): JSX.Element {
     const indicator = challenge.indicator;
 
-    if (indicator instanceof Preposition) {
+    if (indicator instanceof Preposition || indicator instanceof Interjection) {
         return <WordRow word={indicator} />;
     } else if (indicator instanceof Pronoun) {
         return (

@@ -16,14 +16,14 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { styled } from "@material-ui/core";
 import { randomElement, stripMacrons } from "../../models/common";
-import { Declension, DeclensionRule } from "../../models/declensions/Declension";
 import { Casus } from "../../models/types/Casus";
-import { Genus } from "../../models/types/Genus";
 import { Numerus } from "../../models/types/Numerus";
 import { WordDB } from "../../models/WordDB";
 import { Adjective } from "../../models/words/Adjective";
-import { Noun, NounDeclension } from "../../models/words/Noun";
+import { Interjection } from "../../models/words/Interjection";
+import { Noun } from "../../models/words/Noun";
 import { Preposition } from "../../models/words/Preposition";
 import { Pronoun } from "../../models/words/Pronoun";
 import { Word } from "../../models/words/Word";
@@ -57,7 +57,7 @@ export class DeclensionGame {
 
     private createAccusative(opts: DeclensionGameOptions): DeclensionChallenge {
         let indicator: Word | undefined;
-        if (opts.knowledge.accPrepositions) {
+        if (opts.knowledge.declensions.accPrepositions) {
             indicator = this.randomPreposition(opts, Casus.Accusative);
         }
 
@@ -75,7 +75,7 @@ export class DeclensionGame {
 
     private createAblative(opts: DeclensionGameOptions): DeclensionChallenge {
         let indicator: Word | undefined;
-        if (opts.knowledge.ablPrepostions) {
+        if (opts.knowledge.declensions.ablPrepostions) {
             indicator = this.randomPreposition(opts, Casus.Ablative);
         }
 
@@ -92,8 +92,8 @@ export class DeclensionGame {
     }
 
     private createVocative(opts: DeclensionGameOptions): DeclensionChallenge {
-        const quis = this.db.getPronoun('quis');
-        return this.fillChallenge(opts, Casus.Vocative, quis);
+        const o = this.db.getInterjection('ō');
+        return this.fillChallenge(opts, Casus.Vocative, o);
     }
 
     private fillChallenge(opts: DeclensionGameOptions, casus: Casus, indicator: Word): DeclensionChallenge {
@@ -111,11 +111,11 @@ export class DeclensionGame {
         const genus = noun.genus;
         const words: Word[] = [noun, adj];
 
-        if (opts.knowledge.pronounHic && Math.random() < 0.25) {
+        if (opts.knowledge.declensions.pronounHic && Math.random() < 0.25) {
             words.unshift(this.db.getPronoun('hic'));
-        } else if (opts.knowledge.pronounIlle && Math.random() < 0.25) {
+        } else if (opts.knowledge.declensions.pronounIlle && Math.random() < 0.25) {
             words.unshift(this.db.getPronoun('ille'));
-        } else if (opts.knowledge.pronounIs && Math.random() < 0.25) {
+        } else if (opts.knowledge.declensions.pronounIs && Math.random() < 0.25) {
             words.unshift(this.db.getPronoun('is'));
         }
 
@@ -133,6 +133,8 @@ export class DeclensionGame {
 
         if (challenge.indicator instanceof Preposition) {
             solution.push(challenge.indicator.latin);
+        } else if (challenge.indicator instanceof Interjection) {
+            solution.push(challenge.indicator.decline(challenge.number));
         }
 
         for (const word of challenge.words) {
@@ -189,22 +191,16 @@ export class DeclensionGame {
             }
 
             const decl = opts.knowledge.declensions;
-            if (!decl.nounDeclensions.has(noun.declensionType)) {
+            if (!decl.nounDeclensions.get(noun.declensionType)?.genera.has(noun.genus)) {
                 return false;
             }
 
-            if (!decl.cases.get(casus)?.genus.has(noun.genus)) {
+            if (!decl.cases.get(casus)?.genera.has(noun.genus)) {
                 return false;
             }
 
-            if (!decl.cases.get(casus)?.numerus.has(Numerus.Plural) && noun.pluraleTantum) {
+            if (!decl.cases.get(casus)?.numeri.has(Numerus.Plural) && noun.pluraleTantum) {
                 return false;
-            }
-
-            if (noun.declensionType == NounDeclension.Cons || noun.declensionType == NounDeclension.I) {
-                if (noun.genus == Genus.Neuter && !decl.neuterCons) {
-                    return false;
-                }
             }
 
             return true;
@@ -228,7 +224,7 @@ export class DeclensionGame {
                 return false;
             }
 
-            if (!decl.cases.get(casus)?.numerus.has(Numerus.Plural) && adj.pluraleTantum) {
+            if (!decl.cases.get(casus)?.numeri.has(Numerus.Plural) && adj.pluraleTantum) {
                 return false;
             }
 
@@ -241,7 +237,7 @@ export class DeclensionGame {
     private randomNumerus(opts: DeclensionGameOptions, casus: Casus, noun: Noun, adj: Adjective): Numerus {
         if (noun.pluraleTantum || adj.pluraleTantum) {
             return Numerus.Plural;
-        } else if (!opts.knowledge.declensions.cases.get(casus)?.numerus.has(Numerus.Plural)) {
+        } else if (!opts.knowledge.declensions.cases.get(casus)?.numeri.has(Numerus.Plural)) {
             return Numerus.Singular;
         } else if (casus == Casus.Nominative) {
             return Numerus.Plural;

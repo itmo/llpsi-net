@@ -6527,6 +6527,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Interjection",
+    "latinSingular": "ō",
+    "latinPlural": "",
+    "german": "o! ach!",
+    "english": "o!",
+    "reference": "3.32",
+    "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "ōceanus",
     "latinGenitive": "-ī",

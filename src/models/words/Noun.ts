@@ -30,11 +30,8 @@ import { Genus } from "../types/Genus";
 import { NounDeclinable } from "../types/NounDeclinable";
 import { Numerus } from "../types/Numerus";
 import { DeclensionOverrides, NounData } from "../WordData";
+import { NounDeclension } from "../types/NounDeclension";
 import { Word } from "./Word";
-
-export enum NounDeclension {
-    A, O, Cons, I, U, E, Indeclinable
-}
 
 export class Noun extends Word implements NounDeclinable {
     private declension: Declension;
@@ -57,17 +54,17 @@ export class Noun extends Word implements NounDeclinable {
     }
 
     public get declensionType(): NounDeclension {
-        if (this.declension instanceof ADeclension) {
+        const d = this.declension;
+
+        if (d instanceof ADeclension) {
             return NounDeclension.A;
-        } else if (this.declension instanceof ODeclension) {
+        } else if (d instanceof ODeclension) {
             return NounDeclension.O;
-        } else if (this.declension instanceof UDeclension) {
+        } else if (d instanceof UDeclension) {
             return NounDeclension.U;
-        } else if (this.declension instanceof ConsDeclension) {
-            return NounDeclension.Cons;
-        } else if (this.declension instanceof IMixedDeclension || this.declension instanceof IPureDeclension) {
-            return NounDeclension.I;
-        } else if (this.declension instanceof EDeclension) {
+        } else if (d instanceof ConsDeclension || d instanceof IMixedDeclension || d instanceof IPureDeclension) {
+            return NounDeclension.Third;
+        } else if (d instanceof EDeclension) {
             return NounDeclension.E;
         } else {
             return NounDeclension.Indeclinable;

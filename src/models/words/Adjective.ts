@@ -27,11 +27,8 @@ import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
 import { AdjectiveData, DeclensionOverrides } from "../WordData";
+import { AdjectiveDeclension } from "../types/AdjectiveDeclension";
 import { Word } from "./Word";
-
-export enum AdjectiveDeclension {
-    AO, Cons, Irregular
-}
 
 export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
