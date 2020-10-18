@@ -208,7 +208,7 @@ function Game(props: GameProps): JSX.Element {
                 <form noValidate autoCorrect='off' autoComplete='off' autoCapitalize='off' spellCheck='false'>
                     <FormGroup>
                         <FormControl margin='normal'>
-                            <TextField label='Entere answer here' variant='outlined'
+                            <TextField label='Enter answer here' variant='outlined'
                                 autoComplete='off'
                                 autoFocus={true}
                                 error={!right}

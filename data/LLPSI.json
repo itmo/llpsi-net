@@ -5237,7 +5237,7 @@
     "latinNominative": "scūtum",
     "latinGenitive": "-ī",
     "genus": "n",
-    "german": "Schield",
+    "german": "Schild",
     "english": "shield",
     "reference": "12.33",
     "pluraleTantum": "",
@@ -5903,7 +5903,7 @@
     "german": "ganz",
     "english": "the whole of, all",
     "reference": "13.50",
-    "genitiveIus": "",
+    "genitiveIus": "true",
     "overrides": "",
     "chapter": 13,
     "grammaticalTerm": false

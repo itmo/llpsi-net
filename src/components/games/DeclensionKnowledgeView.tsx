@@ -170,7 +170,10 @@ function NounDeclensionRow(props: {knowledge: DeclensionKnowledge, declension: N
             <LeftCell>{props.declension}</LeftCell>
             <BoolCell y={hasGenus(Genus.Masculine)} />
             <BoolCell y={hasGenus(Genus.Femininum)} />
-            <BoolCell y={hasGenus(Genus.Neuter)} />
+            { props.declension == NounDeclension.E ?
+                <TableCell /> :
+                <BoolCell y={hasGenus(Genus.Neuter)} />
+            }
         </TableRow>
     );
 }
