@@ -20,7 +20,7 @@ import React, { useRef, useState } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { WordDB } from '../../../models/WordDB';
 import { DeclensionGame } from '../../../games/declension/DeclensionGame';
-import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { Box, Button, ButtonGroup, Card, CardContent, Collapse, duration, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
 import { DeclensionGameOptions } from '../../../games/declension/DeclensionGameOptions';
 import { DeclensionChallenge } from '../../../games/declension/DeclensionChallenge';
 import { getGrammarKnowledge } from '../../../models/GrammarKnowledge';
@@ -90,6 +90,7 @@ export function DeclensionGameView(props: GameViewProps) {
                 <Game game={game} challenge={challenge}
                     onNext={() => onNextGame()}
                     onCancel={() => onCancel()}
+                    key={new Date().getTime()}
                 />
             }
         </React.Fragment>
@@ -105,6 +106,7 @@ interface GameProps {
 
 function Game(props: GameProps): JSX.Element {
     const [right, setRight] = useState<boolean>(false);
+    const [showAnswer, setShowAnswer] = useState<boolean>(false);
     const inputRef = useRef<HTMLInputElement>();
     const challenge = props.challenge;
 
@@ -117,6 +119,7 @@ function Game(props: GameProps): JSX.Element {
             inputRef.current.value = '';
             setRight(false);
         }
+        setShowAnswer(false);
         props.onNext();
     }
 
@@ -137,7 +140,7 @@ function Game(props: GameProps): JSX.Element {
                     'Decline including the preposition.'
                 }
             </Typography>
-            <Box mt={1} mb={1}>
+            <Box mt={1}>
                 <TableContainer component={Paper}>
                     <Table size='small'>
                         <TableBody>
@@ -169,6 +172,19 @@ function Game(props: GameProps): JSX.Element {
                         <Button onClick={() => reset()}>Cancel</Button>
                     </ButtonGroup>
                 </form>
+            </Box>
+            <Box mt={2}>
+                <Paper>
+                    <IconButton size="small" onClick={() => setShowAnswer(!showAnswer)}>
+                        {showAnswer ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+                    </IconButton>
+                    <Typography component='span'>Reveal Answer</Typography>
+                    <Collapse in={showAnswer}>
+                        <Box p={2}>
+                            { props.game.getAnswer(props.challenge).join(' ') }
+                        </Box>
+                    </Collapse>
+                </Paper>
             </Box>
             <ul>
                 <li>Word order doesn't matter</li>
