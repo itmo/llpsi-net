@@ -18,12 +18,12 @@
 
 import React, { ReactElement } from 'react';
 import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, withStyles } from '@material-ui/core';
-import { DeclensionKnowledge } from '../../models/GrammarKnowledge';
-import { AllCases, Casus } from '../../models/types/Casus';
-import { Numerus } from '../../models/types/Numerus';
-import { AllNounDeclensions, NounDeclension } from "../../models/types/NounDeclension";
-import { Genus } from '../../models/types/Genus';
-import { AllAdjectiveDeclensions } from '../../models/types/AdjectiveDeclension';
+import { DeclensionKnowledge } from '../../../models/GrammarKnowledge';
+import { AllCases, Casus } from '../../../models/types/Casus';
+import { Numerus } from '../../../models/types/Numerus';
+import { AllNounDeclensions, NounDeclension } from "../../../models/types/NounDeclension";
+import { Genus } from '../../../models/types/Genus';
+import { AllAdjectiveDeclensions } from '../../../models/types/AdjectiveDeclension';
 
 const CenteredCell = withStyles(() => ({
     root: {

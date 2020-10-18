@@ -16,9 +16,11 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { styled } from "@material-ui/core";
 import { randomElement, stripMacrons } from "../../models/common";
+import { AdjectiveDeclension } from "../../models/types/AdjectiveDeclension";
 import { Casus } from "../../models/types/Casus";
+import { Genus } from "../../models/types/Genus";
+import { NounDeclension } from "../../models/types/NounDeclension";
 import { Numerus } from "../../models/types/Numerus";
 import { WordDB } from "../../models/WordDB";
 import { Adjective } from "../../models/words/Adjective";
@@ -30,11 +32,29 @@ import { Word } from "../../models/words/Word";
 import { DeclensionChallenge } from "./DeclensionChallenge";
 import { DeclensionGameOptions } from "./DeclensionGameOptions";
 
+export interface DeclensionGameState {
+    opts: DeclensionGameOptions;
+
+    nounPoints: Map<[NounDeclension, Genus, Casus, Numerus], number>;
+    adjectivePoints: Map<[AdjectiveDeclension, Genus, Casus, Numerus], number>;
+
+    pendingChallenge: DeclensionChallenge;
+}
+
 export class DeclensionGame {
     private db: WordDB;
 
     constructor(db: WordDB) {
         this.db = db;
+    }
+
+    public initState(opts: DeclensionGameOptions): DeclensionGameState {
+        return {
+            opts: opts,
+            nounPoints: new Map(),
+            adjectivePoints: new Map(),
+            pendingChallenge: this.createChallenge(opts),
+        };
     }
 
     public createChallenge(opts: DeclensionGameOptions): DeclensionChallenge {
@@ -181,6 +201,7 @@ export class DeclensionGame {
     }
 
     private randomNoun(opts: DeclensionGameOptions, casus: Casus): Noun | undefined {
+        // first, find all nouns that could be used
         const filter = (noun: Noun): boolean => {
             if (noun.chapter > opts.vocabChapter) {
                 return false;
@@ -206,7 +227,20 @@ export class DeclensionGame {
             return true;
         };
 
-        return randomElement(this.db.nouns, filter);
+        const filtered = this.db.nouns.filter(filter);
+
+        // now try to equally choose between the declensions
+        const decl = randomElement(Array.from(opts.knowledge.declensions.nounDeclensions.keys()));
+        const noun = randomElement(filtered, n => {
+            return n.declensionType == decl;
+        });
+
+        if (noun) {
+            return noun;
+        } else {
+            // if not possible (for example, when vocabChapter < grammarChapter), use any declension
+            return randomElement(filtered);
+        }
     }
 
     private randomAdjective(opts: DeclensionGameOptions, casus: Casus): Adjective | undefined {
@@ -231,7 +265,20 @@ export class DeclensionGame {
             return true;
         };
 
-        return randomElement(this.db.adjectives, filter);
+        const filtered = this.db.adjectives.filter(filter);
+
+        // now try to equally choose between the declensions
+        const decl = randomElement(Array.from(opts.knowledge.declensions.adjectiveDeclensions.keys()));
+        const adj = randomElement(filtered, n => {
+            return n.declensionType == decl;
+        });
+
+        if (adj) {
+            return adj;
+        } else {
+            // if not possible (for example, when vocabChapter < grammarChapter), use any declension
+            return randomElement(filtered);
+        }
     }
 
     private randomNumerus(opts: DeclensionGameOptions, casus: Casus, noun: Noun, adj: Adjective): Numerus {

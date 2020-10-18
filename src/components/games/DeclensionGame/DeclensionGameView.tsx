@@ -16,25 +16,25 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Typography from "@material-ui/core/Typography";
-import { WordDB } from '../../models/WordDB';
-import { DeclensionGame } from '../../games/declension/DeclensionGame';
-import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, FormLabel, IconButton, Paper, Slider, Table, TableBody, TableCell, TableContainer, TableRow, TextField, withStyles } from '@material-ui/core';
-import { DeclensionGameOptions } from '../../games/declension/DeclensionGameOptions';
-import { DeclensionChallenge } from '../../games/declension/DeclensionChallenge';
-import { getGrammarKnowledge } from '../../models/GrammarKnowledge';
-import { Preposition } from '../../models/words/Preposition';
-import { Pronoun } from '../../models/words/Pronoun';
-import { Casus } from '../../models/types/Casus';
-import { Numerus } from '../../models/types/Numerus';
-import { Genus } from '../../models/types/Genus';
-import { Word } from '../../models/words/Word';
-import { WordCard } from '../words/WordCard';
+import { WordDB } from '../../../models/WordDB';
+import { DeclensionGame } from '../../../games/declension/DeclensionGame';
+import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { DeclensionGameOptions } from '../../../games/declension/DeclensionGameOptions';
+import { DeclensionChallenge } from '../../../games/declension/DeclensionChallenge';
+import { getGrammarKnowledge } from '../../../models/GrammarKnowledge';
+import { Preposition } from '../../../models/words/Preposition';
+import { Pronoun } from '../../../models/words/Pronoun';
+import { Casus } from '../../../models/types/Casus';
+import { Numerus } from '../../../models/types/Numerus';
+import { Genus } from '../../../models/types/Genus';
+import { Word } from '../../../models/words/Word';
+import { WordCard } from '../../words/WordCard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import { DeclensionKnowledgeView } from './DeclensionKnowledgeView';
-import { Interjection } from '../../models/words/Interjection';
+import { Interjection } from '../../../models/words/Interjection';
+import { GameOptions } from './GameOptions';
 
 export interface GameViewProps {
     db: WordDB;
@@ -96,59 +96,6 @@ export function DeclensionGameView(props: GameViewProps) {
     );
 }
 
-interface OptionsProps {
-    db: WordDB;
-    initial: DeclensionGameOptions;
-    onChange(options: DeclensionGameOptions): void;
-    onDone(): void;
-}
-
-function GameOptions(props: OptionsProps) {
-    const [options, setOptions] = useState<DeclensionGameOptions>(props.initial);
-    useEffect(() => {
-        props.onChange(options);
-    }, [options]);
-
-    function changeGrammar(chapter: number) {
-        setOptions(old => ({...old, knowledge: getGrammarKnowledge(chapter)}))
-    }
-
-    function changeVocab(chapter: number) {
-        setOptions(old => ({...old, vocabChapter: chapter}))
-    }
-
-    return (
-        <Box p={1}>
-            <form onSubmit={() => props.onDone()}>
-                <FormGroup>
-                    <FormControl margin='normal'>
-                        <FormLabel>Vocabulary up to chapter</FormLabel>
-                        <Slider
-                            defaultValue={props.db.maxChapter}
-                            valueLabelDisplay='on'
-                            getAriaValueText={value => value.toString()}
-                            step={1} min={1} max={props.db.maxChapter} marks
-                            onChange={(_, value) => changeVocab(value as number)}
-                        />
-                    </FormControl>
-                    <FormControl margin='normal'>
-                        <FormLabel>Grammar up to chapter</FormLabel>
-                        <Slider
-                            defaultValue={props.db.maxChapter}
-                            valueLabelDisplay='on'
-                            getAriaValueText={value => value.toString()}
-                            step={1} min={1} max={props.db.maxChapter} marks
-                            onChange={(_, value) => changeGrammar(value as number)}
-                        />
-                    </FormControl>
-                </FormGroup>
-                <Button type='submit' variant='contained' color='primary'>Start</Button>
-            </form>
-            <DeclensionKnowledgeView knowledge={options.knowledge.declensions} />
-        </Box>
-    );
-}
-
 interface GameProps {
     game: DeclensionGame;
     challenge: DeclensionChallenge;
@@ -195,8 +142,8 @@ function Game(props: GameProps): JSX.Element {
                     <Table size='small'>
                         <TableBody>
                             <TableRow>
-                                <TableCell>Numerus</TableCell>
-                                <TableCell>{challenge.number}</TableCell>
+                                <TableCell style={{width: '20%'}}>Numerus</TableCell>
+                                <TableCell style={{backgroundColor: 'yellow'}}>{challenge.number}</TableCell>
                             </TableRow>
                             { getIndicatorRow(challenge) }
                             { challenge.words.map(w => <WordRow word={w} />) }

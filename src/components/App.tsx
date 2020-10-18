@@ -42,7 +42,7 @@ import { WordDB } from '../models/WordDB';
 import { About } from './About';
 import { ParticleList } from './words/ParticleList';
 import { WordList } from './words/WordList';
-import { DeclensionGameView } from './games/DeclensionGameView';
+import { DeclensionGameView } from './games/DeclensionGame/DeclensionGameView';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
