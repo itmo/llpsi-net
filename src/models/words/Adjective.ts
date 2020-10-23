@@ -16,7 +16,7 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { changeSuffix } from "../common";
+import { changeSuffix, dropSuffix } from "../common";
 import { ADeclension } from "../declensions/ADeclension";
 import { Declension, DeclensionInput, DeclensionRule } from "../declensions/Declension";
 import { IPureDeclension } from "../declensions/IPureDeclension";
@@ -71,7 +71,24 @@ export class Adjective extends Word implements AdjectiveDeclinable {
     private determineDeclensions(data: AdjectiveData): [Declension, Declension, Declension] {
         let male, female, neuter: Declension | undefined;
 
-        if (data.latinNeuter == '-ud' || data.latinNeuter == '-o') {
+        if (data.latinMale.endsWith('que') && data.latinNeuter.endsWith('que')) {
+            const newMale = dropSuffix(data.latinMale, 'que');
+            const newNeuter = dropSuffix(data.latinNeuter, 'que');
+
+            const stem = Declension.applyStemRule(newMale, newNeuter, UsAUmRules);
+
+            const maleInput = this.adjToDeclension(data, newMale, newNeuter.replace(/um$/, 'ī'), Genus.Masculine);
+            male = new ODeclension(maleInput);
+            male.addSuffix('que');
+
+            const femaleInput = this.adjToDeclension(data, stem + 'a', '-ae', Genus.Femininum);
+            female = new ADeclension(femaleInput);
+            female.addSuffix('que');
+
+            const neuterInput = this.adjToDeclension(data, stem + 'um', '-ī', Genus.Neuter);
+            neuter = new ODeclension(neuterInput);
+            neuter.addSuffix('que');
+        } else if (data.latinNeuter == '-ud' || data.latinNeuter == '-o') {
             const input = this.adjToDeclensionRewrite(data, Genus.Neuter, '', '', '');
             male = new IrregularDeclension(input);
             female = male;
@@ -167,6 +184,12 @@ const UsAUmRules: DeclensionRule[] = [
         construction: '-um',
         nominativeEndings: [
             {when: 'us', changeTo: ''},
+        ],
+    },
+    {
+        construction: '-erum',
+        nominativeEndings: [
+            {when: 'er', changeTo: 'er'},
         ],
     },
     {

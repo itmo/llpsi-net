@@ -72,4 +72,16 @@ describe('Cons-declension', () => {
             vocative:   'corda',
         });
     });
+
+    it('parentēs should decline correctly in plural', () => {
+        const word = findNoun('parentēs');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'parentēs',
+            accusative: 'parentēs',
+            genitive:   'parentum',
+            dative:     'parentibus',
+            ablative:   'parentibus',
+            vocative:   'parentēs',
+        });
+    });
 });

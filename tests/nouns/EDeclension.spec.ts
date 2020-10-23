@@ -48,4 +48,28 @@ describe('E-declension', () => {
             vocative:   'diēs',
         });
     });
+
+    it('eī rule should decline correctly in singular', () => {
+        const word = findNoun('rēs');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'rēs',
+            accusative: 'rem',
+            genitive:   'reī',
+            dative:     'reī',
+            ablative:   'rē',
+            vocative:   'rēs',
+        });
+    });
+
+    it('eī rule should decline correctly in plural', () => {
+        const word = findNoun('rēs');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'rēs',
+            accusative: 'rēs',
+            genitive:   'rērum',
+            dative:     'rēbus',
+            ablative:   'rēbus',
+            vocative:   'rēs',
+        });
+    });
 });

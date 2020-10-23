@@ -82,7 +82,7 @@ export class ODeclension extends Declension {
 
         let genitive, dative;
         if (this.data.genitiveIus) {
-            genitive = this.stem + 'ius';
+            genitive = this.stem + 'īus';
             dative = this.stem + 'ī';
         } else {
             genitive = this.stem + 'ī';

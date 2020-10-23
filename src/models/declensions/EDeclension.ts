@@ -39,16 +39,26 @@ export class EDeclension extends Declension {
         const nom = this.data.nominative;
         const gen = this.data.genitiveConstruction;
 
-        if (this.data.pluraleTantum) {
-        } else {
-            switch (gen) {
-                case '-ēī':
-                    if (nom.endsWith('ēs')) {
-                        return dropSuffix(nom, 'ēs');
-                    }
-                    break;
+        if (!gen.startsWith('-')) {
+            if (this.data.pluraleTantum) {
+
+            } else {
+                if (gen.endsWith('eī')) {
+                    return dropSuffix(nom, 'ēs');
+                }
             }
-        }
+        } else {
+            if (this.data.pluraleTantum) {
+            } else {
+                switch (gen) {
+                    case '-ēī':
+                        if (nom.endsWith('ēs')) {
+                            return dropSuffix(nom, 'ēs');
+                        }
+                        break;
+                    }
+            }
+            }
         throw Error(`Couldn't determine E-stem for ${nom}, ${gen}`);
     }
 
@@ -60,11 +70,18 @@ export class EDeclension extends Declension {
     }
 
     private declineSingular(casus: Casus): string | null {
+        let genitiveDative;
+        if (this.stem.endsWith('i')) {
+            genitiveDative = this.stem + 'ēī';
+        } else {
+            genitiveDative = this.stem + 'eī';
+        }
+
         switch (casus) {
             case Casus.Nominative:  return this.data.nominative;
             case Casus.Accusative:  return this.stem + 'em';
-            case Casus.Genitive:    return this.stem + 'ēī';
-            case Casus.Dative:      return this.stem + 'ēī';
+            case Casus.Genitive:    return genitiveDative;
+            case Casus.Dative:      return genitiveDative;
             case Casus.Ablative:    return this.stem + 'ē';
             case Casus.Vocative:    return this.data.nominative;
         }

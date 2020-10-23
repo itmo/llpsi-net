@@ -42,22 +42,31 @@ export interface DeclensionRule {
 
 export abstract class Declension {
     private overrides?: DeclensionOverrides;
+    private suffix: string = '';
 
     public constructor(overrides?: DeclensionOverrides) {
         this.overrides = overrides;
     }
 
-    public decline(casus: Casus, numerus: Numerus) {
+    public decline(casus: Casus, numerus: Numerus): string | null {
         const override = this.getOverride(casus, numerus);
         if (typeof(override) ==  'string') {
             return override;
         } else {
-            return this.buildDeclension(casus, numerus);
+            const base = this.buildDeclension(casus, numerus);
+            if (!base) {
+                return null;
+            }
+            return base + this.suffix;
         }
     }
 
     public abstract get stem(): string;
     protected abstract buildDeclension(casus: Casus, numerus: Numerus): string | null;
+
+    public addSuffix(suffix: string) {
+        this.suffix = suffix;
+    }
 
     public static applyStemRule(nominative: string, construction: string, rules: DeclensionRule[]): string {
         for (const rule of rules) {

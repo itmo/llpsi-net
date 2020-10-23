@@ -96,4 +96,52 @@ describe('Us-A-Um-declension', () => {
             vocative:   ['mī',   'mea',  'meum'],
         });
     });
+
+    it('alter should decline correctly in singular', () => {
+        const word = findAdjective('alter');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['alter',       'altera',   'alterum'],
+            accusative: ['alterum',     'alteram',  'alterum'],
+            genitive:   ['alterīus',    'alterīus', 'alterīus'],
+            dative:     ['alterī',      'alterī',   'alterī'],
+            ablative:   ['alterō',      'alterā',   'alterō'],
+            vocative:   ['alter',       'altera',   'alterum'],
+        });
+    });
+
+    it('alter should decline correctly in plural', () => {
+        const word = findAdjective('alter');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['alterī',      'alterae',      'altera'],
+            accusative: ['alterōs',     'alterās',      'altera'],
+            genitive:   ['alterōrum',   'alterārum',    'alterōrum'],
+            dative:     ['alterīs',     'alterīs',      'alterīs'],
+            ablative:   ['alterīs',     'alterīs',      'alterīs'],
+            vocative:   ['alterī',      'alterae',      'altera'],
+        });
+    });
+
+    it('uterque should decline correctly in singular', () => {
+        const word = findAdjective('uterque');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['uterque',      'utraque',   'utrumque'],
+            accusative: ['utrumque',     'utramque',  'utrumque'],
+            genitive:   ['utrīusque',    'utrīusque', 'utrīusque'],
+            dative:     ['utrīque',      'utrīque',   'utrīque'],
+            ablative:   ['utrōque',      'utrāque',   'utrōque'],
+            vocative:   ['uterque',      'utraque',   'utrumque'],
+        });
+    });
+
+    it('uterque should decline correctly in plural', () => {
+        const word = findAdjective('uterque');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['utrīque',      'utraeque',      'utraque'],
+            accusative: ['utrōsque',     'utrāsque',      'utraque'],
+            genitive:   ['utrōrumque',   'utrārumque',    'utrōrumque'],
+            dative:     ['utrīsque',     'utrīsque',      'utrīsque'],
+            ablative:   ['utrīsque',     'utrīsque',      'utrīsque'],
+            vocative:   ['utrīque',      'utraeque',      'utraque'],
+        });
+    });
 });

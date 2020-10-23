@@ -96,6 +96,8 @@ export class Noun extends Word implements NounDeclinable {
                 return new ADeclension(input);
             } else if (gen.endsWith('ēī')) {
                 return new EDeclension(input);
+            } else if (gen.endsWith('eī')) {
+                return new EDeclension(input);
             } else if (gen.endsWith('is')) {
                 return this.determineConsDeclension(data, input);
             } else if (gen.endsWith('ūs')) {

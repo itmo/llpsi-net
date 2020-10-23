@@ -41,11 +41,6 @@ export class ConsDeclension extends Declension {
 
         if (!gen.startsWith('-')) {
             if (this.data.pluraleTantum) {
-                if (gen.endsWith('ium')) {
-                    return dropSuffix(gen, 'ium');
-                } else if (gen.endsWith('um')) {
-                    return dropSuffix(gen, 'um');
-                }
             } else {
                 if (gen.endsWith('is')) {
                     return dropSuffix(gen, 'is');
@@ -154,7 +149,8 @@ export const ConsRulesPlural: DeclensionRule[] = [
     {
         construction: '-um',
         nominativeEndings: [
-            {when: 'a', changeTo: ''}
+            {when: 'ēs', changeTo: ''},
+            {when: 'a', changeTo: ''},
         ],
     }
 ];

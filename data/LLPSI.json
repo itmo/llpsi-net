@@ -168,6 +168,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "adhūc",
+    "german": "bisher, noch",
+    "english": "so far, till now, still",
+    "reference": "14.34",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "adiectīvum",
     "latinGenitive": "-ī",
@@ -267,6 +276,16 @@
   },
   {
     "wordType": "Verb",
+    "latin": "afferre",
+    "other": "attulisse allātum",
+    "german": "bringen, vorbringen, verursachen",
+    "english": "bring, report, cause",
+    "reference": "14.42, 23.140, 48.101",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "agere",
     "other": "ēgisse, āctum",
     "german": "treiben, betreiben, tun",
@@ -299,6 +318,19 @@
     "genitiveIus": "true",
     "overrides": "",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "alter",
+    "latinFemale": "-era",
+    "latinNeuter": "-erum",
+    "german": "der eine, der andere",
+    "english": "one, the other",
+    "reference": "14.11, 14.78, 16.77, 16.113, 19.5, 19.8, 31.180 alterum tantum",
+    "genitiveIus": "true",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -360,6 +392,16 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "an",
+    "abbreviated": "",
+    "german": "oder, ob",
+    "english": "or, if, whether",
+    "reference": "14.13, 17.118, 29.67, 45.35",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -440,6 +482,19 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "apertus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "offen",
+    "english": "open",
+    "reference": "14.15, 30.152",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -854,12 +909,26 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "calceus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Schuh",
+    "english": "shoe",
+    "reference": "14.85",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "calidus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
-    "german": "warm, hot",
-    "english": "warm, heiß",
+    "german": "warm, heiß",
+    "english": "warm, hot",
     "reference": "13.87, 30.114 f",
     "genitiveIus": "",
     "overrides": "",
@@ -1064,6 +1133,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "clausus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "geschlossen",
+    "english": "shut, closed",
+    "reference": "14.17",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "clāmor",
     "latinGenitive": "-ōris",
@@ -1261,6 +1343,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "cubāre",
+    "other": "-uisse, -itum",
+    "german": "(im Bett) liegen",
+    "english": "lie (in bed)",
+    "reference": "14.2",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "culter",
     "latinGenitive": "-trī",
@@ -1395,6 +1487,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "deinde",
+    "german": "darauf, dann",
+    "english": "afterwards, then",
+    "reference": "14.46, 40.202",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "deus",
     "latinGenitive": "-ī",
@@ -1406,6 +1507,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "dexter",
+    "latinFemale": "-tra",
+    "latinNeuter": "-trum",
+    "german": "rechts, f rechte Hand",
+    "english": "right, f right hand",
+    "reference": "14.79",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -1821,6 +1935,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "excitāre",
+    "other": "",
+    "german": "aufwecken, aufregen",
+    "english": "wake up, arouse",
+    "reference": "14.35, 19.20",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "exemplum",
     "latinGenitive": "-ī",
@@ -2113,6 +2237,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "frīgēre",
+    "other": "",
+    "german": "kalt sein, frieren",
+    "english": "be cold",
+    "reference": "14.68",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "frōns",
     "latinGenitive": "-ontis",
@@ -2233,6 +2367,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "gallus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Hahn",
+    "english": "cock",
+    "reference": "14.19",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "gaudēre",
     "other": "gavīsum esse",
@@ -2296,6 +2444,16 @@
     "overrides": "",
     "chapter": 2,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Verb",
+    "latin": "gerere",
+    "other": "gessisse gestum",
+    "german": "tragen, führen, machen",
+    "english": "carry, wear, carry on",
+    "reference": "14.76, 14.83, 21.33, 34.48, 34.78, 42.85, 48.708, 48.102 rem gerere",
+    "chapter": 14,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -2425,6 +2583,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "hodiē",
+    "german": "heute",
+    "english": "today",
+    "reference": "14.26",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -2758,6 +2925,16 @@
     "grammaticalTerm": true
   },
   {
+    "wordType": "Verb",
+    "latin": "induere",
+    "other": "-uisse -ūtum",
+    "german": "anziehen",
+    "english": "put on (clothes)",
+    "reference": "14.74, 30.15 -ūtus",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "indēclīnābilis",
     "latinFemale": "",
@@ -2806,6 +2983,16 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "inquit",
+    "other": "-iunt",
+    "german": "sagt (er/sie), sagen (sie)",
+    "english": "(he/she) says",
+    "reference": "14.40, 34.152 -am",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -2957,6 +3144,16 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "lavāre",
+    "other": "lāvisse lautum/lavātum",
+    "german": "waschen, baden",
+    "english": "wash, bathe",
+    "reference": "14.45, 22.52 lavātum īre",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -3370,6 +3567,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "mergere",
+    "other": "-sisse -sum",
+    "german": "tauchen, versenken",
+    "english": "dip, plunge, sink",
+    "reference": "14.50, 16.35 pass.",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "merīdiēs",
     "latinGenitive": "-ēī",
@@ -3531,6 +3738,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "mēcum",
+    "german": "mit mir",
+    "english": "with me",
+    "reference": "14.87",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "mēnsa",
     "latinGenitive": "-ae",
@@ -3670,6 +3886,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "neuter",
+    "latinFemale": "-tra",
+    "latinNeuter": "-trum",
+    "german": "keiner von beiden",
+    "english": "neither",
+    "reference": "14.9",
+    "genitiveIus": "true",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "neutrum",
     "latinGenitive": "-ī",
@@ -3694,6 +3923,15 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 9,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "nihil",
+    "german": "nichts",
+    "english": "nothing",
+    "reference": "14.101, 34.174;adv: 43.212",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -3975,6 +4213,19 @@
   },
   {
     "wordType": "Adjective",
+    "latinMale": "nūdus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "nackt",
+    "english": "naked",
+    "reference": "14.69, 43.214",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
     "latinMale": "nūllus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
@@ -4071,6 +4322,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "omnis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "german": "jeder, ganz, pl. alle",
+    "english": "all, every",
+    "reference": "14.115, 23.58, 26.55, 19.22 pl m, 21.95 n",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "operīre",
     "other": "-uisse, -rtum",
@@ -4139,6 +4403,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "parentēs",
+    "latinGenitive": "-um",
+    "genus": "m",
+    "german": "Eltern",
+    "english": "parents",
+    "reference": "14.89",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "parere",
     "other": "-iō, peperisse, partum",
@@ -4161,6 +4439,20 @@
     "overrides": "",
     "chapter": 12,
     "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "participium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Partizip",
+    "english": "participle",
+    "reference": "14.148, 35.128",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Adjective",
@@ -4478,6 +4770,16 @@
   },
   {
     "wordType": "Verb",
+    "latin": "poscere",
+    "other": "poposcisse",
+    "german": "fordern, verlangen",
+    "english": "demand, call for",
+    "reference": "14.70",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "posse",
     "other": "potuisse",
     "german": "können",
@@ -4539,6 +4841,17 @@
     "grammaticalTerm": true
   },
   {
+    "wordType": "Preposition",
+    "latin": "praeter",
+    "abbreviated": "",
+    "case": "acc",
+    "german": "an ... vorbei, außer",
+    "english": "past, besides, except",
+    "reference": "14.78, 19.9, 33.68, 48.133 praeter spem",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "pretium",
     "latinGenitive": "-ī",
@@ -4583,6 +4896,15 @@
     "english": "near, nearly",
     "reference": "prp: 6.8;adv: 9.78, 12.102, 22.67 comp. propius",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "prīmum",
+    "german": "zuerst, zum ersten Mal",
+    "english": "first",
+    "reference": "14.46, 44.144 quam prīmum",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -4858,6 +5180,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "pūrus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "rein",
+    "english": "clean, pure",
+    "reference": "14.52, 56.302",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "quaerere",
     "other": "-sīvisse, -sītum",
@@ -5006,6 +5341,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "quōmodo",
+    "german": "wie",
+    "english": "how",
+    "reference": "14.25, 14.35",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "relinquere",
     "other": "-līquisse, -lictum",
@@ -5084,6 +5428,34 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "rēgula",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Lineal",
+    "english": "ruler",
+    "reference": "14.109",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "rēs",
+    "latinGenitive": "reī",
+    "genus": "f",
+    "german": "Sache, Ding",
+    "english": "thing, matter, affair",
+    "reference": "14.111, 14.122, 17.3, 36.81 rēs publica, 42.21, 43.2, 43.260",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -5398,6 +5770,42 @@
     "grammaticalTerm": true
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "sinister",
+    "latinFemale": "-tra",
+    "latinNeuter": "-trum",
+    "german": "links, f die Linke",
+    "english": "left, f left (hand)",
+    "reference": "14.80",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "solēre",
+    "other": "-itum esse",
+    "german": "pflegen, gewohnt sein",
+    "english": "be accustomed",
+    "reference": "14.62, 43.231 ut solet",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "sordidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "schmutzig, verächtlich",
+    "english": "dirty, mean, base",
+    "reference": "14.45, 27.62, 44.420",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "soror",
     "latinGenitive": "-ōris",
@@ -5443,6 +5851,20 @@
     "english": "breathe",
     "reference": "10.47, 38.142",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "stilus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Schreibstift, Griffel",
+    "english": "stylus",
+    "reference": "14.109, 53.398",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -5531,6 +5953,16 @@
   },
   {
     "wordType": "Verb",
+    "latin": "surgere",
+    "other": "surrēxisse",
+    "german": "aufstehen, sich erheben",
+    "english": "rise, get up",
+    "reference": "14.40, 15.15, 38.157",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "sustinēre",
     "other": "",
     "german": "stützen, tragen, ertragen",
@@ -5574,6 +6006,15 @@
     "english": "heal, cure",
     "reference": "11.27",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "sēcum",
+    "german": "mit sich",
+    "english": "with itself / himself / herself / themselves",
+    "reference": "14.87",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -5662,6 +6103,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "tabula",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Tafel, Schreibtafel",
+    "english": "writing-tablet",
+    "reference": "14.109, 51.138 tabula picta, 54.428",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -5828,6 +6283,33 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "toga",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Toga",
+    "english": "toga",
+    "reference": "14.71",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "togātus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "mit der Toga bekleidet",
+    "english": "wearing the toga",
+    "reference": "14.77",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "trecentī",
     "latinFemale": "-ae",
@@ -5883,6 +6365,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "tunica",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Tunika",
+    "english": "tunic",
+    "reference": "14.71",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "tuus",
     "latinFemale": "-a",
@@ -5893,6 +6389,15 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "tēcum",
+    "german": "mit dir",
+    "english": "with you",
+    "reference": "14.108",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -5990,6 +6495,32 @@
   },
   {
     "wordType": "Adjective",
+    "latinMale": "uter",
+    "latinFemale": "-tra",
+    "latinNeuter": "-trum",
+    "german": "welcher (von beiden)",
+    "english": "which (of the two)",
+    "reference": "14.12",
+    "genitiveIus": "true",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "uterque",
+    "latinFemale": "-traque",
+    "latinNeuter": "-trumque",
+    "german": "jeder von beiden, beide",
+    "english": "each of the two, both",
+    "reference": "14.7, 43.78 pl, 48.453",
+    "genitiveIus": "true",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
     "latinMale": "vacuus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
@@ -6013,6 +6544,26 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 9,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Interjection",
+    "latinSingular": "valē",
+    "latinPlural": "valēte",
+    "german": "lebe wohl, auf Widersehen",
+    "english": "farewell, goodbye",
+    "reference": "14.129",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "valēre",
+    "other": "",
+    "german": "stark sein, gesund sein",
+    "english": "be strong, be well",
+    "reference": "14.12, 42.223, 14.129 valē / valēte, 16.71",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -6160,6 +6711,30 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "vestīmentum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Kleidungsstück, Kleid",
+    "english": "garment, clothing",
+    "reference": "14.69, 14.75",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "vestīre",
+    "other": "",
+    "german": "kleiden",
+    "english": "dress",
+    "reference": "14.71",
+    "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "via",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -6180,6 +6755,16 @@
     "english": "see, pass. seem",
     "reference": "3.11, 4.5, 4.64, 10.50, 56.241, 26.94 vidērī, 26.95, 33.63, 42.276",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "vigilāre",
+    "other": "",
+    "german": "wachen, wach sein",
+    "english": "be awake",
+    "reference": "14.5",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
