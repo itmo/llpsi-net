@@ -78,7 +78,6 @@ export function getGrammarKnowledge(chapter: number) {
 
         addNounDeclension(k.declensions, NounDeclension.A, allGenera);
         addNounDeclension(k.declensions, NounDeclension.O, allGenera);
-        addNounDeclension(k.declensions, NounDeclension.Indeclinable, allGenera);
 
         k.declensions.adjectiveDeclensions.add(AdjectiveDeclension.AO);
     }

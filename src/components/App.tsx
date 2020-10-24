@@ -17,7 +17,7 @@
  */
 
 import React from 'react';
-import { HashRouter as Router, Route, Link as RouterLink, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link as RouterLink, Switch, Redirect } from 'react-router-dom';
 import clsx from 'clsx';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
