@@ -5,7 +5,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   mode: 'production',
   target: 'web',
-
   devtool: 'source-map',
 
   resolve: {
@@ -127,5 +126,9 @@ module.exports = {
       template: 'src/index.ejs',
     }),
     new CleanWebpackPlugin()
-  ]
+  ],
+
+  output: {
+    publicPath: '/'
+  }
 }
