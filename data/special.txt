@@ -1,0 +1,36 @@
+Take care when adding these cons-declined nouns, see Pons page 20:
+    - bōs
+    - vās
+
+Wikipedia also lists:
+    - sūs
+
+Take care when adding these i-declined nouns, they are pure stems, see Pons page 21:
+    - sitis
+    - puppis
+    - turris
+    - tussis
+    - febris
+    - secūris
+    - vīs
+    - vectīgal
+
+Take care when adding these u-declined nouns, they get -ubus instead of -ibus, see Pons page 23:
+    x arcus
+    - artus
+    - tribus
+Additional finds:
+    - quercus
+
+Take care when adding these irregular noun, Pons page 24:
+    - domus
+
+Take care when adding these adjectives, they are cons-declined, see Pons page 29:
+    - vetus
+    - dīves
+    - pauper
+    - prīnceps
+    - compos
+    - superstes
+    - sōspes
+    - particeps

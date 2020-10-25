@@ -590,7 +590,7 @@
     "reference": "12.91, 36.142",
     "pluraleTantum": "",
     "iStemType": "",
-    "overrides": "",
+    "overrides": "{\"datPl\": \"arcubus\", \"ablPl\": \"arcubus\"}",
     "chapter": 12,
     "grammaticalTerm": false
   },

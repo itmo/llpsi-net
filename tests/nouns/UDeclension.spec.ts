@@ -60,4 +60,16 @@ describe('U-declension', () => {
             vocative:   'īdūs',
         });
     });
+
+    it('arcus exception should decline correctly in plural', () => {
+        const word = findNoun('arcus');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'arcūs',
+            accusative: 'arcūs',
+            genitive:   'arcuum',
+            dative:     'arcubus',
+            ablative:   'arcubus',
+            vocative:   'arcūs',
+        });
+    });
 });
