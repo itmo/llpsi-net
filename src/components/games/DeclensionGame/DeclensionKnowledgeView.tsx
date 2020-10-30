@@ -84,7 +84,7 @@ function CaseKnowledge(props: {knowledge: DeclensionKnowledge}) {
         <TableContainer>
             <Table size='small'>
                 <TableHead>
-                    <TableRow>
+                    <TableRow lang='la'>
                         <LeftCell />
                         <CenteredCell colSpan={3}>
                             {Numerus.Singular}
@@ -94,7 +94,7 @@ function CaseKnowledge(props: {knowledge: DeclensionKnowledge}) {
                         </CenteredCell>
                     </TableRow>
                     <TableRow>
-                        <LeftCell>Casus</LeftCell>
+                        <LeftCell lang='la'>Casus</LeftCell>
                         <CenteredCell>m</CenteredCell>
                         <CenteredCell>f</CenteredCell>
                         <CenteredCell>n</CenteredCell>
@@ -125,7 +125,7 @@ function CaseRow(props: {knowledge: DeclensionKnowledge, casus: Casus}) {
 
     return (
         <TableRow>
-            <LeftCell>{props.casus}</LeftCell>
+            <LeftCell lang='la'>{props.casus}</LeftCell>
             <BoolCell y={hasGenus(Genus.Masculine)} />
             <BoolCell y={hasGenus(Genus.Femininum)} />
             <BoolCell y={hasGenus(Genus.Neuter)} />
@@ -221,15 +221,15 @@ function PronounKnowledge(props: {knowledge: DeclensionKnowledge}) {
                 </TableHead>
                 <TableBody>
                     <TableRow>
-                        <LeftCell>is / ea / id</LeftCell>
+                        <LeftCell lang='la'>is / ea / id</LeftCell>
                         <BoolCell y={props.knowledge.pronounIs} />
                     </TableRow>
                     <TableRow>
-                        <LeftCell>hic / haec / hoc</LeftCell>
+                        <LeftCell lang='la'>hic / haec / hoc</LeftCell>
                         <BoolCell y={props.knowledge.pronounHic} />
                     </TableRow>
                     <TableRow>
-                        <LeftCell>ille / illa / illud</LeftCell>
+                        <LeftCell lang='la'>ille / illa / illud</LeftCell>
                         <BoolCell y={props.knowledge.pronounIlle} />
                     </TableRow>
                 </TableBody>

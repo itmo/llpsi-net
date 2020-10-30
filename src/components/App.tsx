@@ -19,7 +19,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link as RouterLink, Switch, Redirect } from 'react-router-dom';
 import clsx from 'clsx';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
 import SportsEsports from '@material-ui/icons/SportsEsports';
@@ -46,7 +46,7 @@ import { DeclensionGameView } from './games/DeclensionGame/DeclensionGameView';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { Divider, Grid, Paper } from '@material-ui/core';
+import { createMuiTheme, Divider, Paper, ThemeProvider } from '@material-ui/core';
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -128,6 +128,15 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: '#ed6b21',
+            contrastText: '#F5F5F5'
+        }
+    }
+});
+
 export function App(props: {db: WordDB}) {
     const classes = useStyles();
 
@@ -142,101 +151,103 @@ export function App(props: {db: WordDB}) {
     };
 
     return (
-        <div className={classes.root}>
-            <CssBaseline />
-            <AppBar position='absolute' className={clsx(classes.appBar, open && classes.appBarShift)}>
-                <Toolbar className={classes.toolbar}>
-                    <IconButton edge='start' color='inherit' onClick={handleDrawerOpen} className={clsx(classes.menuButton, open && classes.menuButtonHidden)}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography component='h1' variant='h6' color='inherit' noWrap>
-                        LLPSI.net
-                    </Typography>
-                </Toolbar>
-            </AppBar>
-            <Router>
-                <Drawer variant='permanent' open={open}
-                    classes={{ paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose) }}>
-                    <div className={classes.toolbarIcon}>
-                        <IconButton onClick={handleDrawerClose}>
-                            <ChevronLeftIcon />
-                        </IconButton>
-                    </div>
-                    <Divider />
-                    <List>
-                        <ListItem button component={RouterLink} to='/words/nouns'>
-                            <ListItemIcon><LocalFloristIcon /></ListItemIcon>
-                            <ListItemText primary='Nouns' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/words/adjectives'>
-                            <ListItemIcon><FitnessCenterIcon /></ListItemIcon>
-                            <ListItemText primary='Adjectives' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/words/pronouns'>
-                            <ListItemIcon><People /></ListItemIcon>
-                            <ListItemText primary='Pronouns' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/words/verbs'>
-                            <ListItemIcon><DirectionsRun /></ListItemIcon>
-                            <ListItemText primary='Verbs' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/words/particles'>
-                            <ListItemIcon><PlaylistAddCheckIcon /></ListItemIcon>
-                            <ListItemText primary='Particles' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/games/declension'>
-                            <ListItemIcon><SportsEsports /></ListItemIcon>
-                            <ListItemText primary='Games' />
-                        </ListItem>
-                        <ListItem button component={RouterLink} to='/about'>
-                            <ListItemIcon><InfoIcon /></ListItemIcon>
-                            <ListItemText primary='About' />
-                        </ListItem>
-                    </List>
-                </Drawer>
-                <main className={classes.content}>
-                    <div className={classes.appBarSpacer} />
-                    <Container maxWidth='lg' className={classes.container}>
-                        <Paper className={classes.paper}>
-                            <Switch>
-                                <Route exact path="/">
-                                    <Redirect to="/games/declension" />
-                                </Route>
+        <ThemeProvider theme={theme}>
+            <div className={classes.root}>
+                <CssBaseline />
+                <Router>
+                    <AppBar position='absolute' className={clsx(classes.appBar, open && classes.appBarShift)}>
+                        <Toolbar className={classes.toolbar}>
+                            <IconButton edge='start' color='inherit' onClick={handleDrawerOpen} className={clsx(classes.menuButton, open && classes.menuButtonHidden)}>
+                                <MenuIcon />
+                            </IconButton>
+                            <Typography component='h1' variant='h6' noWrap>
+                                <RouterLink to='/' style={{textDecoration: 'none', color: 'inherit'}}>Lingua Latina</RouterLink>
+                            </Typography>
+                        </Toolbar>
+                    </AppBar>
+                    <Drawer variant='permanent' open={open}
+                        classes={{ paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose) }}>
+                        <div className={classes.toolbarIcon}>
+                            <IconButton onClick={handleDrawerClose}>
+                                <ChevronLeftIcon />
+                            </IconButton>
+                        </div>
+                        <Divider />
+                        <List>
+                            <ListItem button component={RouterLink} to='/words/nouns'>
+                                <ListItemIcon title='Nouns'><LocalFloristIcon /></ListItemIcon>
+                                <ListItemText primary='Nouns' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/words/adjectives'>
+                                <ListItemIcon title='Adjectives'><FitnessCenterIcon /></ListItemIcon>
+                                <ListItemText primary='Adjectives' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/words/pronouns'>
+                                <ListItemIcon title='Pronouns'><People /></ListItemIcon>
+                                <ListItemText primary='Pronouns' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/words/verbs'>
+                                <ListItemIcon title='Verbs'><DirectionsRun /></ListItemIcon>
+                                <ListItemText primary='Verbs' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/words/particles'>
+                                <ListItemIcon title='Particles'><PlaylistAddCheckIcon /></ListItemIcon>
+                                <ListItemText primary='Particles' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/games/declension'>
+                                <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
+                                <ListItemText primary='Games' />
+                            </ListItem>
+                            <ListItem button component={RouterLink} to='/about'>
+                                <ListItemIcon title='About'><InfoIcon /></ListItemIcon>
+                                <ListItemText primary='About' />
+                            </ListItem>
+                        </List>
+                    </Drawer>
+                    <main className={classes.content}>
+                        <div className={classes.appBarSpacer} />
+                        <Container maxWidth='lg' className={classes.container}>
+                            <Paper className={classes.paper}>
+                                <Switch>
+                                    <Route exact path="/">
+                                        <Redirect to="/games/declension" />
+                                    </Route>
 
-                                <Route path="/words/nouns">
-                                    <WordList words={props.db.nouns} />
-                                </Route>
+                                    <Route path="/words/nouns">
+                                        <WordList words={props.db.nouns} caption='Nouns' />
+                                    </Route>
 
-                                <Route path="/words/adjectives">
-                                    <WordList words={props.db.adjectives} />
-                                </Route>
+                                    <Route path="/words/adjectives">
+                                        <WordList words={props.db.adjectives} caption='Adjectives' />
+                                    </Route>
 
-                                <Route path="/words/pronouns">
-                                    <WordList words={props.db.pronouns} />
-                                </Route>
+                                    <Route path="/words/pronouns">
+                                        <WordList words={props.db.pronouns} caption='Pronouns' />
+                                    </Route>
 
-                                <Route path="/words/verbs">
-                                    <WordList words={props.db.verbs} />
-                                </Route>
+                                    <Route path="/words/verbs">
+                                        <WordList words={props.db.verbs} caption='Verbs' />
+                                    </Route>
 
-                                <Route path="/words/particles">
-                                    <ParticleList db={props.db} />
-                                </Route>
+                                    <Route path="/words/particles">
+                                        <ParticleList db={props.db} />
+                                    </Route>
 
-                                <Route path="/games/declension">
-                                    <DeclensionGameView db={props.db} />
-                                </Route>
+                                    <Route path="/games/declension">
+                                        <DeclensionGameView db={props.db} />
+                                    </Route>
 
-                                <Route path="/about">
-                                    <About db={props.db} />
-                                </Route>
-                            </Switch>
-                        </Paper>
-                        <Copyright />
-                    </Container>
-                </main>
-            </Router>
-        </div>
+                                    <Route path="/about">
+                                        <About db={props.db} />
+                                    </Route>
+                                </Switch>
+                            </Paper>
+                            <Copyright />
+                        </Container>
+                    </main>
+                </Router>
+            </div>
+        </ThemeProvider>
     );
 }
 

@@ -46,14 +46,14 @@ export function WordCard(props: {word: Word}) {
                 <Typography color='textSecondary' gutterBottom>
                     Chapter {props.word.chapter} - {props.word.type}
                 </Typography>
-                <Typography variant='h5' component='h2'>
+                <Typography variant='h5' component='h2'  lang='la'>
                     {props.word.lemma}
                 </Typography>
                 { getWordData(props.word) }
                 <Typography variant='body2' component='p'>
                     English: {props.word.english}
                 </Typography>
-                <Typography variant='body2' component='p'>
+                <Typography variant='body2' component='p' lang='de'>
                     German: {props.word.german}
                 </Typography>
                 <Typography variant='body2' component='p'>
@@ -85,8 +85,8 @@ function AdjectivalEntry(props: {word: AdjectiveDeclinable}) {
                     <TableHead>
                         <TableRow>
                             <TableCell></TableCell>
-                            <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Singular}</TableCell>
-                            <TableCell colSpan={3} style={{textAlign: 'center'}}>{Numerus.Plural}</TableCell>
+                            <TableCell colSpan={3} style={{textAlign: 'center'}} lang='la'>{Numerus.Singular}</TableCell>
+                            <TableCell colSpan={3} style={{textAlign: 'center'}} lang='la'>{Numerus.Plural}</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -108,7 +108,7 @@ function AdjectivalEntry(props: {word: AdjectiveDeclinable}) {
 
 function AdjectivalDeclension(props: {word: AdjectiveDeclinable, casus: Casus}) {
     return (
-        <StyledTableRow>
+        <StyledTableRow lang='la'>
             <TableCell>{props.casus}</TableCell>
 
             <TableCell>{props.word.decline(Genus.Masculine, props.casus, Numerus.Singular)}</TableCell>
@@ -120,13 +120,13 @@ function AdjectivalDeclension(props: {word: AdjectiveDeclinable, casus: Casus}) 
             <TableCell>{props.word.decline(Genus.Neuter, props.casus, Numerus.Plural)}</TableCell>
         </StyledTableRow>
     );
-}                    
+}
 
 function ConjunctionEntry(props: {conj: Conjunction}) {
     return (
         <React.Fragment>
             {props.conj.abbreviations.length == 0 ? null :
-                <Typography variant='body2' component='p'>
+                <Typography variant='body2' component='p' lang='la'>
                     Abbreviations: {props.conj.abbreviations.join(', ')}
                 </Typography>}
         </React.Fragment>
@@ -135,9 +135,9 @@ function ConjunctionEntry(props: {conj: Conjunction}) {
 
 function PrepositionEntry(props: {prp: Preposition}) {
     return (
-        <React.Fragment>
+        <span lang='la'>
             Cases: {props.prp.cases.join(', ')}
-        </React.Fragment>
+        </span>
     );
 };
 
@@ -145,13 +145,13 @@ function NounEntry(props: {noun: Noun}) {
     return (
         <React.Fragment>
             <Typography variant='h6' component='h6'>Declension</Typography>
-            <Typography variant='body2' component='p'>
+            <Typography variant='body2' component='p' lang='la'>
                 Gender: {props.noun.genus}
             </Typography>
             <TableContainer>
                 <Table size='small'>
                     <TableHead>
-                        <TableRow>
+                        <TableRow lang='la'>
                             <TableCell></TableCell>
                             <TableCell>{Numerus.Singular}</TableCell>
                             <TableCell>{Numerus.Plural}</TableCell>
@@ -168,7 +168,7 @@ function NounEntry(props: {noun: Noun}) {
 
 function NounDeclension(props: {noun: Noun, casus: Casus}) {
     return (
-        <StyledTableRow>
+        <StyledTableRow lang='la'>
             <TableCell>{props.casus}</TableCell>
             <TableCell>{props.noun.decline(props.casus, Numerus.Singular)}</TableCell>
             <TableCell>{props.noun.decline(props.casus, Numerus.Plural)}</TableCell>

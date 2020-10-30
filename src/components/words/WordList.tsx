@@ -17,28 +17,33 @@
  */
 
 import React from 'react';
-import { Box, Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs } from '@material-ui/core';
+import { Box, Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs, Typography } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Word } from '../../models/words/Word';
 import { WordCard } from './WordCard';
 
-export function WordList(props: {words: Word[]}) {
+export function WordList(props: {caption?: string, words: Word[]}) {
     return (
-        <TableContainer component={Paper}>
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell />
-                        <TableCell>Word</TableCell>
-                        <TableCell>Introduced in</TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {props.words.map(p => <WordRow particle={p} />)}
-                </TableBody>
-            </Table>
-        </TableContainer>
+        <React.Fragment>
+            { props.caption &&
+                <Typography component='h1' variant='h4'>{props.caption}</Typography>
+            }
+            <TableContainer component={Paper}>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell />
+                            <TableCell>Word</TableCell>
+                            <TableCell>Introduced in</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {props.words.map(p => <WordRow particle={p} />)}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </React.Fragment>
     );
 }
 
@@ -53,7 +58,7 @@ function WordRow(props: {particle: Word}) {
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell>{props.particle.lemma}</TableCell>
+                <TableCell lang='la'>{props.particle.lemma}</TableCell>
                 <TableCell>{props.particle.chapter}</TableCell>
             </TableRow>
             <TableRow>

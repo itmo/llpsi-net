@@ -20,7 +20,7 @@ import React, { useRef, useState } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { WordDB } from '../../../models/WordDB';
 import { DeclensionGame } from '../../../games/declension/DeclensionGame';
-import { Box, Button, ButtonGroup, Card, CardContent, Collapse, duration, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
 import { DeclensionGameOptions } from '../../../games/declension/DeclensionGameOptions';
 import { DeclensionChallenge } from '../../../games/declension/DeclensionChallenge';
 import { getGrammarKnowledge } from '../../../models/GrammarKnowledge';
@@ -144,7 +144,7 @@ function Game(props: GameProps): JSX.Element {
                 <TableContainer component={Paper}>
                     <Table size='small'>
                         <TableBody>
-                            <TableRow>
+                            <TableRow lang='la'>
                                 <TableCell style={{width: '20%'}}>Numerus</TableCell>
                                 <TableCell style={{backgroundColor: 'yellow'}}>{challenge.number}</TableCell>
                             </TableRow>
@@ -206,7 +206,7 @@ function getIndicatorRow(challenge: DeclensionChallenge): JSX.Element {
         return (
             <TableRow>
                 <TableCell>Question</TableCell>
-                <TableCell>{indicator.decline(Genus.Masculine, challenge.casus, Numerus.Singular)}?</TableCell>
+                <TableCell lang='la'>{indicator.decline(Genus.Masculine, challenge.casus, Numerus.Singular)}?</TableCell>
             </TableRow>
         );
     } else {
@@ -226,7 +226,7 @@ function WordRow(props: {word: Word}) {
                     </IconButton>
                     {props.word.type}
                 </TableCell>
-                <TableCell>{props.word.lemma}</TableCell>
+                <TableCell lang='la'>{props.word.lemma}</TableCell>
             </TableRow>
             <TableRow>
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
