@@ -18,7 +18,7 @@
 
 import { randomElement, stripMacrons } from "../../models/common";
 import { AdjectiveDeclension } from "../../models/types/AdjectiveDeclension";
-import { Casus } from "../../models/types/Casus";
+import { AllCases, Casus } from "../../models/types/Casus";
 import { Genus } from "../../models/types/Genus";
 import { NounDeclension } from "../../models/types/NounDeclension";
 import { Numerus } from "../../models/types/Numerus";
@@ -32,11 +32,22 @@ import { Word } from "../../models/words/Word";
 import { DeclensionChallenge } from "./DeclensionChallenge";
 import { DeclensionGameOptions } from "./DeclensionGameOptions";
 
+interface NounTuple {
+    decl: NounDeclension;
+    genus: Genus;
+    casus: Casus;
+    num: Numerus;
+}
+
+interface ScoreTuple {
+    numCorrect: number;
+    numTotal: number;
+}
+
 export interface DeclensionGameState {
     opts: DeclensionGameOptions;
 
-    nounPoints: Map<[NounDeclension, Genus, Casus, Numerus], number>;
-    adjectivePoints: Map<[AdjectiveDeclension, Genus, Casus, Numerus], number>;
+    nounPoints: Map<NounTuple, ScoreTuple>;
 
     pendingChallenge: DeclensionChallenge;
 }
@@ -49,10 +60,29 @@ export class DeclensionGame {
     }
 
     public initState(opts: DeclensionGameOptions): DeclensionGameState {
+        const nounPoints = new Map<NounTuple, ScoreTuple>();
+
+        opts.knowledge.declensions.cases.forEach((casusKnowlege, casus) => {
+            opts.knowledge.declensions.nounDeclensions.forEach((declKnowledge, decl) => {
+                declKnowledge.genera.forEach(genus => {
+                    if (casusKnowlege.genera.has(genus)) {
+                        casusKnowlege.numeri.forEach(numerus => {
+                            const tuple: NounTuple = {
+                                casus: casus,
+                                genus: genus,
+                                decl: decl,
+                                num: numerus,
+                            };
+                            nounPoints.set(tuple, {numCorrect: 0, numTotal: 0});
+                        });
+                    }
+                });
+            });
+        });
+
         return {
             opts: opts,
             nounPoints: new Map(),
-            adjectivePoints: new Map(),
             pendingChallenge: this.createChallenge(opts),
         };
     }
