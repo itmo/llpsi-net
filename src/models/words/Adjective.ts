@@ -29,6 +29,7 @@ import { Numerus } from "../types/Numerus";
 import { AdjectiveData, DeclensionOverrides } from "../WordData";
 import { AdjectiveDeclension } from "../types/AdjectiveDeclension";
 import { Word } from "./Word";
+import { ConsDeclension } from "../declensions/ConsDeclension";
 
 export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
@@ -129,6 +130,12 @@ export class Adjective extends Word implements AdjectiveDeclinable {
                 const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-is', 'is', 'e');
                 neuter = new IPureDeclension(neuterInput);
             }
+        } else if (data.latinMale.endsWith('ior')) {
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ior', 'ior', 'ior');
+            male = new ConsDeclension(input);
+            female = male;
+            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ior', 'ior', 'ius');
+            neuter = new ConsDeclension(neuterInput);
         }
 
         if (!male || !female || !neuter) {

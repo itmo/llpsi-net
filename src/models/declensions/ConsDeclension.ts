@@ -17,7 +17,7 @@
  */
 
 import { Declension, DeclensionInput, DeclensionRule } from "./Declension";
-import { dropSuffix } from "../common";
+import { changeSuffix, dropSuffix } from "../common";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
@@ -44,6 +44,10 @@ export class ConsDeclension extends Declension {
             } else {
                 if (gen.endsWith('is')) {
                     return dropSuffix(gen, 'is');
+                } else if (gen.endsWith('ior')) {
+                    return changeSuffix(gen, 'ior', 'iōr');
+                } else if (gen.endsWith('ius')) {
+                    return changeSuffix(gen, 'ius', 'iōr');
                 }
             }
         } else {
@@ -210,9 +214,21 @@ export const ConsRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-entis',
+        nominativeEndings: [
+            {when: 'ēns', changeTo: 'ent'},
+        ]
+    },
+    {
         construction: '-ūris',
         nominativeEndings: [
             {when: 'ūs', changeTo: 'ūr'}
+        ]
+    },
+    {
+        construction: '-uris',
+        nominativeEndings: [
+            {when: 'ur', changeTo: 'ur'}
         ]
     },
     {
@@ -225,6 +241,13 @@ export const ConsRulesSingular: DeclensionRule[] = [
         construction: '-bris',
         nominativeEndings: [
             {when: 'ber', changeTo: 'br'},
+        ]
+    },
+    {
+        construction: '-ior',
+        nominativeEndings: [
+            {when: 'ior', changeTo: 'iōr'},
+            {when: 'ius', changeTo: 'iōr'},
         ]
     },
 ];

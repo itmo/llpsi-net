@@ -367,6 +367,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "altum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "hohe See",
+    "english": "the open sea",
+    "reference": "16.65",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "altus",
     "latinFemale": "-a",
@@ -511,6 +525,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Conjunction",
+    "latin": "antequam",
+    "abbreviated": "",
+    "german": "vorher",
+    "english": "before, ehe",
+    "reference": "15.27",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "antīquus",
     "latinFemale": "-a",
@@ -547,6 +571,19 @@
     "english": "open",
     "reference": "7.14, 41.122, 50.204",
     "chapter": 7,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "appellāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "nennen, anreden",
+    "english": "call, address",
+    "reference": "16.3, 20.28",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -707,6 +744,16 @@
     "english": "look at",
     "reference": "8.15, 8.39",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "at",
+    "abbreviated": "",
+    "german": "aber, aber doch",
+    "english": "but",
+    "reference": "15.25, 39.216, 40.237",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -1179,6 +1226,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "cernere",
+    "indPrsActSg1": "",
+    "perfInfAct": "crēvisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "unterscheiden, sehen",
+    "english": "discern, perceive",
+    "reference": "16.69, 32.114, 48.365",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "cibus",
     "latinGenitive": "-ī",
@@ -1340,6 +1400,19 @@
     "grammaticalTerm": true
   },
   {
+    "wordType": "Verb",
+    "latin": "complectī",
+    "indPrsActSg1": "",
+    "perfInfAct": "-exum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "umarmen",
+    "english": "embrace",
+    "reference": "16.87, 36.5, 53.328, 56.23",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "contrā",
     "abbreviated": "",
@@ -1348,6 +1421,19 @@
     "english": "against",
     "reference": "prp: 12.72, 29.121, 39.2, 46.414;adv: 43.50, 43.228",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "contrārius",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "entgegengesetzt, Gegen-",
+    "english": "opposite, contrary",
+    "reference": "16.49, 28.95",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -1508,6 +1594,19 @@
   },
   {
     "wordType": "Verb",
+    "latin": "cōnscendere",
+    "indPrsActSg1": "",
+    "perfInfAct": "-disse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "besteigen",
+    "english": "mount, board",
+    "reference": "16.56",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "cōnsistere",
     "indPrsActSg1": "",
     "perfInfAct": "-stitisse",
@@ -1530,6 +1629,45 @@
     "english": "be fixed, cost",
     "reference": "8.56, 22.1, 42.365, 48.470, 41.2 cōnstat",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "cōnsīdere",
+    "indPrsActSg1": "",
+    "perfInfAct": "-sēdisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "sich setzen",
+    "english": "sit down",
+    "reference": "15.17, 38.37",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "cōnsōlārī",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "trösten",
+    "english": "comfort, console",
+    "reference": "16.90",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "cōnārī",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "versuchen",
+    "english": "attempt, try",
+    "reference": "16.138",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -1642,6 +1780,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "discipulus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Schüler, Jünger",
+    "english": "pupil, disciple",
+    "reference": "15.6, 15.8, 28.52",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "discēdere",
     "indPrsActSg1": "",
@@ -1707,6 +1859,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "domus",
+    "latinGenitive": "-ūs",
+    "genus": "f",
+    "german": "Haus",
+    "english": "house",
+    "reference": "15.81, 20.127, 42.222, 19.42, 37.200, 48.789",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "{\"ablSg\": \"domō\", \"accPl\": \"domōs\"}",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -1871,6 +2037,33 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 9,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "dēpōnēns",
+    "latinGenitive": "-entis",
+    "genus": "n",
+    "german": "Depones",
+    "english": "deponent",
+    "reference": "16.156",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": true
+  },
+  {
+    "wordType": "Verb",
+    "latin": "dēsinere",
+    "indPrsActSg1": "",
+    "perfInfAct": "-siisse",
+    "pPPNSg": "-situm",
+    "dative": "",
+    "german": "abstehen von, aufhören",
+    "english": "finish, stop, end",
+    "reference": "15.65, 15.66, 15.158, 48.649",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -2092,6 +2285,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "exclāmāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "ausrufen",
+    "english": "cry out, exclaim",
+    "reference": "15.23",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "exemplum",
     "latinGenitive": "-ī",
@@ -2281,6 +2487,19 @@
   },
   {
     "wordType": "Verb",
+    "latin": "fierī",
+    "indPrsActSg1": "fīō",
+    "perfInfAct": "factum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "gemacht/getan werden, werden, geschehen",
+    "english": "be made, be done, become, happen",
+    "reference": "16.98, 16.143, 18.25, 24.49, 56.274",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "fluere",
     "indPrsActSg1": "",
     "perfInfAct": "-ūxisse",
@@ -2304,6 +2523,33 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "flāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "blasen",
+    "english": "blow",
+    "reference": "16.30",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "flūctus",
+    "latinGenitive": "-ūs",
+    "genus": "m",
+    "german": "Welle, Flut",
+    "english": "wave",
+    "reference": "16.33",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -2439,6 +2685,20 @@
     "english": "run away, flee",
     "reference": "12.116, 39.114, 54.307, 55.258",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "fulgur",
+    "latinGenitive": "-uris",
+    "genus": "n",
+    "german": "Blitz",
+    "english": "flash of lightning",
+    "reference": "16.109",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -2689,6 +2949,33 @@
   },
   {
     "wordType": "Verb",
+    "latin": "gubernāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "steuern, lenken",
+    "english": "steer, govern",
+    "reference": "16.42",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "gubernātor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Steuermann",
+    "english": "steersman",
+    "reference": "16.43",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "habitāre",
     "indPrsActSg1": "",
     "perfInfAct": "",
@@ -2725,6 +3012,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "haurīre",
+    "indPrsActSg1": "",
+    "perfInfAct": "-sisse",
+    "pPPNSg": "-stum",
+    "dative": "",
+    "german": "schöpfen",
+    "english": "draw (water), bail",
+    "reference": "16.118, 48.335, 48.772",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -2879,6 +3179,19 @@
     "english": "throw",
     "reference": "12.108, 41.194, 52.128",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "iactāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "hin und her werfen",
+    "english": "toss about, throw",
+    "reference": "16.116, 39.38, 45.32",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -3055,6 +3368,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "implēre",
+    "indPrsActSg1": "",
+    "perfInfAct": "-ēvisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "füllen, anfüllen, ergänzen",
+    "english": "fill, complete",
+    "reference": "16.34, 41.191, 46.70",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "improbus",
     "latinFemale": "-a",
@@ -3224,6 +3550,19 @@
   },
   {
     "wordType": "Verb",
+    "latin": "interesse",
+    "indPrsActSg1": "intersum",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "dazwischen sein",
+    "english": "be between",
+    "reference": "16.1, 22.46, 34.14, 43.18 +dative, 56.214 interest",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "interrogāre",
     "indPrsActSg1": "",
     "perfInfAct": "",
@@ -3246,6 +3585,32 @@
     "english": "enter",
     "reference": "6.76, 6.88, 10.52, 11.57",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "intuērī",
+    "indPrsActSg1": "",
+    "perfInfAct": "-ītum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "betrachten",
+    "english": "look, watch",
+    "reference": "16.79",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "invocāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "anrufen",
+    "english": "call upon, invoke",
+    "reference": "16.105",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -3280,6 +3645,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "iterum",
+    "german": "wiederum, zum zweitenmal",
+    "english": "again, a second time",
+    "reference": "16.142, 24.1 iterum iterumque",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "iubēre",
     "indPrsActSg1": "",
@@ -3290,6 +3664,20 @@
     "english": "order, tell",
     "reference": "11.45",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "iānua",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Tür",
+    "english": "door",
+    "reference": "15.27, 22.1",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -3376,6 +3764,19 @@
   },
   {
     "wordType": "Verb",
+    "latin": "laetāri",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "sich freuen",
+    "english": "rejoice, be glad",
+    "reference": "16.73",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "lavāre",
     "indPrsActSg1": "",
     "perfInfAct": "lāvisse",
@@ -3385,6 +3786,20 @@
     "english": "wash, bathe",
     "reference": "14.45, 22.52 lavātum īre",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lectulus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "(kleines) Bett",
+    "english": "(little) bed",
+    "reference": "15.116",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -3457,6 +3872,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "licēre",
+    "indPrsActSg1": "",
+    "perfInfAct": "-uisse, -itum esse",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "erlaubt sein",
+    "english": "be allowed",
+    "reference": "15.116, 16.83",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "lingua",
     "latinGenitive": "-ae",
@@ -3486,6 +3914,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "locus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Ort, Platz, Stelle",
+    "english": "place",
+    "reference": "16.15, 16.159, 20.13, 36.354, 44.106, 48.642",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "locātīvus",
     "latinGenitive": "-ī",
     "genus": "m",
@@ -3503,12 +3945,25 @@
     "latinMale": "longus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
-    "german": "Lang",
+    "german": "lang",
     "english": "long",
     "reference": "6.10, 13.9, 13.25, 17.29, 32.198 nāvis longa",
     "genitiveIus": "",
     "overrides": "",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "loquī",
+    "indPrsActSg1": "",
+    "perfInfAct": "locūtum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "sprechen, reden",
+    "english": "speak, talk",
+    "reference": "16.96",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -3523,6 +3978,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 9,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "lābī",
+    "indPrsActSg1": "",
+    "perfInfAct": "lāpsum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "gleiten, fallen",
+    "english": "slip, drop, fall",
+    "reference": "16.85, 16.139, 37.85",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -3621,6 +4089,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "lūdus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Schule, Spiel",
+    "english": "school, play, game",
+    "reference": "15.2, 34.15, 53.210, 34.35 pl",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "lūna",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -3645,6 +4127,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "magister",
+    "latinGenitive": "-trī",
+    "genus": "m",
+    "german": "Lehrer",
+    "english": "schoolmaster, teacher",
+    "reference": "15.4, 46.45 magister equitum",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -3740,6 +4236,19 @@
   },
   {
     "wordType": "Adjective",
+    "latinMale": "maritimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "Meer, See, Küsten-",
+    "english": "sea-, coastal",
+    "reference": "16.13, 48.226",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
     "latinMale": "masculīnus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
@@ -3817,6 +4326,20 @@
     "english": "dip, plunge, sink",
     "reference": "14.50, 16.35 pass.",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "merx",
+    "latinGenitive": "-cis",
+    "genus": "f",
+    "german": "Ware",
+    "english": "commodity, pl. goods",
+    "reference": "16.23",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -3920,6 +4443,20 @@
     "english": "move, stir",
     "reference": "10.14, 27.109, 34.155, 42.357, 47.133, 48.596, 45.93 bellum / arma movēre, 48.65",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "multum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "viel",
+    "english": "much",
+    "reference": "14.100, 48.544 ad multum diēī",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 14,
     "grammaticalTerm": false
   },
   {
@@ -4124,6 +4661,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "nauta",
+    "latinGenitive": "-ae",
+    "genus": "m",
+    "german": "Seemann",
+    "english": "sailor",
+    "reference": "16.28",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "necesse esse",
     "indPrsActSg1": "",
@@ -4202,6 +4753,16 @@
     "english": "too, too much",
     "reference": "8.98",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "nisi",
+    "abbreviated": "",
+    "german": "wenn nicht, außer, als",
+    "english": "if not, except, but",
+    "reference": "15.93, 26.46, 33.82, 33.164",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -4342,6 +4903,33 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "nāvigāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "segeln",
+    "english": "sail",
+    "reference": "16.9, 16.27",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "nāvis",
+    "latinGenitive": "-is",
+    "genus": "f",
+    "german": "Schiff",
+    "english": "ship",
+    "reference": "16.9",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Pronoun",
     "latinMale": "nēmō",
     "latinFemale": "",
@@ -4430,6 +5018,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "nōndum",
+    "german": "noch nicht",
+    "english": "not yet",
+    "reference": "15.13",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -4533,6 +5130,33 @@
   },
   {
     "wordType": "Verb",
+    "latin": "occidere",
+    "indPrsActSg1": "",
+    "perfInfAct": "-disse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "untergehen, niederfallen",
+    "english": "fall, sink, set",
+    "reference": "16.47, 39.36, 44.451",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "occidēns",
+    "latinGenitive": "-entis",
+    "genus": "m",
+    "german": "Westen",
+    "english": "west",
+    "reference": "16.46",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "occultāre",
     "indPrsActSg1": "",
     "perfInfAct": "",
@@ -4618,6 +5242,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "opperīrī",
+    "indPrsActSg1": "-ior",
+    "perfInfAct": "-rtum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "warten, erwarten",
+    "english": "wait (for), await",
+    "reference": "16.29",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "oppidum",
     "latinGenitive": "-ī",
@@ -4642,6 +5279,20 @@
     "english": "attack",
     "reference": "12.78, 12.107",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "oriēns",
+    "latinGenitive": "-entis",
+    "genus": "m",
+    "german": "Osten",
+    "english": "east",
+    "reference": "16.45, 28.24",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -4818,6 +5469,29 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "paulum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "ein wenig",
+    "english": "a little",
+    "reference": "16.8, 16.108",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "paulō",
+    "german": "ein wenig, wenig",
+    "english": "a little",
+    "reference": "16.91, 16.123, 16.148",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -5050,6 +5724,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "portus",
+    "latinGenitive": "-ūs",
+    "genus": "m",
+    "german": "Hafen",
+    "english": "harbour",
+    "reference": "16.13",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "portāre",
     "indPrsActSg1": "",
@@ -5097,6 +5785,19 @@
     "english": "behind, after, later",
     "reference": "prp: 6.32, 13.44;adv: 16.91, 52.395",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "posterior",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "german": "der hintere, der letztere",
+    "english": "back-, hind-, later",
+    "reference": "15.62, 15.99, 47.74",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -5152,6 +5853,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "praetereā",
+    "german": "außerdem",
+    "english": "besides",
+    "reference": "16.62",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "pretium",
     "latinGenitive": "-ī",
@@ -5163,6 +5873,19 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "prior",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "german": "der vordere / frühere",
+    "english": "first, former, front-",
+    "reference": "15.97, 22.83",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -5188,6 +5911,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "proficīscī",
+    "indPrsActSg1": "",
+    "perfInfAct": "-fectum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "abreisen, reisen",
+    "english": "set out, depart",
+    "reference": "16.57",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "prope",
     "abbreviated": "",
@@ -5196,6 +5932,17 @@
     "english": "near, nearly",
     "reference": "prp: 6.8;adv: 9.78, 12.102, 22.67 comp. propius",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Preposition",
+    "latin": "propter",
+    "abbreviated": "",
+    "case": "acc",
+    "german": "wegen",
+    "english": "because of",
+    "reference": "16.118, 16.126, 55.47, 54.105 adv",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -5358,6 +6105,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "puppis",
+    "latinGenitive": "-is",
+    "genus": "f",
+    "german": "Heck, Achterdeck",
+    "english": "stern, poop",
+    "reference": "16.41",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "{\"accSg\": \"puppim\", \"ablSg\": \"puppī\"}",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "putāre",
     "indPrsActSg1": "",
@@ -5495,6 +6256,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "pūnīre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "strafen",
+    "english": "punish",
+    "reference": "15.7",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "pūrus",
     "latinFemale": "-a",
@@ -5569,6 +6343,15 @@
     "english": "because",
     "reference": "3.27",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "quid",
+    "german": "warum?",
+    "english": "why?",
+    "reference": "15.77",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -5665,6 +6448,45 @@
     "english": "how, in what way",
     "reference": "14.25, 14.35",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "recitāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "vorlesen",
+    "english": "read aloud",
+    "reference": "15.97, 15.99",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "reddere",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "zurückgeben",
+    "english": "give back, return",
+    "reference": "15.88, 34.55, 41.206, 46.6",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "redīre",
+    "indPrsActSg1": "-eō",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "zurückgehen, zurückkehren",
+    "english": "go back, return",
+    "reference": "15.67, 16.58, 25.129, 44.283 ad sē redīre",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -5991,6 +6813,29 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "sella",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Stuhl",
+    "english": "stool, chair",
+    "reference": "15.14",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "semper",
+    "german": "immer",
+    "english": "always",
+    "reference": "16.26",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "sentīre",
     "indPrsActSg1": "",
@@ -6014,6 +6859,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "septentriōnēs",
+    "latinGenitive": "-um",
+    "genus": "m",
+    "german": "Norden",
+    "english": "north",
+    "reference": "16.47, 50.153 sg. septentriōnō / septentriōnis",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "septimus",
     "latinFemale": "-a",
@@ -6024,6 +6883,19 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "sequī",
+    "indPrsActSg1": "",
+    "perfInfAct": "secūtum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "folgen",
+    "english": "follow",
+    "reference": "16.66, 16.114",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -6038,6 +6910,45 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "servāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "retten, bewahren",
+    "english": "save, preserve",
+    "reference": "16.125, 36.57, 43.256",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "serēnus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "heiter, hell",
+    "english": "clear, cloudless",
+    "reference": "16.54, 40.175",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "sevērus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "streng",
+    "english": "stern, severe",
+    "reference": "15.6, 31.100",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -6088,6 +6999,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "simul",
+    "german": "gleichzeitig, zugleich",
+    "english": "at the same time",
+    "reference": "16.55, 45.303, 31.41 semper atque/ac",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "sine",
     "abbreviated": "",
@@ -6122,6 +7042,19 @@
     "genitiveIus": "",
     "overrides": "",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "situs",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "gelegen",
+    "english": "situated",
+    "reference": "16.2, 52.318, 52.401",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -6202,6 +7135,15 @@
     "english": "breathe",
     "reference": "10.47, 38.142",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "statim",
+    "german": "sofort",
+    "english": "at once",
+    "reference": "15.28",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -6293,6 +7235,19 @@
     "overrides": "",
     "chapter": 13,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "superus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "oben befindlich, der obere",
+    "english": "upper",
+    "reference": "16.2, 38.170",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Preposition",
@@ -6395,6 +7350,26 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Conjunction",
+    "latin": "sī",
+    "abbreviated": "",
+    "german": "falls, wenn",
+    "english": "if",
+    "reference": "15.83, 33.73 +conjunction, 33.181, 45.205",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "sīve",
+    "abbreviated": "seu",
+    "german": "oder, oder wenn",
+    "english": "or, or if",
+    "reference": "16.2, 20.12, 20.82 sive...sive, 32.116",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "sōl",
     "latinGenitive": "sōlis",
@@ -6486,6 +7461,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "tacitus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "schweigend",
+    "english": "silent",
+    "reference": "15.18",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "tacēre",
     "indPrsActSg1": "",
@@ -6544,6 +7532,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "tempestās",
+    "latinGenitive": "-ātis",
+    "genus": "f",
+    "german": "Unwetter, Sturm",
+    "english": "storm",
+    "reference": "16.32, 43.301",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "tempus",
     "latinGenitive": "-oris",
     "genus": "n",
@@ -6580,6 +7582,20 @@
     "english": "hold, keep (back)",
     "reference": "7.6, 16.77, 25.32, 41.5, 44.192, 50.635",
     "chapter": 7,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "tergum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Rücken",
+    "english": "back",
+    "reference": "15.61, 16.38 ā tergō",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -6691,6 +7707,33 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "tonitrus",
+    "latinGenitive": "-ūs",
+    "genus": "m",
+    "german": "Donner",
+    "english": "thunder",
+    "reference": "16.109",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "tranquillus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "still, ruhig",
+    "english": "calm, still",
+    "reference": "16.28, 16.30",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "trecentī",
     "latinFemale": "-ae",
@@ -6738,6 +7781,15 @@
   },
   {
     "wordType": "Adverb",
+    "latin": "tum",
+    "german": "damals, dann",
+    "english": "then",
+    "reference": "15.29, 33.167, 42.7 cum... tum",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
     "latin": "tunc",
     "german": "damals, dann",
     "english": "then",
@@ -6757,6 +7809,32 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "turbidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "unruhig, stürmisch",
+    "english": "agitated, stormy",
+    "reference": "16.31, 16.124",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "turbāre",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "aufwühlen, stören",
+    "english": "stir up, agitate",
+    "reference": "16.32, 28.9, 29.73, 48.77",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7004,6 +8082,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "ventus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Wind",
+    "english": "wind",
+    "reference": "16.29",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "venīre",
     "indPrsActSg1": "",
@@ -7068,6 +8160,19 @@
     "english": "turn",
     "reference": "7.16, 7.45, 13.50, 22.3, 40.169, 56.223",
     "chapter": 7,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "verērī",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "fürchten",
+    "english": "fear",
+    "reference": "16.74",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7194,6 +8299,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "virga",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Rute",
+    "english": "rod",
+    "reference": "15.6",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "viscera",
     "latinGenitive": "-um",
     "genus": "n",
@@ -7204,6 +8323,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "vix",
+    "german": "kaum",
+    "english": "hardly",
+    "reference": "16.69, 27.177",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7276,6 +8404,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "vēlum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Segel",
+    "english": "sail",
+    "reference": "16.39",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "vēna",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -7313,6 +8455,38 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "vērum",
+    "abbreviated": "",
+    "german": "sondern, aber",
+    "english": "but",
+    "reference": "26.8",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "vērus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "wahr, wirklich, n. Wahrheit",
+    "english": "true, n. truth",
+    "reference": "15.54, 22.67, 32.115, 48.627",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "vērō",
+    "german": "wirklich, aber",
+    "english": "really, however, but",
+    "reference": "16.123, 18.140, 21.104, 16.138 neque / nec verō",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7421,6 +8595,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "āter",
+    "latinFemale": "-tra",
+    "latinNeuter": "-trum",
+    "german": "schwarz, dunkel",
+    "english": "black, dark",
+    "reference": "16.97",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "ātrium",
     "latinGenitive": "-ī",
@@ -7450,6 +8637,19 @@
   },
   {
     "wordType": "Verb",
+    "latin": "ēgredī",
+    "indPrsActSg1": "-ior",
+    "perfInfAct": "-gressum",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "hinausgehen",
+    "english": "go out",
+    "reference": "16.39, 52.677",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "ēsse",
     "indPrsActSg1": "edō",
     "perfInfAct": "ēdisse",
@@ -7473,6 +8673,45 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "īnferior",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "german": "niedriger",
+    "english": "lower, inferior",
+    "reference": "15.75",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "īnferus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "german": "unten befindlich, der untere",
+    "english": "lower",
+    "reference": "16.4, 28.78 m. plural",
+    "genitiveIus": "",
+    "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "īnfluere",
+    "indPrsActSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "hineinfließen",
+    "english": "flow into",
+    "reference": "16.15",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7545,7 +8784,7 @@
     "latinSingular": "ō",
     "latinPlural": "",
     "german": "o! ach!",
-    "english": "o!",
+    "english": "oh!",
     "reference": "3.32",
     "chapter": 3,
     "grammaticalTerm": false
@@ -7562,6 +8801,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "ōra",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Küste, Rand",
+    "english": "sea-coast, border",
+    "reference": "16.19, 16.21, 39.105",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
