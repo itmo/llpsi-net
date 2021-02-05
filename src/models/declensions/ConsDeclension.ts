@@ -214,9 +214,21 @@ export const ConsRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-antis',
+        nominativeEndings: [
+            {when: 'āns', changeTo: 'ant'},
+        ]
+    },
+    {
         construction: '-entis',
         nominativeEndings: [
             {when: 'ēns', changeTo: 'ent'},
+        ]
+    },
+    {
+        construction: '-ēdis',
+        nominativeEndings: [
+            {when: 'ēs', changeTo: 'ēd'},
         ]
     },
     {

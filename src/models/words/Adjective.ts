@@ -130,6 +130,13 @@ export class Adjective extends Word implements AdjectiveDeclinable {
                 const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-is', 'is', 'e');
                 neuter = new IPureDeclension(neuterInput);
             }
+        } else if (data.latinMale.endsWith('ns')) {
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ns', 'ns', 'ns');
+            input.ablativeI = true;
+            male = new IPureDeclension(input);
+            female = male;
+            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ns', 'ns', 'ns');
+            neuter = new IPureDeclension(neuterInput);
         } else if (data.latinMale.endsWith('ior')) {
             const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ior', 'ior', 'ior');
             male = new ConsDeclension(input);

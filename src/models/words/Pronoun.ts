@@ -59,6 +59,16 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: NemoMFN, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: NemoMFN, nominative: '', genitiveConstruction: ''});
                 break;
+            case 'quisque':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuisQueM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisQueF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisQueN, nominative: '', genitiveConstruction: ''});
+                break;
+            case 'īdem':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IsEaIdemM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IsEaIdemF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IsEaIdemN, nominative: '', genitiveConstruction: ''});
+                break;
             default:
                 throw Error(`No declension for ${data.latinMale}`);
         }
@@ -279,4 +289,100 @@ const NemoMFN: DeclensionOverrides = {
     datPl: '',
     ablPl: '',
     vocPl: '',
+};
+
+const QuisQueM: DeclensionOverrides = {
+    nomSg: 'quisque',
+    accSg: 'quemque',
+    genSg: 'cuiusque',
+    datSg: 'cuique',
+    ablSg: 'quōque',
+    vocSg: 'quisque',
+
+    nomPl: 'quīque',
+    accPl: 'quōsque',
+    genPl: 'quōrumque',
+    datPl: 'quibusque',
+    ablPl: 'quibusque',
+    vocPl: 'quīque',
+};
+
+const QuisQueF: DeclensionOverrides = {
+    nomSg: 'quaeque',
+    accSg: 'quamque',
+    genSg: 'cuiusque',
+    datSg: 'cuique',
+    ablSg: 'quāque',
+    vocSg: 'quisque',
+
+    nomPl: 'quaeque',
+    accPl: 'quāsque',
+    genPl: 'quārumque',
+    datPl: 'quibusque',
+    ablPl: 'quibusque',
+    vocPl: 'quaeque',
+};
+
+const QuisQueN: DeclensionOverrides = {
+    nomSg: 'quodque',
+    accSg: 'quodque',
+    genSg: 'cuiusque',
+    datSg: 'cuique',
+    ablSg: 'quōque',
+    vocSg: 'quodque',
+
+    nomPl: 'quaeque',
+    accPl: 'quaeque',
+    genPl: 'quōrumque',
+    datPl: 'quibusque',
+    ablPl: 'quibusque',
+    vocPl: 'quaeque',
+};
+
+const IsEaIdemM: DeclensionOverrides = {
+    nomSg: 'īdem',
+    accSg: 'eundem',
+    genSg: 'eiusdem',
+    datSg: 'eīdem',
+    ablSg: 'eōdem',
+    vocSg: 'īdem',
+
+    nomPl: 'iīdem',
+    accPl: 'eōsdem',
+    genPl: 'eōrundem',
+    datPl: 'iīsdem',
+    ablPl: 'iīsdem',
+    vocPl: 'iīdem',
+};
+
+const IsEaIdemF: DeclensionOverrides = {
+    nomSg: 'eadem',
+    accSg: 'eandem',
+    genSg: 'eiusdem',
+    datSg: 'eīdem',
+    ablSg: 'eādem',
+    vocSg: 'eadem',
+
+    nomPl: 'eaedem',
+    accPl: 'eāsdem',
+    genPl: 'eārundem',
+    datPl: 'iīsdem',
+    ablPl: 'iīsdem',
+    vocPl: 'eaedem',
+};
+
+const IsEaIdemN: DeclensionOverrides = {
+    nomSg: 'idem',
+    accSg: 'idem',
+    genSg: 'eiusdem',
+    datSg: 'eīdem',
+    ablSg: 'eōdem',
+    vocSg: 'idem',
+
+    nomPl: 'eaedem',
+    accPl: 'eaedem',
+    genPl: 'eōrundem',
+    datPl: 'iīsdem',
+    ablPl: 'iīsdem',
+    vocPl: 'eaedem',
 };

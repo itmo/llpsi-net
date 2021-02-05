@@ -48,4 +48,28 @@ describe('Is-E-declension', () => {
             vocative:   ['brevēs',   'brevēs',   'brevia'],
         });
     });
+
+    it('-ns rule should decline correctly in singular', () => {
+        const word = findAdjective('absēns');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['absēns',      'absēns',   'absēns'],
+            accusative: ['absentem',    'absentem', 'absēns'],
+            genitive:   ['absentis',    'absentis', 'absentis'],
+            dative:     ['absentī',     'absentī',  'absentī'],
+            ablative:   ['absentī',     'absentī',  'absentī'],
+            vocative:   ['absēns',      'absēns',   'absēns'],
+        });
+    });
+
+    it('-ns rule should decline correctly in plural', () => {
+        const word = findAdjective('absēns');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['absentēs',    'absentēs',     'absentia'],
+            accusative: ['absentēs',    'absentēs',     'absentia'],
+            genitive:   ['absentium',   'absentium',    'absentium'],
+            dative:     ['absentibus',  'absentibus',   'absentibus'],
+            ablative:   ['absentibus',  'absentibus',   'absentibus'],
+            vocative:   ['absentēs',    'absentēs',     'absentia'],
+        });
+    });
 });
