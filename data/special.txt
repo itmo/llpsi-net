@@ -7,7 +7,7 @@ Wikipedia also lists:
 
 Take care when adding these i-declined nouns, they are pure stems, see Pons page 21:
     - sitis
-    - puppis
+    x puppis
     - turris
     - tussis
     - febris
@@ -23,7 +23,7 @@ Additional finds:
     - quercus
 
 Take care when adding these irregular noun, Pons page 24:
-    - domus
+    x domus
 
 Take care when adding these adjectives, they are cons-declined, see Pons page 29:
     - vetus
