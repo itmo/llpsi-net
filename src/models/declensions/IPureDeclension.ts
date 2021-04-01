@@ -161,4 +161,10 @@ export const IPureRulesSingular: DeclensionRule[] = [
             {when: 'ēns', changeTo: 'ent'},
         ]
     },
+    {
+        construction: '-er',
+        nominativeEndings: [
+            {when: 'er', changeTo: 'er'},
+        ]
+    },
 ];

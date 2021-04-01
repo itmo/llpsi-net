@@ -44,10 +44,20 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisN, nominative: '', genitiveConstruction: ''});
                 break;
+            case 'aliquis':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: AliquisM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: AliquisF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: AliquisN, nominative: '', genitiveConstruction: ''});
+                break;
             case 'ille':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IlleIllaIlludM, nominative: '', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IlleIllaIlludF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IlleIllaIlludN, nominative: '', genitiveConstruction: ''});
+                break;
+            case 'iste':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IsteIstaIstudM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IsteIstaIstudF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IsteIstaIstudN, nominative: '', genitiveConstruction: ''});
                 break;
             case 'hic':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: HicHaecHocM, nominative: '', genitiveConstruction: ''});
@@ -227,6 +237,55 @@ const QuisN: DeclensionOverrides = {
     vocPl: 'quae',
 };
 
+
+const AliquisM: DeclensionOverrides = {
+    nomSg: 'aliquis',
+    accSg: 'aliquem',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquō',
+    vocSg: 'aliquis',
+
+    nomPl: 'aliquī',
+    accPl: 'aliquōs',
+    genPl: 'aliquōrum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliquī',
+};
+
+const AliquisF: DeclensionOverrides = {
+    nomSg: 'aliquis',
+    accSg: 'aliquem',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquō',
+    vocSg: 'aliquis',
+
+    nomPl: 'aliquae',
+    accPl: 'aliquās',
+    genPl: 'aliquārum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliquae',
+};
+
+const AliquisN: DeclensionOverrides = {
+    nomSg: 'aliquid',
+    accSg: 'aliquid',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquō',
+    vocSg: 'aliquid',
+
+    nomPl: 'aliquae',
+    accPl: 'aliquae',
+    genPl: 'aliquōrum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliquae',
+};
+
 const IlleIllaIlludM: DeclensionOverrides = {
     nomSg: 'ille',
     accSg: 'illum',
@@ -385,4 +444,52 @@ const IsEaIdemN: DeclensionOverrides = {
     datPl: 'iīsdem',
     ablPl: 'iīsdem',
     vocPl: 'eaedem',
+};
+
+const IsteIstaIstudM: DeclensionOverrides = {
+    nomSg: 'iste',
+    accSg: 'istum',
+    genSg: 'istīus',
+    datSg: 'istī',
+    ablSg: 'istō',
+    vocSg: 'iste',
+
+    nomPl: 'istī',
+    accPl: 'istōs',
+    genPl: 'istōrum',
+    datPl: 'istīs',
+    ablPl: 'istīs',
+    vocPl: 'istī',
+};
+
+const IsteIstaIstudF: DeclensionOverrides = {
+    nomSg: 'ista',
+    accSg: 'istam',
+    genSg: 'istīus',
+    datSg: 'istī',
+    ablSg: 'istā',
+    vocSg: 'ista',
+
+    nomPl: 'istae',
+    accPl: 'istās',
+    genPl: 'istārum',
+    datPl: 'istīs',
+    ablPl: 'istīs',
+    vocPl: 'istae',
+};
+
+const IsteIstaIstudN: DeclensionOverrides = {
+    nomSg: 'istud',
+    accSg: 'istud',
+    genSg: 'istīus',
+    datSg: 'istī',
+    ablSg: 'istō',
+    vocSg: 'istud',
+
+    nomPl: 'ista',
+    accPl: 'ista',
+    genPl: 'istōrum',
+    datPl: 'istīs',
+    ablPl: 'istīs',
+    vocPl: 'ista',
 };

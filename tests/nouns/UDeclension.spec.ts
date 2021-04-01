@@ -72,4 +72,28 @@ describe('U-declension', () => {
             vocative:   'arcūs',
         });
     });
+
+    it('neuter should decline correctly in singular', () => {
+        const word = findNoun('cornū');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'cornū',
+            accusative: 'cornū',
+            genitive:   'cornūs',
+            dative:     'cornū',
+            ablative:   'cornū',
+            vocative:   'cornū',
+        });
+    });
+
+    it('neuter should decline correctly in plural', () => {
+        const word = findNoun('cornū');
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'cornua',
+            accusative: 'cornua',
+            genitive:   'cornuum',
+            dative:     'cornibus',
+            ablative:   'cornibus',
+            vocative:   'cornua',
+        });
+    });
 });

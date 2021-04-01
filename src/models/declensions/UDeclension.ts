@@ -47,6 +47,8 @@ export class UDeclension extends Declension {
         } else {
             if (nom.endsWith('us') && gen == '-ūs') {
                 return dropSuffix(nom, 'us');
+            } else if (nom.endsWith('ū') && gen == '-ūs') {
+                return dropSuffix(nom, 'ū');
             }
         }
 

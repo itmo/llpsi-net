@@ -52,6 +52,8 @@ export class IMixedDeclension extends Declension {
         } else {
             if (!this.data.pluraleTantum) {
                 return Declension.applyStemRule(this.data.nominative, this.data.genitiveConstruction, IMixedRulesSingular)
+            } else {
+                return Declension.applyStemRule(this.data.nominative, this.data.genitiveConstruction, IMixedRulesPlural)
             }
         }
 
@@ -103,12 +105,33 @@ export class IMixedDeclension extends Declension {
     }
 }
 
+export const IMixedRulesPlural: DeclensionRule[] = [
+    {
+        construction: '-ium',
+        nominativeEndings: [
+            {when: 'ēs', changeTo: ''},
+        ],
+    }
+];
+
 export const IMixedRulesSingular: DeclensionRule[] = [
     {
         construction: '-is',
         nominativeEndings: [
             {when: 'is', changeTo: ''},
             {when: 'ēs', changeTo: ''},
+        ]
+    },
+    {
+        construction: '-antis',
+        nominativeEndings: [
+            {when: 'āns', changeTo: 'ant'}
+        ]
+    },
+    {
+        construction: '-entis',
+        nominativeEndings: [
+            {when: 'ēns', changeTo: 'ent'}
         ]
     },
     {
@@ -142,3 +165,4 @@ export const IMixedRulesSingular: DeclensionRule[] = [
         ]
     },
 ];
+

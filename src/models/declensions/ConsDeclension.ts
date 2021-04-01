@@ -172,6 +172,7 @@ export const ConsRulesSingular: DeclensionRule[] = [
         construction: '-ōris',
         nominativeEndings: [
             {when: 'or', changeTo: 'ōr'},
+            {when: 'ōs', changeTo: 'ōr'},
         ]
     },
     {
@@ -184,12 +185,19 @@ export const ConsRulesSingular: DeclensionRule[] = [
         construction: '-is',
         nominativeEndings: [
             {when: 'is', changeTo: ''},
+            {when: 'er', changeTo: 'er'},
         ]
     },
     {
         construction: '-mis',
         nominativeEndings: [
             {when: 'ms', changeTo: 'm'},
+        ]
+    },
+    {
+        construction: '-īcis',
+        nominativeEndings: [
+            {when: 'īx', changeTo: 'īc'},
         ]
     },
     {
@@ -211,6 +219,12 @@ export const ConsRulesSingular: DeclensionRule[] = [
             {when: 'en', changeTo: 'in'},
             {when: 'ō', changeTo: 'in'},
             {when: 'is', changeTo: 'in'}
+        ]
+    },
+    {
+        construction: '-iugis',
+        nominativeEndings: [
+            {when: 'iūnx', changeTo: 'iug'}
         ]
     },
     {
@@ -256,10 +270,18 @@ export const ConsRulesSingular: DeclensionRule[] = [
         ]
     },
     {
-        construction: '-ior',
+        construction: '-or',
         nominativeEndings: [
             {when: 'ior', changeTo: 'iōr'},
             {when: 'ius', changeTo: 'iōr'},
+            {when: 'or', changeTo: 'ōr'},
+            {when: 'us', changeTo: 'ōr'},
+        ]
+    },
+    {
+        construction: '-es',
+        nominativeEndings: [
+            {when: 'es', changeTo: 'it'},
         ]
     },
 ];
