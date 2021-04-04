@@ -141,6 +141,12 @@ export const IMixedRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-ctis',
+        nominativeEndings: [
+            {when: 'x', changeTo: 'ct'}
+        ]
+    },
+    {
         construction: '-rtis',
         nominativeEndings: [
             {when: 'rs', changeTo: 'rt'}

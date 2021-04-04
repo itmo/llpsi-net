@@ -203,6 +203,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "Quīntīlis",
+    "latinGenitive": "-is",
+    "genus": "m",
+    "german": "Juli",
+    "english": "July",
+    "reference": "13.128",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "Rōmānus",
     "latinFemale": "-a",
@@ -696,7 +710,7 @@
     "genus": "",
     "german": "jemand, etwas",
     "english": "someone, something",
-    "reference": "21.65, 21.91",
+    "reference": "21.65, 21.91;sī/nē/num: quis/qua/quid 22.7, 22.28, 22.105, 32.135, 42.372",
     "chapter": 21,
     "grammaticalTerm": false
   },
@@ -5191,7 +5205,7 @@
   {
     "wordType": "Verb",
     "latin": "illūstrāre",
-    "compound": "",
+    "compound": "lūstrāre",
     "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
@@ -5438,6 +5452,20 @@
   },
   {
     "wordType": "Verb",
+    "latin": "inclūdere",
+    "compound": "clūdere",
+    "indPrsSg1": "",
+    "perfInfAct": "-sisse",
+    "pPPNSg": "-sum",
+    "dative": "",
+    "german": "einschließen, einsperren",
+    "english": "shut up, confine in",
+    "reference": "23.102",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "incolere",
     "compound": "colere",
     "indPrsSg1": "",
@@ -5567,6 +5595,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "inimīcus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "feindlich",
+    "english": "unfriendly",
+    "reference": "17.80",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "initium",
     "latinGenitive": "-ī",
@@ -5597,7 +5640,7 @@
   {
     "wordType": "Verb",
     "latin": "intellegere",
-    "compound": "",
+    "compound": "legere",
     "indPrsSg1": "",
     "perfInfAct": "-lēxisse",
     "pPPNSg": "-lēctum",
@@ -5698,7 +5741,7 @@
   {
     "wordType": "Verb",
     "latin": "intuērī",
-    "compound": "",
+    "compound": "tuērī",
     "indPrsSg1": "",
     "perfInfAct": "-ītum esse",
     "pPPNSg": "",
@@ -5721,6 +5764,19 @@
     "english": "call upon, invoke",
     "reference": "16.105",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "ipse",
+    "latinFemale": "ipsa",
+    "latinNeuter": "ipsum",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "selbst",
+    "english": "himself",
+    "reference": "9.55, 10.20, 18.38, 20.31, 28.101, 34.94",
+    "chapter": 9,
     "grammaticalTerm": false
   },
   {
@@ -5850,6 +5906,20 @@
     "english": "the 1st (of the month)",
     "reference": "13.57",
     "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "kalendārium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Kalender",
+    "english": "calendar",
+    "reference": "13.0",
+    "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
@@ -6498,6 +6568,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "malum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Übel, Unglück, Schaden",
+    "english": "evil, trouble, harm",
+    "reference": "15.93, 16.101, 30.47",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 15,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "malus",
     "latinFemale": "-a",
@@ -6888,6 +6972,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "minus",
+    "latinGenitive": "-ōris",
+    "genus": "n",
+    "german": "weniger",
+    "english": "a little",
+    "reference": "19.149",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 19,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "miser",
     "latinFemale": "-era",
@@ -7061,6 +7159,15 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "multō",
+    "german": "bei weitem, mit Abstand",
+    "english": "by much, by far",
+    "reference": "16.72, 42.99",
+    "chapter": 16,
     "grammaticalTerm": false
   },
   {
@@ -7457,7 +7564,7 @@
     "latin": "nihil",
     "german": "nichts",
     "english": "nothing",
-    "reference": "14.101, 34.174;adv: 43.212",
+    "reference": "14.101, 34.174 nīl;adv: 43.212",
     "chapter": 14,
     "grammaticalTerm": false
   },
@@ -7537,7 +7644,7 @@
   {
     "wordType": "Noun",
     "latinNominative": "nox",
-    "latinGenitive": "noctis",
+    "latinGenitive": "-ctis",
     "genus": "f",
     "german": "Nacht",
     "english": "night",
@@ -7715,6 +7822,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Interjection",
+    "latinSingular": "nōlī",
+    "latinPlural": "nōlīte",
+    "german": "nicht ...!",
+    "english": "don't ...!",
+    "reference": "20.69, 20.160",
+    "chapter": 20,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "nōmen",
     "latinGenitive": "-inis",
@@ -7835,6 +7952,19 @@
     "number": "90",
     "reference": "8.93",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "nōs",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "wir, uns",
+    "english": "we, us",
+    "reference": "15.55, 15.119, 20.136, 21.91, 34.166, 29.40 nōbīscum",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {
@@ -8113,7 +8243,7 @@
   {
     "wordType": "Verb",
     "latin": "opperīrī",
-    "compound": "",
+    "compound": "perīrī",
     "indPrsSg1": "-ior",
     "perfInfAct": "-rtum esse",
     "pPPNSg": "",
@@ -8192,6 +8322,20 @@
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
+    "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "orīrī",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "ortum",
+    "dative": "",
+    "german": "aufgehen, entstehen",
+    "english": "rise, appear",
+    "reference": "16.45, 16.97, 36.210, 37.132",
     "chapter": 16,
     "grammaticalTerm": false
   },
@@ -9808,7 +9952,7 @@
     "genus": "",
     "german": "wer, was",
     "english": "who, what",
-    "reference": "1.50, 1.55, 2.15, 2.16, 2.76, 39.175",
+    "reference": "1.50, 1.55, 2.15, 2.16, 2.76, 3.63, 3.70, 4.75, 8.3, 15.58, 39.175",
     "chapter": 1,
     "grammaticalTerm": false
   },
@@ -9823,6 +9967,21 @@
     "english": "each",
     "reference": "17.11, 17.13, 17.23, 18.20, 18.43, 31.172 sup + quisque, 44.420",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "quiētus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "ruhig",
+    "english": "quiet",
+    "reference": "11.58, 14.1",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 11,
     "grammaticalTerm": false
   },
   {
@@ -13045,6 +13204,19 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "vōs",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "ihr",
+    "english": "you",
+    "reference": "15.51, 15.120, 20.130, 21.109, 29.57 vōbīscum",
+    "chapter": 15,
     "grammaticalTerm": false
   },
   {

@@ -35,6 +35,8 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
 
         switch (data.latinMale) {
             case 'ego':
+            case 'nōs':
+            case 'vōs':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
@@ -83,6 +85,11 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IsEaIdemM, nominative: '', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IsEaIdemF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IsEaIdemN, nominative: '', genitiveConstruction: ''});
+                break;
+            case 'ipse':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IpseIpsaIpsumM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IpseIpsaIpsumF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IpseIpsaIpsumN, nominative: '', genitiveConstruction: ''});
                 break;
             default:
                 throw Error(`No declension for ${data.latinMale}`);
@@ -497,4 +504,52 @@ const IsteIstaIstudN: DeclensionOverrides = {
     datPl: 'istīs',
     ablPl: 'istīs',
     vocPl: 'ista',
+};
+
+const IpseIpsaIpsumM: DeclensionOverrides = {
+    nomSg: 'ipse',
+    accSg: 'ipsum',
+    genSg: 'ipsīus',
+    datSg: 'ipsī',
+    ablSg: 'ipsō',
+    vocSg: 'ipse',
+
+    nomPl: 'ipsī',
+    accPl: 'ipsōs',
+    genPl: 'ipsōrum',
+    datPl: 'ipsīs',
+    ablPl: 'ipsīs',
+    vocPl: 'ipsī',
+};
+
+const IpseIpsaIpsumF: DeclensionOverrides = {
+    nomSg: 'ipsa',
+    accSg: 'ipsam',
+    genSg: 'ipsīus',
+    datSg: 'ipsī',
+    ablSg: 'ipsā',
+    vocSg: 'ipsa',
+
+    nomPl: 'ipsae',
+    accPl: 'ipsās',
+    genPl: 'ipsārum',
+    datPl: 'ipsīs',
+    ablPl: 'ipsīs',
+    vocPl: 'ipsae',
+};
+
+const IpseIpsaIpsumN: DeclensionOverrides = {
+    nomSg: 'ipsum',
+    accSg: 'ipsum',
+    genSg: 'ipsīus',
+    datSg: 'ipsī',
+    ablSg: 'ipsō',
+    vocSg: 'ipsum',
+
+    nomPl: 'ipsa',
+    accPl: 'ipsa',
+    genPl: 'ipsōrum',
+    datPl: 'ipsīs',
+    ablPl: 'ipsīs',
+    vocPl: 'ipsa',
 };
