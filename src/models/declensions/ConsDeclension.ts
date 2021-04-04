@@ -156,6 +156,13 @@ export const ConsRulesPlural: DeclensionRule[] = [
             {when: 'ēs', changeTo: ''},
             {when: 'a', changeTo: ''},
         ],
+    },
+    {
+        construction: '-ium',
+        nominativeEndings: [
+            {when: 'ēs', changeTo: ''},
+            {when: 'a',  changeTo: ''},
+        ],
     }
 ];
 
@@ -171,6 +178,7 @@ export const ConsRulesSingular: DeclensionRule[] = [
     {
         construction: '-ōris',
         nominativeEndings: [
+            {when: 'us', changeTo: 'ōr'},
             {when: 'or', changeTo: 'ōr'},
             {when: 'ōs', changeTo: 'ōr'},
         ]

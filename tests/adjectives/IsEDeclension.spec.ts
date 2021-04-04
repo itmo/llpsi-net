@@ -73,6 +73,28 @@ describe('Is-E-declension', () => {
         });
     });
 
+    it('comparative adjective should decline correctly', () => {
+        const word = findAdjective('melior');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['melior',      'melior',   'melius'],
+            accusative: ['meliōrem',    'meliōrem', 'melius'],
+            genitive:   ['meliōris',    'meliōris', 'meliōris'],
+            dative:     ['meliōrī',     'meliōrī',  'meliōrī'],
+            ablative:   ['meliōre',     'meliōre',  'meliōre'],
+            vocative:   ['melior',      'melior',   'melius'],
+        });
+
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['meliōrēs',    'meliōrēs',   'meliōra'],
+            accusative: ['meliōrēs',    'meliōrēs',   'meliōra'],
+            genitive:   ['meliōrum',    'meliōrum',   'meliōrum'],
+            dative:     ['meliōribus',  'meliōribus', 'meliōribus'],
+            ablative:   ['meliōribus',  'meliōribus', 'meliōribus'],
+            vocative:   ['meliōrēs',    'meliōrēs',   'meliōra'],
+        });
+    });
+
+
     it('one termination adjective ferōx should decline correctly', () => {
         const word = findAdjective('ferōx');
         checkAdjDecl(word, Numerus.Singular, {

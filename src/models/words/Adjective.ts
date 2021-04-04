@@ -54,7 +54,7 @@ export class Adjective extends Word implements AdjectiveDeclinable {
     public get declensionType(): AdjectiveDeclension {
         if (this.maleDeclension instanceof ODeclension) {
             return AdjectiveDeclension.AO;
-        } else if (this.maleDeclension instanceof IPureDeclension) {
+        } else if (this.maleDeclension instanceof IPureDeclension || this.maleDeclension instanceof ConsDeclension) {
             return AdjectiveDeclension.Cons;
         } else {
             return AdjectiveDeclension.Irregular;
@@ -121,7 +121,7 @@ export class Adjective extends Word implements AdjectiveDeclinable {
                 neuterInput.pluraleTantum = true;
                 neuter = new ODeclension(neuterInput);
             }
-        } else if (data.latinMale.endsWith('is')) {
+        } else if (data.latinMale.endsWith('is') && data.latinGenitive == '') {
             const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-is', 'is', 'is');
             input.ablativeI = true;
             male = new IPureDeclension(input);
@@ -130,49 +130,33 @@ export class Adjective extends Word implements AdjectiveDeclinable {
                 const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-is', 'is', 'e');
                 neuter = new IPureDeclension(neuterInput);
             }
-        } else if (data.latinMale.endsWith('ns')) {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ns', 'ns', 'ns');
-            input.ablativeI = true;
-            male = new IPureDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ns', 'ns', 'ns');
+        } else if (data.stemType == 'pure') {
+            const maleInput = this.adjToDeclension(data, data.latinMale, data.latinGenitive, Genus.Masculine);
+            maleInput.ablativeI = true;
+            male = new IPureDeclension(maleInput);
+
+            const femaleInput = this.adjToDeclension(data, data.latinFemale ? data.latinFemale : data.latinMale, data.latinGenitive, Genus.Femininum);
+            femaleInput.ablativeI = true;
+            female = new IPureDeclension(femaleInput);
+
+            const neuterInput = this.adjToDeclension(data, data.latinNeuter ? data.latinNeuter : data.latinMale, data.latinGenitive, Genus.Neuter);
+            neuterInput.ablativeI = true;
             neuter = new IPureDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('es') && data.latinFemale == '' && data.latinNeuter == '') {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-es', 'es', 'es');
-            input.ablativeI = true;
-            male = new ConsDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-es', 'es', 'es');
+        } else if (data.stemType == 'cons' || data.stemType == 'comp') {
+            const maleInput = this.adjToDeclension(data, data.latinMale, data.latinGenitive, Genus.Masculine);
+            if (data.latinMale.endsWith('ēs')) {
+                this.pluraleTantum_ = true;
+            }
+            maleInput.pluraleTantum = this.pluraleTantum;
+            male = new ConsDeclension(maleInput);
+
+            const femaleInput = this.adjToDeclension(data, data.latinFemale ? data.latinFemale : data.latinMale, data.latinGenitive, Genus.Femininum);
+            femaleInput.pluraleTantum = this.pluraleTantum;
+            female = new ConsDeclension(femaleInput);
+
+            const neuterInput = this.adjToDeclension(data, data.latinNeuter ? data.latinNeuter : data.latinMale, data.latinGenitive, Genus.Neuter);
+            neuterInput.pluraleTantum = this.pluraleTantum;
             neuter = new ConsDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('ēs')) {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ium', 'ēs', 'ēs');
-            input.pluraleTantum = true;
-            male = new IPureDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ium', 'ēs', 'a');
-            neuterInput.pluraleTantum = true;
-            neuter = new IPureDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('er') && data.latinFemale == '' && data.latinNeuter == '') {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-eris', 'er', 'er');
-            input.ablativeI = false;
-            male = new ConsDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-eris', 'er', 'er');
-            neuterInput.ablativeI = false;
-            neuter = new ConsDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('or')) {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-or', 'or', 'or');
-            male = new ConsDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-or', 'or', 'us');
-            neuter = new ConsDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('ōx')) {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ōcis', 'ōx', 'ōx');
-            input.ablativeI = true;
-            male = new IPureDeclension(input);
-            female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ōcis', 'ōx', 'ōx');
-            neuter = new IPureDeclension(neuterInput);
         }
 
         if (!male || !female || !neuter) {
@@ -183,7 +167,7 @@ export class Adjective extends Word implements AdjectiveDeclinable {
     }
 
     private adjToDeclensionRewrite(data: AdjectiveData, genus: Genus, genitive: string, sufFrom: string, sufTo: string): DeclensionInput {
-        const genitiveIus = data.genitiveIus ? true : false;
+        const genitiveIus = data.pronominal ? true : false;
 
         return {
             nominative: changeSuffix(data.latinMale, sufFrom, sufTo),
@@ -195,7 +179,7 @@ export class Adjective extends Word implements AdjectiveDeclinable {
     }
 
     private adjToDeclension(data: AdjectiveData, nominative: string, cons: string, genus: Genus): DeclensionInput {
-        const genitiveIus = data.genitiveIus ? true : false;
+        const genitiveIus = data.pronominal ? true : false;
 
         return {
             nominative: nominative,

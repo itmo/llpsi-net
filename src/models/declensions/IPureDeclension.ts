@@ -168,6 +168,12 @@ export const IPureRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-entis',
+        nominativeEndings: [
+            {when: 'ēns', changeTo: 'ent'},
+        ]
+    },
+    {
         construction: '-ns',
         nominativeEndings: [
             {when: 'ēns', changeTo: 'ent'},
