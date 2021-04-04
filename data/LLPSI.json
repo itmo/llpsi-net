@@ -245,7 +245,8 @@
   {
     "wordType": "Verb",
     "latin": "abesse",
-    "indPrsActSg1": "",
+    "compound": "esse",
+    "indPrsSg1": "absum",
     "perfInfAct": "āfuisse",
     "pPPNSg": "",
     "dative": "",
@@ -287,7 +288,8 @@
   {
     "wordType": "Verb",
     "latin": "abīre",
-    "indPrsActSg1": "",
+    "compound": "īre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -300,7 +302,8 @@
   {
     "wordType": "Verb",
     "latin": "accipere",
-    "indPrsActSg1": "-iō",
+    "compound": "cipere",
+    "indPrsSg1": "-iō",
     "perfInfAct": "-cēpisse",
     "pPPNSg": "-ceptum",
     "dative": "",
@@ -313,7 +316,8 @@
   {
     "wordType": "Verb",
     "latin": "accurrere",
-    "indPrsActSg1": "",
+    "compound": "currere",
+    "indPrsSg1": "",
     "perfInfAct": "-risse",
     "pPPNSg": "",
     "dative": "",
@@ -326,7 +330,8 @@
   {
     "wordType": "Verb",
     "latin": "accēdere",
-    "indPrsActSg1": "",
+    "compound": "cēdere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -339,7 +344,8 @@
   {
     "wordType": "Verb",
     "latin": "accūsāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -377,7 +383,8 @@
   {
     "wordType": "Verb",
     "latin": "addere",
-    "indPrsActSg1": "",
+    "compound": "dere",
+    "indPrsSg1": "",
     "perfInfAct": "-didisse",
     "pPPNSg": "-ditum",
     "dative": "",
@@ -390,7 +397,8 @@
   {
     "wordType": "Verb",
     "latin": "adesse",
-    "indPrsActSg1": "",
+    "compound": "esse",
+    "indPrsSg1": "adsum",
     "perfInfAct": "affuisse",
     "pPPNSg": "",
     "dative": "",
@@ -426,7 +434,8 @@
   {
     "wordType": "Verb",
     "latin": "admittere",
-    "indPrsActSg1": "",
+    "compound": "mittere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -453,7 +462,8 @@
   {
     "wordType": "Verb",
     "latin": "advehere",
-    "indPrsActSg1": "",
+    "compound": "vehere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -466,7 +476,8 @@
   {
     "wordType": "Verb",
     "latin": "advenīre",
-    "indPrsActSg1": "",
+    "compound": "venīre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -504,7 +515,8 @@
   {
     "wordType": "Verb",
     "latin": "adīre",
-    "indPrsActSg1": "",
+    "compound": "īre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -532,7 +544,8 @@
   {
     "wordType": "Verb",
     "latin": "aegrōtāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -597,7 +610,8 @@
   {
     "wordType": "Verb",
     "latin": "afferre",
-    "indPrsActSg1": "",
+    "compound": "ferre",
+    "indPrsSg1": "",
     "perfInfAct": "attulisse",
     "pPPNSg": "allātum",
     "dative": "",
@@ -610,20 +624,22 @@
   {
     "wordType": "Verb",
     "latin": "agere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "ēgisse",
     "pPPNSg": "āctum",
     "dative": "",
     "german": "treiben, betreiben, tun",
     "english": "drive, do, perform",
-    "reference": "5.82, 24.19, 27.14, 37.90, 46.136, 51.132, 48.147 causam agere, 53.291, 53.246 sē agere, 42.324 agere cum, 45.30, 54.23 agitur rēs/dē rē, 54.126, 44.413 āctum est dē",
+    "reference": "5.82, 5.87, 5.99, 24.19, 27.14, 37.90, 46.136, 51.132, 48.147 causam agere, 53.291, 53.246 sē agere, 42.324 agere cum, 45.30, 54.23 agitur rēs/dē rē, 54.126, 44.413 āctum est dē",
     "chapter": 5,
     "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
     "latin": "aiere",
-    "indPrsActSg1": "aiō",
+    "compound": "",
+    "indPrsSg1": "aiō",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -660,7 +676,8 @@
   {
     "wordType": "Verb",
     "latin": "alere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "altum",
     "dative": "",
@@ -760,7 +777,8 @@
   {
     "wordType": "Verb",
     "latin": "ambulāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -785,9 +803,24 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "amāns",
+    "latinGenitive": "-antis",
+    "genus": "m/f",
+    "german": "Liebhaber, Liebling",
+    "english": "lover, sweetheart",
+    "reference": "19.18",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 19,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "amāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -823,6 +856,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "amīcus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "freundlich, befreundet",
+    "english": "friendly",
+    "reference": "17.80",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 17,
     "grammaticalTerm": false
   },
   {
@@ -881,7 +929,8 @@
   {
     "wordType": "Verb",
     "latin": "animadvertere",
-    "indPrsActSg1": "",
+    "compound": "vertere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -982,7 +1031,8 @@
   {
     "wordType": "Verb",
     "latin": "aperīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-rtum",
     "dative": "",
@@ -1009,7 +1059,8 @@
   {
     "wordType": "Verb",
     "latin": "appellāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1022,7 +1073,8 @@
   {
     "wordType": "Verb",
     "latin": "appōnere",
-    "indPrsActSg1": "",
+    "compound": "pōnere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1074,7 +1126,8 @@
   {
     "wordType": "Verb",
     "latin": "arbitrārī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1101,7 +1154,8 @@
   {
     "wordType": "Verb",
     "latin": "arcessere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-īvisse",
     "pPPNSg": "-ītum",
     "dative": "",
@@ -1123,6 +1177,20 @@
     "iStemType": "",
     "overrides": "{\"datPl\": \"arcubus\", \"ablPl\": \"arcubus\"}",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "ariēs",
+    "latinGenitive": "-etis",
+    "genus": "m",
+    "german": "Widder",
+    "english": "ram",
+    "reference": "13.0, 48.113",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
     "grammaticalTerm": false
   },
   {
@@ -1171,7 +1239,8 @@
   {
     "wordType": "Verb",
     "latin": "ascendere",
-    "indPrsActSg1": "",
+    "compound": "scendere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1198,7 +1267,8 @@
   {
     "wordType": "Verb",
     "latin": "aspicere",
-    "indPrsActSg1": "-iō",
+    "compound": "spicere",
+    "indPrsSg1": "-iō",
     "perfInfAct": "-exisse",
     "pPPNSg": "-ectum",
     "dative": "",
@@ -1231,7 +1301,8 @@
   {
     "wordType": "Verb",
     "latin": "audēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "ausum esse",
     "pPPNSg": "ausum",
     "dative": "",
@@ -1244,7 +1315,8 @@
   {
     "wordType": "Verb",
     "latin": "audīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1257,7 +1329,8 @@
   {
     "wordType": "Verb",
     "latin": "augēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-xisse",
     "pPPNSg": "-ctum",
     "dative": "",
@@ -1441,7 +1514,8 @@
   {
     "wordType": "Verb",
     "latin": "bibere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-bisse",
     "pPPNSg": "",
     "dative": "",
@@ -1507,7 +1581,8 @@
   {
     "wordType": "Verb",
     "latin": "bālāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1533,6 +1608,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "bēstiola",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Tierchen, Insekt",
+    "english": "small animal, insect",
+    "reference": "18.110",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "bōs",
     "latinGenitive": "bovis",
     "genus": "m/f",
@@ -1548,7 +1637,8 @@
   {
     "wordType": "Verb",
     "latin": "cadere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "cecidisse",
     "pPPNSg": "",
     "dative": "",
@@ -1630,6 +1720,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "cancer",
+    "latinGenitive": "-crī",
+    "genus": "m",
+    "german": "Krebs",
+    "english": "crab",
+    "reference": "13.0",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "candidus",
     "latinFemale": "-a",
@@ -1647,7 +1751,8 @@
   {
     "wordType": "Verb",
     "latin": "canere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "cecinisse",
     "pPPNSg": "",
     "dative": "",
@@ -1674,7 +1779,8 @@
   {
     "wordType": "Verb",
     "latin": "cantāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1687,7 +1793,8 @@
   {
     "wordType": "Verb",
     "latin": "capere",
-    "indPrsActSg1": "-iō",
+    "compound": "",
+    "indPrsSg1": "-iō",
     "perfInfAct": "cēpisse",
     "pPPNSg": "captum",
     "dative": "",
@@ -1756,7 +1863,8 @@
   {
     "wordType": "Verb",
     "latin": "carpere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-psisse",
     "pPPNSg": "-ptum",
     "dative": "",
@@ -1769,7 +1877,8 @@
   {
     "wordType": "Verb",
     "latin": "carēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -1838,7 +1947,8 @@
   {
     "wordType": "Verb",
     "latin": "cavēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "cāvisse",
     "pPPNSg": "cautum",
     "dative": "",
@@ -1890,7 +2000,8 @@
   {
     "wordType": "Verb",
     "latin": "cernere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "crēvisse",
     "pPPNSg": "",
     "dative": "",
@@ -1913,6 +2024,15 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "certē",
+    "german": "gewiss, allerdings",
+    "english": "certainly, at any rate",
+    "reference": "18.73",
+    "chapter": 18,
     "grammaticalTerm": false
   },
   {
@@ -1957,7 +2077,8 @@
   {
     "wordType": "Verb",
     "latin": "claudere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -1999,7 +2120,8 @@
   {
     "wordType": "Verb",
     "latin": "clāmāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2041,7 +2163,8 @@
   {
     "wordType": "Verb",
     "latin": "cognōscere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-ōvisse",
     "pPPNSg": "-itum",
     "dative": "",
@@ -2082,7 +2205,8 @@
   {
     "wordType": "Verb",
     "latin": "colloquī",
-    "indPrsActSg1": "",
+    "compound": "loquī",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2137,7 +2261,8 @@
   {
     "wordType": "Verb",
     "latin": "comparāre",
-    "indPrsActSg1": "",
+    "compound": "parāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2164,7 +2289,8 @@
   {
     "wordType": "Verb",
     "latin": "complectī",
-    "indPrsActSg1": "",
+    "compound": "plectī",
+    "indPrsSg1": "",
     "perfInfAct": "-exum esse",
     "pPPNSg": "",
     "dative": "",
@@ -2177,7 +2303,8 @@
   {
     "wordType": "Verb",
     "latin": "computāre",
-    "indPrsActSg1": "",
+    "compound": "putāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2190,7 +2317,8 @@
   {
     "wordType": "Verb",
     "latin": "coniungere",
-    "indPrsActSg1": "",
+    "compound": "iungere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2243,7 +2371,8 @@
   {
     "wordType": "Verb",
     "latin": "convenīre",
-    "indPrsActSg1": "",
+    "compound": "venīre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2298,7 +2427,8 @@
   {
     "wordType": "Verb",
     "latin": "corrigere",
-    "indPrsActSg1": "",
+    "compound": "rigere",
+    "indPrsSg1": "",
     "perfInfAct": "-rēxisse",
     "pPPNSg": "-rēctum",
     "dative": "",
@@ -2358,7 +2488,8 @@
   {
     "wordType": "Verb",
     "latin": "crēdere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-didisse",
     "pPPNSg": "-ditum",
     "dative": "true",
@@ -2399,7 +2530,8 @@
   {
     "wordType": "Verb",
     "latin": "cubāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-itum",
     "dative": "",
@@ -2447,7 +2579,8 @@
   {
     "wordType": "Verb",
     "latin": "currere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "cucurrisse",
     "pPPNSg": "",
     "dative": "",
@@ -2460,7 +2593,8 @@
   {
     "wordType": "Verb",
     "latin": "cēdere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "cessisse",
     "pPPNSg": "cessum",
     "dative": "",
@@ -2502,7 +2636,8 @@
   {
     "wordType": "Verb",
     "latin": "cōgitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2515,7 +2650,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnscendere",
-    "indPrsActSg1": "",
+    "compound": "scendere",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "",
     "dative": "",
@@ -2528,7 +2664,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnsistere",
-    "indPrsActSg1": "",
+    "compound": "sistere",
+    "indPrsSg1": "",
     "perfInfAct": "-stitisse",
     "pPPNSg": "",
     "dative": "",
@@ -2555,7 +2692,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnspicere",
-    "indPrsActSg1": "-iō",
+    "compound": "spicere",
+    "indPrsSg1": "-iō",
     "perfInfAct": "-exisse",
     "pPPNSg": "-ectum",
     "dative": "",
@@ -2568,7 +2706,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnstāre",
-    "indPrsActSg1": "",
+    "compound": "stāre",
+    "indPrsSg1": "",
     "perfInfAct": "-stitisse",
     "pPPNSg": "",
     "dative": "",
@@ -2581,7 +2720,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnsīdere",
-    "indPrsActSg1": "",
+    "compound": "sīdere",
+    "indPrsSg1": "",
     "perfInfAct": "-sēdisse",
     "pPPNSg": "",
     "dative": "",
@@ -2594,7 +2734,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnsōlārī",
-    "indPrsActSg1": "",
+    "compound": "sōlārī",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2607,7 +2748,8 @@
   {
     "wordType": "Verb",
     "latin": "cōnārī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2643,7 +2785,8 @@
   {
     "wordType": "Verb",
     "latin": "cūrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2656,7 +2799,8 @@
   {
     "wordType": "Verb",
     "latin": "cūstōdīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2669,7 +2813,8 @@
   {
     "wordType": "Verb",
     "latin": "dare",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "dedisse",
     "pPPNSg": "datum",
     "dative": "",
@@ -2744,7 +2889,8 @@
   {
     "wordType": "Verb",
     "latin": "decēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2752,6 +2898,20 @@
     "english": "be fitting, become",
     "reference": "20.158, 21.54",
     "chapter": 20,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "deesse",
+    "compound": "esse",
+    "indPrsSg1": "dēsum",
+    "perfInfAct": "dēfuisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "fehlen, versagen",
+    "english": "be lacking, fail",
+    "reference": "18.94, 32.101 +dative",
+    "chapter": 18,
     "grammaticalTerm": false
   },
   {
@@ -2786,7 +2946,7 @@
     "stemType": "",
     "german": "rechts, f rechte Hand",
     "english": "right, f right hand",
-    "reference": "14.79",
+    "reference": "14.79, 16.51, 30.98, 40.107, 45.261",
     "pronominal": "",
     "overrides": "",
     "chapter": 14,
@@ -2795,7 +2955,8 @@
   {
     "wordType": "Verb",
     "latin": "dictāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2852,7 +3013,8 @@
   {
     "wordType": "Verb",
     "latin": "discere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "didicisse",
     "pPPNSg": "",
     "dative": "",
@@ -2879,7 +3041,8 @@
   {
     "wordType": "Verb",
     "latin": "discēdere",
-    "indPrsActSg1": "",
+    "compound": "cēdere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2921,7 +3084,8 @@
   {
     "wordType": "Verb",
     "latin": "docēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-ctum",
     "dative": "",
@@ -2934,7 +3098,8 @@
   {
     "wordType": "Verb",
     "latin": "dolēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -2979,7 +3144,7 @@
     "genus": "f",
     "german": "Haus",
     "english": "house",
-    "reference": "15.81, 20.127, 42.222, 19.42, 37.200, 48.789",
+    "reference": "15.81, 20.127, 20.137, 42.222, 19.42, 37.200, 48.789",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "{\"ablSg\": \"domō\", \"accPl\": \"domōs\"}",
@@ -2989,7 +3154,8 @@
   {
     "wordType": "Verb",
     "latin": "dormīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3002,7 +3168,8 @@
   {
     "wordType": "Verb",
     "latin": "dubitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3079,6 +3246,16 @@
   },
   {
     "wordType": "Numeral",
+    "latin": "duodētrīgintā",
+    "nominativePlural": "",
+    "genitivePlural": "",
+    "number": "28",
+    "reference": "13.28",
+    "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Numeral",
     "latin": "duodēvīgintī",
     "nominativePlural": "",
     "genitivePlural": "",
@@ -3115,7 +3292,8 @@
   {
     "wordType": "Verb",
     "latin": "dēbēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3128,7 +3306,8 @@
   {
     "wordType": "Verb",
     "latin": "dēclīnāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3155,7 +3334,8 @@
   {
     "wordType": "Verb",
     "latin": "dēfendere",
-    "indPrsActSg1": "",
+    "compound": "fendere",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "-ēnsum",
     "dative": "",
@@ -3168,7 +3348,8 @@
   {
     "wordType": "Verb",
     "latin": "dēlectāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3181,7 +3362,8 @@
   {
     "wordType": "Verb",
     "latin": "dēlēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-ēvisse",
     "pPPNSg": "-ētum",
     "dative": "",
@@ -3194,7 +3376,8 @@
   {
     "wordType": "Verb",
     "latin": "dēmōnstrāre",
-    "indPrsActSg1": "",
+    "compound": "mōnstrāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3249,7 +3432,8 @@
   {
     "wordType": "Verb",
     "latin": "dērīdēre",
-    "indPrsActSg1": "",
+    "compound": "rīdēre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3262,7 +3446,8 @@
   {
     "wordType": "Verb",
     "latin": "dēsinere",
-    "indPrsActSg1": "",
+    "compound": "sinere",
+    "indPrsSg1": "",
     "perfInfAct": "-siisse",
     "pPPNSg": "-situm",
     "dative": "",
@@ -3275,7 +3460,8 @@
   {
     "wordType": "Verb",
     "latin": "dētergēre",
-    "indPrsActSg1": "",
+    "compound": "tergēre",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -3288,7 +3474,8 @@
   {
     "wordType": "Verb",
     "latin": "dīcere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-xisse",
     "pPPNSg": "dictum",
     "dative": "",
@@ -3301,7 +3488,8 @@
   {
     "wordType": "Verb",
     "latin": "dīligere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-lēxisse",
     "pPPNSg": "-lēctum",
     "dative": "",
@@ -3344,7 +3532,8 @@
   {
     "wordType": "Verb",
     "latin": "dīvidere",
-    "indPrsActSg1": "",
+    "compound": "videre",
+    "indPrsSg1": "",
     "perfInfAct": "-vīsisse",
     "pPPNSg": "-vīsum",
     "dative": "",
@@ -3371,7 +3560,8 @@
   {
     "wordType": "Verb",
     "latin": "dūcere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-xisse",
     "pPPNSg": "ductum",
     "dative": "",
@@ -3409,7 +3599,8 @@
   {
     "wordType": "Verb",
     "latin": "efficere",
-    "indPrsActSg1": "-iō",
+    "compound": "ficere",
+    "indPrsSg1": "-iō",
     "perfInfAct": "-fēcisse",
     "pPPNSg": "-fectum",
     "dative": "",
@@ -3420,9 +3611,23 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Pronoun",
+    "latinMale": "ego",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "ich, mich, mir",
+    "english": "I, me",
+    "reference": "3.20, 14.30, 15.21, 17.66, 34.118, 14.87 mēcum",
+    "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "emere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "ēmisse",
     "pPPNSg": "ēmptum",
     "dative": "",
@@ -3521,7 +3726,8 @@
   {
     "wordType": "Verb",
     "latin": "errāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3548,7 +3754,8 @@
   {
     "wordType": "Verb",
     "latin": "esse",
-    "indPrsActSg1": "sum",
+    "compound": "",
+    "indPrsSg1": "sum",
     "perfInfAct": "fuisse",
     "pPPNSg": "",
     "dative": "",
@@ -3591,7 +3798,8 @@
   {
     "wordType": "Verb",
     "latin": "exaudīre",
-    "indPrsActSg1": "",
+    "compound": "audīre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3604,7 +3812,8 @@
   {
     "wordType": "Verb",
     "latin": "excitāre",
-    "indPrsActSg1": "",
+    "compound": "citāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3617,7 +3826,8 @@
   {
     "wordType": "Verb",
     "latin": "exclāmāre",
-    "indPrsActSg1": "",
+    "compound": "clāmāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3630,7 +3840,8 @@
   {
     "wordType": "Verb",
     "latin": "excūsāre",
-    "indPrsActSg1": "",
+    "compound": "cūsāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3686,7 +3897,8 @@
   {
     "wordType": "Verb",
     "latin": "expugnāre",
-    "indPrsActSg1": "",
+    "compound": "pugnāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3699,7 +3911,8 @@
   {
     "wordType": "Verb",
     "latin": "exspectāre",
-    "indPrsActSg1": "",
+    "compound": "spectāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3723,7 +3936,8 @@
   {
     "wordType": "Verb",
     "latin": "exīre",
-    "indPrsActSg1": "",
+    "compound": "īre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -3750,7 +3964,8 @@
   {
     "wordType": "Verb",
     "latin": "facere",
-    "indPrsActSg1": "-iō",
+    "compound": "",
+    "indPrsSg1": "-iō",
     "perfInfAct": "fēcisse",
     "pPPNSg": "factum",
     "dative": "",
@@ -3792,7 +4007,8 @@
   {
     "wordType": "Verb",
     "latin": "fallere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "fefellisse",
     "pPPNSg": "falsum",
     "dative": "",
@@ -3862,7 +4078,8 @@
   {
     "wordType": "Verb",
     "latin": "ferre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "tulisse ",
     "pPPNSg": "lātum",
     "dative": "",
@@ -3949,7 +4166,8 @@
   {
     "wordType": "Verb",
     "latin": "fierī",
-    "indPrsActSg1": "fīō",
+    "compound": "",
+    "indPrsSg1": "fīō",
     "perfInfAct": "factum esse",
     "pPPNSg": "",
     "dative": "",
@@ -3962,7 +4180,8 @@
   {
     "wordType": "Verb",
     "latin": "fluere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-ūxisse",
     "pPPNSg": "",
     "dative": "",
@@ -3989,7 +4208,8 @@
   {
     "wordType": "Verb",
     "latin": "flāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4148,7 +4368,8 @@
   {
     "wordType": "Verb",
     "latin": "fremere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-itum",
     "dative": "",
@@ -4205,7 +4426,8 @@
   {
     "wordType": "Verb",
     "latin": "frīgēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4232,7 +4454,8 @@
   {
     "wordType": "Verb",
     "latin": "fugere",
-    "indPrsActSg1": "-iō",
+    "compound": "",
+    "indPrsSg1": "-iō",
     "perfInfAct": "fūgisse",
     "pPPNSg": "",
     "dative": "",
@@ -4257,6 +4480,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "futūrum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Futur I",
+    "english": "future",
+    "reference": "20.172",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 20,
+    "grammaticalTerm": true
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "futūrus",
     "latinFemale": "-a",
@@ -4274,7 +4511,8 @@
   {
     "wordType": "Verb",
     "latin": "fārī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4429,7 +4667,8 @@
   {
     "wordType": "Verb",
     "latin": "gaudēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "gavīsum esse",
     "pPPNSg": "gavīsum",
     "dative": "",
@@ -4513,7 +4752,8 @@
   {
     "wordType": "Verb",
     "latin": "gerere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "gessisse",
     "pPPNSg": "gestum",
     "dative": "",
@@ -4612,7 +4852,8 @@
   {
     "wordType": "Verb",
     "latin": "gubernāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4639,7 +4880,8 @@
   {
     "wordType": "Verb",
     "latin": "habitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4652,7 +4894,8 @@
   {
     "wordType": "Verb",
     "latin": "habēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4679,7 +4922,8 @@
   {
     "wordType": "Verb",
     "latin": "haurīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-stum",
     "dative": "",
@@ -4756,7 +5000,8 @@
   {
     "wordType": "Verb",
     "latin": "horrēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4849,7 +5094,8 @@
   {
     "wordType": "Verb",
     "latin": "iacere",
-    "indPrsActSg1": "-iō",
+    "compound": "",
+    "indPrsSg1": "-iō",
     "perfInfAct": "iēcisse",
     "pPPNSg": "iactum",
     "dative": "",
@@ -4862,7 +5108,8 @@
   {
     "wordType": "Verb",
     "latin": "iactāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4875,7 +5122,8 @@
   {
     "wordType": "Verb",
     "latin": "iacēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -4943,7 +5191,8 @@
   {
     "wordType": "Verb",
     "latin": "illūstrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5008,7 +5257,8 @@
   {
     "wordType": "Verb",
     "latin": "imperāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "true",
@@ -5078,7 +5328,8 @@
   {
     "wordType": "Verb",
     "latin": "implēre",
-    "indPrsActSg1": "",
+    "compound": "plēre",
+    "indPrsSg1": "",
     "perfInfAct": "-ēvisse",
     "pPPNSg": "",
     "dative": "",
@@ -5091,7 +5342,8 @@
   {
     "wordType": "Verb",
     "latin": "imprimere",
-    "indPrsActSg1": "",
+    "compound": "primere",
+    "indPrsSg1": "",
     "perfInfAct": "-pressisse",
     "pPPNSg": "-essum",
     "dative": "",
@@ -5119,7 +5371,8 @@
   {
     "wordType": "Verb",
     "latin": "impōnere",
-    "indPrsActSg1": "",
+    "compound": "pōnere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5172,7 +5425,8 @@
   {
     "wordType": "Verb",
     "latin": "incipere",
-    "indPrsActSg1": "-iō",
+    "compound": "cipere",
+    "indPrsSg1": "-iō",
     "perfInfAct": "coepisse",
     "pPPNSg": "coeptum",
     "dative": "",
@@ -5185,7 +5439,8 @@
   {
     "wordType": "Verb",
     "latin": "incolere",
-    "indPrsActSg1": "",
+    "compound": "colere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5242,7 +5497,8 @@
   {
     "wordType": "Verb",
     "latin": "induere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-ūtum",
     "dative": "",
@@ -5285,7 +5541,8 @@
   {
     "wordType": "Verb",
     "latin": "inesse",
-    "indPrsActSg1": "",
+    "compound": "esse",
+    "indPrsSg1": "insum",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5326,7 +5583,8 @@
   {
     "wordType": "Verb",
     "latin": "inquit",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5339,7 +5597,8 @@
   {
     "wordType": "Verb",
     "latin": "intellegere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-lēxisse",
     "pPPNSg": "-lēctum",
     "dative": "",
@@ -5363,7 +5622,8 @@
   {
     "wordType": "Verb",
     "latin": "interesse",
-    "indPrsActSg1": "intersum",
+    "compound": "esse",
+    "indPrsSg1": "intersum",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "true",
@@ -5385,7 +5645,8 @@
   {
     "wordType": "Verb",
     "latin": "interpellāre",
-    "indPrsActSg1": "",
+    "compound": "pellāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5398,7 +5659,8 @@
   {
     "wordType": "Verb",
     "latin": "interrogāre",
-    "indPrsActSg1": "",
+    "compound": "rogāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5422,7 +5684,8 @@
   {
     "wordType": "Verb",
     "latin": "intrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5435,7 +5698,8 @@
   {
     "wordType": "Verb",
     "latin": "intuērī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-ītum esse",
     "pPPNSg": "",
     "dative": "",
@@ -5448,7 +5712,8 @@
   {
     "wordType": "Verb",
     "latin": "invocāre",
-    "indPrsActSg1": "",
+    "compound": "vocāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5523,7 +5788,8 @@
   {
     "wordType": "Verb",
     "latin": "iubēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "iussisse",
     "pPPNSg": "iussum",
     "dative": "",
@@ -5536,7 +5802,8 @@
   {
     "wordType": "Verb",
     "latin": "iungere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "iūnxisse",
     "pPPNSg": "iūnctum",
     "dative": "",
@@ -5633,7 +5900,8 @@
   {
     "wordType": "Verb",
     "latin": "lacrimāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5675,7 +5943,8 @@
   {
     "wordType": "Verb",
     "latin": "laetāri",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5703,7 +5972,8 @@
   {
     "wordType": "Verb",
     "latin": "largīrī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5716,7 +5986,8 @@
   {
     "wordType": "Verb",
     "latin": "laudāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -5729,7 +6000,8 @@
   {
     "wordType": "Verb",
     "latin": "lavāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "lāvisse",
     "pPPNSg": "lautum, lavātum",
     "dative": "",
@@ -5784,7 +6056,8 @@
   {
     "wordType": "Verb",
     "latin": "legere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "lēgisse",
     "pPPNSg": "lēctum",
     "dative": "",
@@ -5840,7 +6113,8 @@
   {
     "wordType": "Verb",
     "latin": "licēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse, -itum esse",
     "pPPNSg": "",
     "dative": "true",
@@ -5953,7 +6227,8 @@
   {
     "wordType": "Verb",
     "latin": "loquī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "locūtum esse",
     "pPPNSg": "",
     "dative": "",
@@ -5980,7 +6255,8 @@
   {
     "wordType": "Verb",
     "latin": "lābī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "lāpsum esse",
     "pPPNSg": "",
     "dative": "",
@@ -5993,7 +6269,8 @@
   {
     "wordType": "Verb",
     "latin": "lātrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -6030,6 +6307,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lībra",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Waage",
+    "english": "scales",
+    "reference": "13.0",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
     "grammaticalTerm": false
   },
   {
@@ -6077,7 +6368,8 @@
   {
     "wordType": "Verb",
     "latin": "lūcēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-xisse",
     "pPPNSg": "",
     "dative": "",
@@ -6090,7 +6382,8 @@
   {
     "wordType": "Verb",
     "latin": "lūdere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -6250,7 +6543,8 @@
   {
     "wordType": "Verb",
     "latin": "manēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "mānsisse",
     "pPPNSg": "",
     "dative": "",
@@ -6407,7 +6701,8 @@
   {
     "wordType": "Verb",
     "latin": "mentīrī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -6448,7 +6743,8 @@
   {
     "wordType": "Verb",
     "latin": "mergere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -6489,7 +6785,8 @@
   {
     "wordType": "Verb",
     "latin": "metuere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "",
     "dative": "",
@@ -6570,7 +6867,8 @@
   {
     "wordType": "Verb",
     "latin": "minuere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-ūtum",
     "dative": "",
@@ -6607,7 +6905,8 @@
   {
     "wordType": "Verb",
     "latin": "mittere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "mīsisse",
     "pPPNSg": "missum",
     "dative": "",
@@ -6658,7 +6957,8 @@
   {
     "wordType": "Verb",
     "latin": "monēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -6671,7 +6971,8 @@
   {
     "wordType": "Verb",
     "latin": "mordēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "momordisse",
     "pPPNSg": "morsum",
     "dative": "",
@@ -6699,7 +7000,8 @@
   {
     "wordType": "Verb",
     "latin": "movēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "mōvisse",
     "pPPNSg": "mōtum",
     "dative": "",
@@ -6939,7 +7241,8 @@
   {
     "wordType": "Verb",
     "latin": "mīlitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -6976,7 +7279,8 @@
   {
     "wordType": "Verb",
     "latin": "mōnstrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7003,7 +7307,8 @@
   {
     "wordType": "Verb",
     "latin": "mūtāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7025,7 +7330,8 @@
   {
     "wordType": "Verb",
     "latin": "natāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7052,7 +7358,8 @@
   {
     "wordType": "Verb",
     "latin": "necesse esse",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7090,7 +7397,8 @@
   {
     "wordType": "Verb",
     "latin": "nescīre",
-    "indPrsActSg1": "",
+    "compound": "scīre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7266,7 +7574,8 @@
   {
     "wordType": "Verb",
     "latin": "numerāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7311,7 +7620,8 @@
   {
     "wordType": "Verb",
     "latin": "nārrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7338,7 +7648,8 @@
   {
     "wordType": "Verb",
     "latin": "nāvigāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7392,7 +7703,8 @@
   {
     "wordType": "Verb",
     "latin": "nōlle",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "nōlō",
     "perfInfAct": "nōluisse",
     "pPPNSg": "",
     "dative": "",
@@ -7419,7 +7731,8 @@
   {
     "wordType": "Verb",
     "latin": "nōmināre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7623,7 +7936,8 @@
   {
     "wordType": "Verb",
     "latin": "occidere",
-    "indPrsActSg1": "",
+    "compound": "cidere",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "",
     "dative": "",
@@ -7650,7 +7964,8 @@
   {
     "wordType": "Verb",
     "latin": "occultāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7663,7 +7978,8 @@
   {
     "wordType": "Verb",
     "latin": "occurrere",
-    "indPrsActSg1": "",
+    "compound": "currere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "true",
@@ -7769,7 +8085,8 @@
   {
     "wordType": "Verb",
     "latin": "operīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-rtum",
     "dative": "",
@@ -7782,7 +8099,8 @@
   {
     "wordType": "Verb",
     "latin": "oportēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7795,7 +8113,8 @@
   {
     "wordType": "Verb",
     "latin": "opperīrī",
-    "indPrsActSg1": "-ior",
+    "compound": "",
+    "indPrsSg1": "-ior",
     "perfInfAct": "-rtum esse",
     "pPPNSg": "",
     "dative": "",
@@ -7822,7 +8141,8 @@
   {
     "wordType": "Verb",
     "latin": "oppugnāre",
-    "indPrsActSg1": "",
+    "compound": "pugnāre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7850,7 +8170,8 @@
   {
     "wordType": "Verb",
     "latin": "opus esse",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7877,7 +8198,8 @@
   {
     "wordType": "Verb",
     "latin": "ostendere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "",
     "dative": "",
@@ -7918,7 +8240,8 @@
   {
     "wordType": "Verb",
     "latin": "palpitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -7959,7 +8282,8 @@
   {
     "wordType": "Verb",
     "latin": "parere",
-    "indPrsActSg1": "-iō",
+    "compound": "",
+    "indPrsSg1": "-iō",
     "perfInfAct": "peperisse",
     "pPPNSg": "partum",
     "dative": "",
@@ -8000,7 +8324,8 @@
   {
     "wordType": "Verb",
     "latin": "partīrī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -8210,7 +8535,8 @@
   {
     "wordType": "Verb",
     "latin": "pellere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "pepulisse",
     "pPPNSg": "pulsum",
     "dative": "",
@@ -8249,7 +8575,8 @@
   {
     "wordType": "Verb",
     "latin": "pergere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "perrēxisse",
     "pPPNSg": "",
     "dative": "",
@@ -8334,7 +8661,8 @@
   {
     "wordType": "Verb",
     "latin": "petere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-īvisse",
     "pPPNSg": "-ītum",
     "dative": "",
@@ -8419,7 +8747,8 @@
   {
     "wordType": "Verb",
     "latin": "plōrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -8542,7 +8871,8 @@
   {
     "wordType": "Verb",
     "latin": "portāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -8555,7 +8885,8 @@
   {
     "wordType": "Verb",
     "latin": "poscere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "poposcisse",
     "pPPNSg": "",
     "dative": "",
@@ -8568,7 +8899,8 @@
   {
     "wordType": "Verb",
     "latin": "posse",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "possum",
     "perfInfAct": "potuisse",
     "pPPNSg": "",
     "dative": "",
@@ -8581,7 +8913,8 @@
   {
     "wordType": "Verb",
     "latin": "possidēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sēdisse",
     "pPPNSg": "",
     "dative": "",
@@ -8663,7 +8996,8 @@
   {
     "wordType": "Verb",
     "latin": "postulāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -8754,7 +9088,8 @@
   {
     "wordType": "Verb",
     "latin": "prehendere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "-ēnsum",
     "dative": "",
@@ -8767,7 +9102,8 @@
   {
     "wordType": "Verb",
     "latin": "premere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "pressisse",
     "pPPNSg": "pressum",
     "dative": "",
@@ -8851,7 +9187,8 @@
   {
     "wordType": "Verb",
     "latin": "proficīscī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-fectum esse",
     "pPPNSg": "",
     "dative": "",
@@ -8925,7 +9262,8 @@
   {
     "wordType": "Verb",
     "latin": "prōcēdere",
-    "indPrsActSg1": "",
+    "compound": "cēdere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -8938,7 +9276,8 @@
   {
     "wordType": "Verb",
     "latin": "prōmere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-mpsisse",
     "pPPNSg": "-mptum",
     "dative": "",
@@ -9050,7 +9389,8 @@
   {
     "wordType": "Verb",
     "latin": "pugnāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9120,7 +9460,8 @@
   {
     "wordType": "Verb",
     "latin": "pulsāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9147,7 +9488,8 @@
   {
     "wordType": "Verb",
     "latin": "putāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9188,7 +9530,8 @@
   {
     "wordType": "Verb",
     "latin": "pārēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "true",
@@ -9286,7 +9629,8 @@
   {
     "wordType": "Verb",
     "latin": "pōnere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "posuisse",
     "pPPNSg": "positum",
     "dative": "",
@@ -9299,7 +9643,8 @@
   {
     "wordType": "Verb",
     "latin": "pūnīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9352,7 +9697,8 @@
   {
     "wordType": "Verb",
     "latin": "quaerere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sīvisse",
     "pPPNSg": "-sītum",
     "dative": "",
@@ -9655,7 +10001,8 @@
   {
     "wordType": "Verb",
     "latin": "recitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9668,7 +10015,8 @@
   {
     "wordType": "Verb",
     "latin": "recēdere",
-    "indPrsActSg1": "",
+    "compound": "cēdere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9681,7 +10029,8 @@
   {
     "wordType": "Verb",
     "latin": "reddere",
-    "indPrsActSg1": "",
+    "compound": "dere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9694,7 +10043,8 @@
   {
     "wordType": "Verb",
     "latin": "redīre",
-    "indPrsActSg1": "-eō",
+    "compound": "īre",
+    "indPrsSg1": "-eō",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9707,7 +10057,8 @@
   {
     "wordType": "Verb",
     "latin": "relinquere",
-    "indPrsActSg1": "",
+    "compound": "linquere",
+    "indPrsSg1": "",
     "perfInfAct": "-līquisse",
     "pPPNSg": "-lictum",
     "dative": "",
@@ -9720,7 +10071,8 @@
   {
     "wordType": "Verb",
     "latin": "remittere",
-    "indPrsActSg1": "",
+    "compound": "mittere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9733,7 +10085,8 @@
   {
     "wordType": "Verb",
     "latin": "removēre",
-    "indPrsActSg1": "",
+    "compound": "movēre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9746,7 +10099,8 @@
   {
     "wordType": "Verb",
     "latin": "reperīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "repperisse",
     "pPPNSg": "repertum",
     "dative": "",
@@ -9759,7 +10113,8 @@
   {
     "wordType": "Verb",
     "latin": "reprehendere",
-    "indPrsActSg1": "",
+    "compound": "prehendere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9772,7 +10127,8 @@
   {
     "wordType": "Verb",
     "latin": "repōnere",
-    "indPrsActSg1": "",
+    "compound": "pōnere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9785,7 +10141,8 @@
   {
     "wordType": "Verb",
     "latin": "resistere",
-    "indPrsActSg1": "",
+    "compound": "sistere",
+    "indPrsSg1": "",
     "perfInfAct": "-stitisse",
     "pPPNSg": "",
     "dative": "true",
@@ -9798,7 +10155,8 @@
   {
     "wordType": "Verb",
     "latin": "respondēre",
-    "indPrsActSg1": "",
+    "compound": "spondēre",
+    "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "-ōnsum",
     "dative": "",
@@ -9825,7 +10183,8 @@
   {
     "wordType": "Verb",
     "latin": "retinēre",
-    "indPrsActSg1": "",
+    "compound": "tinēre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9838,7 +10197,8 @@
   {
     "wordType": "Verb",
     "latin": "revenīre",
-    "indPrsActSg1": "",
+    "compound": "venīre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9851,7 +10211,8 @@
   {
     "wordType": "Verb",
     "latin": "revertī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-tisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -9864,7 +10225,8 @@
   {
     "wordType": "Verb",
     "latin": "rogitāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -9906,7 +10268,8 @@
   {
     "wordType": "Verb",
     "latin": "rumpere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "rūpisse",
     "pPPNSg": "ruptum",
     "dative": "",
@@ -10000,7 +10363,8 @@
   {
     "wordType": "Verb",
     "latin": "rīdēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -10111,7 +10475,8 @@
   {
     "wordType": "Verb",
     "latin": "salīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "",
     "dative": "",
@@ -10124,7 +10489,8 @@
   {
     "wordType": "Verb",
     "latin": "salūtāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10174,7 +10540,8 @@
   {
     "wordType": "Verb",
     "latin": "scindere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-idisse",
     "pPPNSg": "-issum",
     "dative": "",
@@ -10187,7 +10554,8 @@
   {
     "wordType": "Verb",
     "latin": "scrībere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-prisse",
     "pPPNSg": "-ptum",
     "dative": "",
@@ -10209,7 +10577,8 @@
   {
     "wordType": "Verb",
     "latin": "scīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10261,7 +10630,8 @@
   {
     "wordType": "Verb",
     "latin": "sedēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "sēdisse",
     "pPPNSg": "",
     "dative": "",
@@ -10320,7 +10690,8 @@
   {
     "wordType": "Verb",
     "latin": "sentīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "sēnsisse",
     "pPPNSg": "sēnsum",
     "dative": "",
@@ -10407,7 +10778,8 @@
   {
     "wordType": "Verb",
     "latin": "sequī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "secūtum esse",
     "pPPNSg": "",
     "dative": "",
@@ -10448,7 +10820,8 @@
   {
     "wordType": "Verb",
     "latin": "servāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10550,7 +10923,8 @@
   {
     "wordType": "Verb",
     "latin": "significāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10577,7 +10951,8 @@
   {
     "wordType": "Verb",
     "latin": "signāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10618,7 +10993,8 @@
   {
     "wordType": "Verb",
     "latin": "silēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10651,7 +11027,8 @@
   {
     "wordType": "Verb",
     "latin": "sinere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "sīvisse",
     "pPPNSg": "situm",
     "dative": "",
@@ -10723,7 +11100,8 @@
   {
     "wordType": "Verb",
     "latin": "solvere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-visse",
     "pPPNSg": "-lūtum",
     "dative": "",
@@ -10736,7 +11114,8 @@
   {
     "wordType": "Verb",
     "latin": "solēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-itum esse",
     "pPPNSg": "-itum",
     "dative": "",
@@ -10806,7 +11185,8 @@
   {
     "wordType": "Verb",
     "latin": "spectāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10833,7 +11213,8 @@
   {
     "wordType": "Verb",
     "latin": "spīrāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -10884,7 +11265,8 @@
   {
     "wordType": "Verb",
     "latin": "stāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "stetisse",
     "pPPNSg": "",
     "dative": "",
@@ -10987,7 +11369,8 @@
   {
     "wordType": "Verb",
     "latin": "surgere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "surrēxisse",
     "pPPNSg": "",
     "dative": "",
@@ -11000,7 +11383,8 @@
   {
     "wordType": "Verb",
     "latin": "sustinēre",
-    "indPrsActSg1": "",
+    "compound": "tinēre",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11042,7 +11426,8 @@
   {
     "wordType": "Verb",
     "latin": "sānāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11164,7 +11549,8 @@
   {
     "wordType": "Verb",
     "latin": "sūmere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "sūmpsisse",
     "pPPNSg": "sūmptum",
     "dative": "",
@@ -11262,7 +11648,8 @@
   {
     "wordType": "Verb",
     "latin": "tacēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11302,7 +11689,8 @@
   {
     "wordType": "Verb",
     "latin": "tangere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "tetigisse",
     "pPPNSg": "tāctum",
     "dative": "",
@@ -11396,7 +11784,8 @@
   {
     "wordType": "Verb",
     "latin": "tenēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "-ntum",
     "dative": "",
@@ -11432,7 +11821,8 @@
   {
     "wordType": "Verb",
     "latin": "tergēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-sisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -11459,7 +11849,8 @@
   {
     "wordType": "Verb",
     "latin": "terrēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11501,7 +11892,8 @@
   {
     "wordType": "Verb",
     "latin": "timēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11557,7 +11949,8 @@
   {
     "wordType": "Verb",
     "latin": "tollere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "sustulisse",
     "pPPNSg": "sublātum",
     "dative": "",
@@ -11632,7 +12025,8 @@
   {
     "wordType": "Verb",
     "latin": "tremere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-uisse",
     "pPPNSg": "",
     "dative": "",
@@ -11737,7 +12131,8 @@
   {
     "wordType": "Verb",
     "latin": "turbāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -11842,7 +12237,8 @@
   {
     "wordType": "Verb",
     "latin": "ululāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12014,7 +12410,8 @@
   {
     "wordType": "Verb",
     "latin": "valēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12042,7 +12439,8 @@
   {
     "wordType": "Verb",
     "latin": "vehere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vēxisse",
     "pPPNSg": "vectum",
     "dative": "",
@@ -12065,7 +12463,8 @@
   {
     "wordType": "Verb",
     "latin": "velle",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "volō",
     "perfInfAct": "voluisse",
     "pPPNSg": "",
     "dative": "",
@@ -12106,7 +12505,8 @@
   {
     "wordType": "Verb",
     "latin": "venīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vēnisse",
     "pPPNSg": "ventum",
     "dative": "",
@@ -12119,7 +12519,8 @@
   {
     "wordType": "Verb",
     "latin": "verberāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12160,7 +12561,8 @@
   {
     "wordType": "Verb",
     "latin": "vertere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-tisse",
     "pPPNSg": "-sum",
     "dative": "",
@@ -12173,7 +12575,8 @@
   {
     "wordType": "Verb",
     "latin": "verērī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12257,7 +12660,8 @@
   {
     "wordType": "Verb",
     "latin": "vestīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12284,7 +12688,8 @@
   {
     "wordType": "Verb",
     "latin": "vidēre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vīdisse",
     "pPPNSg": "vīsum",
     "dative": "",
@@ -12297,7 +12702,8 @@
   {
     "wordType": "Verb",
     "latin": "vigilāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12310,7 +12716,8 @@
   {
     "wordType": "Verb",
     "latin": "vincere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vīcisse",
     "pPPNSg": "victum",
     "dative": "",
@@ -12323,7 +12730,8 @@
   {
     "wordType": "Verb",
     "latin": "vincīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vīnxisse",
     "pPPNSg": "vīnctum",
     "dative": "",
@@ -12415,7 +12823,8 @@
   {
     "wordType": "Verb",
     "latin": "vocāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12442,7 +12851,8 @@
   {
     "wordType": "Verb",
     "latin": "volāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12455,7 +12865,8 @@
   {
     "wordType": "Verb",
     "latin": "vāgīre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12510,7 +12921,8 @@
   {
     "wordType": "Verb",
     "latin": "vēndere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "-didisse",
     "pPPNSg": "",
     "dative": "",
@@ -12595,7 +13007,8 @@
   {
     "wordType": "Verb",
     "latin": "vīvere",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "vīxisse",
     "pPPNSg": "vīctūrum",
     "dative": "",
@@ -12751,7 +13164,8 @@
   {
     "wordType": "Verb",
     "latin": "ēgredī",
-    "indPrsActSg1": "-ior",
+    "compound": "gredī",
+    "indPrsSg1": "-ior",
     "perfInfAct": "-gressum esse",
     "pPPNSg": "",
     "dative": "",
@@ -12764,7 +13178,8 @@
   {
     "wordType": "Verb",
     "latin": "ēsse",
-    "indPrsActSg1": "edō",
+    "compound": "",
+    "indPrsSg1": "edō",
     "perfInfAct": "ēdisse",
     "pPPNSg": "ēsum",
     "dative": "",
@@ -12834,7 +13249,8 @@
   {
     "wordType": "Verb",
     "latin": "īnfluere",
-    "indPrsActSg1": "",
+    "compound": "fluere",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -12900,7 +13316,8 @@
   {
     "wordType": "Verb",
     "latin": "īre",
-    "indPrsActSg1": "eō",
+    "compound": "",
+    "indPrsSg1": "eō",
     "perfInfAct": "īsse",
     "pPPNSg": "itum",
     "dative": "",
@@ -12980,7 +13397,8 @@
   {
     "wordType": "Verb",
     "latin": "ōrnāre",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
@@ -13021,7 +13439,8 @@
   {
     "wordType": "Verb",
     "latin": "ōsculārī",
-    "indPrsActSg1": "",
+    "compound": "",
+    "indPrsSg1": "",
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",

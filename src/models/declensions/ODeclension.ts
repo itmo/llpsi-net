@@ -174,6 +174,12 @@ const ORulesSingular: DeclensionRule[] = [
         ],
     },
     {
+        construction: '-crī',
+        nominativeEndings: [
+            {when: 'cer', changeTo: 'cr'},
+        ],
+    },
+    {
         construction: '-brī',
         nominativeEndings: [
             {when: 'ber', changeTo: 'br'},
