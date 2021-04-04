@@ -240,6 +240,12 @@ export const ConsRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-eris',
+        nominativeEndings: [
+            {when: 'er', changeTo: 'er'},
+        ]
+    },
+    {
         construction: '-ēdis',
         nominativeEndings: [
             {when: 'ēs', changeTo: 'ēd'},

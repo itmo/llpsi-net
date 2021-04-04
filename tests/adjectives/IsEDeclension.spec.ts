@@ -72,4 +72,79 @@ describe('Is-E-declension', () => {
             vocative:   ['absentēs',    'absentēs',     'absentia'],
         });
     });
+
+    it('one termination adjective ferōx should decline correctly', () => {
+        const word = findAdjective('ferōx');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['ferōx',      'ferōx',   'ferōx'],
+            accusative: ['ferōcem',    'ferōcem', 'ferōx'],
+            genitive:   ['ferōcis',    'ferōcis', 'ferōcis'],
+            dative:     ['ferōcī',     'ferōcī',  'ferōcī'],
+            ablative:   ['ferōcī',     'ferōcī',  'ferōcī'],
+            vocative:   ['ferōx',      'ferōx',   'ferōx'],
+        });
+
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['ferōcēs',    'ferōcēs',   'ferōcia'],
+            accusative: ['ferōcēs',    'ferōcēs',   'ferōcia'],
+            genitive:   ['ferōcium',   'ferōcium',  'ferōcium'],
+            dative:     ['ferōcibus',  'ferōcibus', 'ferōcibus'],
+            ablative:   ['ferōcibus',  'ferōcibus', 'ferōcibus'],
+            vocative:   ['ferōcēs',    'ferōcēs',   'ferōcia'],
+        });
+    });
+
+    it('one termination adjective dīves should decline correctly', () => {
+        const word = findAdjective('dīves');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['dīves',      'dīves',   'dīves'],
+            accusative: ['dīvitem',    'dīvitem', 'dīves'],
+            genitive:   ['dīvitis',    'dīvitis', 'dīvitis'],
+            dative:     ['dīvitī',     'dīvitī',  'dīvitī'],
+            ablative:   ['dīvite',     'dīvite',  'dīvite'],
+            vocative:   ['dīves',      'dīves',   'dīves'],
+        });
+
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['dīvitēs',    'dīvitēs',   'dīvita'],
+            accusative: ['dīvitēs',    'dīvitēs',   'dīvita'],
+            genitive:   ['dīvitum',    'dīvitum',   'dīvitum'],
+            dative:     ['dīvitibus',  'dīvitibus', 'dīvitibus'],
+            ablative:   ['dīvitibus',  'dīvitibus', 'dīvitibus'],
+            vocative:   ['dīvitēs',    'dīvitēs',   'dīvita'],
+        });
+    });
+
+    it('one termination adjective pauper should decline correctly', () => {
+        const word = findAdjective('pauper');
+        checkAdjDecl(word, Numerus.Singular, {
+            nominative: ['pauper',      'pauper',   'pauper'],
+            accusative: ['pauperem',    'pauperem', 'pauper'],
+            genitive:   ['pauperis',    'pauperis', 'pauperis'],
+            dative:     ['pauperī',     'pauperī',  'pauperī'],
+            ablative:   ['paupere',     'paupere',  'paupere'],
+            vocative:   ['pauper',      'pauper',   'pauper'],
+        });
+
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['pauperēs',    'pauperēs',   'paupera'],
+            accusative: ['pauperēs',    'pauperēs',   'paupera'],
+            genitive:   ['pauperum',    'pauperum',   'pauperum'],
+            dative:     ['pauperibus',  'pauperibus', 'pauperibus'],
+            ablative:   ['pauperibus',  'pauperibus', 'pauperibus'],
+            vocative:   ['pauperēs',    'pauperēs',   'paupera'],
+        });
+    });
+
+    it('one termination adjective plūrēs should decline correctly', () => {
+        const word = findAdjective('plūrēs');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['plūrēs',    'plūrēs',   'plūra'],
+            accusative: ['plūrēs',    'plūrēs',   'plūra'],
+            genitive:   ['plūrium',   'plūrium',  'plūrium'],
+            dative:     ['plūribus',  'plūribus', 'plūribus'],
+            ablative:   ['plūribus',  'plūribus', 'plūribus'],
+            vocative:   ['plūrēs',    'plūrēs',   'plūra'],
+        });
+    });
 });

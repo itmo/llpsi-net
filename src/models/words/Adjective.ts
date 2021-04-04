@@ -30,7 +30,6 @@ import { AdjectiveData, DeclensionOverrides } from "../WordData";
 import { AdjectiveDeclension } from "../types/AdjectiveDeclension";
 import { Word } from "./Word";
 import { ConsDeclension } from "../declensions/ConsDeclension";
-import { IMixedDeclension } from "../declensions/IMixedDeclension";
 
 export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
@@ -145,19 +144,35 @@ export class Adjective extends Word implements AdjectiveDeclinable {
             female = male;
             const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-es', 'es', 'es');
             neuter = new ConsDeclension(neuterInput);
-        } else if (data.latinMale.endsWith('er') && data.latinNeuter.endsWith('er')) {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-er', 'er', 'er');
-            input.ablativeI = true;
+        } else if (data.latinMale.endsWith('ēs')) {
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ium', 'ēs', 'ēs');
+            input.pluraleTantum = true;
             male = new IPureDeclension(input);
             female = male;
-            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-er', 'er', 'er');
+            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ium', 'ēs', 'a');
+            neuterInput.pluraleTantum = true;
             neuter = new IPureDeclension(neuterInput);
+        } else if (data.latinMale.endsWith('er') && data.latinFemale == '' && data.latinNeuter == '') {
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-eris', 'er', 'er');
+            input.ablativeI = false;
+            male = new ConsDeclension(input);
+            female = male;
+            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-eris', 'er', 'er');
+            neuterInput.ablativeI = false;
+            neuter = new ConsDeclension(neuterInput);
         } else if (data.latinMale.endsWith('or')) {
             const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-or', 'or', 'or');
             male = new ConsDeclension(input);
             female = male;
             const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-or', 'or', 'us');
             neuter = new ConsDeclension(neuterInput);
+        } else if (data.latinMale.endsWith('ōx')) {
+            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-ōcis', 'ōx', 'ōx');
+            input.ablativeI = true;
+            male = new IPureDeclension(input);
+            female = male;
+            const neuterInput = this.adjToDeclensionRewrite(data, Genus.Neuter, '-ōcis', 'ōx', 'ōx');
+            neuter = new IPureDeclension(neuterInput);
         }
 
         if (!male || !female || !neuter) {

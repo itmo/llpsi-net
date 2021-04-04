@@ -1,5 +1,5 @@
 Take care when adding these cons-declined nouns, see Pons page 20:
-    - bōs
+    x bōs
     - vās
 
 Wikipedia also lists:
@@ -27,8 +27,8 @@ Take care when adding these irregular noun, Pons page 24:
 
 Take care when adding these adjectives, they are cons-declined, see Pons page 29:
     - vetus
-    - dīves
-    - pauper
+    x dīves
+    x pauper
     - prīnceps
     - compos
     - superstes

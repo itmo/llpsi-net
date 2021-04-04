@@ -41,6 +41,8 @@ export class IPureDeclension extends Declension {
         if (gen.startsWith('-')) {
             if (!this.data.pluraleTantum) {
                 return Declension.applyStemRule(this.data.nominative, this.data.genitiveConstruction, IPureRulesSingular)
+            } else {
+                return Declension.applyStemRule(this.data.nominative, this.data.genitiveConstruction, IPureRulesPlural)
             }
         }
 
@@ -132,7 +134,7 @@ export class IPureDeclension extends Declension {
 
         switch (casus) {
             case Casus.Nominative:  return nominative;
-            case Casus.Accusative:  return this.stem + 'ia';
+            case Casus.Accusative:  return nominative;
             case Casus.Genitive:    return this.stem + 'ium';
             case Casus.Dative:      return this.stem + 'ibus';
             case Casus.Ablative:    return this.stem + 'ibus';
@@ -140,6 +142,16 @@ export class IPureDeclension extends Declension {
         }
     }
 }
+
+export const IPureRulesPlural: DeclensionRule[] = [
+    {
+        construction: '-ium',
+        nominativeEndings: [
+            {when: 'ēs', changeTo: ''},
+            {when: 'a', changeTo: ''},
+        ],
+    }
+];
 
 export const IPureRulesSingular: DeclensionRule[] = [
     {
@@ -162,9 +174,9 @@ export const IPureRulesSingular: DeclensionRule[] = [
         ]
     },
     {
-        construction: '-er',
+        construction: '-ōcis',
         nominativeEndings: [
-            {when: 'er', changeTo: 'er'},
+            {when: 'ōx', changeTo: 'ōc'},
         ]
     },
 ];
