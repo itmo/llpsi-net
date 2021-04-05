@@ -246,6 +246,34 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "Sextīlis",
+    "latinGenitive": "-is",
+    "genus": "m",
+    "german": "August",
+    "english": "August",
+    "reference": "13.136",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "Zephyrus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Westwind",
+    "english": "west wind",
+    "reference": "18.12",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "ab",
     "abbreviated": "ā",
@@ -10370,7 +10398,7 @@
   {
     "wordType": "Verb",
     "latin": "revertī",
-    "compound": "",
+    "compound": "vertī",
     "indPrsSg1": "",
     "perfInfAct": "-tisse",
     "pPPNSg": "-sum",
@@ -11221,7 +11249,7 @@
     "stemType": "",
     "german": "links, f die Linke",
     "english": "left, f left (hand)",
-    "reference": "14.80",
+    "reference": "14.80, 16.51 f, 30.07 f",
     "pronominal": "",
     "overrides": "",
     "chapter": 14,
@@ -11472,6 +11500,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "superesse",
+    "compound": "esse",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "übrig sein, überflüssig sein",
+    "english": "be left, be in excess",
+    "reference": "18.140, 32.48, 37.198 +dative",
+    "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "superlātīvus",
     "latinGenitive": "-ī",
@@ -11554,6 +11596,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "suus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "sein/ihr (eigen)",
+    "english": "his/her/their (own)",
+    "reference": "4.19, 13.47",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 4,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "syllaba",
     "latinGenitive": "-ae",
@@ -11594,6 +11651,19 @@
     "english": "heal, cure",
     "reference": "11.27",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "sē",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "sich",
+    "english": "himself, herself",
+    "reference": "7.8, 15.82, 24.24, 46.19, 14.87 sēcum",
+    "chapter": 7,
     "grammaticalTerm": false
   },
   {
@@ -11881,6 +11951,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "tata",
+    "latinGenitive": "-ae",
+    "genus": "m",
+    "german": "Vati",
+    "english": "daddy",
+    "reference": "20.30",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 20,
     "grammaticalTerm": false
   },
   {
@@ -12385,6 +12469,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Pronoun",
+    "latinMale": "tū",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "du, dich, dir",
+    "english": "you",
+    "reference": "3.25, 14.66, 15.20, 17.63, 14.108 tēcum",
+    "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Interrogative",
     "latin": "ubi",
     "german": "wo",
@@ -12718,6 +12815,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "versus",
+    "german": "gegen... hin, nach... zu",
+    "english": "towards",
+    "reference": "20.67",
+    "chapter": 20,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "vertere",
     "compound": "",
@@ -12752,7 +12858,7 @@
     "genus": "m",
     "german": "Abend",
     "english": "evening",
-    "reference": "13.36",
+    "reference": "13.36, 20.42 adv.",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
@@ -13106,12 +13212,16 @@
     "grammaticalTerm": false
   },
   {
-    "wordType": "Conjunction",
-    "latin": "vērum",
-    "abbreviated": "",
-    "german": "sondern, aber",
-    "english": "but",
-    "reference": "26.8",
+    "wordType": "Noun",
+    "latinNominative": "vērum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Wahrheit",
+    "english": "truth",
+    "reference": "15.57, 52.229, 50.330 vērī similis",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
     "chapter": 15,
     "grammaticalTerm": false
   },
@@ -13727,6 +13837,16 @@
     "number": "99",
     "reference": "9.3",
     "chapter": 9,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Numeral",
+    "latin": "ūndētrīgintā",
+    "nominativePlural": "",
+    "genitivePlural": "",
+    "number": "29",
+    "reference": "13.28",
+    "chapter": 13,
     "grammaticalTerm": false
   },
   {
