@@ -1,6 +1,15 @@
 [
   {
     "wordType": "Interrogative",
+    "latin": "-nam",
+    "german": "... denn?",
+    "english": "... ever?",
+    "reference": "23.6",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Interrogative",
     "latin": "-ne",
     "german": "...? ob",
     "english": "...? if",
@@ -335,7 +344,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "weggehen",
+    "german": "weggehen, fortgehen",
     "english": "go away",
     "reference": "8.18, 44.12",
     "chapter": 8,
@@ -866,7 +875,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "lieben",
+    "german": "lieben, verliebt sein",
     "english": "love",
     "reference": "5.21, 5.23",
     "chapter": 5,
@@ -1022,10 +1031,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "antehāc",
+    "german": "vorher",
+    "english": "formerly",
+    "reference": "23.93",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Conjunction",
     "latin": "antequam",
     "abbreviated": "",
-    "german": "vorher",
+    "german": "früher als",
     "english": "before, ehe",
     "reference": "15.27",
     "chapter": 15,
@@ -1173,7 +1191,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "meinen, glauben",
+    "german": "meinen, glauben, halten für",
     "english": "think, believe",
     "reference": "22.94",
     "chapter": 22,
@@ -2190,6 +2208,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "clāvis",
+    "latinGenitive": "-is",
+    "genus": "f",
+    "german": "Schlüssel",
+    "english": "key",
+    "reference": "23.103",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "cognōmen",
     "latinGenitive": "-inis",
     "genus": "n",
@@ -2301,6 +2333,34 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "comes",
+    "latinGenitive": "-itis",
+    "genus": "m/f",
+    "german": "Begleiter",
+    "english": "companion",
+    "reference": "23.108",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "comitārī",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "begleiten",
+    "english": "accompany",
+    "reference": "23.107, 39.95 comitātus",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "comparāre",
     "compound": "parāre",
@@ -2382,6 +2442,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 19,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "continēre",
+    "compound": "tinēre",
+    "indPrsSg1": "",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "-tentum",
+    "dative": "",
+    "german": "enthalten",
+    "english": "contain",
+    "reference": "23.18, 42.60, 54.405",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -2509,7 +2583,7 @@
     "latinNominative": "cruor",
     "latinGenitive": "-ōris",
     "genus": "m",
-    "german": "Blut",
+    "german": "geronnenes Blut",
     "english": "blood",
     "reference": "21.29",
     "pluraleTantum": "",
@@ -3088,7 +3162,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "weggehen",
+    "german": "weggehen, sich entfernen",
     "english": "go away, depart",
     "reference": "4.73",
     "chapter": 4,
@@ -3535,7 +3609,7 @@
     "perfInfAct": "-lēxisse",
     "pPPNSg": "-lēctum",
     "dative": "",
-    "german": "lieben",
+    "german": "hoch schätzen, lieben",
     "english": "love, be fond of",
     "reference": "20.141",
     "chapter": 20,
@@ -3554,6 +3628,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "dīmittere",
+    "compound": "mittere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "wegschicken, entlassen",
+    "english": "send away, dismiss",
+    "reference": "23.12, 49.239",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -4047,6 +4135,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "factum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Tat",
+    "english": "deed, act",
+    "reference": "23.78",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "fallere",
     "compound": "",
@@ -4087,6 +4189,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "fatērī",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "fassum",
+    "dative": "",
+    "german": "gestehen, bekennen",
+    "english": "admit, confess",
+    "reference": "23.68, 23.144, 42.360",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -4238,7 +4354,7 @@
     "latinNominative": "fluvius",
     "latinGenitive": "-ī",
     "genus": "m",
-    "german": "Fluss",
+    "german": "Fluss, Strömung",
     "english": "river",
     "reference": "1.18",
     "pluraleTantum": "",
@@ -4294,7 +4410,7 @@
     "latinNominative": "flūmen",
     "latinGenitive": "-inis",
     "genus": "n",
-    "german": "Fluss",
+    "german": "Fluss, Strom",
     "english": "river",
     "reference": "10.40",
     "pluraleTantum": "",
@@ -4344,6 +4460,15 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "fortasse",
+    "german": "vielleicht",
+    "english": "perhaps, maybe",
+    "reference": "23.18",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -4684,7 +4809,7 @@
     "latinNeuter": "-um",
     "latinGenitive": "",
     "stemType": "",
-    "german": "schön",
+    "german": "schön, wohlgestaltet",
     "english": "beautiful",
     "reference": "7.10",
     "pronominal": "",
@@ -4714,7 +4839,7 @@
     "perfInfAct": "gavīsum esse",
     "pPPNSg": "gavīsum",
     "dative": "",
-    "german": "sich freuen",
+    "german": "sich innerlich freuen",
     "english": "be glad, be pleased",
     "reference": "11.114",
     "chapter": 11,
@@ -4990,6 +5115,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "herī",
+    "german": "gestern",
+    "english": "yesterday",
+    "reference": "23.105",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Pronoun",
     "latinMale": "hic",
     "latinFemale": "haec",
@@ -5014,6 +5148,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "hinc",
+    "german": "von hier",
+    "english": "from here, hence",
+    "reference": "23.11, 44.464, 46.2, 48.477",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -5219,6 +5362,15 @@
     "english": "that, the one, he",
     "reference": "8.41, 8.70, 8.79",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "illinc",
+    "german": "von dort",
+    "english": "from there",
+    "reference": "23.4",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -5666,6 +5818,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "integer",
+    "latinFemale": "-gra",
+    "latinNeuter": "-grum",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "unversehrt, unbeschädigt",
+    "english": "undamaged, entire",
+    "reference": "23.20, 36.274, 43.96, 56.302, 42.304 dē integrō",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "intellegere",
     "compound": "legere",
@@ -5902,7 +6069,7 @@
     "latinNominative": "iānitor",
     "latinGenitive": "-ōris",
     "genus": "m",
-    "german": "Türhüter, Pförtner",
+    "german": "Türhüter, Küster",
     "english": "doorkeeper",
     "reference": "22.6",
     "pluraleTantum": "",
@@ -6046,7 +6213,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "sich freuen",
+    "german": "sich freuen, fröhlich sein",
     "english": "rejoice, be glad",
     "reference": "16.73",
     "chapter": 16,
@@ -6093,6 +6260,20 @@
     "english": "praise",
     "reference": "17.42, 19.23",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "laus",
+    "latinGenitive": "laudis",
+    "genus": "f",
+    "german": "Lob",
+    "english": "praise",
+    "reference": "23.48, 39.177",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -6881,6 +7062,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "merēre",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "verdienen",
+    "english": "earn, deserve",
+    "reference": "23.45, 23.49, 40.197, 33.35 stipendia merēre, 48.60, 40.111 bene merēre dē, 40.123",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "merīdiēs",
     "latinGenitive": "-ēī",
@@ -7520,6 +7715,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "negāre",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "verneinen, sagen dass... nicht",
+    "english": "deny, say that... not",
+    "reference": "23.66, 23.139, 31.199, 42.372",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Conjunction",
     "latin": "neque",
     "abbreviated": "nec",
@@ -8077,6 +8286,17 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Preposition",
+    "latin": "ob",
+    "abbreviated": "",
+    "case": "acc",
+    "german": "wegen",
+    "english": "on account of",
+    "reference": "23.36, 43.86",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "obscūrus",
     "latinFemale": "-a",
@@ -8287,7 +8507,7 @@
     "latinNominative": "oppidum",
     "latinGenitive": "-ī",
     "genus": "n",
-    "german": "Stadt",
+    "german": "Kleinstadt",
     "english": "town",
     "reference": "1.33",
     "pluraleTantum": "",
@@ -8396,6 +8616,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "pallidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "blass, bleich",
+    "english": "pale",
+    "reference": "23.35",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "pallium",
     "latinGenitive": "-ī",
@@ -8407,6 +8642,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "pallēre",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "blass sein, bleich",
+    "english": "be pale",
+    "reference": "23.36",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -8730,6 +8979,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "perdere",
+    "compound": "dere",
+    "indPrsSg1": "",
+    "perfInfAct": "-didisse",
+    "pPPNSg": "-ditum",
+    "dative": "",
+    "german": "vernichten, verschwenden",
+    "english": "destroy, ruin, waste",
+    "reference": "23.73, 23.131, 34.76, 36.349",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "perfectus",
     "latinFemale": "-a",
@@ -8899,6 +9162,30 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "plānus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "deutlich, klar",
+    "english": "plain, clear",
+    "reference": "23.53, 48.112",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "plānē",
+    "german": "ausdrücklich, völlig",
+    "english": "plainly, utterly",
+    "reference": "23.59, 23.136, 31.62",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -9129,6 +9416,15 @@
     "english": "afterwards, later",
     "reference": "22.41",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "posthāc",
+    "german": "von nun an",
+    "english": "from now on, hereafter",
+    "reference": "23.84",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -9461,6 +9757,34 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "prōmissum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Versprechen",
+    "english": "promise",
+    "reference": "23.95",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "prōmittere",
+    "compound": "mittere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "(etwas) versprechen",
+    "english": "promise",
+    "reference": "23.87, 27.119",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "prōnōmen",
     "latinGenitive": "-inis",
     "genus": "n",
@@ -9500,6 +9824,34 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "pudor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Scham",
+    "english": "(sense of) shame",
+    "reference": "23.82, 40.16",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "pudēre",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "sich schämen, ich schäme mich",
+    "english": "be ashamed, I am ashamed",
+    "reference": "23.79, 23.82 +genitive",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -9579,7 +9931,7 @@
     "latinNeuter": "-chrum",
     "latinGenitive": "",
     "stemType": "",
-    "german": "schön",
+    "german": "schön, hübsch",
     "english": "beautiful, fine",
     "reference": "5.15, 5.17",
     "pronominal": "",
@@ -9665,7 +10017,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "meinen, glauben",
+    "german": "meinen, glauben, überlegen",
     "english": "think, suppose",
     "reference": "11.108, 11.134, 11.139, 41.221 putārēs",
     "chapter": 11,
@@ -9982,6 +10334,19 @@
     "english": "who, what",
     "reference": "1.50, 1.55, 2.15, 2.16, 2.76, 3.63, 3.70, 4.75, 8.3, 15.58, 39.175",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "quisnam",
+    "latinFemale": "quaenam",
+    "latinNeuter": "quidnam",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "wer/was denn",
+    "english": "who/what ever",
+    "reference": "23.6",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -10450,6 +10815,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "rubēre",
+    "compound": "",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "rot sein, erröten",
+    "english": "be red, blush",
+    "reference": "23.81",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -11185,7 +11564,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "schweigen",
+    "german": "schweigen, ruhen",
     "english": "be silent",
     "reference": "20.115",
     "chapter": 20,
@@ -11511,6 +11890,21 @@
     "english": "be left, be in excess",
     "reference": "18.140, 32.48, 37.198 +dative",
     "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "superior",
+    "latinFemale": "",
+    "latinNeuter": "superius",
+    "latinGenitive": "-ōris",
+    "stemType": "comp",
+    "german": "der obere, überlegen",
+    "english": "higher, upper, superior",
+    "reference": "23.64, 33.144, 36.87, 44.142",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -11882,7 +12276,7 @@
     "perfInfAct": "",
     "pPPNSg": "",
     "dative": "",
-    "german": "schweigen",
+    "german": "schweigen, verstummen, still sein",
     "english": "be silent",
     "reference": "4.37, 45.191",
     "chapter": 4,
@@ -12123,7 +12517,7 @@
     "latinNominative": "timor",
     "latinGenitive": "-ōris",
     "genus": "m",
-    "german": "Furcht",
+    "german": "Furcht, Angst",
     "english": "fear",
     "reference": "9.57",
     "pluraleTantum": "",
@@ -12280,6 +12674,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "trādere",
+    "compound": "dere",
+    "indPrsSg1": "",
+    "perfInfAct": "-disse",
+    "pPPNSg": "-ditum",
+    "dative": "",
+    "german": "(etwas) übergeben",
+    "english": "hand over, deliver",
+    "reference": "23.5, 42.249, 44.446",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Numeral",
     "latin": "trēdecim",
     "nominativePlural": "",
@@ -12336,7 +12744,7 @@
   {
     "wordType": "Adverb",
     "latin": "tunc",
-    "german": "damals, dann",
+    "german": "damals, dann, zu dem Zeitpunkt",
     "english": "then",
     "reference": "13.19",
     "chapter": 13,
@@ -12530,6 +12938,15 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "umquam",
+    "german": "jemals",
+    "english": "ever",
+    "reference": "23.26",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -12770,6 +13187,20 @@
     "english": "come",
     "reference": "3.21, 13.47, 40.50 ventum est",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "verbera",
+    "latinGenitive": "-um",
+    "genus": "n",
+    "german": "Schläge, Prügel",
+    "english": "lashes, flogging",
+    "reference": "23.99",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -13128,6 +13559,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "vultus",
+    "latinGenitive": "-ūs",
+    "genus": "m",
+    "german": "Gesicht, Miene",
+    "english": "countenance, face",
+    "reference": "23.34",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "vāgīre",
     "compound": "",
@@ -13344,20 +13789,6 @@
     "grammaticalTerm": false
   },
   {
-    "wordType": "Noun",
-    "latinNominative": "zephȳrus",
-    "latinGenitive": "-ī",
-    "genus": "m",
-    "german": "Westwind",
-    "english": "west wind",
-    "reference": "18.12",
-    "pluraleTantum": "",
-    "iStemType": "",
-    "overrides": "",
-    "chapter": 18,
-    "grammaticalTerm": false
-  },
-  {
     "wordType": "Adjective",
     "latinMale": "āctīvus",
     "latinFemale": "-a",
@@ -13427,6 +13858,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 5,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "āvertere",
+    "compound": "vertere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "wegwenden",
+    "english": "turn away",
+    "reference": "23.51, 29.163, 40.197, 44.191, 45.266, 48.317",
+    "chapter": 23,
     "grammaticalTerm": false
   },
   {
@@ -13580,6 +14025,20 @@
     "overrides": "",
     "chapter": 10,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Verb",
+    "latin": "īnscrībere",
+    "compound": "scrībere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "schreiben auf",
+    "english": "write on, inscribe",
+    "reference": "23.64, 36.366",
+    "chapter": 23,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",

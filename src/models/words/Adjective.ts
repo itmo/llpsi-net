@@ -122,7 +122,7 @@ export class Adjective extends Word implements AdjectiveDeclinable {
                 neuter = new ODeclension(neuterInput);
             }
         } else if (data.latinMale.endsWith('is') && data.latinGenitive == '') {
-            const input = this.adjToDeclensionRewrite(data, Genus.Masculine, '-is', 'is', 'is');
+            const input = this.adjToDeclension(data, data.latinMale, '-is', Genus.Masculine);
             input.ablativeI = true;
             male = new IPureDeclension(input);
             female = male;
@@ -135,11 +135,11 @@ export class Adjective extends Word implements AdjectiveDeclinable {
             maleInput.ablativeI = true;
             male = new IPureDeclension(maleInput);
 
-            const femaleInput = this.adjToDeclension(data, data.latinFemale ? data.latinFemale : data.latinMale, data.latinGenitive, Genus.Femininum);
+            const femaleInput = this.adjToDeclension(data, data.latinFemale || data.latinMale, data.latinGenitive, Genus.Femininum);
             femaleInput.ablativeI = true;
             female = new IPureDeclension(femaleInput);
 
-            const neuterInput = this.adjToDeclension(data, data.latinNeuter ? data.latinNeuter : data.latinMale, data.latinGenitive, Genus.Neuter);
+            const neuterInput = this.adjToDeclension(data, data.latinNeuter || data.latinMale, data.latinGenitive, Genus.Neuter);
             neuterInput.ablativeI = true;
             neuter = new IPureDeclension(neuterInput);
         } else if (data.stemType == 'cons' || data.stemType == 'comp') {
@@ -150,11 +150,11 @@ export class Adjective extends Word implements AdjectiveDeclinable {
             maleInput.pluraleTantum = this.pluraleTantum;
             male = new ConsDeclension(maleInput);
 
-            const femaleInput = this.adjToDeclension(data, data.latinFemale ? data.latinFemale : data.latinMale, data.latinGenitive, Genus.Femininum);
+            const femaleInput = this.adjToDeclension(data, data.latinFemale || data.latinMale, data.latinGenitive, Genus.Femininum);
             femaleInput.pluraleTantum = this.pluraleTantum;
             female = new ConsDeclension(femaleInput);
 
-            const neuterInput = this.adjToDeclension(data, data.latinNeuter ? data.latinNeuter : data.latinMale, data.latinGenitive, Genus.Neuter);
+            const neuterInput = this.adjToDeclension(data, data.latinNeuter || data.latinMale, data.latinGenitive, Genus.Neuter);
             neuterInput.pluraleTantum = this.pluraleTantum;
             neuter = new ConsDeclension(neuterInput);
         }
