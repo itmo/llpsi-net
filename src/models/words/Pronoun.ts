@@ -84,8 +84,8 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisQueN, nominative: '', genitiveConstruction: ''});
                 break;
             case 'quisnam':
-                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuisNamM, nominative: '', genitiveConstruction: ''});
-                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisNamF, nominative: '', genitiveConstruction: ''});
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuisNamMF, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisNamMF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisNamN, nominative: '', genitiveConstruction: ''});
             break;
                 case 'īdem':
@@ -417,7 +417,7 @@ const QuisQueN: DeclensionOverrides = {
     vocPl: 'quaeque',
 };
 
-const QuisNamM: DeclensionOverrides = {
+const QuisNamMF: DeclensionOverrides = {
     nomSg: 'quisnam',
     accSg: 'quemnam',
     genSg: 'cuiusnam',
@@ -433,29 +433,13 @@ const QuisNamM: DeclensionOverrides = {
     vocPl: 'quīnam',
 };
 
-const QuisNamF: DeclensionOverrides = {
-    nomSg: 'quaenam',
-    accSg: 'quamnam',
-    genSg: 'cuiusnam',
-    datSg: 'cuinam',
-    ablSg: 'quānam',
-    vocSg: 'quisnam',
-
-    nomPl: 'quaenam',
-    accPl: 'quāsnam',
-    genPl: 'quārumnam',
-    datPl: 'quibusnam',
-    ablPl: 'quibusnam',
-    vocPl: 'quaenam',
-};
-
 const QuisNamN: DeclensionOverrides = {
-    nomSg: 'quodnam',
-    accSg: 'quodnam',
+    nomSg: 'quidnam',
+    accSg: 'quidnam',
     genSg: 'cuiusnam',
     datSg: 'cuinam',
     ablSg: 'quōnam',
-    vocSg: 'quodnam',
+    vocSg: 'quidnam',
 
     nomPl: 'quaenam',
     accPl: 'quaenam',
