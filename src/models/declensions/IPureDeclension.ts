@@ -20,6 +20,7 @@ import { Declension, DeclensionInput, DeclensionRule } from "./Declension";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
+import { dropSuffix } from "../common";
 
 export class IPureDeclension extends Declension {
     private data: DeclensionInput;
@@ -38,7 +39,13 @@ export class IPureDeclension extends Declension {
     private determineStem(): string {
         const gen = this.data.genitiveConstruction;
 
-        if (gen.startsWith('-')) {
+        if (!gen.startsWith('-')) {
+            if (!this.data.pluraleTantum) {
+                if (gen.endsWith('is')) {
+                    return dropSuffix(gen, 'is');
+                }
+            }
+        } else {
             if (!this.data.pluraleTantum) {
                 return Declension.applyStemRule(this.data.nominative, this.data.genitiveConstruction, IPureRulesSingular)
             } else {
@@ -177,6 +184,12 @@ export const IPureRulesSingular: DeclensionRule[] = [
         construction: '-ns',
         nominativeEndings: [
             {when: 'ēns', changeTo: 'ent'},
+        ]
+    },
+    {
+        construction: '-paris',
+        nominativeEndings: [
+            {when: 'pār', changeTo: 'par'},
         ]
     },
     {

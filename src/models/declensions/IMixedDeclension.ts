@@ -37,10 +37,6 @@ export class IMixedDeclension extends Declension {
     }
 
     private determineStem(): string {
-        if (this.data.genus == Genus.Neuter) {
-            throw Error(`I-mixed-stem for neuter noun ${this.data.nominative}`);
-        }
-
         const gen = this.data.genitiveConstruction;
 
         if (!gen.startsWith('-')) {

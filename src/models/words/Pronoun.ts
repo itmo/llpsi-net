@@ -98,6 +98,11 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IpseIpsaIpsumF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: IpseIpsaIpsumN, nominative: '', genitiveConstruction: ''});
                 break;
+            case 'aliquī':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: AliquiM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: AliquiF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: AliquiN, nominative: '', genitiveConstruction: ''});
+                break;
             default:
                 throw Error(`No declension for ${data.latinMale}`);
         }
@@ -303,6 +308,54 @@ const AliquisN: DeclensionOverrides = {
     datPl: 'aliquibus',
     ablPl: 'aliquibis',
     vocPl: 'aliquae',
+};
+
+const AliquiM: DeclensionOverrides = {
+    nomSg: 'aliquī',
+    accSg: 'aliquem',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquō',
+    vocSg: 'aliquī',
+
+    nomPl: 'aliquī',
+    accPl: 'aliquōs',
+    genPl: 'aliquōrum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliquī',
+};
+
+const AliquiF: DeclensionOverrides = {
+    nomSg: 'aliqua',
+    accSg: 'aliquam',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquā',
+    vocSg: 'aliqua',
+
+    nomPl: 'aliquae',
+    accPl: 'aliquās',
+    genPl: 'aliquārum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliquae',
+};
+
+const AliquiN: DeclensionOverrides = {
+    nomSg: 'aliquod',
+    accSg: 'aliquod',
+    genSg: 'alicuius',
+    datSg: 'alicui',
+    ablSg: 'aliquō',
+    vocSg: 'aliquod',
+
+    nomPl: 'aliqua',
+    accPl: 'aliqua',
+    genPl: 'aliquōrum',
+    datPl: 'aliquibus',
+    ablPl: 'aliquibis',
+    vocPl: 'aliqua',
 };
 
 const IlleIllaIlludM: DeclensionOverrides = {
