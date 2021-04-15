@@ -97,7 +97,7 @@ export class ODeclension extends Declension {
             case Casus.Ablative:    return this.stem + 'ō';
             case Casus.Vocative:
                 if (nom.endsWith('ius')) {
-                    return this.stem + 'ī';
+                    return dropSuffix(this.stem, 'i') + 'ī';
                 } else if (nom.endsWith('us')) {
                     return this.stem + 'e';
                 } else {

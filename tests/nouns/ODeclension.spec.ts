@@ -141,7 +141,7 @@ describe('O-declension', () => {
             genitive:   'fīliī',
             dative:     'fīliō',
             ablative:   'fīliō',
-            vocative:   'fīliī',
+            vocative:   'fīlī',
         });
     });
 });
