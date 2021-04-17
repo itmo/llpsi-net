@@ -94,7 +94,6 @@ describe('Is-E-declension', () => {
         });
     });
 
-
     it('one termination adjective ferōx should decline correctly', () => {
         const word = findAdjective('ferōx');
         checkAdjDecl(word, Numerus.Singular, {
@@ -167,6 +166,18 @@ describe('Is-E-declension', () => {
             dative:     ['plūribus',  'plūribus', 'plūribus'],
             ablative:   ['plūribus',  'plūribus', 'plūribus'],
             vocative:   ['plūrēs',    'plūrēs',   'plūra'],
+        });
+    });
+
+    it('plurale tantum should decline correctly', () => {
+        const word = findAdjective('complūrēs');
+        checkAdjDecl(word, Numerus.Plural, {
+            nominative: ['complūrēs',   'complūrēs',   'complūra'],
+            accusative: ['complūrēs',   'complūrēs',   'complūra'],
+            genitive:   ['complūrium',  'complūrium',  'complūrium'],
+            dative:     ['complūribus', 'complūribus', 'complūribus'],
+            ablative:   ['complūribus', 'complūribus', 'complūribus'],
+            vocative:   ['complūrēs',   'complūrēs',   'complūra'],
         });
     });
 });

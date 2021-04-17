@@ -255,7 +255,7 @@ function Copyright() {
     return (
         <Box pt={4}>
             <Typography variant='body2' color='textSecondary' align='center'>
-                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2020
+                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2021
             </Typography>
         </Box>
     );
