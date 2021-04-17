@@ -5182,7 +5182,7 @@
     "reference": "2.12",
     "pluraleTantum": "",
     "iStemType": "",
-    "overrides": "",
+    "overrides": "{\"vocSg\": \"fīlī\"}",
     "chapter": 2,
     "grammaticalTerm": false
   },
