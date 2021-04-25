@@ -100,6 +100,7 @@ export interface PronounData extends BaseWord  {
 export interface VerbData extends BaseWord  {
     wordType: WordType.Verb;
     latin: string;
+    conjugation: string;
     other: string;
 }
 

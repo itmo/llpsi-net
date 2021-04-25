@@ -16,29 +16,28 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { Word } from "./Word";
-import { VerbData } from "../WordData";
-import { LaVerb } from "../conjugations/LaVerb";
-import { laVerbToConjugation, VerbConjugation } from "../conjugations/Conjugation";
+import { WordType } from '../../src/models/types/WordType';
+import { Verb } from '../../src/models/words/Verb';
 
-export class Verb extends Word {
-    private static laVerb = new LaVerb();
-    private infinitive_: string;
-    private conjugation_: string;
+const verbs: Verb[] = [];
 
-    public constructor(data: VerbData) {
-        super(data, `${data.latin}`);
-        this.infinitive_ = data.latin;
-        this.conjugation_ = data.conjugation;
+export function loadVerbs() {
+    const data = require('../../data/LLPSI.json');
+    for (const entry of data) {
+        switch (entry.wordType) {
+            case WordType.Verb:
+                const noun = new Verb(entry);
+                verbs.push(noun);
+                break;
+        }
     }
+}
 
-    public get infinitive(): string {
-        return this.infinitive_;
+export function findVerb(infinitive: string): Verb {
+    for (const verb of verbs) {
+        if (verb.lemma == infinitive) {
+            return verb;
+        }
     }
-
-    public conjugate(): VerbConjugation {
-        const args = LaVerb.argsFromDesc(this.conjugation_);
-        const [data, info] = Verb.laVerb.make_data(args);
-        return laVerbToConjugation(data, info);
-    }
+    throw Error(`Verb ${infinitive} not found`);
 }
