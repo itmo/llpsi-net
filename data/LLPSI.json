@@ -28,6 +28,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Conjunction",
+    "latin": "-ve",
+    "abbreviated": "",
+    "german": "oder",
+    "english": "or",
+    "reference": "27.29",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "Aprīlis",
     "latinGenitive": "-is",
@@ -334,6 +344,17 @@
     "overrides": "",
     "chapter": 5,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Preposition",
+    "latin": "abs",
+    "abbreviated": "ab",
+    "case": "abl",
+    "german": "von, von... her, seit",
+    "english": "from, of, since, by",
+    "reference": "27.80",
+    "chapter": 27,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -744,6 +765,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "ager",
+    "latinGenitive": "-grī",
+    "genus": "m",
+    "german": "Acker, Feld, Gebiet",
+    "english": "field, territory, region",
+    "reference": "27.5, 30.124",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "agere",
     "indPrsSg1": "",
@@ -769,6 +804,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 25,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "agricola",
+    "latinGenitive": "-ae",
+    "genus": "m",
+    "german": "Ackerbauer, Landmann",
+    "english": "farmer, peasant",
+    "reference": "27.10",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -944,6 +993,21 @@
     "reference": "6.24",
     "conjugation": "{{la-conj|1+.pass-impers|abambulō}}",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "amoenus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "schön, angenehm",
+    "english": "lovely, pleasant",
+    "reference": "27.5",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -1401,6 +1465,48 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 26,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "arāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "pflügen",
+    "english": "plough",
+    "reference": "27.9",
+    "conjugation": "{{la-conj|1+|arō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "arātor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Pflüger",
+    "english": "ploughman",
+    "reference": "27.13",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "arātrum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Pflug",
+    "english": "plough",
+    "reference": "27.12",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -1926,6 +2032,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "calor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Wärme, Hitze",
+    "english": "warmth, heat",
+    "reference": "27.122",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "campus",
     "latinGenitive": "-ī",
     "genus": "m",
@@ -2336,6 +2456,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "cingere",
+    "indPrsSg1": "",
+    "perfInfAct": "cīnxisse",
+    "pPPNSg": "cīnctum",
+    "dative": "",
+    "german": "umgeben",
+    "english": "surround",
+    "reference": "27.6, 37.152 gladiō cingitur",
+    "conjugation": "{{la-conj|3|cingō|cīnx|cīnct}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "circum",
     "abbreviated": "",
@@ -2344,6 +2478,26 @@
     "english": "around",
     "reference": "prp: 6.14, 39.12;adv: 37.262",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "circā",
+    "german": "herum, umher",
+    "english": "around, about",
+    "reference": "44.88, 44.264",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Preposition",
+    "latin": "circā",
+    "abbreviated": "",
+    "case": "acc",
+    "german": "um (... her)",
+    "english": "round",
+    "reference": "27.51, 47.66",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -2461,6 +2615,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "colere",
+    "indPrsSg1": "",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "cultum",
+    "dative": "",
+    "german": "bewirtschaften, bebauen",
+    "english": "cultivate",
+    "reference": "27.11, 42.249, 42.347, 44.236, 50.482",
+    "conjugation": "{{la-conj|3|colō|colu|cult}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "collis",
     "latinGenitive": "-is",
@@ -2542,6 +2710,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 19,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "colōnus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Pächter",
+    "english": "(tenant-)farmer",
+    "reference": "27.70, 40.245",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -2656,6 +2838,20 @@
     "conjugation": "{{la-conj|3|coniungō|coniūnx|coniūnct}}",
     "chapter": 18,
     "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "coniūnctīvus",
+    "latinGenitive": "-ī",
+    "genus": "m",
+    "german": "Konjunktiv",
+    "english": "subjunctive",
+    "reference": "27.189",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -2881,6 +3077,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "crēscere",
+    "indPrsSg1": "",
+    "perfInfAct": "-ēvisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "wachsen",
+    "english": "grow",
+    "reference": "27.7, 27.17, 32.20",
+    "conjugation": "{{la-conj|3.nopass|crēscō|crēv|crēt}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "crūs",
     "latinGenitive": "-ūris",
@@ -3054,6 +3264,20 @@
     "reference": "22.73",
     "conjugation": "{{la-conj|3|cēdō|cess|cess}}",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "cēnsēre",
+    "indPrsSg1": "",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "-sum",
+    "dative": "",
+    "german": "meinen",
+    "english": "think",
+    "reference": "27.63, 44.47, 44.311",
+    "conjugation": "{{la-conj|2.p3inf|cēnseō|cēnsu|cēns}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -3320,6 +3544,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "cōpia",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Vorrat, Menge",
+    "english": "abundance, lot",
+    "reference": "27.38, 52.311, 52.686, 41.45 plural, 46.302",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "cūnae",
     "latinGenitive": "-ārum",
     "genus": "f",
@@ -3339,6 +3577,20 @@
     "english": "why?",
     "reference": "3.26",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "cūra",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Sorge, Sorgfalt, Pflege",
+    "english": "care, anxiety",
+    "reference": "27.97, 37.32, 40.36 cūrae esse",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -3967,6 +4219,15 @@
     "reference": "17.138, 26.50, 56.254",
     "conjugation": "{{la-conj|1+.p3inf.poet-sync-perf|dēmōnstrō}}",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "dēnique",
+    "german": "zuletzt",
+    "english": "finally, at last",
+    "reference": "27.2",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -4661,6 +4922,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "exīstimāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "meinen, halten für",
+    "english": "consider, think",
+    "reference": "27.62",
+    "conjugation": "{{la-conj|1+.poet-sync-perf|exīstimō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "faber",
     "latinGenitive": "-brī",
@@ -4762,6 +5037,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "falx",
+    "latinGenitive": "-cis",
+    "genus": "f",
+    "german": "Sichel",
+    "english": "sickle",
+    "reference": "27.18",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "familia",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -4857,6 +5146,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 18,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "fertilis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "fruchtbar",
+    "english": "fertile",
+    "reference": "27.30",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -5211,6 +5515,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "frīgus",
+    "latinGenitive": "-oris",
+    "genus": "n",
+    "german": "Kälte",
+    "english": "cold",
+    "reference": "27.123",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "frīgēre",
     "indPrsSg1": "",
@@ -5236,6 +5554,34 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "frūgēs",
+    "latinGenitive": "-um",
+    "genus": "f",
+    "german": "Feldfrüchte",
+    "english": "fruit, crops",
+    "reference": "27.29",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "frūmentum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Getreide, Korn",
+    "english": "corn, grain",
+    "reference": "27.7",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -5707,6 +6053,21 @@
   },
   {
     "wordType": "Adjective",
+    "latinMale": "gravidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "schwanger",
+    "english": "pregnant",
+    "reference": "27.108, 56.304",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
     "latinMale": "gravis",
     "latinFemale": "",
     "latinNeuter": "-e",
@@ -5718,6 +6079,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "grex",
+    "latinGenitive": "-egis",
+    "genus": "m",
+    "german": "Herde, Schar",
+    "english": "flock, herd, band",
+    "reference": "27.134",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -6208,6 +6583,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "immātūrus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "unreif",
+    "english": "unripe",
+    "reference": "27.168, 41.121, 43.135",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adverb",
     "latin": "immō",
     "german": "nein, im Gegenteil",
@@ -6588,6 +6978,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "inhūmānus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "unmenschlich",
+    "english": "inhuman",
+    "reference": "27.180",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "inimīcus",
     "latinGenitive": "-ī",
@@ -6795,6 +7200,20 @@
     "reference": "16.79",
     "conjugation": "{{la-conj|2+|intueor}}",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "invehere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "einführen",
+    "english": "import",
+    "reference": "27.39, 43.308, 45.34 invehī in",
+    "conjugation": "{{la-conj|3|invehō|invex|invect}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -7011,6 +7430,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "labor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Arbeit, Mühe",
+    "english": "work, toil",
+    "reference": "27.62, 38.35",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "labrum",
     "latinGenitive": "-ī",
     "genus": "n",
@@ -7035,6 +7468,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 25,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "labōrāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "arbeiten, sich bemühen",
+    "english": "toil, work, take trouble",
+    "reference": "27.61, 27.112, 43.343, 46.115, 48.322",
+    "conjugation": "{{la-conj|1+.pass-3only.poet-sync-perf|labōrō}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -7422,6 +7869,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "loca",
+    "latinGenitive": "-ōrum",
+    "genus": "n",
+    "german": "Orte, Gegend",
+    "english": "regions, parts",
+    "reference": "27.30",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "locus",
     "latinGenitive": "-ī",
     "genus": "m",
@@ -7503,6 +7964,20 @@
     "reference": "16.85, 16.139, 37.85",
     "conjugation": "{{la-conj|3|lābor|lāps}}",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lāna",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Wolle",
+    "english": "wool",
+    "reference": "27.34, 45.221",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -8108,6 +8583,20 @@
   },
   {
     "wordType": "Verb",
+    "latin": "metere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "messum",
+    "dative": "",
+    "german": "mähen, ernten",
+    "english": "reap, harvest",
+    "reference": "27.8",
+    "conjugation": "{{la-conj|3|metō|messu|mess}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "metuere",
     "indPrsSg1": "",
     "perfInfAct": "-uisse",
@@ -8591,6 +9080,21 @@
   },
   {
     "wordType": "Adjective",
+    "latinMale": "mātūrus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "reif",
+    "english": "ripe",
+    "reference": "27.17, 37.17, 48.547",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
     "latinMale": "māximus",
     "latinFemale": "-a",
     "latinNeuter": "-um",
@@ -8869,6 +9373,35 @@
   },
   {
     "wordType": "Verb",
+    "latin": "neglegere",
+    "indPrsSg1": "",
+    "perfInfAct": "-ēxisse",
+    "pPPNSg": "-ēctum",
+    "dative": "",
+    "german": "vernachlässigen",
+    "english": "neglect",
+    "reference": "27.101, 27.104, 43.155",
+    "conjugation": "{{la-conj|3|neglegō|neglēx|neglēct}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "neglegēns",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "-entis",
+    "stemType": "pure",
+    "german": "nachlässig",
+    "english": "careless",
+    "reference": "27.144",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "negāre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -8879,6 +9412,20 @@
     "reference": "23.66, 23.139, 31.199, 42.372",
     "conjugation": "{{la-conj|1+.p3inf.poet-sync-perf|negō}}",
     "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "negōtium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Tätigkeit, Geschäft",
+    "english": "activity, business",
+    "reference": "27.11, 27.66, 52.36",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -9003,6 +9550,20 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "nocēre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "schaden",
+    "english": "harm, hurt",
+    "reference": "27.123, 32.72",
+    "conjugation": "{{la-conj|2+.p3inf|noceō}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -9213,6 +9774,16 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Conjunction",
+    "latin": "nē",
+    "abbreviated": "",
+    "german": "dass nicht, damit nicht, dass",
+    "english": "that not, lest, that",
+    "reference": "27.139, 29.73, 32.162, 32.179, 32.212, 27.55 nē... quidem, 56.55 nē multa",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Pronoun",
     "latinMale": "nēmō",
     "latinFemale": "",
@@ -9223,6 +9794,31 @@
     "english": "no one, nobody",
     "reference": "10.44, 20.60, 23.28, 28.126",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "nēquam",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "",
+    "stemType": "indecl",
+    "german": "nichtswürdig, schlecht",
+    "english": "worthless, bad",
+    "reference": "27.151, 29.133 sup. nēquissimus",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Conjunction",
+    "latin": "nēve",
+    "abbreviated": "neu",
+    "german": "und (dass) nicht",
+    "english": "and (that) not, nor",
+    "reference": "27.140, 32.77, 48.830 nēve... nēve",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -10059,6 +10655,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "parum",
+    "german": "zu wenig, wenig",
+    "english": "too little, not quite",
+    "reference": "27.40, 29.103, 45.206, 50.287",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "parvulus",
     "latinFemale": "-a",
@@ -10144,6 +10749,35 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 2,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "patientia",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Nachsicht, Geduld",
+    "english": "forbearance, patience",
+    "reference": "27.91",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "patiēns",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "-entis",
+    "stemType": "pure",
+    "german": "geduldig",
+    "english": "patient",
+    "reference": "27.91",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -10253,6 +10887,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "pecus",
+    "latinGenitive": "-oris",
+    "genus": "n",
+    "german": "Vieh, Kleinvieh",
+    "english": "sheep, livestock",
+    "reference": "27.33",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -10905,6 +11553,31 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Preposition",
+    "latin": "prae",
+    "abbreviated": "",
+    "case": "abl",
+    "german": "vor",
+    "english": "before, for",
+    "reference": "27.14, 27.63, 27.83",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "praedium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Landgut",
+    "english": "estate",
+    "reference": "27.50",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "praenōmen",
     "latinGenitive": "-inis",
@@ -10980,6 +11653,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 19,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "precēs",
+    "latinGenitive": "-um",
+    "genus": "f",
+    "german": "Bitte, Gebet",
+    "english": "prayers",
+    "reference": "27.109, 45.367 prece",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -11096,6 +11783,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "prohibēre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "fernhalten, verhindern",
+    "english": "keep off, prevent",
+    "reference": "27.169, 27.175, 45.3",
+    "conjugation": "{{la-conj|2+|prohibeō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Preposition",
     "latin": "prope",
     "abbreviated": "",
@@ -11181,6 +11882,17 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Preposition",
+    "latin": "prō",
+    "abbreviated": "",
+    "case": "abl",
+    "german": "für, anstatt",
+    "english": "for, instead of",
+    "reference": "27.71, 27.72, 32.93, 32.121, 33.35, 40.125, 43.82, 51.205, 52.122, 45.290 prō sē",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "prōcēdere",
     "indPrsSg1": "",
@@ -11192,6 +11904,34 @@
     "reference": "22.76, 40.220, 45.206, 52.273",
     "conjugation": "{{la-conj|3|prōcēdō|prōcess|prōcess}}",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "prōdesse",
+    "indPrsSg1": "",
+    "perfInfAct": "prōfuisse",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "nützlich sein, nützen",
+    "english": "be useful, do good",
+    "reference": "27.122",
+    "conjugation": "{{la-conj|irreg|prōsum|prōd|prō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "prōicere",
+    "indPrsSg1": "-iō",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "hinwerfen, vorwerfen",
+    "english": "throw (forward)",
+    "reference": "27.92",
+    "conjugation": "{{la-conj|3|prōiciō|prōiēc|prōiect}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -11492,6 +12232,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "pābulum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Futter",
+    "english": "fodder",
+    "reference": "27.33",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "pāgina",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -11545,6 +12299,20 @@
     "reference": "4.110, 12.76 +dative",
     "conjugation": "{{la-conj|2+.pass-impers|pāreō}}",
     "chapter": 4,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "pāscere",
+    "indPrsSg1": "",
+    "perfInfAct": "pāvisse",
+    "pPPNSg": "pāstum",
+    "dative": "",
+    "german": "weiden, ergötzen",
+    "english": "pasture, feed, feast",
+    "reference": "27.32, 34.67",
+    "conjugation": "{{la-conj|3.poet-sync-perf|pāscō|pāv|pāst}}",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -11881,6 +12649,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "quiēscere",
+    "indPrsSg1": "",
+    "perfInfAct": "-ēvisse",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "ruhen",
+    "english": "rest",
+    "reference": "27.1, 27.64",
+    "conjugation": "{{la-conj|3.nopass.poet-sync-perf|quiēscō|quiēv|quiēt}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "quiētus",
     "latinFemale": "-a",
@@ -11991,6 +12773,19 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Pronoun",
+    "latinMale": "quīdam",
+    "latinFemale": "quaedam",
+    "latinNeuter": "quoddam",
+    "genitiveSingular": "",
+    "genus": "",
+    "german": "ein gewisser, irgend ein",
+    "english": "a certain, some(one)",
+    "reference": "27.76, 31.21, 31.28",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Interrogative",
     "latin": "quīn",
     "german": "warum nicht",
@@ -12088,6 +12883,20 @@
   },
   {
     "wordType": "Verb",
+    "latin": "rapere",
+    "indPrsSg1": "-iō",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "-ptum",
+    "dative": "",
+    "german": "fortreißen, rauben",
+    "english": "tear away, carry off",
+    "reference": "27.96, 27.132, 28.133, 54.196",
+    "conjugation": "{{la-conj|3|rapiō|rapu|rapt}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "recitāre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -12168,6 +12977,20 @@
     "reference": "25.6, 25.44",
     "conjugation": "{{la-conj|3|regō|rēx|rēct}}",
     "chapter": 25,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "regiō",
+    "latinGenitive": "-ōnis",
+    "genus": "f",
+    "german": "Gegend, Gebiet",
+    "english": "region, district",
+    "reference": "27.25, 36.272",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -12369,6 +13192,20 @@
   },
   {
     "wordType": "Verb",
+    "latin": "rigāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "bewässern",
+    "english": "irrigate",
+    "reference": "27.41",
+    "conjugation": "{{la-conj|1+|rigō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "rogitāre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -12422,6 +13259,21 @@
     "reference": "23.81",
     "conjugation": "{{la-conj|2.nopass|rubeō|rubu}}",
     "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "rudis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "roh, ungebildet",
+    "english": "crude, rude",
+    "reference": "27.26",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -12568,6 +13420,35 @@
     "english": "again",
     "reference": "4.12",
     "chapter": 4,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "rūs",
+    "latinGenitive": "rūris",
+    "genus": "n",
+    "german": "das Land",
+    "english": "the country",
+    "reference": "27.65",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "rūsticus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "ländlich, Land-",
+    "english": "rural, rustic, farm-",
+    "reference": "27.99, 31.191",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -12992,6 +13873,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "serere",
+    "indPrsSg1": "",
+    "perfInfAct": "sēvisse",
+    "pPPNSg": "satum",
+    "dative": "",
+    "german": "säen, pflanzen",
+    "english": "sow, plant",
+    "reference": "27.9",
+    "conjugation": "{{la-conj|3.poet-sync-perf|serō|sēv|sat}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "sermō",
     "latinGenitive": "-ōnis",
@@ -13120,6 +14015,21 @@
     "number": "60",
     "reference": "13.7",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "siccus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "trocken, dürr",
+    "english": "dry",
+    "reference": "27.129, 41.99 n.",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -13400,6 +14310,20 @@
   },
   {
     "wordType": "Verb",
+    "latin": "spargere",
+    "indPrsSg1": "",
+    "perfInfAct": "-sisse",
+    "pPPNSg": "-sum",
+    "dative": "",
+    "german": "streuen, zerstreuen",
+    "english": "scatter",
+    "reference": "27.15, 27.171",
+    "conjugation": "{{la-conj|3.p3inf|spargō|spars|spars}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "spectāre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -13568,6 +14492,21 @@
     "english": "suddenly",
     "reference": "24.12",
     "chapter": 24,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "suburbānus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "bei der Stadt gelegen",
+    "english": "near the city",
+    "reference": "27.58",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -13809,6 +14748,20 @@
     "number": "16",
     "reference": "17.20",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "sēmen",
+    "latinGenitive": "-inis",
+    "genus": "n",
+    "german": "Samen",
+    "english": "seed",
+    "reference": "27.15, 41.199",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -14090,6 +15043,20 @@
     "english": "only, so much",
     "reference": "4.11, 41.62",
     "chapter": 4,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "tantum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "soviel",
+    "english": "so much",
+    "reference": "27.94, 46.392 tantī esse",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -14552,6 +15519,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "trīcēsimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "der dreißigste",
+    "english": "thirtieth",
+    "reference": "27.114",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Numeral",
     "latin": "trīgintā",
     "nominativePlural": "",
@@ -14828,6 +15810,21 @@
     "iStemType": "mixed",
     "overrides": "",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "urbānus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "städtisch, Stadt-",
+    "english": "of the city, urban",
+    "reference": "27.67, 31.192",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -15609,6 +16606,48 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "vīnea",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Weinberg, Weingarten",
+    "english": "vinyard",
+    "reference": "27.47, 48.113",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "vīnum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Wein",
+    "english": "wine",
+    "reference": "27.49",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "vītis",
+    "latinGenitive": "-is",
+    "genus": "f",
+    "german": "Weinrebe, Weinstock",
+    "english": "vine",
+    "reference": "27.46, 51.200",
+    "pluraleTantum": "",
+    "iStemType": "mixed",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "vīvere",
     "indPrsSg1": "",
@@ -15961,6 +17000,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "īnstrūmentum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Werkzeug, Gerät",
+    "english": "tool, instrument",
+    "reference": "27.13, 51.39, 51.194",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "īnsula",
     "latinGenitive": "-ae",
     "genus": "f",
@@ -16078,6 +17131,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "ōrāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "bitten",
+    "english": "pray, beg",
+    "reference": "27.92",
+    "conjugation": "{{la-conj|1+.poet-sync-perf|ōrō}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "ōs",
     "latinGenitive": "ōris",
@@ -16145,6 +17212,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 7,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "ōtium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Muße",
+    "english": "leisure",
+    "reference": "27.66, 43.9",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   },
   {
@@ -16291,6 +17372,34 @@
     "english": "up (to), all the time",
     "reference": "17.16, 27.121, 34.97",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "ūtī",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "ūsum",
+    "dative": "",
+    "german": "gebrauchen, genießen",
+    "english": "use, enjoy",
+    "reference": "27.20, 34.10",
+    "conjugation": "{{la-conj|3|ūtor|ūs}}",
+    "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "ūva",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Traube",
+    "english": "grape",
+    "reference": "27.48",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 27,
     "grammaticalTerm": false
   }
 ]

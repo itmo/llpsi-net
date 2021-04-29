@@ -30,6 +30,7 @@ import { AdjectiveData, DeclensionOverrides } from "../WordData";
 import { AdjectiveDeclension } from "../types/AdjectiveDeclension";
 import { Word } from "./Word";
 import { ConsDeclension } from "../declensions/ConsDeclension";
+import { IndeclinableDeclension } from "../declensions/IndeclinableDeclension";
 
 export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
@@ -168,6 +169,11 @@ export class Adjective extends Word implements AdjectiveDeclinable {
             const neuterInput = this.adjToDeclension(data, data.latinNeuter || data.latinMale, data.latinGenitive, Genus.Neuter);
             neuterInput.pluraleTantum = this.pluraleTantum;
             neuter = new ConsDeclension(neuterInput);
+        } else if (data.stemType == 'indecl') {
+            const input = this.adjToDeclension(data, data.latinMale, data.latinGenitive, Genus.Masculine);
+            male = new IndeclinableDeclension(input);
+            female = new IndeclinableDeclension(input);
+            neuter = new IndeclinableDeclension(input);
         }
 
         if (!male || !female || !neuter) {

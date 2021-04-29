@@ -92,6 +92,11 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisQuamF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisQuamN, nominative: '', genitiveConstruction: ''});
                 break;
+            case 'quīdam':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuidamM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuidamF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuidamN, nominative: '', genitiveConstruction: ''});
+                break;
             case 'īdem':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: IsEaIdemM, nominative: '', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: IsEaIdemF, nominative: '', genitiveConstruction: ''});
@@ -696,4 +701,52 @@ const IpseIpsaIpsumN: DeclensionOverrides = {
     datPl: 'ipsīs',
     ablPl: 'ipsīs',
     vocPl: 'ipsa',
+};
+
+const QuidamM: DeclensionOverrides = {
+    nomSg: 'quīdam',
+    accSg: 'quendam',
+    genSg: 'cuiusdam',
+    datSg: 'cuidam',
+    ablSg: 'quōdam',
+    vocSg: 'quīdam',
+
+    nomPl: 'quīdam',
+    accPl: 'quōsdam',
+    genPl: 'quōrundam',
+    datPl: 'quibusdam',
+    ablPl: 'quibusdam',
+    vocPl: 'quīdam',
+};
+
+const QuidamF: DeclensionOverrides = {
+    nomSg: 'quaedam',
+    accSg: 'quamdam',
+    genSg: 'cuiusdam',
+    datSg: 'cuidam',
+    ablSg: 'quādam',
+    vocSg: 'quaedam',
+
+    nomPl: 'quaedam',
+    accPl: 'quāsdam',
+    genPl: 'quārundam',
+    datPl: 'quibusdam',
+    ablPl: 'quibusdam',
+    vocPl: 'quaedam',
+};
+
+const QuidamN: DeclensionOverrides = {
+    nomSg: 'quiddam',
+    accSg: 'quiddam',
+    genSg: 'cuiusdam',
+    datSg: 'cuidam',
+    ablSg: 'quōdam',
+    vocSg: 'quiddam',
+
+    nomPl: 'quaedam',
+    accPl: 'quaedam',
+    genPl: 'quōrundam',
+    datPl: 'quibusdam',
+    ablPl: 'quibusdam',
+    vocPl: 'quaedam',
 };
