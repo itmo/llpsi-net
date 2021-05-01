@@ -215,22 +215,14 @@ function PronounKnowledge(props: {knowledge: DeclensionKnowledge}) {
             <Table size='small'>
                 <TableHead>
                     <TableRow>
-                        <LeftCell>Pronoun</LeftCell>
-                        <CenteredCell>m/f/n</CenteredCell>
+                        <LeftCell>Pronouns</LeftCell>
+                        <CenteredCell></CenteredCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     <TableRow>
-                        <LeftCell lang='la'>is / ea / id</LeftCell>
-                        <BoolCell y={props.knowledge.pronounIs} />
-                    </TableRow>
-                    <TableRow>
-                        <LeftCell lang='la'>hic / haec / hoc</LeftCell>
-                        <BoolCell y={props.knowledge.pronounHic} />
-                    </TableRow>
-                    <TableRow>
-                        <LeftCell lang='la'>ille / illa / illud</LeftCell>
-                        <BoolCell y={props.knowledge.pronounIlle} />
+                        <LeftCell></LeftCell>
+                        <BoolCell y={props.knowledge.pronouns} />
                     </TableRow>
                 </TableBody>
             </Table>

@@ -42,9 +42,7 @@ export interface DeclensionKnowledge {
     ablPrepostions: boolean;
     accPrepositions: boolean;
 
-    pronounHic: boolean;
-    pronounIlle: boolean;
-    pronounIs: boolean;
+    pronouns: boolean;
 }
 
 export interface GrammarKnowledge {
@@ -62,9 +60,7 @@ export function getGrammarKnowledge(chapter: number) {
 
             ablPrepostions: false,
             accPrepositions: false,
-            pronounHic: false,
-            pronounIlle: false,
-            pronounIs: false,
+            pronouns: false,
         },
     };
 
@@ -109,9 +105,7 @@ export function getGrammarKnowledge(chapter: number) {
     }
 
     if (chapter >= 8) {
-        k.declensions.pronounHic = true;
-        k.declensions.pronounIlle = true;
-        k.declensions.pronounIs = true;
+        k.declensions.pronouns = true;
     }
 
     if (chapter >= 9) {

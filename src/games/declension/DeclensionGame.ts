@@ -54,9 +54,13 @@ export interface DeclensionGameState {
 
 export class DeclensionGame {
     private db: WordDB;
+    private pronouns: Pronoun[];
 
     constructor(db: WordDB) {
         this.db = db;
+        this.pronouns =
+            ['aliquis', 'hic', 'īdem', 'ille', 'ipse', 'is', 'iste', 'quīdam']
+            .map(p => this.db.getPronoun(p));
     }
 
     public initState(opts: DeclensionGameOptions): DeclensionGameState {
@@ -160,19 +164,19 @@ export class DeclensionGame {
 
         const genus = noun.genus;
         const words: Word[] = [noun, adj];
+        const numerus = this.randomNumerus(opts, casus, noun, adj);
 
-        if (opts.knowledge.declensions.pronounHic && Math.random() < 0.25) {
-            words.unshift(this.db.getPronoun('hic'));
-        } else if (opts.knowledge.declensions.pronounIlle && Math.random() < 0.25) {
-            words.unshift(this.db.getPronoun('ille'));
-        } else if (opts.knowledge.declensions.pronounIs && Math.random() < 0.25) {
-            words.unshift(this.db.getPronoun('is'));
+        if (opts.knowledge.declensions.pronouns && Math.random() < 0.6) {
+            const pronoun = this.randomPronoun(opts, casus, genus, numerus);
+            if (pronoun) {
+                words.unshift(pronoun);
+            }
         }
 
         return {
             indicator: indicator,
             casus: casus,
-            number: this.randomNumerus(opts, casus, noun, adj),
+            number: numerus,
             genus: genus,
             words: words,
         };
@@ -270,6 +274,28 @@ export class DeclensionGame {
         } else {
             // if not possible (for example, when vocabChapter < grammarChapter), use any declension
             return randomElement(filtered);
+        }
+    }
+
+    private randomPronoun(opts: DeclensionGameOptions, casus: Casus, genus: Genus, numerus: Numerus): Pronoun | undefined {
+        // first, find all pronouns that could be used
+        const filter = (pronoun: Pronoun): boolean => {
+            if (pronoun.chapter > opts.vocabChapter) {
+                return false;
+            }
+
+            const word = pronoun.decline(genus, casus, numerus);
+            if (!word) {
+                return false;
+            }
+
+            return true;
+        };
+
+        const pronoun = randomElement(this.pronouns, filter);
+
+        if (pronoun) {
+            return pronoun;
         }
     }
 

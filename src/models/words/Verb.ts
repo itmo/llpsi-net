@@ -25,15 +25,21 @@ export class Verb extends Word {
     private static laVerb = new LaVerb();
     private infinitive_: string;
     private conjugation_: string;
+    private stemChapter_: number;
 
     public constructor(data: VerbData) {
         super(data, `${data.latin}`);
         this.infinitive_ = data.latin;
         this.conjugation_ = data.conjugation;
+        this.stemChapter_ = Number.parseInt(data.stemChapter) || 0;
     }
 
     public get infinitive(): string {
         return this.infinitive_;
+    }
+
+    public get stemChapter(): number {
+        return this.stemChapter_;
     }
 
     public conjugate(): VerbConjugation {

@@ -101,6 +101,7 @@ export interface VerbData extends BaseWord  {
     wordType: WordType.Verb;
     latin: string;
     conjugation: string;
+    stemChapter: string;
     other: string;
 }
 
