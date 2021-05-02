@@ -49,11 +49,11 @@ before(() => {
 describe('Declension game', () => {
     it('accepts solutions macrons', () => {
         const challenge: DeclensionChallenge = {
-            indicator: findWord<Pronoun>(db.pronouns, 'quis'),
+            indicator: findWord<Pronoun>(db.words.pronouns, 'quis'),
             casus: Casus.Genitive,
             number: Numerus.Plural,
             genus: Genus.Femininum,
-            words: [findWord<Noun>(db.nouns, 'puella'), findWord<Adjective>(db.adjectives, 'parvus')],
+            words: [findWord<Noun>(db.words.nouns, 'puella'), findWord<Adjective>(db.words.adjectives, 'parvus')],
         };
 
         expect(game.check(challenge, 'puellārum parvārum')).to.be.true;
