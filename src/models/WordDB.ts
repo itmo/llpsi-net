@@ -31,23 +31,37 @@ import { Pronoun } from "./words/Pronoun";
 import { Verb } from "./words/Verb";
 import { Word } from "./words/Word";
 
-export class WordDB {
+export interface WordList {
     // Declined
-    public nouns: Noun[] = [];
-    public numerals: Numeral[] = [];
-    public adjectives: Adjective[] = [];
-    public pronouns: Pronoun[] = [];
+    nouns: Noun[];
+    numerals: Numeral[];
+    adjectives: Adjective[];
+    pronouns: Pronoun[];
 
     // Conjugated
-    public verbs: Verb[] = [];
+    verbs: Verb[];
 
     // Particles
-    public adverbs: Adverb[] = [];
-    public conjunctions: Conjunction[] = [];
-    public interjections: Interjection[] = [];
-    public interrogatives: Interrogative[] = [];
-    public prepositions: Preposition[] = [];
+    adverbs: Adverb[];
+    conjunctions: Conjunction[];
+    interjections: Interjection[];
+    interrogatives: Interrogative[];
+    prepositions: Preposition[];
+}
 
+export class WordDB {
+    public words: WordList = {
+        nouns: [],
+        numerals: [],
+        adjectives: [],
+        pronouns: [],
+        verbs: [],
+        adverbs: [],
+        conjunctions: [],
+        interjections: [],
+        interrogatives: [],
+        prepositions: []
+    };
     private maxChapter_: number = 0;
 
     public constructor(data: WordData[]) {
@@ -59,23 +73,39 @@ export class WordDB {
     }
 
     public getVerb(lemma: string): Verb {
-        return this.getWord<Verb>(this.verbs, lemma);
+        return this.getWord<Verb>(this.words.verbs, lemma);
     }
 
     public getPreposition(lemma: string): Word {
-        return this.getWord<Preposition>(this.prepositions, lemma);
+        return this.getWord<Preposition>(this.words.prepositions, lemma);
     }
 
     public getNoun(lemma: string): Noun {
-        return this.getWord<Noun>(this.nouns, lemma);
+        return this.getWord<Noun>(this.words.nouns, lemma);
     }
 
     public getPronoun(lemma: string): Pronoun {
-        return this.getWord<Pronoun>(this.pronouns, lemma);
+        return this.getWord<Pronoun>(this.words.pronouns, lemma);
     }
 
     public getInterjection(lemma: string): Interjection {
-        return this.getWord<Interjection>(this.interjections, lemma);
+        return this.getWord<Interjection>(this.words.interjections, lemma);
+    }
+
+    public getChapterWords(chapter: number): WordList {
+        const filter = (word: Word) => word.chapter == chapter;
+        return {
+            nouns: this.words.nouns.filter(filter),
+            numerals: this.words.numerals.filter(filter),
+            adjectives: this.words.adjectives.filter(filter),
+            pronouns: this.words.pronouns.filter(filter),
+            verbs: this.words.verbs.filter(filter),
+            adverbs: this.words.adverbs.filter(filter),
+            conjunctions: this.words.conjunctions.filter(filter),
+            interjections: this.words.interjections.filter(filter),
+            interrogatives: this.words.interrogatives.filter(filter),
+            prepositions: this.words.prepositions.filter(filter),
+        };
     }
 
     private getWord<T extends Word>(coll: T[], lemma: string): T {
@@ -89,12 +119,12 @@ export class WordDB {
     private loadWords(data: WordData[]): void {
         data.forEach(entry => this.addWord(entry));
         this.sortLists([
-            this.adverbs, this.adjectives, this.conjunctions, this.interjections,
-            this.interrogatives, this.nouns, this.numerals, this.prepositions,
-            this.pronouns, this.verbs
+            this.words.adverbs, this.words.adjectives, this.words.conjunctions, this.words.interjections,
+            this.words.interrogatives, this.words.nouns, this.words.numerals, this.words.prepositions,
+            this.words.pronouns, this.words.verbs
         ]);
 
-        for (const word of this.nouns) {
+        for (const word of this.words.nouns) {
             if (word.chapter > this.maxChapter_) {
                 this.maxChapter_ = word.chapter;
             }
@@ -112,43 +142,43 @@ export class WordDB {
         switch (data.wordType) {
             case WordType.Adjective:
                 const adj = new Adjective(data);
-                this.adjectives.push(adj);
+                this.words.adjectives.push(adj);
                 break;
             case WordType.Adverb:
                 const adverb = new Adverb(data);
-                this.adverbs.push(adverb);
+                this.words.adverbs.push(adverb);
                 break;
             case WordType.Conjunction:
                 const conj = new Conjunction(data);
-                this.conjunctions.push(conj)
+                this.words.conjunctions.push(conj)
                 break;
             case WordType.Interjection:
                 const inj = new Interjection(data);
-                this.interjections.push(inj);
+                this.words.interjections.push(inj);
                 break;
             case WordType.Interrogative:
                 const intr = new Interrogative(data);
-                this.interrogatives.push(intr);
+                this.words.interrogatives.push(intr);
                 break;
             case WordType.Noun:
                 const noun = new Noun(data);
-                this.nouns.push(noun)
+                this.words.nouns.push(noun)
                 break;
             case WordType.Numeral:
                 const numr = new Numeral(data);
-                this.numerals.push(numr);
+                this.words.numerals.push(numr);
                 break;
             case WordType.Preposition:
                 const prp = new Preposition(data);
-                this.prepositions.push(prp);
+                this.words.prepositions.push(prp);
                 break;
             case WordType.Pronoun:
                 const prn = new Pronoun(data);
-                this.pronouns.push(prn);
+                this.words.pronouns.push(prn);
                 break;
             case WordType.Verb:
                 const verb = new Verb(data);
-                this.verbs.push(verb);
+                this.words.verbs.push(verb);
                 break;
         }
     }

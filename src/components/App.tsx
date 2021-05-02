@@ -47,6 +47,8 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import { createMuiTheme, Divider, Paper, ThemeProvider } from '@material-ui/core';
+import { MenuBook } from '@material-ui/icons';
+import { ChapterList } from './book/ChapterList';
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -194,6 +196,10 @@ export function App(props: {db: WordDB}) {
                                 <ListItemIcon title='Particles'><PlaylistAddCheckIcon /></ListItemIcon>
                                 <ListItemText primary='Particles' />
                             </ListItem>
+                            <ListItem button component={RouterLink} to='/book/chapters'>
+                                <ListItemIcon title='Chapters'><MenuBook /></ListItemIcon>
+                                <ListItemText primary='Chapters' />
+                            </ListItem>
                             <ListItem button component={RouterLink} to='/games/declension'>
                                 <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
                                 <ListItemText primary='Games' />
@@ -214,23 +220,27 @@ export function App(props: {db: WordDB}) {
                                     </Route>
 
                                     <Route path="/words/nouns">
-                                        <WordList words={props.db.nouns} caption='Nouns' />
+                                        <WordList words={props.db.words.nouns} caption='Nouns' />
                                     </Route>
 
                                     <Route path="/words/adjectives">
-                                        <WordList words={props.db.adjectives} caption='Adjectives' />
+                                        <WordList words={props.db.words.adjectives} caption='Adjectives' />
                                     </Route>
 
                                     <Route path="/words/pronouns">
-                                        <WordList words={props.db.pronouns} caption='Pronouns' />
+                                        <WordList words={props.db.words.pronouns} caption='Pronouns' />
                                     </Route>
 
                                     <Route path="/words/verbs">
-                                        <WordList words={props.db.verbs} caption='Verbs' />
+                                        <WordList words={props.db.words.verbs} caption='Verbs' />
                                     </Route>
 
                                     <Route path="/words/particles">
                                         <ParticleList db={props.db} />
+                                    </Route>
+
+                                    <Route path="/book/chapters">
+                                        <ChapterList db={props.db} />
                                     </Route>
 
                                     <Route path="/games/declension">

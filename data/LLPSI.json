@@ -298,7 +298,7 @@
     "abbreviated": "ā",
     "case": "abl",
     "german": "von, von ... her, seit",
-    "english": "from, of, since, bye",
+    "english": "from, of, since, by",
     "reference": "5.48, 6.34, 6.62, 12.125, 13.13, 13.36, 13.40, 16.51, 33.23",
     "chapter": 5,
     "grammaticalTerm": false
@@ -2555,7 +2555,7 @@
     "german": "schließen",
     "english": "shut, close",
     "reference": "7.15, 48.289, 48.402, 48.464",
-    "conjugation": "{{la-conj|3|claudō|claus|claus}}, {{la-conj|3|claudō||claus}}",
+    "conjugation": "{{la-conj|3|claudō|claus|claus}}",
     "stemChapter": "22",
     "chapter": 7,
     "grammaticalTerm": false

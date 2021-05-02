@@ -17,7 +17,7 @@
  */
 
 import 'mocha';
-import {findVerb, loadVerbs} from './VerbHelpers';
+import { findVerb, loadVerbs } from './VerbHelpers';
 import { expect } from 'chai';
 
 before(() => {

@@ -18,7 +18,23 @@
 
 import { Data, Typeinfo } from "./LaVerb";
 
-interface Declension {
+export enum ConjType {
+    First,
+    Second,
+    Third,
+    ThirdIo,
+    Fourth,
+    Irregular,
+}
+
+export enum DeponentType {
+    None,
+    Deponent,
+    SemiDeponent,
+    OptSemiDeponent,
+}
+
+export interface Declension {
     nom?: string[];
     gen?: string[];
     dat?: string[];
@@ -26,7 +42,7 @@ interface Declension {
     abl?: string[];
 };
 
-interface PersonConj {
+export interface PersonConj {
     s1?: string[];
     s2?: string[];
     s3?: string[];
@@ -36,7 +52,7 @@ interface PersonConj {
     infinitive?: string[];
 };
 
-interface TempusConj {
+export interface TempusConj {
     present?: PersonConj;
     imperfect?: PersonConj;
     future?: PersonConj;
@@ -45,33 +61,54 @@ interface TempusConj {
     futureperfect?: PersonConj;
 };
 
-interface ModeConj {
+export interface ModeConj {
     indicative: TempusConj;
     subjunctive: TempusConj;
     imperative: TempusConj;
 };
 
-interface Participle {
+export interface Participle {
     presentActive?: string[];
     futureActive?: string[];
     futurePassive?: string[];
     perfectPassive?: string[];
+    perfectActive?: string[];
 };
 
 export interface VerbConjugation {
     lemma: string;
+    titleParts: string[];
+    deponent: DeponentType;
+    conjType: ConjType;
+    irregSubType?: ConjType;
+
+    // Forms
     active: ModeConj;
     passive: ModeConj;
     gerund: Declension;
     supine: Declension;
     participles: Participle;
-    type: string;
 };
 
+function toConjType(conj: string): ConjType {
+    switch (conj) {
+        case '1st':     return ConjType.First;
+        case '2nd':     return ConjType.Second;
+        case '3rd':     return ConjType.Third;
+        case '3rd-io':  return ConjType.ThirdIo;
+        case '4th':     return ConjType.Fourth;
+        case 'irreg':   return ConjType.Irregular;
+        default:        throw Error(`Invalid conjugation type ${conj}`);
+        }
+}
+
 export function laVerbToConjugation(data: Data, info: Typeinfo): VerbConjugation {
-    return {
+    const res: VerbConjugation = {
         lemma: info.lemma,
-        type: info.conj_type,
+        titleParts: data.title,
+        deponent: getDeponentType(info),
+        conjType: toConjType(info.conj_type),
+        irregSubType: info.conj_subtype ? toConjType(info.conj_subtype) : undefined,
         active: {
             indicative: {
                 present: {
@@ -252,10 +289,25 @@ export function laVerbToConjugation(data: Data, info: Typeinfo): VerbConjugation
             futureActive: getForm(data.forms, 'futr_actv_ptc'),
             futurePassive: getForm(data.forms, 'futr_pasv_ptc'),
             perfectPassive: getForm(data.forms, 'perf_pasv_ptc'),
+            perfectActive: getForm(data.forms, 'perf_actv_ptc'),
         }
     };
+
+    return res;
 }
 
 function getForm(forms: Map<string, string[]>, key: string): string[] | undefined {
     return forms.get(key);
+}
+
+function getDeponentType(info: Typeinfo): DeponentType {
+    if (info.subtypes.has('depon')) {
+        return DeponentType.Deponent;
+    } else if (info.subtypes.has('semidepon')) {
+        return DeponentType.SemiDeponent;
+    } else if (info.subtypes.has('optsemidepon')) {
+        return DeponentType.OptSemiDeponent;
+    } else {
+        return DeponentType.None;
+    }
 }

@@ -45,11 +45,11 @@ export function ParticleList(props: ListProps) {
                     <Tab label='Prepositions' />
                 </Tabs>
             </AppBar>
-            <div hidden={index != 0}><WordList words={props.db.adverbs} /></div>
-            <div hidden={index != 1}><WordList words={props.db.conjunctions} /></div>
-            <div hidden={index != 2}><WordList words={props.db.interjections} /></div>
-            <div hidden={index != 3}><WordList words={props.db.interrogatives} /></div>
-            <div hidden={index != 4}><WordList words={props.db.prepositions} /></div>
+            <div hidden={index != 0}><WordList words={props.db.words.adverbs} /></div>
+            <div hidden={index != 1}><WordList words={props.db.words.conjunctions} /></div>
+            <div hidden={index != 2}><WordList words={props.db.words.interjections} /></div>
+            <div hidden={index != 3}><WordList words={props.db.words.interrogatives} /></div>
+            <div hidden={index != 4}><WordList words={props.db.words.prepositions} /></div>
         </React.Fragment>
     );
 }

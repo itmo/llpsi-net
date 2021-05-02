@@ -17,8 +17,7 @@
  */
 
 import { randomElement, stripMacrons } from "../../models/common";
-import { AdjectiveDeclension } from "../../models/types/AdjectiveDeclension";
-import { AllCases, Casus } from "../../models/types/Casus";
+import { Casus } from "../../models/types/Casus";
 import { Genus } from "../../models/types/Genus";
 import { NounDeclension } from "../../models/types/NounDeclension";
 import { Numerus } from "../../models/types/Numerus";
@@ -261,7 +260,7 @@ export class DeclensionGame {
             return true;
         };
 
-        const filtered = this.db.nouns.filter(filter);
+        const filtered = this.db.words.nouns.filter(filter);
 
         // now try to equally choose between the declensions
         const decl = randomElement(Array.from(opts.knowledge.declensions.nounDeclensions.keys()));
@@ -321,7 +320,7 @@ export class DeclensionGame {
             return true;
         };
 
-        const filtered = this.db.adjectives.filter(filter);
+        const filtered = this.db.words.adjectives.filter(filter);
 
         // now try to equally choose between the declensions
         const decl = randomElement(Array.from(opts.knowledge.declensions.adjectiveDeclensions.keys()));
@@ -362,6 +361,6 @@ export class DeclensionGame {
             return true;
         };
 
-        return randomElement(this.db.prepositions, filter);
+        return randomElement(this.db.words.prepositions, filter);
     }
 }

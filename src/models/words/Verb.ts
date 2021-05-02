@@ -22,7 +22,13 @@ import { LaVerb } from "../conjugations/LaVerb";
 import { laVerbToConjugation, VerbConjugation } from "../conjugations/Conjugation";
 
 export class Verb extends Word {
-    private static laVerb = new LaVerb();
+    private static laVerb = new LaVerb({
+        suppressPassiveRe: true,
+        suppressPerfectEre: true,
+        suppressUndVariants: true,
+        suppressIPerfect: true,
+        suppressPoet: true
+    });
     private infinitive_: string;
     private conjugation_: string;
     private stemChapter_: number;

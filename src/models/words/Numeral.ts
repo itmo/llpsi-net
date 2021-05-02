@@ -33,6 +33,14 @@ export class Numeral extends Word {
         return this.latin_;
     }
 
+    public get english(): string {
+        return this.number.toString();
+    }
+
+    public get german(): string {
+        return this.number.toString();
+    }
+
     public get number(): number {
         return this.number_;
     }
