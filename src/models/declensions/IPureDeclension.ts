@@ -175,6 +175,12 @@ export const IPureRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-antis',
+        nominativeEndings: [
+            {when: 'āns', changeTo: 'ant'},
+        ]
+    },
+    {
         construction: '-entis',
         nominativeEndings: [
             {when: 'ēns', changeTo: 'ent'},

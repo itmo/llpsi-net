@@ -248,6 +248,12 @@ export const ConsRulesSingular: DeclensionRule[] = [
         ]
     },
     {
+        construction: '-atis',
+        nominativeEndings: [
+            {when: 'a', changeTo: 'at'},
+        ]
+    },
+    {
         construction: '-entis',
         nominativeEndings: [
             {when: 'ēns', changeTo: 'ent'},
@@ -309,6 +315,12 @@ export const ConsRulesSingular: DeclensionRule[] = [
         construction: '-es',
         nominativeEndings: [
             {when: 'es', changeTo: 'it'},
+        ]
+    },
+    {
+        construction: '-ipis',
+        nominativeEndings: [
+            {when: 'eps', changeTo: 'ip'},
         ]
     },
 ];
