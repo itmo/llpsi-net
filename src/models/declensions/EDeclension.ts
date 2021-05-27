@@ -51,6 +51,7 @@ export class EDeclension extends Declension {
             if (this.data.pluraleTantum) {
             } else {
                 switch (gen) {
+                    case '-eī':
                     case '-ēī':
                         if (nom.endsWith('ēs')) {
                             return dropSuffix(nom, 'ēs');

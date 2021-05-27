@@ -194,6 +194,7 @@ export const ConsRulesSingular: DeclensionRule[] = [
         nominativeEndings: [
             {when: 'is', changeTo: ''},
             {when: 'er', changeTo: 'er'},
+            {when: 'ūr', changeTo: 'ūr'},
         ]
     },
     {
@@ -212,6 +213,12 @@ export const ConsRulesSingular: DeclensionRule[] = [
         construction: '-ātis',
         nominativeEndings: [
             {when: 'ās', changeTo: 'āt'},
+        ]
+    },
+    {
+        construction: '-ūtis',
+        nominativeEndings: [
+            {when: 'ūs', changeTo: 'ūt'},
         ]
     },
     {

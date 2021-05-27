@@ -37,6 +37,7 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
             case 'ego':
             case 'tū':
             case 'sē':
+            case 'sēsē':
             case 'nōs':
             case 'vōs':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
