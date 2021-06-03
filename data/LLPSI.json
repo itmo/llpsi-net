@@ -305,6 +305,21 @@
   },
   {
     "wordType": "Verb",
+    "latin": "abdūcere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "abführen, wegführen",
+    "english": "take away, carry off",
+    "reference": "31.164",
+    "conjugation": "{{la-conj|irreg|abdūcō}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "aberrāre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -1055,6 +1070,15 @@
     "conjugation": "{{la-conj|3|alō|alu|alt/alit}}",
     "stemChapter": "",
     "chapter": 20,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "aliquantum",
+    "german": "ein gut Teil",
+    "english": "a good deal",
+    "reference": "31.52",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -1865,6 +1889,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "asinīnus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "Esels-",
+    "english": "donkey's",
+    "reference": "31.49",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "aspergere",
     "indPrsSg1": "",
@@ -1972,6 +2011,36 @@
     "conjugation": "{{la-conj|4++.p3inf|audiō}}",
     "stemChapter": "",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "auferre",
+    "indPrsSg1": "",
+    "perfInfAct": "abstulisse",
+    "pPPNSg": "ablātum",
+    "dative": "",
+    "german": "wegtragen, wegnehmen",
+    "english": "carry off, take away",
+    "reference": "31.52, 45.264",
+    "conjugation": "{{la-conj|irreg|auferō|abs|ab}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "aufugere",
+    "indPrsSg1": "-iō",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "entfliehen",
+    "english": "run away, escape",
+    "reference": "31.51",
+    "conjugation": "{{la-conj|3.pass-impers|aufugiō|aufūg}}",
+    "stemChapter": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -2105,6 +2174,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "avārus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "habsüchtig, geizig",
+    "english": "greedy, avaricious",
+    "reference": "31.22",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -3115,6 +3199,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "clēmēns",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "clēmentis",
+    "stemType": "pure",
+    "german": "mild",
+    "english": "mild, lenient",
+    "reference": "31.84, 52.297",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "cocus",
     "latinGenitive": "-ī",
@@ -3652,6 +3751,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "cruciāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "foltern",
+    "english": "torture, torment",
+    "reference": "31.64",
+    "conjugation": "{{la-conj|1+|cruciō}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adjective",
     "latinMale": "cruentus",
     "latinFemale": "-a",
@@ -3678,6 +3792,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 21,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "crux",
+    "latinGenitive": "-ucis",
+    "genus": "f",
+    "german": "Kreuz",
+    "english": "cross",
+    "reference": "31.66",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -3717,6 +3845,21 @@
     "conjugation": "{{la-conj|3.nopass|crēscō|crēv|crēt}}",
     "stemChapter": "27",
     "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "crūdēlis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "grausam",
+    "english": "cruel",
+    "reference": "31.124",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -4056,6 +4199,21 @@
   },
   {
     "wordType": "Verb",
+    "latin": "cōnfīdere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "vertrauen",
+    "english": "trust",
+    "reference": "31.56, 39.171, 52.345",
+    "conjugation": "{{la-conj|3.semi-depon|cōnfīdō|cōnfīs}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "cōnscendere",
     "indPrsSg1": "",
     "perfInfAct": "-disse",
@@ -4273,6 +4431,17 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 27,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Preposition",
+    "latin": "cōram",
+    "abbreviated": "",
+    "case": "abl",
+    "german": "vor, in Gegenwart",
+    "english": "in the presence of",
+    "reference": "31.122, 39.238 adv.",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -4933,6 +5102,21 @@
     "english": "(down) from, of, about",
     "reference": "11.53, 13.86, 19.105, 20.48, 21.95, 36.183, 38.71",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "dēbilis",
+    "latinFemale": "",
+    "latinNeuter": "-e",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "schwach",
+    "english": "weak",
+    "reference": "31.139",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -6304,6 +6488,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "fidēs",
+    "latinGenitive": "-eī",
+    "genus": "f",
+    "german": "Vertrauen, Treue",
+    "english": "trust, loyalty",
+    "reference": "31.56, 32.112, 40.16, 40.226, 46.314 in fidem accipere",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "fierī",
     "indPrsSg1": "fīō",
@@ -6768,6 +6966,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "fugitīvus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "entflohen, entlaufen",
+    "english": "runaway",
+    "reference": "31.68, 48.827 m.",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "fulgur",
     "latinGenitive": "-uris",
@@ -6794,6 +7007,15 @@
     "conjugation": "{{la-conj|3.pass-3only|fundō|fūd|fūs}}",
     "stemChapter": "",
     "chapter": 30,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "funditus",
+    "german": "von Grund aus, gänzlich",
+    "english": "to the bottom, utterly",
+    "reference": "31.184, 36.274",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -6851,6 +7073,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 25,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "fābulārī",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "plaudern, schwätzen",
+    "english": "talk, chat",
+    "reference": "31.186",
+    "conjugation": "{{la-conj|1+.p3inf|fābulor}}",
+    "stemChapter": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -6939,6 +7176,36 @@
     "overrides": "",
     "chapter": 2,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Verb",
+    "latin": "fīdere",
+    "indPrsSg1": "",
+    "perfInfAct": "fīsum esse",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "trauen, vertrauen",
+    "english": "trust, rely on",
+    "reference": "31.55",
+    "conjugation": "{{la-conj|3.semi-depon|fīdō|fīs}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "fīdus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "treu",
+    "english": "faithful, reliable",
+    "reference": "31.58",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -7253,6 +7520,20 @@
     "overrides": "",
     "chapter": 26,
     "grammaticalTerm": true
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "gerundīvum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Gerundiv",
+    "english": "gerundive",
+    "reference": "31.208",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -7837,6 +8118,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "ideō",
+    "german": "darum, deswegen",
+    "english": "for that reason",
+    "reference": "31.110",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "iecur",
     "latinGenitive": "-oris",
@@ -7902,6 +8192,21 @@
     "conjugation": "{{la-conj|1+.p3inf.poet-sync-perf|ignōrō}}",
     "stemChapter": "",
     "chapter": 24,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "ignōscere",
+    "indPrsSg1": "",
+    "perfInfAct": "-ōvisse",
+    "pPPNSg": "",
+    "dative": "true",
+    "german": "verzeihen",
+    "english": "forgive",
+    "reference": "31.90",
+    "conjugation": "{{la-conj|3|ignōscō|ignōv|ignōt}}",
+    "stemChapter": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -8040,6 +8345,21 @@
     "english": "no, on the contrary",
     "reference": "7.21, 7.27, 39.299",
     "chapter": 7,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "impatiēns",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "impatientis",
+    "stemType": "pure",
+    "german": "ungeduldig",
+    "english": "impatient",
+    "reference": "31.34",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -8520,6 +8840,35 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "iniūria",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Unrecht",
+    "english": "injustice, wrong",
+    "reference": "31.98, 45.278, 42.179 iniūriā",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "iniūstus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "ungerecht",
+    "english": "unjust, unfair",
+    "reference": "31.97",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "inquit",
     "indPrsSg1": "",
@@ -8692,6 +9041,21 @@
     "conjugation": "{{la-conj|2+|intueor}}",
     "stemChapter": "",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "invalidus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "schwach, kränklich",
+    "english": "infirm, weak",
+    "reference": "31.131",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -8888,6 +9252,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "iuvenis",
+    "latinGenitive": "-is",
+    "genus": "m/f",
+    "german": "Jugendlicher",
+    "english": "young adult",
+    "reference": "31.71",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "iuvāre",
     "indPrsSg1": "",
@@ -8943,6 +9321,35 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 30,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "iūs",
+    "latinGenitive": "iūris",
+    "genus": "n",
+    "german": "Recht",
+    "english": "right, justice",
+    "reference": "31.104, 35.198, 42.283, 43.140, 44.23, 42.4 plural, 36.72 iūs dīcere 32.46 iūre, 47.194 in iūrandum 47.205, 48.1, 48.16, 48.155 iūs gentium",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "iūstus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "gerecht",
+    "english": "just, fair",
+    "reference": "31.97, 31.119, 42.208, 48.229",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -9213,6 +9620,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 24,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "latēre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "sich verborgen halten",
+    "english": "be hidden, hide",
+    "reference": "31.67",
+    "conjugation": "{{la-conj|2.nopass|lateō|latu}}",
+    "stemChapter": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -9518,6 +9940,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "longē",
+    "german": "weit, bei weitem",
+    "english": "far, by far",
+    "reference": "31.117, 33.66, 42.140, 42.225",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "loquī",
     "indPrsSg1": "",
@@ -9617,6 +10048,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 12,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "lēx",
+    "latinGenitive": "lēgis",
+    "genus": "f",
+    "german": "Gesetz",
+    "english": "law",
+    "reference": "31.105, 43.74",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -10153,6 +10598,20 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 11,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "memoria",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Gedächtnis, Erinnerung",
+    "english": "memory",
+    "reference": "31.19, 37.5, 47.170, 31.114 post hominum memoriam, 47.42 memoriae trādere/mandāre, 47.65",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -11127,6 +11586,34 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "mōs",
+    "latinGenitive": "mōris",
+    "genus": "m",
+    "german": "Sitte, Gewohnheit",
+    "english": "custom, usage",
+    "reference": "31.135, 51.321",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "mūnus",
+    "latinGenitive": "-eris",
+    "genus": "n",
+    "german": "Geschenk",
+    "english": "gift",
+    "reference": "31.32, 44.286, 55.137",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "mūrus",
     "latinGenitive": "-ī",
     "genus": "m",
@@ -11176,6 +11663,15 @@
     "english": "for",
     "reference": "6.38",
     "chapter": 6,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "namque",
+    "german": "denn",
+    "english": "for",
+    "reference": "31.135",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -11410,6 +11906,30 @@
     "english": "too, too much",
     "reference": "8.98",
     "chapter": 8,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "nimium",
+    "german": "zuviel",
+    "english": "too much",
+    "reference": "31.178, 40.260 adv.",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "nimius",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "zu groß",
+    "english": "too big",
+    "reference": "31.82",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -11984,6 +12504,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "nōnāgēsimus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "der neunzigste",
+    "english": "ninetieth",
+    "reference": "31.175",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Pronoun",
     "latinMale": "nōs",
     "latinFemale": "",
@@ -12053,6 +12588,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 14,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "nūgae",
+    "latinGenitive": "-ārum",
+    "genus": "f",
+    "german": "dummes Zeug, Flausen",
+    "english": "idle talk, rubbish",
+    "reference": "31.198",
+    "pluraleTantum": "true",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -12435,6 +12984,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Verb",
+    "latin": "optāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "wünschen",
+    "english": "wish",
+    "reference": "31.22",
+    "conjugation": "{{la-conj|1+.poet-sync-perf|optō}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "opus",
     "latinGenitive": "-eris",
@@ -12687,6 +13251,20 @@
     "conjugation": "{{la-conj|3|pariō|peper|part|futr_actv_inf=paritūrus esse|futr_actv_ptc=paritūrus}}",
     "stemChapter": "35",
     "chapter": 10,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "parricīda",
+    "latinGenitive": "-ae",
+    "genus": "m/f",
+    "german": "Vatermörder",
+    "english": "parricide",
+    "reference": "31.110",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -13652,6 +14230,20 @@
     "grammaticalTerm": true
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "poena",
+    "latinGenitive": "-ae",
+    "genus": "f",
+    "german": "Strafe",
+    "english": "punishment, penalty",
+    "reference": "31.100, 37.68 poenās dare, 40.259 poenās recipere",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "pollicērī",
     "indPrsSg1": "",
@@ -13940,6 +14532,20 @@
   },
   {
     "wordType": "Noun",
+    "latinNominative": "praemium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Belohnung, Preis",
+    "english": "reward, prize",
+    "reference": "31.77",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
     "latinNominative": "praenōmen",
     "latinGenitive": "-inis",
     "genus": "n",
@@ -14126,6 +14732,15 @@
     "english": "before",
     "reference": "22.42",
     "chapter": 22,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adverb",
+    "latin": "priusquam",
+    "german": "ehe, bevor",
+    "english": "before",
+    "reference": "31.64",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -14870,6 +15485,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "pōtiō",
+    "latinGenitive": "-ōnis",
+    "genus": "f",
+    "german": "Trinken, Trank",
+    "english": "drinking, drink",
+    "reference": "31.1",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "pōtāre",
     "indPrsSg1": "",
@@ -14979,6 +15608,15 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adverb",
+    "latin": "quamobrem",
+    "german": "warum",
+    "english": "why",
+    "reference": "31.37",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Conjunction",
     "latin": "quamquam",
     "abbreviated": "",
@@ -14995,6 +15633,20 @@
     "english": "when, seeing that",
     "reference": "13.107, 35.171, 35.203, 48.387, 44.80 nē quandō",
     "chapter": 13,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "quantum",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "wieviel, (soviel) als",
+    "english": "how much, (as much) as",
+    "reference": "31.53, 31.81, 56.234, 52.475 quantō... tantō",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -15110,6 +15762,19 @@
   },
   {
     "wordType": "Pronoun",
+    "latinMale": "quidquid",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "cuiuscuius",
+    "genus": "",
+    "german": "was nur immer, alles was",
+    "english": "whatever",
+    "reference": "31.29, 37.49",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
     "latinMale": "quis",
     "latinFemale": "quae",
     "latinNeuter": "quid",
@@ -15158,6 +15823,19 @@
     "english": "each",
     "reference": "17.11, 17.13, 17.23, 18.20, 18.43, 31.172 sup + quisque, 44.420",
     "chapter": 17,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Pronoun",
+    "latinMale": "quisquis",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "genitiveSingular": "cuiuscuius",
+    "genus": "",
+    "german": "wer nur immer, jeder der",
+    "english": "whoever",
+    "reference": "31.176, 34.211",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -15778,6 +16456,21 @@
   },
   {
     "wordType": "Verb",
+    "latin": "retrahere",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "zurückziehen, zurückholen",
+    "english": "pull back, bring back",
+    "reference": "31.78",
+    "conjugation": "{{la-conj|3|retrahō|retrāx|retract}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "revenīre",
     "indPrsSg1": "",
     "perfInfAct": "",
@@ -16094,6 +16787,20 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Noun",
+    "latinNominative": "rūmor",
+    "latinGenitive": "-ōris",
+    "genus": "m",
+    "german": "Gerücht",
+    "english": "rumour",
+    "reference": "31.13",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adverb",
     "latin": "rūrsus",
     "german": "wieder, nochmals",
@@ -16325,6 +17032,21 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "sapiēns",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "sapientis",
+    "stemType": "pure",
+    "german": "weise, verständig",
+    "english": "wise",
+    "reference": "31.108, 47.28 m.",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Adverb",
     "latin": "satis",
     "german": "genug, recht",
@@ -16359,6 +17081,35 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 3,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "scelestus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "verbrecherisch",
+    "english": "criminal, wicked",
+    "reference": "31.118",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "scelus",
+    "latinGenitive": "-eris",
+    "genus": "n",
+    "german": "Verbrechen",
+    "english": "crime",
+    "reference": "31.116",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -16514,6 +17265,20 @@
     "english": "always",
     "reference": "16.26",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "senex",
+    "latinGenitive": "senis",
+    "genus": "m",
+    "german": "Greis, alter Mann",
+    "english": "old man",
+    "reference": "31.174",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -17231,6 +17996,21 @@
   },
   {
     "wordType": "Verb",
+    "latin": "statuere",
+    "indPrsSg1": "",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "-ūtum",
+    "dative": "",
+    "german": "festsetzen, entscheiden",
+    "english": "fix, determine",
+    "reference": "31.80, 50.542",
+    "conjugation": "{{la-conj|3|statuō|statu|statūt}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
     "latin": "sternere",
     "indPrsSg1": "",
     "perfInfAct": "strāvisse",
@@ -17494,6 +18274,20 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 16,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "supplicium",
+    "latinGenitive": "-ī",
+    "genus": "n",
+    "german": "Strafe, Todesstrafe",
+    "english": "(capital) punishment",
+    "reference": "31.119, 46.400",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -19448,6 +20242,36 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "vetus",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "veteris",
+    "stemType": "cons",
+    "german": "alt",
+    "english": "old",
+    "reference": "31.127, 31.154, 36.100 sup. veterrimus",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "vetāre",
+    "indPrsSg1": "",
+    "perfInfAct": "-uisse",
+    "pPPNSg": "-itum",
+    "dative": "",
+    "german": "verbieten",
+    "english": "forbid",
+    "reference": "31.106",
+    "conjugation": "{{la-conj|1|vetō|vetu|vetit}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "via",
     "latinGenitive": "-ae",
@@ -20161,6 +20985,36 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "ēbrius",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "betrunken",
+    "english": "drunk",
+    "reference": "31.193",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "ēducāre",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "erziehen",
+    "english": "bring up",
+    "reference": "31.150",
+    "conjugation": "{{la-conj|1+|ēducō}}",
+    "stemChapter": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Verb",
     "latin": "ēgredī",
     "indPrsSg1": "-ior",
@@ -20393,6 +21247,36 @@
     "grammaticalTerm": false
   },
   {
+    "wordType": "Adjective",
+    "latinMale": "īnfēlīx",
+    "latinFemale": "",
+    "latinNeuter": "",
+    "latinGenitive": "īnfelīcis",
+    "stemType": "pure",
+    "german": "unglücklich",
+    "english": "unlucky, unfortunate",
+    "reference": "31.43, 37.77",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Adjective",
+    "latinMale": "īnfīdus",
+    "latinFemale": "-a",
+    "latinNeuter": "-um",
+    "latinGenitive": "",
+    "stemType": "",
+    "german": "treulos",
+    "english": "faithless",
+    "reference": "31.56, 42.178",
+    "pronominal": "",
+    "overrides": "",
+    "chapter": 31,
+    "grammaticalTerm": false
+  },
+  {
     "wordType": "Noun",
     "latinNominative": "īnfīnītīvus",
     "latinGenitive": "-ī",
@@ -20419,6 +21303,20 @@
     "conjugation": "{{la-conj|3|īnscrībō|īnscrīps|īnscrīpt}}",
     "stemChapter": "",
     "chapter": 23,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Noun",
+    "latinNominative": "īnscrīptiō",
+    "latinGenitive": "-ōnis",
+    "genus": "f",
+    "german": "Inschrift",
+    "english": "inscription",
+    "reference": "31.(204)",
+    "pluraleTantum": "",
+    "iStemType": "",
+    "overrides": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {
@@ -20501,6 +21399,21 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 1,
+    "grammaticalTerm": false
+  },
+  {
+    "wordType": "Verb",
+    "latin": "ōdisse",
+    "indPrsSg1": "",
+    "perfInfAct": "",
+    "pPPNSg": "",
+    "dative": "",
+    "german": "hassen",
+    "english": "hate",
+    "reference": "31.94",
+    "conjugation": "{{la-conj|4.perf-as-pres.sup-futr-actv-only|ōdiō|ōd|ōs}}",
+    "stemChapter": "",
+    "chapter": 31,
     "grammaticalTerm": false
   },
   {

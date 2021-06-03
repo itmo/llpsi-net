@@ -54,6 +54,12 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisN, nominative: '', genitiveConstruction: ''});
                 break;
+            case 'quisquis':
+            case 'quidquid':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuisQuisM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisQuisF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisQuisN, nominative: '', genitiveConstruction: ''});
+                break;
             case 'aliquis':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: AliquisM, nominative: '', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: AliquisF, nominative: '', genitiveConstruction: ''});
@@ -269,6 +275,54 @@ const QuisN: DeclensionOverrides = {
     datPl: 'quibus',
     ablPl: 'quibis',
     vocPl: 'quae',
+};
+
+const QuisQuisM: DeclensionOverrides = {
+    nomSg: 'quisquis',
+    accSg: 'quemquem',
+    genSg: 'cuiuscuius',
+    datSg: 'cuicui',
+    ablSg: 'quōquō',
+    vocSg: 'quisquis',
+
+    nomPl: 'quīquī',
+    accPl: 'quōsquōs',
+    genPl: 'quōrumquōrum',
+    datPl: 'quibusquibus',
+    ablPl: 'quibisquibis',
+    vocPl: 'quīquī',
+};
+
+const QuisQuisF: DeclensionOverrides = {
+    nomSg: 'quisquis',
+    accSg: 'quemquem',
+    genSg: 'cuiuscuius',
+    datSg: 'cuicui',
+    ablSg: 'quōquō',
+    vocSg: 'quisquis',
+
+    nomPl: 'quaequae',
+    accPl: 'quāsquās',
+    genPl: 'quārumquārum',
+    datPl: 'quibusquibus',
+    ablPl: 'quibisquibis',
+    vocPl: 'quaequae',
+};
+
+const QuisQuisN: DeclensionOverrides = {
+    nomSg: 'quidquid',
+    accSg: 'quidquid',
+    genSg: 'cuiuscuius',
+    datSg: 'cuicui',
+    ablSg: 'quōquō',
+    vocSg: 'quidquid',
+
+    nomPl: 'quaequae',
+    accPl: 'quaequae',
+    genPl: 'quōrumquōrum',
+    datPl: 'quibusquibus',
+    ablPl: 'quibisquibis',
+    vocPl: 'quaequae',
 };
 
 
