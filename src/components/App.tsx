@@ -23,6 +23,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import InfoIcon from '@material-ui/icons/Info';
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
 import SportsEsports from '@material-ui/icons/SportsEsports';
+import Compare from '@material-ui/icons/Compare';
 import People from '@material-ui/icons/People';
 import DirectionsRun from '@material-ui/icons/DirectionsRun';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
@@ -206,7 +207,7 @@ export function App(props: {db: WordDB}) {
                                 <ListItemText primary='Games' />
                             </ListItem>
                             <ListItem button component={RouterLink} to='/games/flashcard'>
-                                <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
+                                <ListItemIcon title='Games'><Compare /></ListItemIcon>
                                 <ListItemText primary='Games' />
                             </ListItem>
                             <ListItem button component={RouterLink} to='/about'>
@@ -274,8 +275,12 @@ function Copyright() {
     return (
         <Box pt={4}>
             <Typography variant='body2' color='textSecondary' align='center'>
-                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2021
+                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2021                
             </Typography>
+            <Typography variant='body2' color='textSecondary' align='center'>
+                whip sound Mike Koenig,  <a href='https://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>, via Wikimedia Commons
+            </Typography>
+
         </Box>
     );
 }
