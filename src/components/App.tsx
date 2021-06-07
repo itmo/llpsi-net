@@ -43,6 +43,7 @@ import { About } from './About';
 import { ParticleList } from './words/ParticleList';
 import { WordList } from './words/WordList';
 import { DeclensionGameView } from './games/DeclensionGame/DeclensionGameView';
+import { FlashCardGameView } from './games/FlashCardGame/FlashCardGameView';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
@@ -204,6 +205,10 @@ export function App(props: {db: WordDB}) {
                                 <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
                                 <ListItemText primary='Games' />
                             </ListItem>
+                            <ListItem button component={RouterLink} to='/games/flashcard'>
+                                <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
+                                <ListItemText primary='Games' />
+                            </ListItem>
                             <ListItem button component={RouterLink} to='/about'>
                                 <ListItemIcon title='About'><InfoIcon /></ListItemIcon>
                                 <ListItemText primary='About' />
@@ -245,6 +250,10 @@ export function App(props: {db: WordDB}) {
 
                                     <Route path="/games/declension">
                                         <DeclensionGameView db={props.db} />
+                                    </Route>
+
+                                    <Route path="/games/flashcard">
+                                        <FlashCardGameView db={props.db} />
                                     </Route>
 
                                     <Route path="/about">
