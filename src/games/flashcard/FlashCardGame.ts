@@ -34,8 +34,6 @@ import { FlashCardGameOptions } from "./FlashCardGameOptions";
 export interface FlashCardGameState {
     opts: FlashCardGameOptions;
 
-
-    pendingChallenge: FlashCardChallenge;
 }
 
 export class FlashCardGame {
@@ -49,11 +47,10 @@ export class FlashCardGame {
 
         return {
             opts: opts,
-            pendingChallenge: this.createChallenge(opts),
         };
     }
 
-    public createChallenge(opts: FlashCardGameOptions): FlashCardChallenge {
+    public createChallenge(opts: FlashCardGameOptions,casus:Casus): FlashCardChallenge {
         /*
         const casus = randomElement(Array.from(opts.knowledge.declensions.cases.keys()));
         switch (casus) {
@@ -65,16 +62,15 @@ export class FlashCardGame {
             case Casus.Vocative:    return this.createVocative(opts);
             default:                throw Error(`Invalid casus ${casus}`);
         }*/
-        const casus = Casus.Genitive; //TBD later pick this from options
         const noun  = this.randomNoun(opts, casus);
         const num=(noun:Noun,casus:Casus):Numerus=>{
                 if (noun.pluraleTantum) {
                     return Numerus.Plural;
                 } else if (!opts.knowledge.declensions.cases.get(casus)?.numeri.has(Numerus.Plural)) {
                     return Numerus.Singular;
-                } /*else if (casus == Casus.Nominative) {
+                } else if (casus == Casus.Nominative) {
                     return Numerus.Plural;
-                }*/ else {
+                } else {
                     return Math.random() < 0.5 ? Numerus.Singular : Numerus.Plural;
                 };                
             };

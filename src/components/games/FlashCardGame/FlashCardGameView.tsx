@@ -55,21 +55,22 @@ export function FlashCardGameView(props: GameViewProps) {
     const [game, setGame] = useState<FlashCardGame>(new FlashCardGame(props.db));    
     const [challenge, setChallenge] = useState<FlashCardChallenge>();
     const [previous,setPrevious] = useState<FlashCardChallenge>();
+    const [casus,setCasus] = useState<Casus>(Casus.Nominative);
 
     function changeOptions(opts: FlashCardGameOptions) {
         setOptions(opts);
     }
-
-    function onStart() {
-        setPrevious(game.createChallenge(options));
-        setChallenge(game.createChallenge(options));        
+    function onStart(cs:Casus) {
+        setCasus(cs);
+        setPrevious(game.createChallenge(options,cs));
+        setChallenge(game.createChallenge(options,cs));        
         setState(GameState.Game);
         setScore(0)
     }
 
     function onNextGame() {
         setPrevious(challenge);
-        setChallenge(game.createChallenge(options));
+        setChallenge(game.createChallenge(options,casus));
     }
 
     function onCancel() {
@@ -97,7 +98,7 @@ export function FlashCardGameView(props: GameViewProps) {
                     db={props.db}
                     initial={options}
                     onChange={opts => changeOptions(opts)}
-                    onDone={() => onStart()}
+                    onDone={(casus:Casus) => onStart(casus)}
                 />
             }
             { state == GameState.Game && previous && challenge &&
@@ -144,7 +145,8 @@ function Game(props: GameProps): JSX.Element {
         props.resetScore();
         whip.play();
     }
-
+    const bg=(challenge.number==Numerus.Plural)?'yellow':'white';
+    
     return (
         <React.Fragment>
             <Box mt={1}>
@@ -161,7 +163,7 @@ function Game(props: GameProps): JSX.Element {
                             </TableRow>
                             <TableRow lang='la'>
                                 <TableCell style={{width: '20%',fontWeight:'bold'}}>Word</TableCell>
-                                <TableCell style={{backgroundColor: 'yellow'}}>{challenge.word.lemma}</TableCell>
+                                <TableCell style={{backgroundColor: bg}}>{challenge.word.lemma}</TableCell>
                             </TableRow>
                             <TableRow lang='la'>
                                 <TableCell style={{width: '20%',fontWeight:'bold'}}>Score</TableCell>

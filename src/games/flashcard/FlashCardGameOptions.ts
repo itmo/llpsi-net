@@ -17,6 +17,7 @@
  */
 
 import { GrammarKnowledge } from "../../models/GrammarKnowledge";
+import { Casus } from '../../models/types/Casus';
 
 export interface FlashCardGameOptions {
     knowledge: GrammarKnowledge;

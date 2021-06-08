@@ -21,12 +21,13 @@ import { Box, Button, FormControl, FormGroup, FormLabel, Slider } from '@materia
 import { FlashCardGameOptions } from '../../../games/flashcard/FlashCardGameOptions';
 import { getGrammarKnowledge } from '../../../models/GrammarKnowledge';
 import { WordDB } from '../../../models/WordDB';
+import { Casus } from '../../../models/types/Casus';
 
 export interface OptionsProps {
     db: WordDB;
     initial: FlashCardGameOptions;
     onChange(options: FlashCardGameOptions): void;
-    onDone(): void;
+    onDone(casus:Casus): void;
 }
 
 export function GameOptions(props: OptionsProps) {
@@ -45,7 +46,7 @@ export function GameOptions(props: OptionsProps) {
     }, [options]);
     return (
         <Box p={1}>
-            <form onSubmit={() => props.onDone()}>
+            <form >
                 <FormGroup>
                     <FormControl margin='normal'>
                         <FormLabel>Vocabulary up to chapter</FormLabel>
@@ -66,8 +67,16 @@ export function GameOptions(props: OptionsProps) {
                             onChange={(_, value) => changeGrammar(value as number)} />
                     </FormControl>
                 </FormGroup>
-                <Button type='submit' variant='contained' color='primary'>Age!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Nominative)}>Nominativvs!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Accusative)}>Accvsativvs!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Genitive)}>Genetivvs!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Ablative)}>Ablativvs!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Dative)}>Dativvs!</Button>
+                <Button type='submit' variant='contained' color='primary' onClick={() => props.onDone(Casus.Vocative)}>Vocativvs!</Button>
             </form>
         </Box>
     );
 }
+/*
+
+*/
