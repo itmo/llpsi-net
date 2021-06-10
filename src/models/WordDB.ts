@@ -108,6 +108,22 @@ export class WordDB {
         };
     }
     /**
+     *  find the highest chapter number in this sentence
+     */
+    public highestChapter(sentence:String):number{
+        const cleaned = sentence.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ");
+        const despaced = cleaned.replace(/\s{2,}/g," ");
+        var chapter=0;
+        //TBD this needs a better matchword, since current matchword
+        // only matches lemmas.        
+        for (const word of despaced.split(" ")){
+            const w=this.matchWord(word);
+            if(w.chapter>chapter)
+                chapter=w.chapter;
+        }
+        return chapter;
+    }
+    /**
      *  slow way to find a first match for a word by iterating 
      *  through all lists
      */
@@ -121,6 +137,8 @@ export class WordDB {
                 this.words.pronouns, this.words.verbs];
         for(const list of wordlists){
             const word=list.find(p=>p.lemma==lemma);
+            //TBD improve this matching to match starts of words and then
+                //declinated words
             if(word)
             {
                 return word;

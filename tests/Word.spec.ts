@@ -19,7 +19,6 @@
 import { expect } from 'chai';
 import 'mocha';
 import { findNoun, loadNouns } from './nouns/NounHelpers';
-
 before(() => {
     loadNouns();
 });
@@ -48,5 +47,9 @@ describe('word database', () => {
     it('should have the correct references', () => {
         const word = findNoun('ōceanus');
         expect(word.references).equals('1.53');
+    });
+    it('should find the highest chapter for this sentence' ()=>{
+        const sentence="ego nihil est";
+        //TBD test worddb.highestChapter(); here
     });
 });
