@@ -17,7 +17,7 @@
  */
 
 import { Declension, DeclensionInput, DeclensionRule } from "./Declension";
-import { dropSuffix } from "../common";
+import { changeSuffix, dropSuffix } from "../common";
 import { Casus } from "../types/Casus";
 import { Genus } from "../types/Genus";
 import { Numerus } from "../types/Numerus";
@@ -43,6 +43,8 @@ export class IMixedDeclension extends Declension {
             if (!this.data.pluraleTantum) {
                 if (gen.endsWith('is')) {
                     return dropSuffix(gen, 'is');
+                } else if (gen.endsWith('īs')) { // for vīs
+                    return changeSuffix(gen, "īs", "īr");
                 }
             }
         } else {

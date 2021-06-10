@@ -48,4 +48,24 @@ describe('I-mixed-declension', () => {
             vocative:   'ovēs',
         });
     });
+
+    it('vīs should decline correctly', () => {
+        const word = findNoun('vīs');
+        checkNounDecl(word, Numerus.Singular, {
+            nominative: 'vīs',
+            accusative: 'vim',
+            genitive:   '',
+            dative:     '',
+            ablative:   'vī',
+            vocative:   'vīs',
+        });
+        checkNounDecl(word, Numerus.Plural, {
+            nominative: 'vīrēs',
+            accusative: 'vīrēs',
+            genitive:   'vīrium',
+            dative:     'vīribus',
+            ablative:   'vīribus',
+            vocative:   'vīrēs',
+        });
+    });
 });
