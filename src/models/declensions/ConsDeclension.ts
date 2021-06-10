@@ -342,4 +342,10 @@ export const ConsRulesSingular: DeclensionRule[] = [
             {when: 'eps', changeTo: 'ip'},
         ]
     },
+    {
+        construction: '-ōtis',
+        nominativeEndings: [
+            {when: 'ōs', changeTo: 'ōt'},
+        ]
+    },
 ];
