@@ -107,7 +107,27 @@ export class WordDB {
             prepositions: this.words.prepositions.filter(filter),
         };
     }
+    /**
+     *  slow way to find a first match for a word by iterating 
+     *  through all lists
+     */
+    public matchWord(lemma:String):Word{
 
+        const wordlists:Word[][]=[
+                this.words.adverbs, this.words.adjectives, 
+                this.words.conjunctions, this.words.interjections,
+                this.words.interrogatives, this.words.nouns, 
+                this.words.numerals, this.words.prepositions,
+                this.words.pronouns, this.words.verbs];
+        for(const list of wordlists){
+            const word=list.find(p=>p.lemma==lemma);
+            if(word)
+            {
+                return word;
+            }
+        }
+        throw Error(`Word ${lemma} not found`);
+    }
     private getWord<T extends Word>(coll: T[], lemma: string): T {
         const word = coll.find(p => p.lemma == lemma);
         if (!word) {
