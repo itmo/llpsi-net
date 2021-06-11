@@ -4045,14 +4045,14 @@
     "latinNominative": "comparātiō",
     "latinGenitive": "-ōnis",
     "genus": "f",
-    "german": "Komparation",
+    "german": "Vergleich",
     "english": "comparison",
     "reference": "35.30",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
     "chapter": 35,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -4147,14 +4147,14 @@
     "latinNominative": "coniugātiō",
     "latinGenitive": "-ōnis",
     "genus": "f",
-    "german": "Konjugation",
-    "english": "conjugation",
+    "german": "Verbindung",
+    "english": "the act of combining, conjugation",
     "reference": "35.232",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
     "chapter": 35,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -4176,14 +4176,14 @@
     "latinNominative": "coniūnctiō",
     "latinGenitive": "-ōnis",
     "genus": "f",
-    "german": "Konjunktion",
+    "german": "Verbindung (mit jemandem), Konjunktion",
     "english": "conjunction",
     "reference": "35.6, 35.156, 55.176",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
     "chapter": 35,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -5068,7 +5068,7 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 18,
-    "grammaticalTerm": false
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -6078,21 +6078,21 @@
     "conjugation": "{{la-conj|1+|dēclīnō}}",
     "stemChapter": "",
     "chapter": 9,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
     "latinNominative": "dēclīnātiō",
     "latinGenitive": "-ōnis",
     "genus": "f",
-    "german": "Deklination",
-    "english": "declension",
+    "german": "Vermeidung, Deklination",
+    "english": "avoidance, declension",
     "reference": "9.88",
     "pluraleTantum": "",
     "iStemType": "",
     "overrides": "",
     "chapter": 9,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -8423,7 +8423,7 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 2,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -8810,7 +8810,7 @@
     "iStemType": "",
     "overrides": "",
     "chapter": 31,
-    "grammaticalTerm": false
+    "grammaticalTerm": true
   },
   {
     "wordType": "Noun",
@@ -9849,13 +9849,13 @@
     "latinNeuter": "-um",
     "latinGenitive": "",
     "stemType": "",
-    "german": "imperfekt",
-    "english": "imperfect",
+    "german": "unvollended, imperfekt",
+    "english": "unfinished, imperfect",
     "reference": "21.157",
     "pronominal": "",
     "overrides": "",
     "chapter": 21,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -10266,13 +10266,13 @@
     "latinNeuter": "-e",
     "latinGenitive": "",
     "stemType": "",
-    "german": "undeklinierbar",
-    "english": "indeclinable",
+    "german": "unbeugsam, undeklinierbar",
+    "english": "inflexible, indeclinable",
     "reference": "13.166",
     "pronominal": "",
     "overrides": "",
     "chapter": 13,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",
@@ -12295,7 +12295,7 @@
     "pronominal": "",
     "overrides": "",
     "chapter": 2,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Noun",
@@ -14792,7 +14792,7 @@
     "indPrsSg1": "",
     "perfInfAct": "-disse",
     "pPPNSg": "-sum",
-    "dative": "25.67",
+    "dative": "",
     "german": "töten",
     "english": "kill",
     "reference": "25.67",
@@ -18772,13 +18772,13 @@
     "latinNeuter": "-e",
     "latinGenitive": "",
     "stemType": "",
-    "german": "schlussfolgernd",
+    "german": "rational, schlussfolgernd",
     "english": "rational",
     "reference": "35.162, 35.173",
     "pronominal": "",
     "overrides": "",
     "chapter": 35,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Verb",
@@ -20666,13 +20666,13 @@
     "latinNeuter": "-e",
     "latinGenitive": "",
     "stemType": "",
-    "german": "singular",
-    "english": "singular",
+    "german": "einzeln, singular",
+    "english": "alone, singular",
     "reference": "1.88",
     "pronominal": "",
     "overrides": "",
     "chapter": 1,
-    "grammaticalTerm": true
+    "grammaticalTerm": false
   },
   {
     "wordType": "Adjective",

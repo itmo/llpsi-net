@@ -6,7 +6,7 @@
   "author": "Folke Will",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html mocha -r ts-node/register tests/**/*.spec.ts",
+    "test": "nyc --reporter=html mocha -r ts-node/register 'tests/**/*.spec.ts'",
     "prepack": "npx webpack",
     "build": "npx webpack",
     "start": "webpack-dev-server"
