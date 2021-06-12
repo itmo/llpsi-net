@@ -17,7 +17,7 @@
  */
 
 import React from 'react';
-import { Box, Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs, Typography } from '@material-ui/core';
+import { Box, Collapse, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Word } from '../../models/words/Word';
@@ -39,7 +39,7 @@ export function WordList(props: {caption?: string, words: Word[]}) {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {props.words.map(p => <WordRow particle={p} />)}
+                        {props.words.map(p => <WordRow word={p} />)}
                     </TableBody>
                 </Table>
             </TableContainer>
@@ -47,8 +47,9 @@ export function WordList(props: {caption?: string, words: Word[]}) {
     );
 }
 
-function WordRow(props: {particle: Word}) {
+function WordRow(props: {word: Word}) {
     const [open, setOpen] = React.useState(false);
+    const word = props.word;
 
     return (
         <React.Fragment>
@@ -58,14 +59,14 @@ function WordRow(props: {particle: Word}) {
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell lang='la'>{props.particle.lemma}</TableCell>
-                <TableCell>{props.particle.chapter}</TableCell>
+                <TableCell lang='la'>{word.lemma}</TableCell>
+                <TableCell>{word.chapter}</TableCell>
             </TableRow>
             <TableRow>
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
                     <Collapse in={open} unmountOnExit>
                         <Box margin={1}>
-                            <WordCard word={props.particle} />
+                            <WordCard word={word} />
                         </Box>
                     </Collapse>
                 </TableCell>
