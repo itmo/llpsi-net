@@ -51,6 +51,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import { createMuiTheme, Divider, Paper, ThemeProvider } from '@material-ui/core';
 import { MenuBook } from '@material-ui/icons';
 import { ChapterList } from './book/ChapterList';
+import { TextCheckView } from './book/TextCheck';
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -202,6 +203,10 @@ export function App(props: {db: WordDB}) {
                                 <ListItemIcon title='Chapters'><MenuBook /></ListItemIcon>
                                 <ListItemText primary='Chapters' />
                             </ListItem>
+                            <ListItem button component={RouterLink} to='/book/text_check'>
+                                <ListItemIcon title='Text Check'><MenuBook /></ListItemIcon>
+                                <ListItemText primary='Text Check' />
+                            </ListItem>
                             <ListItem button component={RouterLink} to='/games/declension'>
                                 <ListItemIcon title='Games'><SportsEsports /></ListItemIcon>
                                 <ListItemText primary='Games' />
@@ -247,6 +252,10 @@ export function App(props: {db: WordDB}) {
 
                                     <Route path="/book/chapters">
                                         <ChapterList db={props.db} />
+                                    </Route>
+
+                                    <Route path="/book/text_check">
+                                        <TextCheckView />
                                     </Route>
 
                                     <Route path="/games/declension">
