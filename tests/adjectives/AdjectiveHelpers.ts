@@ -52,6 +52,9 @@ const adjs: Adjective[] = [];
 export function loadAdjectives() {
     const data = require('../../data/LLPSI.json');
     for (const entry of data) {
+        if (entry.meta && entry.meta.includes("type=name")) {
+            continue;
+        }
         switch (entry.wordType) {
             case WordType.Adjective:
                 const noun = new Adjective(entry);

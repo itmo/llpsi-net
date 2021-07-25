@@ -59,7 +59,6 @@ export function WordCard(props: {word: Word}) {
 function getWordData(word: Word): JSX.Element {
     switch (word.type) {
         case WordType.Adjective:    return <AdjectivalEntry word={word as Adjective} />;
-        case WordType.Conjunction:  return <ConjunctionEntry conj={word as Conjunction} />;
         case WordType.Preposition:  return <PrepositionEntry prp={word as Preposition} />;
         case WordType.Noun:         return <NounEntry noun={word as Noun} />;
         case WordType.Pronoun:      return <AdjectivalEntry word={word as Pronoun} />;
@@ -67,17 +66,6 @@ function getWordData(word: Word): JSX.Element {
         default:
             return <React.Fragment />;
     }
-}
-
-function ConjunctionEntry(props: {conj: Conjunction}) {
-    return (
-        <React.Fragment>
-            {props.conj.abbreviations.length == 0 ? null :
-                <Typography variant='body2' component='p' lang='la'>
-                    Abbreviations: {props.conj.abbreviations.join(', ')}
-                </Typography>}
-        </React.Fragment>
-    );
 }
 
 function PrepositionEntry(props: {prp: Preposition}) {

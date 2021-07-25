@@ -23,7 +23,6 @@ import { Adjective } from "./words/Adjective";
 import { Adverb } from "./words/Adverb";
 import { Conjunction } from "./words/Conjunction";
 import { Interjection } from "./words/Interjection";
-import { Interrogative } from "./words/Interrogative";
 import { Noun } from "./words/Noun";
 import { Numeral } from "./words/Numeral";
 import { Preposition } from "./words/Preposition";
@@ -45,7 +44,6 @@ export interface WordList {
     adverbs: Adverb[];
     conjunctions: Conjunction[];
     interjections: Interjection[];
-    interrogatives: Interrogative[];
     prepositions: Preposition[];
 }
 
@@ -59,7 +57,6 @@ export class WordDB {
         adverbs: [],
         conjunctions: [],
         interjections: [],
-        interrogatives: [],
         prepositions: []
     };
     private maxChapter_: number = 0;
@@ -103,7 +100,6 @@ export class WordDB {
             adverbs: this.words.adverbs.filter(filter),
             conjunctions: this.words.conjunctions.filter(filter),
             interjections: this.words.interjections.filter(filter),
-            interrogatives: this.words.interrogatives.filter(filter),
             prepositions: this.words.prepositions.filter(filter),
         };
     }
@@ -117,10 +113,16 @@ export class WordDB {
     }
 
     private loadWords(data: WordData[]): void {
-        data.forEach(entry => this.addWord(entry));
+        for (const word of data) {
+            if (word.meta && word.meta.includes("type=name")) {
+                continue;
+            }
+            this.addWord(word);
+        }
+
         this.sortLists([
             this.words.adverbs, this.words.adjectives, this.words.conjunctions, this.words.interjections,
-            this.words.interrogatives, this.words.nouns, this.words.numerals, this.words.prepositions,
+            this.words.nouns, this.words.numerals, this.words.prepositions,
             this.words.pronouns, this.words.verbs
         ]);
 
@@ -155,10 +157,6 @@ export class WordDB {
             case WordType.Interjection:
                 const inj = new Interjection(data);
                 this.words.interjections.push(inj);
-                break;
-            case WordType.Interrogative:
-                const intr = new Interrogative(data);
-                this.words.interrogatives.push(intr);
                 break;
             case WordType.Noun:
                 const noun = new Noun(data);

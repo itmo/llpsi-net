@@ -22,6 +22,8 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Word } from '../../models/words/Word';
 import { WordCard } from './WordCard';
+import { WordType } from '../../models/types/WordType';
+import { Verb } from '../../models/words/Verb';
 
 export function WordList(props: {caption?: string, words: Word[]}) {
     return (

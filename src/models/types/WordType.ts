@@ -21,10 +21,10 @@ export enum WordType {
     Adverb          = 'Adverb',
     Conjunction     = 'Conjunction',
     Interjection    = 'Interjection',
-    Interrogative   = 'Interrogative',
     Noun            = 'Noun',
     Numeral         = 'Numeral',
     Preposition     = 'Preposition',
     Pronoun         = 'Pronoun',
     Verb            = 'Verb',
+    Synonym         = 'Synonym',
 }

@@ -69,7 +69,6 @@ function Chapter(props: {db: WordDB, chapter: number}) {
     const particles: Word[] = (words.adverbs as Word[])
         .concat(words.conjunctions)
         .concat(words.interjections)
-        .concat(words.interrogatives)
         .concat(words.prepositions)
         .sort((a, b) => macronSort(a.lemma, b.lemma));
 

@@ -16,24 +16,16 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { WordDB } from '../../../models/WordDB';
 import { FlashCardGame } from '../../../games/flashcard/FlashCardGame';
-import { Box, Button, ButtonGroup, Collapse, FormControl, FormGroup, IconButton, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
+import { Box, Button, ButtonGroup, Paper, Table, TableBody, TableCell, TableContainer, TableRow, TextField } from '@material-ui/core';
 import { FlashCardGameOptions } from '../../../games/flashcard/FlashCardGameOptions';
 import { FlashCardChallenge } from '../../../games/flashcard/FlashCardChallenge';
 import { getGrammarKnowledge } from '../../../models/GrammarKnowledge';
-import { Preposition } from '../../../models/words/Preposition';
-import { Pronoun } from '../../../models/words/Pronoun';
 import { Casus } from '../../../models/types/Casus';
 import { Numerus } from '../../../models/types/Numerus';
-import { Genus } from '../../../models/types/Genus';
-import { Word } from '../../../models/words/Word';
-import { WordCard } from '../../words/WordCard';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import { Interjection } from '../../../models/words/Interjection';
 import { GameOptions } from './GameOptions';
 
 export interface GameViewProps {
@@ -52,7 +44,8 @@ export function FlashCardGameView(props: GameViewProps) {
         knowledge: getGrammarKnowledge(props.db.maxChapter),
         vocabChapter: props.db.maxChapter,
     });
-    const [game, setGame] = useState<FlashCardGame>(new FlashCardGame(props.db));    
+
+    const [game, setGame] = useState<FlashCardGame>(new FlashCardGame(props.db));
     const [challenge, setChallenge] = useState<FlashCardChallenge>();
     const [previous,setPrevious] = useState<FlashCardChallenge>();
     const [casus,setCasus] = useState<Casus>(Casus.Nominative);
@@ -60,10 +53,11 @@ export function FlashCardGameView(props: GameViewProps) {
     function changeOptions(opts: FlashCardGameOptions) {
         setOptions(opts);
     }
+
     function onStart(cs:Casus) {
         setCasus(cs);
         setPrevious(game.createChallenge(options,cs));
-        setChallenge(game.createChallenge(options,cs));        
+        setChallenge(game.createChallenge(options,cs));
         setState(GameState.Game);
         setScore(0)
     }
@@ -80,13 +74,16 @@ export function FlashCardGameView(props: GameViewProps) {
         });
         setState(GameState.Options);
     }
-    function incScore(){
-        setScore(score+1);
+
+    function incScore() {
+        setScore(score + 1);
     }
-    function getScore(){
+
+    function getScore() {
         return score;
     }
-    function resetScore(){
+
+    function resetScore() {
         setScore(0);
     }
 
@@ -111,6 +108,9 @@ export function FlashCardGameView(props: GameViewProps) {
                     key={new Date().getTime()}
                 />
             }
+            <Typography variant='body2' color='textSecondary'>
+                Whip sound by Mike Koenig, <a href='https://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>, via Wikimedia Commons
+            </Typography>
         </React.Fragment>
     );
 }
@@ -118,7 +118,7 @@ export function FlashCardGameView(props: GameViewProps) {
 interface GameProps {
     game: FlashCardGame;
     previous: FlashCardChallenge;
-    challenge: FlashCardChallenge;     
+    challenge: FlashCardChallenge;
     onNext(): void;
     onCancel(): void;
     incScore():void;
@@ -139,14 +139,16 @@ function Game(props: GameProps): JSX.Element {
     function reset() {
         props.onCancel();
     }
+
     function tuxtax() {
         //<!-- whip sound Mike Koenig, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons-->
         //https://upload.wikimedia.org/wikipedia/commons/c/c2/Whip-sound.ogg
         props.resetScore();
         whip.play();
     }
-    const bg=(challenge.number==Numerus.Plural)?'yellow':'white';
-    
+
+    const bg = (challenge.number==Numerus.Plural) ? 'yellow' : 'white';
+
     return (
         <React.Fragment>
             <Box mt={1}>
@@ -173,6 +175,7 @@ function Game(props: GameProps): JSX.Element {
                     </Table>
                 </TableContainer>
             </Box>
+
             <Box mt={1}>
                 <form noValidate autoCorrect='off' autoComplete='off' autoCapitalize='off' spellCheck='false'>
                     <ButtonGroup color='primary' variant='contained'>

@@ -275,12 +275,8 @@ function Copyright() {
     return (
         <Box pt={4}>
             <Typography variant='body2' color='textSecondary' align='center'>
-                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2021                
+                Copyright © <a href='https://github.com/fpw/'>Folke Will</a>, 2021
             </Typography>
-            <Typography variant='body2' color='textSecondary' align='center'>
-                whip sound Mike Koenig,  <a href='https://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>, via Wikimedia Commons
-            </Typography>
-
         </Box>
     );
 }

@@ -48,7 +48,6 @@ export function ParticleList(props: ListProps) {
             <div hidden={index != 0}><WordList words={props.db.words.adverbs} /></div>
             <div hidden={index != 1}><WordList words={props.db.words.conjunctions} /></div>
             <div hidden={index != 2}><WordList words={props.db.words.interjections} /></div>
-            <div hidden={index != 3}><WordList words={props.db.words.interrogatives} /></div>
             <div hidden={index != 4}><WordList words={props.db.words.prepositions} /></div>
         </React.Fragment>
     );

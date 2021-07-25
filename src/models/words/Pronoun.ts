@@ -40,7 +40,6 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
             case 'sēsē':
             case 'nōs':
             case 'vōs':
-            case 'plērīque':
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Masculine, nominative: 'ego', genitiveConstruction: ''});
@@ -54,6 +53,11 @@ export class Pronoun extends Word implements AdjectiveDeclinable {
                 this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuisM, nominative: '', genitiveConstruction: ''});
                 this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuisF, nominative: '', genitiveConstruction: ''});
                 this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuisN, nominative: '', genitiveConstruction: ''});
+                break;
+            case 'quī':
+                this.maleDeclension = new IrregularDeclension({genus: Genus.Masculine, overrides: QuiM, nominative: '', genitiveConstruction: ''});
+                this.femaleDeclension = new IrregularDeclension({genus: Genus.Femininum, overrides: QuiF, nominative: '', genitiveConstruction: ''});
+                this.neuterDeclension = new IrregularDeclension({genus: Genus.Neuter, overrides: QuiN, nominative: '', genitiveConstruction: ''});
                 break;
             case 'quisquis':
             case 'quidquid':
@@ -269,6 +273,54 @@ const QuisN: DeclensionOverrides = {
     datSg: 'cui',
     ablSg: 'quō',
     vocSg: 'quid',
+
+    nomPl: 'quae',
+    accPl: 'quae',
+    genPl: 'quōrum',
+    datPl: 'quibus',
+    ablPl: 'quibis',
+    vocPl: 'quae',
+};
+
+const QuiM: DeclensionOverrides = {
+    nomSg: 'quī',
+    accSg: 'quem',
+    genSg: 'cuius',
+    datSg: 'cui',
+    ablSg: 'quō',
+    vocSg: 'quī',
+
+    nomPl: 'quī',
+    accPl: 'quōs',
+    genPl: 'quōrum',
+    datPl: 'quibus',
+    ablPl: 'quibis',
+    vocPl: 'quī',
+};
+
+const QuiF: DeclensionOverrides = {
+    nomSg: 'quae',
+    accSg: 'quam',
+    genSg: 'cuius',
+    datSg: 'cui',
+    ablSg: 'quā',
+    vocSg: 'quae',
+
+    nomPl: 'quae',
+    accPl: 'quās',
+    genPl: 'quārum',
+    datPl: 'quibus',
+    ablPl: 'quibis',
+    vocPl: 'quae',
+};
+
+const QuiN: DeclensionOverrides = {
+    nomSg: 'quod',
+    accSg: 'quod',
+    genSg: 'cuius',
+    datSg: 'cui',
+    ablSg: 'quō',
+    vocSg: 'quod',
 
     nomPl: 'quae',
     accPl: 'quae',

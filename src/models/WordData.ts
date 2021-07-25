@@ -19,8 +19,9 @@
 import { WordType } from "./types/WordType";
 
 export type WordData =  AdjectiveData | AdverbData | ConjunctionData |
-                        InterjectionData | InterrogativeData | NounData |
-                        NumeralData | PrepositionData | PronounData | VerbData;
+                        InterjectionData | NounData |
+                        NumeralData | PrepositionData | PronounData | VerbData |
+                        SynonymData;
 
 export interface BaseWord {
     chapter: number;
@@ -28,6 +29,7 @@ export interface BaseWord {
     reference: string;
     english: string;
     german: string;
+    meta: string;
 }
 
 export interface AdjectiveData extends BaseWord {
@@ -39,6 +41,12 @@ export interface AdjectiveData extends BaseWord {
     stemType: string;
     pronominal: string;
     overrides: string;
+    declension: string;
+
+    // these can be lists joined by ","
+    comparative: string;
+    superlative: string;
+    adverb: string;
 }
 
 export interface AdverbData extends BaseWord  {
@@ -49,18 +57,12 @@ export interface AdverbData extends BaseWord  {
 export interface ConjunctionData extends BaseWord  {
     wordType: WordType.Conjunction;
     latin: string;
-    abbreviated: string;
 }
 
 export interface InterjectionData extends BaseWord  {
     wordType: WordType.Interjection;
     latinSingular: string;
     latinPlural: string;
-}
-
-export interface InterrogativeData extends BaseWord  {
-    wordType: WordType.Interrogative;
-    latin: string;
 }
 
 export interface NounData extends BaseWord  {
@@ -71,20 +73,18 @@ export interface NounData extends BaseWord  {
     genus: string;
     iStemType: '' | 'mixed' | 'pure';
     overrides: string;
+    declension: string;
 }
 
 export interface NumeralData extends BaseWord  {
     wordType: WordType.Numeral;
     latin: string;
-    nominativePlural: string;
-    genitivePlural: string;
     number: string;
 }
 
 export interface PrepositionData extends BaseWord  {
     wordType: WordType.Preposition;
     latin: string;
-    abbreviated: string;
     case: string;
 }
 
@@ -95,6 +95,14 @@ export interface PronounData extends BaseWord  {
     latinNeuter: string;
     genitiveSingular: string;
     genus: string;
+    declension: string;
+}
+
+export interface SynonymData extends BaseWord  {
+    wordType: WordType.Synonym;
+    latin: string;
+    refType: string;
+    refLemma: string;
 }
 
 export interface VerbData extends BaseWord  {

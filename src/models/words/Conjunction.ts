@@ -22,19 +22,13 @@ import { splitNoEmpty } from "../common";
 
 export class Conjunction extends Word {
     private latin_: string;
-    private abbreviations_: string[] = [];
 
     public constructor(data: ConjunctionData) {
         super(data, `${data.latin}`);
         this.latin_ = data.latin;
-        this.abbreviations_ = splitNoEmpty(data.abbreviated, ';');
     }
 
     public get latin(): string {
         return this.latin_;
-    }
-
-    public get abbreviations(): string[] {
-        return this.abbreviations_;
     }
 }

@@ -32,16 +32,19 @@ import { Numerus } from "../types/Numerus";
 import { DeclensionOverrides, NounData } from "../WordData";
 import { NounDeclension } from "../types/NounDeclension";
 import { Word } from "./Word";
+import { LaNominal, parse_template, NounData as NounDeclData } from "@fpw/en-wiktionary-la-modules";
 
 export class Noun extends Word implements NounDeclinable {
     private declension: Declension;
     private genus_: Genus;
     private pluraleTantum_: boolean;
+    private declensionTemplate: string;
 
     public constructor(data: NounData) {
         super(data, `${data.latinNominative}`);
         this.genus_ = this.dataToGenus(data.genus);
         this.pluraleTantum_ = data.pluraleTantum ? true : false;
+        this.declensionTemplate = data.declension;
         this.declension = this.determineDeclension(data);
     }
 
@@ -73,6 +76,12 @@ export class Noun extends Word implements NounDeclinable {
 
     public decline(casus: Casus, numerus: Numerus): string | null {
         return this.declension.decline(casus, numerus);
+    }
+
+    public getDeclension(): NounDeclData {
+        const args = parse_template(this.declensionTemplate);
+        const nominal = new LaNominal();
+        return nominal.do_generate_noun_forms(args);
     }
 
     private determineDeclension(data: NounData): Declension {

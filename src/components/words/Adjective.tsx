@@ -16,7 +16,8 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { Table, TableBody, TableCell, TableContainer, TableHead, Typography, withStyles } from "@material-ui/core";
+import { remove_links } from "@fpw/en-wiktionary-la-modules";
+import { Box, Table, TableBody, TableCell, TableContainer, TableHead, Typography, withStyles } from "@material-ui/core";
 import TableRow from "@material-ui/core/TableRow/TableRow";
 import React from "react";
 import { AdjectiveDeclinable } from "../../models/types/AdjectiveDeclinable";
@@ -77,4 +78,3 @@ export function AdjectivalDeclension(props: {word: AdjectiveDeclinable, casus: C
         </StyledTableRow>
     );
 }
-

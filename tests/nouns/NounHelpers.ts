@@ -46,6 +46,9 @@ const nouns: Noun[] = [];
 export function loadNouns() {
     const data = require('../../data/LLPSI.json');
     for (const entry of data) {
+        if (entry.meta && entry.meta.includes("type=name")) {
+            continue;
+        }
         switch (entry.wordType) {
             case WordType.Noun:
                 const noun = new Noun(entry);

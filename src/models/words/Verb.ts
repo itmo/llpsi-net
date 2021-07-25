@@ -18,8 +18,8 @@
 
 import { Word } from "./Word";
 import { VerbData } from "../WordData";
-import { LaVerb } from "../conjugations/LaVerb";
 import { laVerbToConjugation, VerbConjugation } from "../conjugations/Conjugation";
+import { LaVerb, parse_template, remove_links } from "@fpw/en-wiktionary-la-modules";
 
 export class Verb extends Word {
     private static laVerb = new LaVerb({
@@ -48,9 +48,30 @@ export class Verb extends Word {
         return this.stemChapter_;
     }
 
+    public get fullEntry(): string {
+        const conj = this.conjugate();
+
+        let str = this.infinitive;
+        if (conj.active.indicative.perfect?.infinitive) {
+            if (conj.active.indicative.perfect.infinitive.length > 0) {
+                str += ";";
+                str += conj.active.indicative.perfect.infinitive.join(', ');
+            }
+        }
+
+        if (conj.supine.acc) {
+            if (conj.supine.acc.length > 0) {
+                str += ";";
+                str += conj.supine.acc.join(', ');
+            }
+        }
+
+        return remove_links(str);
+    }
+
     public conjugate(): VerbConjugation {
-        const args = LaVerb.argsFromDesc(this.conjugation_);
-        const [data, info] = Verb.laVerb.make_data(args);
-        return laVerbToConjugation(data, info);
+        const args = parse_template(this.conjugation_);
+        const conj = Verb.laVerb.make_data(args);
+        return laVerbToConjugation(conj);
     }
 }

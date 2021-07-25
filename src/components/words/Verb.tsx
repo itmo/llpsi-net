@@ -16,11 +16,11 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { remove_links } from "@fpw/en-wiktionary-la-modules";
 import { Box, Table, TableBody, TableCell, TableCellProps, TableHead, Typography, withStyles } from "@material-ui/core";
 import TableRow from "@material-ui/core/TableRow/TableRow";
 import React from "react";
 import { DeponentType, VerbConjugation } from "../../models/conjugations/Conjugation";
-import { LaVerb } from "../../models/conjugations/LaVerb";
 import { Verb } from "../../models/words/Verb";
 
 const StyledTableRow = withStyles((theme) => ({
@@ -42,7 +42,7 @@ export function VerbEntry(props: { verb: Verb }) {
                         <TableCell colSpan={5}>
                             Conjugation of {c.lemma}
                             <Box component='div' display='block'>
-                                { c.titleParts.join(', ') }
+                                { c.categories.join(', ') }
                             </Box>
                         </TableCell>
                     </TableRow>
@@ -402,22 +402,25 @@ function DeponTable(props: {conj: VerbConjugation}) {
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.s1} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.s1} /></TableCell>
-                <TableCell rowSpan={6}><JoinForms forms={[c.active.imperative.present?.s2, c.active.imperative.present?.p2]} /></TableCell>
+                <TableCell />
                 <Heading>Infinitive:</Heading>
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.s2} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.s2} /></TableCell>
+                <TableCell><ShowForms forms={c.active.imperative.present?.s2} /></TableCell>
                 <TableCell><ShowForms forms={c.active.indicative.present?.infinitive} /></TableCell>
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.s3} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.s3} /></TableCell>
+                <TableCell />
                 <Heading>Gerund / Gerundive:</Heading>
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.p1} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.p1} /></TableCell>
+                <TableCell />
                 <TableCell>
                     <JoinForms forms={[c.gerund.acc, c.participles.futurePassive]}/>
                 </TableCell>
@@ -425,11 +428,13 @@ function DeponTable(props: {conj: VerbConjugation}) {
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.p2} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.p2} /></TableCell>
+                <TableCell><ShowForms forms={c.active.imperative.present?.p2} /></TableCell>
                 <Heading>Participle:</Heading>
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.present?.p3} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.present?.p3} /></TableCell>
+                <TableCell />
                 <TableCell><ShowForms forms={c.participles.presentActive} /></TableCell>
             </TableRow>
 
@@ -437,44 +442,31 @@ function DeponTable(props: {conj: VerbConjugation}) {
                 <Heading rowSpan={7} style={{writingMode: 'vertical-lr'}}>Imperfect</Heading>
                 <Heading>Indicative</Heading>
                 <Heading>Subjunctive</Heading>
-                <Heading>Imperative</Heading>
-                <Heading>Infinite</Heading>
+                <TableCell rowSpan={7} colSpan={2} />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.s1} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.s1} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.s2} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.s2} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.s3} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.s3} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.p1} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.p1} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.p2} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.p2} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
             <TableRow>
                 <TableCell><ShowForms forms={c.active.indicative.imperfect?.p3} /></TableCell>
                 <TableCell><ShowForms forms={c.active.subjunctive.imperfect?.p3} /></TableCell>
-                <TableCell />
-                <TableCell />
             </TableRow>
 
             <TableRow>
@@ -525,58 +517,149 @@ function DeponTable(props: {conj: VerbConjugation}) {
                 <Heading rowSpan={7} style={{writingMode: 'vertical-lr'}}>Perfect</Heading>
                 <Heading>Indicative</Heading>
                 <Heading>Subjunctive</Heading>
-                <Heading colSpan={2}>Infinite</Heading>
+                <TableCell rowSpan={7} />
+                <Heading>Infinite</Heading>
             </TableRow>
-            <TableRow>
-                <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ sum'/></TableCell>
-                <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ sim'/></TableCell>
-                <Heading>Infinitive:</Heading>
-                <TableCell rowSpan={6} />
-            </TableRow>
-            <TableRow>
-                <TableCell><ShowForms forms={c.active.indicative.perfect?.infinitive} /></TableCell>
-            </TableRow>
-            <TableRow>
-                <Heading>Participle:</Heading>
-            </TableRow>
-            <TableRow>
-                <TableCell><ShowForms forms={c.participles.perfectActive} /></TableCell>
-            </TableRow>
-            <TableRow>
-                <TableCell />
-            </TableRow>
-            <TableRow>
-                <TableCell />
-            </TableRow>
+            { c.perfStems.length > 0 ?
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.s1} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.s1} /></TableCell>
+                        <Heading>Infinitive:</Heading>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.s2} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.s2} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.infinitive} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.s3} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.s3} /></TableCell>
+                        <Heading>Participle:</Heading>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.p1} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.p1} /></TableCell>
+                        <TableCell><ShowForms forms={c.participles.perfectPassive} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.p2} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.p2} /></TableCell>
+                        <TableCell />
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.p3} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.perfect?.p3} /></TableCell>
+                        <TableCell />
+                    </TableRow>
+                </React.Fragment>
+                :
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ sum'/></TableCell>
+                        <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ sim'/></TableCell>
+                        <Heading>Infinitive:</Heading>
+                        <TableCell rowSpan={6} />
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.perfect?.infinitive} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <Heading>Participle:</Heading>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.participles.perfectActive} /></TableCell>
+                    </TableRow>
+                    <TableRow />
+                    <TableRow />
+                </React.Fragment>
+            }
 
             <TableRow>
                 <Heading rowSpan={7} style={{writingMode: 'vertical-lr'}}>Pluperfect</Heading>
                 <Heading>Indicative</Heading>
                 <Heading colSpan={3}>Subjunctive</Heading>
             </TableRow>
-            <TableRow>
-                <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ eram'/></TableCell>
-                <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ essem'/></TableCell>
-                <TableCell colSpan={2} rowSpan={6} />
-            </TableRow>
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
+            { c.perfStems.length > 0 ?
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.s1} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.s1} /></TableCell>
+                        <TableCell colSpan={2} rowSpan={6} />
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.s2} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.s2} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.s3} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.s3} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.p1} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.p1} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.p2} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.p2} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.pluperfect?.p3} /></TableCell>
+                        <TableCell><ShowForms forms={c.active.subjunctive.pluperfect?.p3} /></TableCell>
+                    </TableRow>
+                </React.Fragment>
+            :
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ eram'/></TableCell>
+                        <TableCell rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix='+ essem'/></TableCell>
+                        <TableCell colSpan={2} rowSpan={6} />
+                    </TableRow>
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                </React.Fragment>
+            }
 
             <TableRow>
                 <Heading rowSpan={7} style={{writingMode: 'vertical-lr'}}>Future Perfect</Heading>
                 <Heading colSpan={4}>Indicative</Heading>
             </TableRow>
-            <TableRow>
-                <TableCell colSpan={4} rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix=' + erō'/></TableCell>
-            </TableRow>
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
-            <TableRow />
+            { c.perfStems.length > 0 ?
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.s1} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.s2} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.s3} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.p1} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.p2} /></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><ShowForms forms={c.active.indicative.futureperfect?.p3} /></TableCell>
+                    </TableRow>
+                </React.Fragment>
+            :
+                <React.Fragment>
+                    <TableRow>
+                        <TableCell colSpan={4} rowSpan={6}><ShowForms prefix='Form of' forms={c.participles.perfectActive} suffix=' + erō'/></TableCell>
+                    </TableRow>
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                    <TableRow />
+                </React.Fragment>
+            }
         </TableBody>
     );
 }
@@ -584,7 +667,7 @@ function DeponTable(props: {conj: VerbConjugation}) {
 function ShowForms(props: {forms: string[] | undefined, prefix?: string, suffix?: string}) {
     return (
         <React.Fragment>
-            {props.forms?.map(f => LaVerb.remove_links(f)).map(form =>
+            {props.forms?.map(f => remove_links(f)).map(form =>
                 <Box component='div' display='block' lang='la'>
                     {props.prefix && <Box component='span' display='inline' lang='en'>{props.prefix} </Box>}
                     {form}
@@ -598,7 +681,7 @@ function ShowForms(props: {forms: string[] | undefined, prefix?: string, suffix?
 function JoinForms(props: {forms: (string[] | undefined)[]}) {
     const forms = props.forms?.map(fs => {
         if (fs) {
-            return fs.map(f => LaVerb.remove_links(f));
+            return fs.map(f => remove_links(f));
         } else {
             return [];
         }

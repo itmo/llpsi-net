@@ -26,8 +26,9 @@ export function loadVerbs() {
     for (const entry of data) {
         switch (entry.wordType) {
             case WordType.Verb:
-                const noun = new Verb(entry);
-                verbs.push(noun);
+                const verb = new Verb(entry);
+                console.log(verb.fullEntry);
+                verbs.push(verb);
                 break;
         }
     }

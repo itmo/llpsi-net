@@ -16,7 +16,7 @@
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { Data, Typeinfo } from "./LaVerb";
+import { Conjugation, VerbType } from "@fpw/en-wiktionary-la-modules";
 
 export enum ConjType {
     First,
@@ -77,10 +77,15 @@ export interface Participle {
 
 export interface VerbConjugation {
     lemma: string;
-    titleParts: string[];
     deponent: DeponentType;
     conjType: ConjType;
     irregSubType?: ConjType;
+    categories: string[];
+
+    // Stems
+    presStem: string;
+    perfStems: string[];
+    supineStems: string[];
 
     // Forms
     active: ModeConj;
@@ -102,13 +107,19 @@ function toConjType(conj: string): ConjType {
         }
 }
 
-export function laVerbToConjugation(data: Data, info: Typeinfo): VerbConjugation {
+export function laVerbToConjugation(conj: Conjugation): VerbConjugation {
+    const info = conj.info;
+    const data = conj.data;
+
     const res: VerbConjugation = {
         lemma: info.lemma,
-        titleParts: data.title,
-        deponent: getDeponentType(info),
+        categories: data.categories,
+        deponent: getDeponentType(conj),
         conjType: toConjType(info.conj_type),
         irregSubType: info.conj_subtype ? toConjType(info.conj_subtype) : undefined,
+        presStem: info.pres_stem,
+        perfStems: info.perf_stem,
+        supineStems: info.supine_stem,
         active: {
             indicative: {
                 present: {
@@ -300,12 +311,14 @@ function getForm(forms: Map<string, string[]>, key: string): string[] | undefine
     return forms.get(key);
 }
 
-function getDeponentType(info: Typeinfo): DeponentType {
-    if (info.subtypes.has('depon')) {
+function getDeponentType(conj: Conjugation): DeponentType {
+    const info = conj.info;
+
+    if (info.subtypes.has(VerbType.Deponent)) {
         return DeponentType.Deponent;
-    } else if (info.subtypes.has('semidepon')) {
+    } else if (info.subtypes.has(VerbType.SemiDeponent)) {
         return DeponentType.SemiDeponent;
-    } else if (info.subtypes.has('optsemidepon')) {
+    } else if (info.subtypes.has(VerbType.OptSemiDeponent)) {
         return DeponentType.OptSemiDeponent;
     } else {
         return DeponentType.None;

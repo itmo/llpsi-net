@@ -133,18 +133,6 @@ describe('O-declension', () => {
         });
     });
 
-    it('-ius vocative names should decline correctly in singular', () => {
-        const word = findNoun('Iānuārius');
-        checkNounDecl(word, Numerus.Singular, {
-            nominative: 'Iānuārius',
-            accusative: 'Iānuārium',
-            genitive:   'Iānuāriī',
-            dative:     'Iānuāriō',
-            ablative:   'Iānuāriō',
-            vocative:   'Iānuārī',
-        });
-    });
-
     it('-ius vocative exceptions should decline correctly in singular', () => {
         const word = findNoun('fīlius');
         checkNounDecl(word, Numerus.Singular, {

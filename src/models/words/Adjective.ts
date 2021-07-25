@@ -31,12 +31,14 @@ import { AdjectiveDeclension } from "../types/AdjectiveDeclension";
 import { Word } from "./Word";
 import { ConsDeclension } from "../declensions/ConsDeclension";
 import { IndeclinableDeclension } from "../declensions/IndeclinableDeclension";
+import { LaNominal, parse_template, AdjectiveData as AdjData } from "@fpw/en-wiktionary-la-modules";
 
 export class Adjective extends Word implements AdjectiveDeclinable {
     private maleDeclension: Declension;
     private femaleDeclension: Declension;
     private neuterDeclension: Declension;
     private pluraleTantum_: boolean = false;
+    private declensionTemplate: string;
 
     public constructor(data: AdjectiveData) {
         super(data, `${data.latinMale}`);
@@ -46,6 +48,8 @@ export class Adjective extends Word implements AdjectiveDeclinable {
         this.maleDeclension = m;
         this.femaleDeclension = f;
         this.neuterDeclension = n;
+
+        this.declensionTemplate = data.declension;
     }
 
     public get pluraleTantum(): boolean {
@@ -70,10 +74,25 @@ export class Adjective extends Word implements AdjectiveDeclinable {
         }
     }
 
+    public getDeclension(): AdjData {
+        const args = parse_template(this.declensionTemplate);
+        const nominal = new LaNominal();
+        return nominal.do_generate_adj_forms(args);
+    }
+
     private determineDeclensions(data: AdjectiveData): [Declension, Declension, Declension] {
         let male, female, neuter: Declension | undefined;
 
-        if (data.latinMale.endsWith('que') && data.latinNeuter.endsWith('que')) {
+        if (data.latinMale == "mīlle" || data.latinMale == "trēs" || data.latinMale == "plērīque" || data.latinMale == "quī") {
+            male = new IrregularDeclension(this.adjToDeclension(data, data.latinMale,"", Genus.Masculine));
+            female = new IrregularDeclension(this.adjToDeclension(data, data.latinMale,"", Genus.Femininum));
+            neuter = new IrregularDeclension(this.adjToDeclension(data, data.latinMale,"", Genus.Neuter));
+        } else if (data.latinMale == "nēquam" || data.latinMale == "necesse") {
+            const input = this.adjToDeclension(data, data.latinMale, data.latinGenitive, Genus.Masculine);
+            male = new IndeclinableDeclension(input);
+            female = new IndeclinableDeclension(input);
+            neuter = new IndeclinableDeclension(input);
+        } else if (data.latinMale.endsWith('que') && data.latinNeuter.endsWith('que')) {
             const newMale = dropSuffix(data.latinMale, 'que');
             const newNeuter = dropSuffix(data.latinNeuter, 'que');
 
@@ -169,11 +188,6 @@ export class Adjective extends Word implements AdjectiveDeclinable {
             const neuterInput = this.adjToDeclension(data, data.latinNeuter || data.latinMale, data.latinGenitive, Genus.Neuter);
             neuterInput.pluraleTantum = this.pluraleTantum;
             neuter = new ConsDeclension(neuterInput);
-        } else if (data.stemType == 'indecl') {
-            const input = this.adjToDeclension(data, data.latinMale, data.latinGenitive, Genus.Masculine);
-            male = new IndeclinableDeclension(input);
-            female = new IndeclinableDeclension(input);
-            neuter = new IndeclinableDeclension(input);
         }
 
         if (!male || !female || !neuter) {

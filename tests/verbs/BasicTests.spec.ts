@@ -36,10 +36,4 @@ describe('Regular verbs', () => {
         const conj = word.conjugate();
         expect(conj.active.indicative?.present?.s3).deep.equals(['est']);
     });
-
-    it('complex conjugation should work', () => {
-        const word = findVerb('necesse esse');
-        const conj = word.conjugate();
-        expect(conj.active.indicative?.future?.s3).deep.equals(['necesse erit']);
-    });
 });
